@@ -1,0 +1,48 @@
+@inject IJSRuntime JSRuntime
+
+<div class="hc-toggle" @onclick="ToggleHighContrast">
+    <button class="btn @(_isHighContrast ? "btn-warning" : "btn-outline-secondary") rounded-circle shadow" title="Toggle High Contrast Mode">
+        <span class="fw-bold" style="font-size: 0.8rem;">HC</span>
+    </button>
+</div>
+
+<style>
+    .hc-toggle {
+        position: fixed;
+        bottom: 130px;
+        right: 20px;
+        z-index: 1000;
+    }
+    .hc-toggle button {
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--card-bg);
+        border: 1px solid var(--border-color);
+        color: var(--text-color);
+    }
+</style>
+
+@code {
+    private bool _isHighContrast;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            var storedValue = await JSRuntime.InvokeAsync<string>("localStorage.getItem", "highContrastMode");
+            _isHighContrast = storedValue == "true";
+            await JSRuntime.InvokeVoidAsync("toggleHighContrast", _isHighContrast);
+            StateHasChanged();
+        }
+    }
+
+    private async Task ToggleHighContrast()
+    {
+        _isHighContrast = !_isHighContrast;
+        await JSRuntime.InvokeVoidAsync("toggleHighContrast", _isHighContrast);
+        await JSRuntime.InvokeVoidAsync("localStorage.setItem", "highContrastMode", _isHighContrast.ToString().ToLower());
+    }
+}

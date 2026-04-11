@@ -1,0 +1,592 @@
+@page "/data-entry"
+@using TifSnippetApp.Client.Models
+@using TifSnippetApp.Client.Components
+@inject HttpClient Http
+@inject IJSRuntime JSRuntime
+@rendermode InteractiveWebAssembly
+
+<PageTitle>Continuous Data Entry</PageTitle>
+
+<div class="app-viewport @(_isDarkMode ? "dark-mode" : "")" @onkeydown="HandleGlobalKeyDown" @onkeydown:preventDefault="_shouldPreventDefault">
+    <div class="scrollable-content">
+        <div class="container-fluid mt-4">
+            <div class="card shadow-sm mx-auto" style="max-width: 1200px;">
+        <div class="card-header bg-primary text-white sticky-top">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+                <h3 class="mb-0">TIF Snippet Continuous Entry</h3>
+                <span>Reviewed @(_reviewedIndices.Count) of @_totalLines</span>
+            </div>
+            <div class="d-flex justify-content-center gap-4 counter-toolbar p-2 rounded shadow-sm">
+                <div class="counter-item text-success"><i class="bi bi-check-circle-fill"></i> Accepted: <strong>@_acceptedCount</strong></div>
+                <div class="counter-item text-info"><i class="bi bi-pencil-fill"></i> Edited: <strong>@_editedCount</strong></div>
+                <div class="counter-item text-secondary"><i class="bi bi-x-circle-fill"></i> Rejected: <strong>@_rejectedCount</strong></div>
+                <div class="ms-auto d-flex gap-2">
+                    <button class="btn btn-sm btn-outline-light" @onclick="ToggleContrast">Contrast</button>
+                    <button class="btn btn-sm btn-outline-light" @onclick="ToggleTheme">Theme</button>
+                    <button class="btn btn-sm btn-outline-light" @onclick="ToggleInvert">Invert</button>
+                    <button class="btn btn-sm btn-outline-light" @onclick="() => _showHelp = !_showHelp">Help</button>
+                    <button class="btn btn-sm btn-outline-light" @onclick="() => _showSettings = !_showSettings" title="Scroll Settings">
+                        <i class="bi bi-gear-fill"></i>
+                    </button>
+                </div>
+            </div>
+
+            @if (_showSettings)
+            {
+                <div class="settings-panel p-3 mt-2 rounded border shadow-sm theme-aware-bg">
+                    <div class="row align-items-center">
+                        <div class="col-md-4">
+                            <label class="small fw-bold text-dark">Scroll Duration (ms): @_scrollDuration</label>
+                            <input type="range" class="form-range" min="100" max="2000" step="50" @bind="_scrollDuration" />
+                        </div>
+                        <div class="col-md-4">
+                            <label class="small fw-bold text-dark">Easing Function</label>
+                            <select class="form-select form-select-sm" @bind="_scrollEasing">
+                                <option value="linear">Linear</option>
+                                <option value="easeInOutQuad">Ease-In-Out (Quad)</option>
+                                <option value="easeInOutCubic">Ease-In-Out (Cubic)</option>
+                                <option value="easeOutQuint">Ease-Out (Quint)</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 offset-md-2 text-end">
+                            <button class="btn btn-sm btn-close" @onclick="() => _showSettings = false"></button>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="card-body position-relative">
+            <div class="row">
+                <div class="@(_showHelp ? "col-md-9" : "col-12")">
+                    @if (_snippets != null && _snippets.Any())
+                    {
+                        @for (int i = 0; i < _snippets.Count; i++)
+                        {
+                            var index = i;
+                            <SnippetEntry @key="_snippets[index].LineIndex" 
+                                         SnippetData="_snippets[index]" 
+                                         IsActive="_activeSnippetIndex == index"
+                                         OnAccepted="() => HandleEnterAction(index)"
+                                         OnBlanked="() => HandleAction(index, SnippetStatus.RejectedBlank)"
+                                         OnFocused="() => HandleFocus(index)"
+                                         @ref="_snippetEntryRefs[index]" />
+                        }
+
+                        @if (_loading)
+                        {
+                            <div class="text-center p-3">
+                                <div class="spinner-border text-primary" role="status">
+                                    <span class="visually-hidden">Loading more...</span>
+                                </div>
+                            </div>
+                        }
+                    }
+                    else if (_loading)
+                    {
+                        <div class="text-center p-5">
+                            <div class="spinner-border text-primary" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="alert alert-info">No snippets found or process completed.</div>
+                    }
+                </div>
+                
+                @if (_showHelp)
+                {
+                    <div class="col-md-3">
+                        <div class="help-card sticky-top shadow border rounded p-3 @GetThemeClass()" style="top: 150px;">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h5 class="mb-0 fw-bold">Keyboard Shortcuts</h5>
+                                <button class="btn-close @(_isDarkMode ? "btn-close-white" : "") btn-sm" @onclick="() => _showHelp = false"></button>
+                            </div>
+                            <div class="shortcut-list">
+                                <div class="shortcut-item mb-2 d-flex justify-content-between">
+                                    <span class="badge bg-secondary me-2">Enter</span>
+                                    <span class="text-truncate">Accept / Submit</span>
+                                </div>
+                                <div class="shortcut-item mb-2 d-flex justify-content-between">
+                                    <span class="badge bg-secondary me-2">F1</span>
+                                    <span>Reject (Blank)</span>
+                                </div>
+                                <div class="shortcut-item mb-2 d-flex justify-content-between">
+                                    <span class="badge bg-secondary me-2">F2</span>
+                                    <span>Reject (Illegible)</span>
+                                </div>
+                                <div class="shortcut-item mb-2 d-flex justify-content-between">
+                                    <span class="badge bg-secondary me-2">F3</span>
+                                    <span>Reject (Other)</span>
+                                </div>
+                                <hr class="my-2" />
+                                <div class="shortcut-item mb-2 d-flex justify-content-between">
+                                    <span class="badge bg-primary me-2">+ (Plus)</span>
+                                    <span>Expand Snippet</span>
+                                </div>
+                                <div class="shortcut-item mb-2 d-flex justify-content-between">
+                                    <span class="badge bg-primary me-2">- (Minus)</span>
+                                    <span>Collapse Snippet</span>
+                                </div>
+                            </div>
+                            <div class="mt-3 small opacity-75 border-top pt-2">
+                                <i class="bi bi-mouse me-1"></i> Mouse over image to expand. Click record to re-edit.
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    
+    <div class="zoom-anchored-panel">
+        @if (_loadingZoom)
+        {
+            <div class="text-center py-2">
+                <div class="spinner-border text-primary" role="status"></div>
+                <div class="text-muted small mt-1">Loading context...</div>
+            </div>
+        }
+        else if (!string.IsNullOrEmpty(_activeZoomImageBase64))
+        {
+            <div class="zoom-img-container">
+                <img src="@_activeZoomImageBase64" class="zoom-img-fixed" alt="Zoomed Context" />
+                <div class="zoom-img-overlay">
+                    <span class="badge bg-primary">Context: @_snippets[_activeSnippetIndex].FieldName</span>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="text-muted text-center py-4">
+                <i class="bi bi-search me-2"></i> Focus a field to see zoomed context
+            </div>
+        }
+    </div>
+
+    </div>
+
+<style>
+    .card-header.sticky-top {
+        z-index: 1020;
+        top: 0;
+        padding-bottom: 1rem;
+    }
+    .counter-item {
+        font-size: 1.1rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .global-actions {
+        border: 1px solid var(--border-color);
+    }
+    .global-actions .btn {
+        font-weight: bold;
+    }
+    .settings-panel {
+        z-index: 1030;
+        position: relative;
+    }
+    .settings-panel input[type="range"] {
+        height: 1.5rem;
+    }
+    .help-fab {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        background-color: var(--primary-color, #0d6efd);
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        cursor: pointer;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        z-index: 100;
+        transition: all 0.2s ease;
+    }
+    .help-fab:hover {
+        transform: scale(1.1);
+        background-color: var(--card-bg);
+        filter: brightness(0.95);
+    }
+    .help-card.dark-theme {
+        background-color: #212529;
+        color: #f8f9fa;
+        border-color: #343a40 !important;
+    }
+    .badge {
+        font-family: monospace;
+    }
+    .counter-toolbar {
+        background-color: var(--card-bg);
+        color: var(--text-color);
+    }
+    .theme-aware-bg {
+        background-color: var(--card-bg);
+        color: var(--text-color);
+    }
+    .text-dark {
+        color: var(--text-color) !important;
+    }
+
+    /* ── App Layout ── */
+    .app-viewport {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        position: relative;
+        overflow: hidden;
+        background-color: var(--bg-color);
+        margin: 0; 
+    }
+    .scrollable-content {
+        flex: 1;
+        overflow-y: auto;
+        padding: 2rem 1.5rem;
+        padding-bottom: 2rem;
+    }
+    .zoom-anchored-panel {
+        height: 25vh;
+        min-height: 150px;
+        background: var(--card-bg);
+        border-top: 4px solid var(--primary-color, #0d6efd);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 50;
+        box-shadow: 0 -10px 40px rgba(0,0,0,0.3);
+        padding: 10px;
+        position: relative; /* No longer fixed */
+    }
+    .zoom-img-container {
+        position: relative;
+        height: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .zoom-img-fixed {
+        height: 100%;
+        max-width: 100%;
+        object-fit: contain;
+        border-radius: 4px;
+        background: #000;
+    }
+    .zoom-img-overlay {
+        position: absolute;
+        bottom: 5px;
+        left: 5px;
+        opacity: 0.8;
+    }
+</style>
+
+@code {
+    private List<SnippetInfo> _snippets = new();
+    private int _batchSize = 10;
+    private int _totalLines = 0;
+    private bool _loading = true;
+    private int _activeSnippetIndex = 0;
+    private Dictionary<int, SnippetEntry> _snippetEntryRefs = new();
+    private HashSet<int> _reviewedIndices = new();
+    private int _nextStartIndex = 0;
+    
+    private string? _activeZoomImageBase64;
+    private bool _loadingZoom = false;
+    
+    private int _acceptedCount = 0;
+    private int _editedCount = 0;
+    private int _rejectedCount = 0;
+
+    private bool _showSettings = false;
+    private bool _showHelp = true;
+    private bool _isDarkMode = true;
+    private bool _invertSnippets = false;
+    private bool _isHighContrast = false;
+    private int _scrollDuration = 500;
+    private string _scrollEasing = "easeInOutCubic";
+    private bool _shouldPreventDefault = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadMore();
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            // Force sync with default values once the browser is connected
+            await JSRuntime.InvokeVoidAsync("toggleDarkMode", _isDarkMode);
+            
+            if (_snippets.Any() && _snippetEntryRefs.ContainsKey(0))
+            {
+                await _snippetEntryRefs[0].FocusEdit();
+            }
+        }
+    }
+
+    private async Task ToggleTheme()
+    {
+        _isDarkMode = !_isDarkMode;
+        await JSRuntime.InvokeVoidAsync("toggleDarkMode", _isDarkMode);
+    }
+
+    private async Task ToggleInvert()
+    {
+        _invertSnippets = !_invertSnippets;
+        await JSRuntime.InvokeVoidAsync("toggleInvertSnippets", _invertSnippets);
+    }
+
+    private async Task ToggleContrast()
+    {
+        _isHighContrast = !_isHighContrast;
+        await JSRuntime.InvokeVoidAsync("toggleHighContrast", _isHighContrast);
+    }
+
+    private async Task LoadMore()
+    {
+        if (_loading && _snippets.Any()) return;
+        if (_totalLines > 0 && _nextStartIndex >= _totalLines) return;
+
+        try
+        {
+            _loading = true;
+            StateHasChanged();
+
+            int start = _nextStartIndex;
+            var response = await Http.GetFromJsonAsync<List<SnippetInfo>>($"api/snippet/batch?start={start}&count={_batchSize}");
+            
+            if (response != null && response.Any())
+            {
+                _snippets.AddRange(response);
+                _totalLines = response[0].TotalLines;
+                
+                // Track the absolute starting point for the next request
+                _nextStartIndex = response.Max(s => s.LineIndex) + 1;
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error loading more snippets: {ex.Message}");
+        }
+        finally
+        {
+            _loading = false;
+            StateHasChanged();
+        }
+    }
+
+
+    private async Task HandleEnterAction(int index)
+    {
+        if (_snippetEntryRefs.TryGetValue(index, out var entry))
+        {
+            var status = entry.IsEdited ? SnippetStatus.Edited : SnippetStatus.Accepted;
+            await HandleAction(index, status);
+        }
+    }
+
+    private async Task HandleAction(int index, SnippetStatus status)
+    {
+        if (_snippetEntryRefs.TryGetValue(index, out var entry))
+        {
+            // If already reviewed, decrement old status count
+            if (_reviewedIndices.Contains(index))
+            {
+                switch (entry.ReviewStatus)
+                {
+                    case SnippetStatus.Accepted: _acceptedCount--; break;
+                    case SnippetStatus.Edited: _editedCount--; break;
+                    case SnippetStatus.RejectedBlank:
+                    case SnippetStatus.RejectedIllegible:
+                    case SnippetStatus.RejectedOther:
+                        _rejectedCount--;
+                        break;
+                }
+            }
+            
+            entry.ReviewStatus = status;
+            _reviewedIndices.Add(index);
+            
+            // Save to server
+            var submission = new SnippetSubmission
+            {
+                LineIndex = _snippets[index].LineIndex,
+                CapturedContent = entry.EntryValue,
+                Status = status
+            };
+            await Http.PostAsJsonAsync("api/snippet/save", submission);
+
+            switch (status)
+            {
+                case SnippetStatus.Accepted: _acceptedCount++; break;
+                case SnippetStatus.Edited: _editedCount++; break;
+                case SnippetStatus.RejectedBlank:
+                case SnippetStatus.RejectedIllegible:
+                case SnippetStatus.RejectedOther:
+                    _rejectedCount++;
+                    break;
+            }
+            
+            await MoveToNext(index);
+        }
+    }
+
+    private async Task MoveToNext(int index)
+    {
+        int nextIndex = index + 1;
+        
+        // If clicking/focusing manually, we don't necessarily want to jump to next
+        // But HandleAction is usually triggered by hotkeys which should move to next.
+        if (nextIndex < _snippets.Count)
+        {
+            await FocusAndScrollToSnippet(nextIndex);
+            
+            // Auto-load trigger: if we are near the end of the loaded list, fetch more
+            if (nextIndex >= _snippets.Count - 2 && _snippets.Count < _totalLines && !_loading)
+            {
+                _ = LoadMore(); // Fire and forget loading more
+            }
+        }
+        else if (_snippets.Count < _totalLines)
+        {
+            await LoadMore();
+            if (nextIndex < _snippets.Count)
+            {
+                await FocusAndScrollToSnippet(nextIndex);
+            }
+        }
+    }
+
+    private async Task HandleFocus(int index)
+    {
+        if (_activeSnippetIndex != index)
+        {
+            _activeSnippetIndex = index;
+            _ = UpdateZoomImage(index);
+            
+            // Clear status of the newly focused snippet if it was already reviewed
+            if (_reviewedIndices.Contains(index))
+            {
+                if (_snippetEntryRefs.TryGetValue(index, out var entry))
+                {
+                    // Decrement counts based on CURRENT status before clearing
+                    switch (entry.ReviewStatus)
+                    {
+                        case SnippetStatus.Accepted: _acceptedCount--; break;
+                        case SnippetStatus.Edited: _editedCount--; break;
+                        case SnippetStatus.RejectedBlank:
+                        case SnippetStatus.RejectedIllegible:
+                        case SnippetStatus.RejectedOther:
+                            _rejectedCount--;
+                            break;
+                    }
+                    entry.ReviewStatus = SnippetStatus.None;
+                    _reviewedIndices.Remove(index);
+                }
+            }
+            StateHasChanged();
+        }
+    }
+
+
+    private async Task FocusAndScrollToSnippet(int index)
+    {
+        _activeSnippetIndex = index;
+        _ = UpdateZoomImage(index);
+        StateHasChanged();
+        await Task.Delay(100); 
+
+        if (_snippetEntryRefs.TryGetValue(index, out var entry))
+        {
+            await JSRuntime.InvokeVoidAsync("scrollToElement", entry.RowElement, _scrollDuration, _scrollEasing);
+            await entry.FocusEdit();
+        }
+    }
+
+    private async Task UpdateZoomImage(int index)
+    {
+        if (index < 0 || index >= _snippets.Count) return;
+        
+        _loadingZoom = true;
+        _activeZoomImageBase64 = null;
+        StateHasChanged();
+        try
+        {
+            var response = await Http.GetAsync($"api/snippet/image/{_snippets[index].LineIndex}?expanded=true");
+            if (response.IsSuccessStatusCode)
+            {
+                var base64Raw = await response.Content.ReadAsStringAsync();
+                var base64 = base64Raw.Trim('\"');
+                _activeZoomImageBase64 = "data:image/png;base64," + base64;
+            }
+        }
+        catch (Exception ex)
+        {
+             Console.WriteLine($"Error loading zoomed image: {ex.Message}");
+        }
+        finally
+        {
+            _loadingZoom = false;
+            StateHasChanged();
+        }
+    }
+
+    private async Task DispatchAction(Func<SnippetEntry, Task> action)
+    {
+        if (_snippetEntryRefs.TryGetValue(_activeSnippetIndex, out var activeEntry))
+        {
+            await action(activeEntry);
+        }
+    }
+
+    private async Task HandleGlobalKeyDown(KeyboardEventArgs e)
+    {
+        _shouldPreventDefault = false;
+        
+        if (e.Key == "Enter")
+        {
+            _shouldPreventDefault = true;
+            if (_snippetEntryRefs.TryGetValue(_activeSnippetIndex, out var entry))
+            {
+                await HandleEnterAction(_activeSnippetIndex);
+            }
+        }
+        else if (e.Key == "F1")
+        {
+            _shouldPreventDefault = true;
+            if (_snippetEntryRefs.TryGetValue(_activeSnippetIndex, out var entry))
+            {
+                entry.EntryValue = ""; // Blank literally
+                await HandleAction(_activeSnippetIndex, SnippetStatus.RejectedBlank);
+            }
+        }
+        else if (e.Key == "F2")
+        {
+            _shouldPreventDefault = true;
+            await HandleAction(_activeSnippetIndex, SnippetStatus.RejectedIllegible);
+        }
+        else if (e.Key == "F3")
+        {
+            _shouldPreventDefault = true;
+            await HandleAction(_activeSnippetIndex, SnippetStatus.RejectedOther);
+        }
+        else if (e.Key == "+" || e.Key == "=")
+        {
+            _shouldPreventDefault = true;
+            _ = UpdateZoomImage(_activeSnippetIndex);
+        }
+    }
+    
+    private string GetThemeClass() => _isDarkMode ? "dark-theme" : "bg-white";
+
+
+}
