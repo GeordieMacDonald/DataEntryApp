@@ -24,9 +24,9 @@ namespace TifSnippetApp.Services
             public string BoundingBoxPolygon { get; set; } = "";
         }
 
-        public SnippetService(IWebHostEnvironment env)
+        public SnippetService(IConfiguration configuration)
         {
-            _datasetPath = @"D:\datasets\Attestations Cleaned up\";
+            _datasetPath = configuration["DatasetPath"] ?? @"D:\datasets\Attestations Cleaned up\";
             _csvPath = Path.Combine(_datasetPath, "AnalysisResults.csv");
             _resultCsvPath = Path.Combine(_datasetPath, "CaptureResults.csv");
         }
