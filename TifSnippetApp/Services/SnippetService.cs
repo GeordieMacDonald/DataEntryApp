@@ -26,7 +26,8 @@ namespace TifSnippetApp.Services
 
         public SnippetService(IConfiguration configuration)
         {
-            _datasetPath = configuration["DatasetPath"] ?? @"D:\datasets\Attestations Cleaned up\";
+            //_datasetPath = configuration["DatasetPath"] ?? @"D:\datasets\Attestations Cleaned up\";
+            _datasetPath = configuration["DatasetPath"] ?? @"D:\datasets\WWI Data\Attestations_CleanedUp\";
             _csvPath = Path.Combine(_datasetPath, "AnalysisResults.csv");
             _resultCsvPath = Path.Combine(_datasetPath, "CaptureResults.csv");
         }
@@ -61,17 +62,17 @@ namespace TifSnippetApp.Services
             // Load existing results
             if (File.Exists(_resultCsvPath))
             {
-                var resultLines = File.ReadLines(_resultCsvPath);
-                foreach (var line in resultLines.Skip(1)) // Skip header
+                var resultContent = await File.ReadAllTextAsync(_resultCsvPath);
+                var resultLines = ParseCsvContent(resultContent);
+                
+                for (int i = 1; i < resultLines.Count; i++) // Skip header
                 {
-                    // Folder,Image,Field,Original,Captured,Status,User,Timestamp,LineIndex
-                    // We append LineIndex at the end for easy tracking
-                    var parts = line.Split(',');
-                    if (parts.Length >= 9 && int.TryParse(parts[8], out var index))
+                    var parts = resultLines[i];
+                    if (parts.Count >= 9 && int.TryParse(parts[8], out var index))
                     {
                         _capturedLineIndices.Add(index);
                     }
-                    else if (parts.Length == 8 && int.TryParse(parts[7], out var oldIndex))
+                    else if (parts.Count == 8 && int.TryParse(parts[7], out var oldIndex))
                     {
                         // Fallback for old 8-column format
                         _capturedLineIndices.Add(oldIndex);
@@ -209,7 +210,7 @@ namespace TifSnippetApp.Services
             if (_records == null || submission.LineIndex < 0 || submission.LineIndex >= _records.Count) return;
 
             var record = _records[submission.LineIndex];
-            var folderName = "Attestations Cleaned up";
+            var folderName = Path.GetFileName(_datasetPath.TrimEnd(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar));
             var timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
 
             // Folder,Filename,FieldName,OriginalContent,CapturedContent,Status,User,Timestamp,LineIndex
