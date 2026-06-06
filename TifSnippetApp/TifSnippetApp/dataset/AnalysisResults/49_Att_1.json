@@ -1,0 +1,393 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:11:19Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Received.\nQnta eil\nChecked\nEt- 60-\n\nCard\nObservations..............c0010 2\n\nVORIGINAMCT\n24\n19\nDUPLICATE\nTRIAMONTE\n\nM.F.M. 2\nA.F.B. 271\n450M-5-40 (5237)\nII.Q. 1772-39-1045\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\n\nUnit\nNo. 6 DISTRICT DEPOT A F\n\nRegimental Number\nF78 400\n\n\n# CANADIAN ACTIVE SERVICE FORCE 01 ATTESTATION PAPER\n\n1\\. Surname.\nACKER\n\n2\\. Christian Names\nGORDON WILLIAM\n\n3\\. Present address.\nWindsor, Hants Co. N . S\n\n4\\. Date of birth\n25th June 1920\nB\n\n5\\. Place of birth.\n(Country)\nCanada\n(County or Province)\nNova Scotia\nWindsor\n\n6\\. Religion (state denomination)\nBaptist\n\n7\\. Trade or Calling\nLaborer\n\n8\\. Married, Widower or Single\nSingle\n\nmarieed\n\n9\\. Name of next of kin.\nxxxyy VioletAcker\nxxwxpook kodo kxkXA*JOGEX Rebere William heker\n\n10\\. Relationship\nMothcocx Father\n(see change\n\n11\\. Address of next of kin.\nWindsor, Hants Co. N.S.\n\n12\\. Do you belong to, or have you served in the Active Militia of Canada?\nNO\n\n(It Yes, Give Unit and Dates of Service)\n\n13\\. Have you served in (a) The Canadian Active Service Force?\n(Yes or No)\nNO\n\nForce?\n(It Yea, Give Regimental No. and Unit)\n(b) Any other Naval, Military, or Air\nNO\n\n(Yes or No) (If Yes, specify Unit and Period of Service)\n\n14\\. Did you serve during the Great War 1914-1918?\nNO\n\n(It Yes, specify Regimental No., Unit and Dates of Service)\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nGordon William ACKER\ndo solemnly declare that the above\nparticulars are true, and I hereby engage to serve in the Canadian Active Service Force so long as an emergency,\ni.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the period of demobilization after\nsaid emergency ceases to exist, and in any event for a period of not less than one year, provided His Majesty\nshould so require my services\n\nWITNESS:\nMolulania\n\nDate\nMAY 14 1941\n\nN.Sord\u00f3n acker.\n\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI,\nGordon William ACKER.\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\nEbidon acker.\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEAGE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nNO. O, DISTRICT DEPOT A.F.\nMAY 14 1941\nOTHER ARMS WING\n\nthis\nday of\n19\nat\nHALIFAX, MS\nCWhulman\nMyn\n\nSignature of Magistrate, Justice\nor Attesting Officer.\nOffice or Rank and Unit\nor appointment.\n\nMAW\ne\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\n\n![P](figures/1.1)\n\n\n(Town or Township)\nR A . A.\n\n797.T; S.I Completed\n\n(Signature of recruit)\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "F78 400",
+          "spans": [
+            {
+              "offset": 322,
+              "length": 7
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,980.4756,284.7566,1142.4582,287.0064,1141.9826,321.2498,980.0000,319.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ACKER",
+          "spans": [
+            {
+              "offset": 399,
+              "length": 5
+            }
+          ],
+          "confidence": 0.958,
+          "source": "D(1,378.0000,424.0000,451.0000,424.0000,451.0000,446.0000,378.0000,446.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "GORDON WILLIAM",
+          "spans": [
+            {
+              "offset": 426,
+              "length": 14
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,448.0000,468.0000,652.0000,468.0000,652.0000,493.0000,448.0000,493.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "Windsor, Hants Co. N . S",
+          "spans": [
+            {
+              "offset": 463,
+              "length": 24
+            }
+          ],
+          "confidence": 0.884,
+          "source": "D(1,418.0000,505.0000,751.0000,505.0000,751.0000,531.0000,418.0000,531.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1920-06-25",
+          "spans": [
+            {
+              "offset": 507,
+              "length": 14
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,363.0000,548.0000,567.0000,548.0000,567.0000,572.0000,363.0000,572.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 555,
+              "length": 6
+            }
+          ],
+          "confidence": 0.768,
+          "source": "D(1,404.0000,594.0000,493.0000,595.0000,493.0000,619.0000,404.0000,618.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Nova Scotia",
+          "spans": [
+            {
+              "offset": 583,
+              "length": 11
+            }
+          ],
+          "confidence": 0.938,
+          "source": "D(1,547.0091,593.1911,708.2809,595.0032,707.9984,620.1460,546.7266,618.3340)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Windsor",
+          "spans": [
+            {
+              "offset": 595,
+              "length": 7
+            }
+          ],
+          "confidence": 0.966,
+          "source": "D(1,818.0000,594.0000,921.0000,594.0000,921.0000,618.0000,818.0000,617.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Baptist",
+          "spans": [
+            {
+              "offset": 638,
+              "length": 7
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,519.0000,637.0000,623.0000,637.0000,623.0000,660.0000,519.0000,661.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Laborer",
+          "spans": [
+            {
+              "offset": 668,
+              "length": 7
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,418.0000,681.0000,524.0000,681.0000,523.0000,705.0000,418.0000,704.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 708,
+              "length": 6
+            }
+          ],
+          "confidence": 0.972,
+          "source": "D(1,491.0000,720.0000,582.0000,720.0000,582.0000,742.0000,491.0000,742.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "xxxyy VioletAcker",
+          "spans": [
+            {
+              "offset": 750,
+              "length": 17
+            }
+          ],
+          "confidence": 0.543,
+          "source": "D(1,448.5849,769.3722,709.9994,764.9663,710.4145,789.5941,449.0000,794.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Mothcocx Father",
+          "spans": [
+            {
+              "offset": 834,
+              "length": 15
+            }
+          ],
+          "confidence": 0.716,
+          "source": "D(1,462.4946,810.9917,740.4686,815.5737,739.9739,845.5820,462.0000,841.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "Windsor, Hants Co. N.S.",
+          "spans": [
+            {
+              "offset": 892,
+              "length": 23
+            }
+          ],
+          "confidence": 0.924,
+          "source": "D(1,462.0000,850.0000,790.0000,850.0000,790.0000,874.0000,462.0000,874.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "NO",
+          "spans": [
+            {
+              "offset": 992,
+              "length": 2
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,891.0000,901.0000,921.0000,901.0000,921.0000,922.0000,891.0000,922.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "NO",
+          "spans": [
+            {
+              "offset": 1314,
+              "length": 2
+            }
+          ],
+          "confidence": 0.961,
+          "source": "D(1,975.0000,1066.0000,1006.0000,1067.0000,1006.0000,1089.0000,975.0000,1089.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "N.Sord\u00f3n acker.",
+          "spans": [
+            {
+              "offset": 1895,
+              "length": 15
+            }
+          ],
+          "confidence": 0.456,
+          "source": "D(1,649.0000,1299.0000,1008.0000,1299.0000,1008.0000,1362.0000,649.0000,1362.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "CWhulman",
+          "spans": [
+            {
+              "offset": 2745,
+              "length": 8
+            }
+          ],
+          "confidence": 0.449,
+          "source": "D(1,436.0000,1689.0000,839.0000,1693.0000,839.0000,1733.0000,436.0000,1735.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "MAW",
+          "spans": [
+            {
+              "offset": 2855,
+              "length": 3
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,1206.0000,1720.0000,1147.0000,1819.0000,1118.0000,1789.0000,1175.0000,1690.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "HALIFAX, MS",
+          "spans": [
+            {
+              "offset": 2733,
+              "length": 11
+            }
+          ],
+          "confidence": 0.651,
+          "source": "D(1,231.8624,1726.4587,338.4266,1669.0780,350.5642,1691.6193,244.0000,1749.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1941-05-14",
+          "spans": [
+            {
+              "offset": 1882,
+              "length": 11
+            }
+          ],
+          "confidence": 0.879,
+          "source": "D(1,296.0000,1314.0000,459.0372,1316.0638,458.6961,1343.0088,295.6589,1340.9450)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "N.Sord\u00f3n acker.",
+          "spans": [
+            {
+              "offset": 1895,
+              "length": 15
+            }
+          ],
+          "confidence": 0.656,
+          "source": "D(1,649.0000,1299.0000,1008.0000,1299.0000,1008.0000,1362.0000,649.0000,1362.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Ebidon acker.",
+          "spans": [
+            {
+              "offset": 2095,
+              "length": 13
+            }
+          ],
+          "confidence": 0.724,
+          "source": "D(1,531.0000,1453.0000,902.0000,1453.0000,902.0000,1495.0000,531.0000,1495.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "Molulania",
+          "spans": [
+            {
+              "offset": 1866,
+              "length": 9
+            }
+          ],
+          "confidence": 0.69,
+          "source": "D(1,299.0000,1287.0000,631.0000,1279.0000,631.0000,1327.0000,299.0000,1330.0000)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "DUPLICATE",
+          "spans": [
+            {
+              "offset": 94,
+              "length": 9
+            }
+          ],
+          "confidence": 0.827,
+          "source": "D(1,183.0000,209.0000,289.0000,211.0000,289.0000,228.0000,182.0000,226.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.3275333,
+          "width": 1400,
+          "height": 2088
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

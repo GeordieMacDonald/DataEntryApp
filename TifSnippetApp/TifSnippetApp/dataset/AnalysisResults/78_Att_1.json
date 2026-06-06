@@ -1,0 +1,385 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:23:45Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Received\nChecked.\nCard\nObservations.................4 **** sot-\n\nO:in:F: Completed and forwarded to Records M.D. #2\n\nORIGINAL-\nDUPLICATE\nTRIPLICATE\n\n1\n\nM.F.M. 2\nA.F.B. 271\n:\n500M-7-41 (1131)\nII.Q. 1772-39-1015\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\n\nUnit.\n2nd/10th Dragoons, CA (A)\n\nRegimental Number.\n3-42132\n\n\n![WSG COMPLETED](figures/1.1)\n\n\n# ACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY\n\n\n## ATTESTATION PAPER\n\n1\\. Surname\nADAM\n\n2\\. Christian Names.\nRobert Graig\n\n3\\. Present address.\nSt.Davias, Ontazio, Cenada,\n\n4\\. Date of birth\nJanuary 29th, 2017\n\n5\\. Place of birth\n(Country)\nCanada\n(County or Province)\nOntario\n(Towa or Township)\nSt. Catharines\n\n6\\. Religion (state denomination)\nUnited Church\n\n7\\. Trade or Calling\nTruck Driver\n\n8\\. Married, Widower or Single\nMazr led\n\n9\\. Name of next of kin.\nMrs.Mildred ADAM\n\n10\\. Relationship\nWite\n\n11\\. Address of next of kin.\nSt.Davids, Outacio, Cenada.\nsee change\n\n12\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army?.\nNo.\n\n(If Yes, Give Unit and Dates of Service)\n\n13\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?.\n(Yes or No)\nNo\n\n(b) Any other Naval, Military, or Air\n\nForce?\n(Yes or No) (If Yes, specify Unit and Period of Service)\n\n14\\. Did you serve during the Great War 1914-1918?\n\n(If Yes, specify Regimental No., Unit and Dates of Service)\nNo\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nRobert Craig ADAM\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\n\nwi tmess:-\n\nDate\nNAeyhent\n17-7-42\n\n(Signature of reeruit)\nRobert C. adam\n\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI.\nRobert Craig ADAM\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\n\nRobert Cadan\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands cach question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\nHamilton, Onterio,\nthis.\n17\nday of\nJuly\n19.\n1942\nat\nCenadas\nH. tooyle thayn\n70 Cartein, Reer@zting Offieer.\n\nSignature of Magistrate, Justice\nor Attesting Officer.\n(Officer or Rank and Unit\n1\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTIHS' IMPRISONMENT\n\n\n![FINGEPDRAE COMPLETED](figures/1.2)\n\n\n\uc704\ub294\n\nC. A. A.\n\nJuly 1942\nNo.\n\n(If Yes, Give Regimental No. and Unit)\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "3-42132",
+          "spans": [
+            {
+              "offset": 364,
+              "length": 7
+            }
+          ],
+          "confidence": 0.978,
+          "source": "D(1,986.0000,284.0000,1092.0000,283.0000,1092.0000,308.0000,986.0000,309.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ADAM",
+          "spans": [
+            {
+              "offset": 493,
+              "length": 4
+            }
+          ],
+          "confidence": 0.938,
+          "source": "D(1,625.0000,466.0000,689.0000,466.0000,689.0000,489.0000,625.0000,488.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Robert Graig",
+          "spans": [
+            {
+              "offset": 520,
+              "length": 12
+            }
+          ],
+          "confidence": 0.741,
+          "source": "D(1,623.3491,504.6404,801.3444,506.9979,800.9953,533.3576,623.0000,531.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "St.Davias, Ontazio, Cenada,",
+          "spans": [
+            {
+              "offset": 555,
+              "length": 27
+            }
+          ],
+          "confidence": 0.781,
+          "source": "D(1,624.0000,544.0000,1008.0000,544.0000,1008.0000,570.0000,624.0000,570.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "2017-01-29",
+          "spans": [
+            {
+              "offset": 602,
+              "length": 18
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,625.2646,581.7734,888.2542,584.0022,887.9850,615.7711,624.9954,613.5423)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 651,
+              "length": 6
+            }
+          ],
+          "confidence": 0.899,
+          "source": "D(1,411.0000,622.0000,501.0000,623.0000,501.0000,647.0000,411.0000,647.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ontario",
+          "spans": [
+            {
+              "offset": 679,
+              "length": 7
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,625.0000,623.0000,730.0000,623.0000,730.0000,648.0000,625.0000,648.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "St. Catharines",
+          "spans": [
+            {
+              "offset": 706,
+              "length": 14
+            }
+          ],
+          "confidence": 0.775,
+          "source": "D(1,910.0000,623.0000,1099.0000,623.0000,1099.0000,650.0000,910.0000,650.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "United Church",
+          "spans": [
+            {
+              "offset": 756,
+              "length": 13
+            }
+          ],
+          "confidence": 0.776,
+          "source": "D(1,624.0130,667.8524,813.2841,670.0032,812.9870,696.1476,623.7159,693.9968)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Truck Driver",
+          "spans": [
+            {
+              "offset": 792,
+              "length": 12
+            }
+          ],
+          "confidence": 0.885,
+          "source": "D(1,625.0000,707.0000,801.0000,707.0000,801.0000,731.0000,625.0000,731.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Mazr led",
+          "spans": [
+            {
+              "offset": 837,
+              "length": 8
+            }
+          ],
+          "confidence": 0.725,
+          "source": "D(1,625.0081,740.0790,730.2193,741.0019,729.9963,766.4210,624.7851,765.4981)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mrs.Mildred ADAM",
+          "spans": [
+            {
+              "offset": 872,
+              "length": 16
+            }
+          ],
+          "confidence": 0.767,
+          "source": "D(1,626.0100,781.7001,860.2038,783.5016,859.9862,811.7999,625.7923,809.9984)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Wite",
+          "spans": [
+            {
+              "offset": 908,
+              "length": 4
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,626.0000,850.0000,626.0000,824.0000,688.0000,824.0000,688.0000,850.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "St.Davids, Outacio, Cenada.",
+          "spans": [
+            {
+              "offset": 943,
+              "length": 27
+            }
+          ],
+          "confidence": 0.663,
+          "source": "D(1,624.0000,863.0000,1010.0000,863.0000,1010.0000,891.0000,624.0000,891.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "No.",
+          "spans": [
+            {
+              "offset": 1079,
+              "length": 3
+            }
+          ],
+          "confidence": 0.782,
+          "source": "D(1,1149.0000,900.0000,1185.8571,902.9723,1183.9961,926.0481,1147.1391,923.0757)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "No",
+          "spans": [
+            {
+              "offset": 1437,
+              "length": 2
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,1151.0000,1153.0000,1187.0000,1153.0000,1187.0000,1175.0000,1151.0000,1175.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Robert C. adam",
+          "spans": [
+            {
+              "offset": 1991,
+              "length": 14
+            }
+          ],
+          "confidence": 0.803,
+          "source": "D(1,759.0000,1340.0000,1097.0000,1340.0000,1097.0000,1382.0000,759.0000,1382.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "H. tooyle thayn",
+          "spans": [
+            {
+              "offset": 2809,
+              "length": 15
+            }
+          ],
+          "confidence": 0.468,
+          "source": "D(1,426.6212,1724.7818,753.9926,1722.0984,754.3714,1768.3166,427.0000,1771.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "70 Cartein, Reer@zting Offieer.",
+          "spans": [
+            {
+              "offset": 2825,
+              "length": 31
+            }
+          ],
+          "confidence": 0.601,
+          "source": "D(1,312.4254,1778.4092,759.9751,1769.7189,760.5497,1799.3097,313.0000,1808.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Hamilton, Onterio,",
+          "spans": [
+            {
+              "offset": 2749,
+              "length": 18
+            }
+          ],
+          "confidence": 0.634,
+          "source": "D(1,215.0000,1693.0000,474.0000,1693.0000,474.0000,1720.0000,215.0000,1720.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1942-07-17",
+          "spans": [
+            {
+              "offset": 3169,
+              "length": 9
+            }
+          ],
+          "confidence": 0.17,
+          "source": "D(1,573.0000,164.0000,705.0000,164.0000,705.0000,190.0000,573.0000,190.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Robert C. adam",
+          "spans": [
+            {
+              "offset": 1991,
+              "length": 14
+            }
+          ],
+          "confidence": 0.664,
+          "source": "D(1,759.0000,1340.0000,1097.0000,1340.0000,1097.0000,1382.0000,759.0000,1382.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Robert Cadan",
+          "spans": [
+            {
+              "offset": 2187,
+              "length": 12
+            }
+          ],
+          "confidence": 0.773,
+          "source": "D(1,647.8447,1489.0006,959.9993,1487.8182,960.1546,1528.8176,648.0000,1530.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "TRIPLICATE",
+          "spans": [
+            {
+              "offset": 137,
+              "length": 10
+            }
+          ],
+          "confidence": 0.492,
+          "source": "D(1,208.0000,212.0000,333.0000,212.0000,333.0000,231.0000,208.0000,231.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.879
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.2198,
+          "width": 1402,
+          "height": 2080
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

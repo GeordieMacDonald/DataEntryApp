@@ -1,0 +1,405 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:27:26Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Reeopde\nChecked\nCard\nObservations\n\nORIGINAL\nDUPLICATE\nTRIPIIGATE\n\nO. Hhatong\n700m\ncompeeted\n\nM.F.M. 2\nA.F.B. 271\n480 51-8-30 (1626)\nIU.Q. 1772-45-18\n\n(To be completed in triplicate. Copy designation to be shown by strikin out terms not applicable.)\nUnit\nefesh nova Scotia Riot\n\nRegimental Number\nF. 398.43\n\uc778\n\n\n# CANADIAN ACTIVE SERVICE FORCE ATTESTATION PAPER\n\n1\\. Surname\nADAMS\n\nC. A. A.\n\n2\\. Christian Names\nARTHUR THOMAS\n\n3\\. Present address.\nSeotch Village, Hanto 60, nova Scotia\n\n4\\. Date of birth\n13th January, 1921\n\n5\\. Place of birth\nCanada, nora Scotia, Hanto Co, Scotch Village\n(Country)\n(Town or Towaship)\n\n6\\. Religion (state denomination)\nUnited Blusch\n\n7\\. Trade or Calling.\nRabarer\n\n8\\. Married, Widower or Single!\nEvingle\n\n9\\. Name of next of kin.\nJohn Tharks ddams\n\n10\\. Relationship.\nUnele\n\n11\\. Address of next of kin.\nScotch Village, Hanto 60, Nova Scotia\n\n12\\. Have you served in any Naval, Military or Air Force?.\nno\n\n13\\. If previous war service, state arm, force and regimental particulars.\nnone.\n\n14\\. Do you now belong to or have you served in the Active Militia of Canada?.\nn/es\nI dear with K.C.H. at aNdirohot. n.s. On. P.A.M.\n(Give unit and date of attestation)\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI artrur Thomas adams\ndo solemnly declare that the above\nparticulars are true, and I hereby engage to serve in the Canadian Active Service Force so long as an emergoncy,\ni.c., war, invasion, riot or insurrection, real or apprehended, exists, and for the period of demobilization after\nsaid emergency ceases to exist, and in any event for a period of not less than one year, provided His Majesty\nshould so require my services.\n\nWitness: J.a. Hebb, Capt\n\nDate:\n6-11-39\n\na T adawo\n(Biganture of recrult)\n\nHOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI,\nArthur V. Udams\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty,\na T adams\n.(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands cach question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nat.\nBridgewater\nthis\n6d\nday of\nNovember\n1939\n\n9.q. Nebh\nClast West n.of. Reyt\n\nSignature of Magistrate, Justice\n1\nor Attesting Officer.\nOffice or Rank and Unit\n1\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\nP\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "F. 398.43",
+          "spans": [
+            {
+              "offset": 296,
+              "length": 9
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,995.0000,306.0000,1167.0000,306.0000,1167.0000,340.0000,995.0000,340.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ADAMS",
+          "spans": [
+            {
+              "offset": 373,
+              "length": 5
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,367.0000,418.0000,568.0000,423.0000,567.0000,463.0000,366.0000,459.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "ARTHUR THOMAS",
+          "spans": [
+            {
+              "offset": 410,
+              "length": 13
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,428.0325,464.4860,825.0000,473.0000,824.1741,511.5078,427.2066,502.9937)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "Seotch Village, Hanto 60, nova Scotia",
+          "spans": [
+            {
+              "offset": 446,
+              "length": 37
+            }
+          ],
+          "confidence": 0.742,
+          "source": "D(1,423.7054,505.5366,1174.0000,518.0000,1173.2875,560.8951,422.9928,548.4318)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1921-01-13",
+          "spans": [
+            {
+              "offset": 503,
+              "length": 18
+            }
+          ],
+          "confidence": 0.881,
+          "source": "D(1,437.4435,555.5180,852.0037,560.7000,851.5510,596.9194,436.9908,591.7374)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 542,
+              "length": 6
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,403.0000,597.0000,560.0000,598.0000,560.0000,635.0000,402.0000,634.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "nora Scotia",
+          "spans": [
+            {
+              "offset": 550,
+              "length": 11
+            }
+          ],
+          "confidence": 0.442,
+          "source": "D(1,608.0336,595.7468,826.5820,599.0087,825.9962,638.2537,607.4479,634.9918)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Hanto Co, Scotch Village",
+          "spans": [
+            {
+              "offset": 563,
+              "length": 24
+            }
+          ],
+          "confidence": 0.483,
+          "source": "D(1,854.0151,598.9211,1269.6179,604.7202,1269.0000,649.0000,853.3972,643.2009)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "United Blusch",
+          "spans": [
+            {
+              "offset": 652,
+              "length": 13
+            }
+          ],
+          "confidence": 0.885,
+          "source": "D(1,552.9955,632.7585,853.0000,640.0000,851.9925,681.7412,551.9879,674.4997)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Rabarer",
+          "spans": [
+            {
+              "offset": 689,
+              "length": 7
+            }
+          ],
+          "confidence": 0.92,
+          "source": "D(1,504.0000,684.0000,693.0000,685.0000,693.0000,718.0000,503.0000,717.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Evingle",
+          "spans": [
+            {
+              "offset": 730,
+              "length": 7
+            }
+          ],
+          "confidence": 0.727,
+          "source": "D(1,503.0000,722.0000,742.0000,727.0000,742.0000,764.0000,503.0000,760.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "John Tharks ddams",
+          "spans": [
+            {
+              "offset": 764,
+              "length": 17
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,486.4421,764.4234,973.4240,770.0049,972.9819,808.5815,486.0000,803.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Unele",
+          "spans": [
+            {
+              "offset": 802,
+              "length": 5
+            }
+          ],
+          "confidence": 0.783,
+          "source": "D(1,484.0000,805.0000,658.0000,809.0000,658.0000,845.0000,483.0000,843.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "Scotch Village, Hanto 60, Nova Scotia",
+          "spans": [
+            {
+              "offset": 838,
+              "length": 37
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,475.0242,849.6117,1203.3852,856.9938,1202.9846,896.5235,474.6236,889.1415)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "no",
+          "spans": [
+            {
+              "offset": 936,
+              "length": 2
+            }
+          ],
+          "confidence": 0.899,
+          "source": "D(1,833.0000,902.0000,904.0000,902.0000,904.0000,932.0000,833.0000,932.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "none.",
+          "spans": [
+            {
+              "offset": 1015,
+              "length": 5
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,898.0144,944.2803,1047.5746,947.2715,1046.9604,977.9792,897.4002,974.9880)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "a T adawo",
+          "spans": [
+            {
+              "offset": 1710,
+              "length": 9
+            }
+          ],
+          "confidence": 0.735,
+          "source": "D(1,753.4986,1305.1158,1080.0354,1309.0980,1079.4877,1354.0059,752.9509,1350.0238)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "9.q. Nebh",
+          "spans": [
+            {
+              "offset": 2530,
+              "length": 9
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,435.4546,1678.3693,729.9711,1674.6879,730.5374,1719.9933,436.0209,1723.6747)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "Clast West n.of. Reyt",
+          "spans": [
+            {
+              "offset": 2540,
+              "length": 21
+            }
+          ],
+          "confidence": 0.725,
+          "source": "D(1,366.2488,1718.9963,870.2417,1721.4548,869.9929,1772.4585,366.0000,1770.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Bridgewater",
+          "spans": [
+            {
+              "offset": 2488,
+              "length": 11
+            }
+          ],
+          "confidence": 0.706,
+          "source": "D(1,239.0000,1629.0000,490.0000,1632.0000,490.0000,1672.0000,237.0000,1672.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1939-11-06",
+          "spans": [
+            {
+              "offset": 2505,
+              "length": 2
+            },
+            {
+              "offset": 2508,
+              "length": 6
+            },
+            {
+              "offset": 2515,
+              "length": 8
+            },
+            {
+              "offset": 2524,
+              "length": 4
+            }
+          ],
+          "confidence": 0.596,
+          "source": "D(1,582.0000,1636.0000,680.0000,1635.0000,680.0000,1676.0000,582.0000,1674.0000);D(1,751.0000,1655.0000,809.0000,1655.0000,809.0000,1677.0000,751.0000,1677.0000);D(1,827.0000,1637.0000,1065.0000,1641.0000,1065.0000,1679.0000,827.0000,1678.0000);D(1,1119.0000,1660.0000,1192.0000,1660.0000,1192.0000,1682.0000,1119.0000,1682.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "a T adawo",
+          "spans": [
+            {
+              "offset": 1710,
+              "length": 9
+            }
+          ],
+          "confidence": 0.848,
+          "source": "D(1,753.4986,1305.1158,1080.0354,1309.0980,1079.4877,1354.0059,752.9509,1350.0238)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "a T adams",
+          "spans": [
+            {
+              "offset": 1922,
+              "length": 9
+            }
+          ],
+          "confidence": 0.858,
+          "source": "D(1,661.0000,1439.0000,976.0000,1439.0000,976.0000,1480.0000,661.0000,1480.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "J.a. Hebb, Capt",
+          "spans": [
+            {
+              "offset": 1678,
+              "length": 15
+            }
+          ],
+          "confidence": 0.738,
+          "source": "D(1,844.7604,1268.4569,1157.0296,1274.4621,1156.2688,1314.0244,843.9996,1308.0192)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "TRIPIIGATE",
+          "spans": [
+            {
+              "offset": 54,
+              "length": 10
+            }
+          ],
+          "confidence": 0.179,
+          "source": "D(1,223.0000,247.0000,340.0000,249.0000,340.0000,266.0000,223.0000,264.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.6699071,
+          "width": 1371,
+          "height": 2045
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

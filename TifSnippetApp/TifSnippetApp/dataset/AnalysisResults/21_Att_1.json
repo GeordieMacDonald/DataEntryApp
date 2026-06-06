@@ -1,0 +1,368 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T00:58:52Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: 718 -->\n<!-- PageHeader: TRADE PTtDI \"B\" -->\n\n\n# ROYAL CANADIAN AIR FORCE (ATTESTATION PAPER) (Pages one and two, only, are to be completed in Applicant's own Handwriting)\n\n1\\. Surname ABELL\n\nFULL Christian Names Royston James Harding\n\n2\\. Present Address R.C.A.F. Overseas\n\nTelephone.\n\n3\\. Permanent Address Oakham Moor, Chobham Rd. Ottershaw, Nr. Chertsey, Surrey\n\n4\\. Place of Birth Folkestone, England\n\nCitizenship Canadian\n\n5\\. Date of Birth Oct. 29th 1917\nV\n\nMarried, Single, Widower, Separated, Divorced.\nMarried\n\n6\\. Particulars of Children\none\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td>Brenda Jean</td>\n<td>Nov. 3rd.</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>1943</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n7\\. Occupation P.T.I.\n\n8\\. Religion C. of E.\nState denomination\n\n9\\. Languages....English\n\nState proficiency\n\n10\\. Next of Kin (Full Name)...Dorothy Joan Abell\nRelationship Wife\n\n\"\nAddress.\nOakham Moor, Cobham Rd. Ottershaw, Nr. Chertsey, Surrey\n\n11\\. Father (Full Name)Roy.Benjamin Abell\nBirthplace..Brighton\n\n\" Address Colourcoats, Hilton Rd. Gurner, Cowes Citizenship.\nBritish\n\nL.O.W.\n\"\nOccupation\nAircraft factory worker\n\n12\\. Mother (Full Maiden Name)Winifred Norwood\n\nBirthplace.\nSeven Oaks, Kent\n\n\" Address Same as 11\nCitizenship\nBritish\n\n13\\. Details of any Naval, Military or Air Force Service:\n\n\n<table>\n<tr>\n<th rowspan=\"2\">Unit</th>\n<th rowspan=\"2\">Place</th>\n<th rowspan=\"2\">Rank</th>\n<th rowspan=\"2\">Trade</th>\n<th colspan=\"2\">Date</th>\n<th rowspan=\"2\">Reason for discharge</th>\n</tr>\n<tr>\n<th>From</th>\n<th>To</th>\n</tr>\n<tr>\n<td>RAF</td>\n<td></td>\n<td>F/Sgt</td>\n<td>P.T.I.</td>\n<td>Aug.</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>1936</td>\n<td>3.1.45</td>\n<td>Jo joinBGAF<br>BOAR</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>A</td>\n<td>.E.</td>\n<td>Recorad VA</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>R.C.<br>Rec4</td>\n<td>4dN</td>\n<td>24 1945</td>\n</tr>\n</table>\n\n\n14\\. Honours, Awards, Mentions None\n\nO.K../....C..5\nyu\n\n15\\. Are you now on any Naval, Military or Air Force Reserve? No\n\nB.C./ N.T\nP.A.\n\n16\\. Have you previously made application to join the R.C.A.F.?...No\n\nIf so; where?N.A.\n\nWhen?\nN.A.\n\nResult\nN.A.\n\n17\\. Were you ever discharged from any branch of His Majesty's Forces as Medically Unfit? No\n\nIf so, state nature of disability\nN.A.\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension?\nNo\n\nIf so, state nature of Disability...N.A.\n\n19\\. Have you ever been convicted of an indictable offence? No\nIf so state nature N.A.\n\n20\\. Are you in debt?\nNo\n\nIf so, state particulars.\nN.A.\n\n<!-- PageFooter: R.C.A.F. Form R. 100 150M-10.41 (993) H.Q. 1062-3-83 -->\n\n830-60\n\n<!-- PageHeader: 0/A -->\n<!-- PageHeader: AIR FORCE No. R225540 POSTED TO RLAF 6/sHQ -->\n\nRAZ 534113\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "R225540",
+          "spans": [
+            {
+              "offset": 2950,
+              "length": 7
+            }
+          ],
+          "confidence": 0.731,
+          "source": "D(1,184.0000,56.0000,347.0000,54.0000,348.0000,89.0000,184.0000,91.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABELL",
+          "spans": [
+            {
+              "offset": 202,
+              "length": 5
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,199.0000,280.0000,266.0000,280.0000,266.0000,302.0000,199.0000,303.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Royston James Harding",
+          "spans": [
+            {
+              "offset": 230,
+              "length": 21
+            }
+          ],
+          "confidence": 0.959,
+          "source": "D(1,702.0000,277.0000,961.0000,277.0000,961.0000,306.0000,702.0000,306.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "R.C.A.F. Overseas",
+          "spans": [
+            {
+              "offset": 273,
+              "length": 17
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,247.0000,318.0000,459.0000,318.0000,459.0000,344.0000,247.0000,344.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1917-10-29",
+          "spans": [
+            {
+              "offset": 464,
+              "length": 14
+            }
+          ],
+          "confidence": 0.876,
+          "source": "D(1,224.0000,443.0000,399.0000,443.0000,399.0000,467.0000,224.0000,467.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "England",
+          "spans": [
+            {
+              "offset": 415,
+              "length": 7
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,357.0000,401.0000,445.0000,400.0000,445.0000,426.0000,356.0000,426.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Folkestone",
+          "spans": [
+            {
+              "offset": 403,
+              "length": 10
+            }
+          ],
+          "confidence": 0.975,
+          "source": "D(1,212.0000,401.0000,334.0000,401.0000,334.0000,426.0000,212.0000,427.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Brighton",
+          "spans": [
+            {
+              "offset": 1205,
+              "length": 8
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,785.0000,884.0000,886.0000,886.0000,886.0000,913.0000,785.0000,911.0000)"
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Kent",
+          "spans": [
+            {
+              "offset": 1402,
+              "length": 4
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,950.0000,1003.0000,1006.0000,1003.0000,1006.0000,1028.0000,950.0000,1027.0000)"
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Seven Oaks",
+          "spans": [
+            {
+              "offset": 1390,
+              "length": 10
+            }
+          ],
+          "confidence": 0.877,
+          "source": "D(1,811.0000,1003.0000,931.0000,1003.0000,931.0000,1027.0000,811.0000,1027.0000)"
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "Canadian",
+          "spans": [
+            {
+              "offset": 436,
+              "length": 8
+            }
+          ],
+          "confidence": 0.817,
+          "source": "D(1,848.0000,401.0000,949.0000,401.0000,949.0000,427.0000,848.0000,427.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "C. of E.",
+          "spans": [
+            {
+              "offset": 940,
+              "length": 8
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,762.0000,719.0000,863.0000,719.0000,863.0000,747.0000,762.0000,747.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "P.T.I.",
+          "spans": [
+            {
+              "offset": 919,
+              "length": 6
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,210.0000,719.0000,288.0000,719.0000,288.0000,745.0000,210.0000,745.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Married",
+          "spans": [
+            {
+              "offset": 529,
+              "length": 7
+            }
+          ],
+          "confidence": 0.938,
+          "source": "D(1,966.0000,443.0000,1055.0000,443.0000,1055.0000,467.0000,966.0000,467.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "spans": [
+            {
+              "offset": 566,
+              "length": 3
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,310.0000,494.0000,349.0000,494.0000,349.0000,513.0000,310.0000,513.0000)"
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Dorothy Joan Abell",
+          "spans": [
+            {
+              "offset": 1045,
+              "length": 18
+            }
+          ],
+          "confidence": 0.938,
+          "source": "D(1,320.0000,802.0000,539.0000,802.0000,539.0000,827.0000,320.0000,827.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Wife",
+          "spans": [
+            {
+              "offset": 1077,
+              "length": 4
+            }
+          ],
+          "confidence": 0.96,
+          "source": "D(1,809.0000,803.0000,863.0000,803.0000,863.0000,828.0000,809.0000,828.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "Oakham Moor, Cobham Rd. Ottershaw, Nr. Chertsey, Surrey",
+          "spans": [
+            {
+              "offset": 1094,
+              "length": 55
+            }
+          ],
+          "confidence": 0.907,
+          "source": "D(1,284.0000,836.0000,948.0000,836.0000,948.0000,862.0000,284.0000,862.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "RAF, F/Sgt, P.T.I., Aug. 1936 to 3.1.45",
+          "spans": [
+            {
+              "offset": 1772,
+              "length": 5
+            },
+            {
+              "offset": 1787,
+              "length": 6
+            },
+            {
+              "offset": 1803,
+              "length": 4
+            },
+            {
+              "offset": 1888,
+              "length": 4
+            },
+            {
+              "offset": 1902,
+              "length": 6
+            }
+          ],
+          "confidence": 0.16,
+          "source": "D(1,510.0000,1207.0000,573.0000,1207.0000,573.0000,1234.0000,510.0000,1234.0000);D(1,641.0420,1208.6576,716.7180,1211.0224,715.9805,1234.6244,640.3044,1232.2595);D(1,786.1047,1211.9052,839.1222,1214.5561,837.9202,1238.5960,784.9027,1235.9451);D(1,783.0000,1244.0000,834.0000,1241.0000,834.0000,1266.0000,783.0000,1268.0000);D(1,842.0000,1240.0000,917.0000,1235.0000,919.0000,1258.0000,842.0000,1265.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "valueString": "None",
+          "spans": [
+            {
+              "offset": 2189,
+              "length": 4
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,349.0000,1352.0000,408.0000,1352.0000,408.0000,1377.0000,349.0000,1377.0000)"
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0,
+          "width": 1152,
+          "height": 1902
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

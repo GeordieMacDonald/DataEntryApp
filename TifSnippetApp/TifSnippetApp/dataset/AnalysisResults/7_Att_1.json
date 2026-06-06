@@ -1,0 +1,477 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:24:31Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "DUPLICAE 65th Qusta\nOCCUPATIONAL HISTORY FORMS COMPLETED\n\nReceived\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\nChecked\nCopy designation to be shown\n1\nby striking out terms not applicable.\n\n\u2022\n\nObserptione2 43\n\nM.F.M. 2\n01.\n\n(Combining M.F.M. 103)\n750M-6.43 (9375)\nH.Q. 1772-39-1645\n\nPTE\n\n\n![WSG COMPLETED](figures/1.1)\n\n\n# CANADIAN ARMY ENROLMENT AND ATTESTATION PAPER\n\n(Surname)\nAEBL\n\n(Christion Names)\nErnest Edward\n\n2\\. Present Address\nPrinco George, British Columbia CANADA\n\n3\\. (a) Date of birth\n20th May 1925\n\n(b) Place of birth\n(Country)\n\n(County or Province)\n(UNKNOWN)\n(Town or Township)\n(UNKNOWN)\n\n4\\. (a) Place of birth of Father U.S.A.\n\n(b)\n\"\nMother CANADA\n(UNKHOWN)\n\n(UNKNOWN)\n\n5\\. Nationality\nCANADIAN\n(County or Province)\n(Town or Township)\n(228-72 Cariboo-Prince George)\n\n(To what country do you now owe allegiance) if naturalised give certif. no. date and place of issue. If not naturalised so state.\n\n6\\. Religion (state denomination) Roman Catholic\n\n7\\. Trade or calling (a) Truck Driver\n\n(a) Name and address of last employer :\nR.C.E.,\nPrince Ceorge, B.C.\n\n(b) How long employed\n18 yrs.\n\n9\\. Married, Widower or Single\nSingle\nIf married, how many children N11\n\n10\\. Name of Next-of-Kin Edward ABBL\n\n11\\. Relationship Eather\n\n12\\. Address of Next-of-Kin\nPrince George, British Columbia CANADA\n\n13\\. Previous Service (Navy, Army or Air Force) Units and dates\nN11\n\n14\\. (a) Former war service\nN11\n\n(b) In the armed forces of what country\nNil\n\n(c) Dates of such Service\n\u20aa11\n\n15\\. Decorations and medals, if any\nN11\n\n16\\. I do solemnly declare that the above particulars are true\n\nEalis\n\nSignature of Recruit, or in the case of N.R.M.A. personnel who\nrefuse to sign, signature of officer under Regn. 8 (d) (1)\nR.A.S.R. 1941\n\n16\u03b1 CERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE ATTESTING OR ENROLLING OFFICER\n\nThe above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\nThe above questions and answers were then read to the above named in my presence.\nI have taken care that he understands each question, and that his answer to each question has\nbeen duly entered as replied to,\nat\nVancouver, B. C., CanadaJEC 7 1943\nthis\nE.E.King Land\nM\nCapt.\n\nSignature of Magistrate, Justice Attesting or\nEnrolling Officer.\nOffice or Rank and Unit\nor appointment.\n\nC.C.Central Station No.11 Recruiting Det.\n\nITEMS 17, 18 AND 19 WILL NOT BE COMPLETED UNLESS A MAN ENLISTS FOR GENERAL SERVICE ANYWHERE.\n17.\nDECLARATION TO BE MADE BY MAN ON ATTESTATION\n\n\u2160.\nErnest Edward ARBL\nhereby engage to serve in any Active Formation or\nUnit of the Canadian Army so long as an emergency, i.e., war, invasion, riot or insurrection, real or\napprehended, exists, and for the period of demobilization after said emergency ceases to exist, and in\nany event for a period of not less than one year, provided His Majesty should so require my services.\nDate\nDEC 7 1945\n\n(Signature of Recruit)\nE abal\n\u30ca\n\n18\\.\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI,\nErnest Edward ABBL\ndo sincerely promise and swear (or solemnly declare)\nthat I will be faithful and bear true allegiance to His Majesty.\n\nWitness\n(Name)\n(Rank)\n(Signature of Recruit)\nE abbe\n\n19\\. The above named recruit has made and signed the declaration and taken the oath before me.\nat Vancouver, B. C., Carthisa\nDEC 7 1943\n(J.Norman DVIES)\n19\\.\n\n1.E. Png Least 10 Capt.. (Signature of Magistrate, Justice or Attesting Officer.)\n\nO.c.Central Station No.l1 Recruitin, Det.\n(Office or Rank and Unit or appointment)\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON WILFULLY MAKING A FALSE ANSWER TO ANY OF THE\nABQVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT.\nA-3045\n\nIFM\n\nFINGERPRINTED\nPHOTOGRAPHED\n\nCorps\n\nNo.XI DISTRICT DEPOT S.A.\n\nA\n\nRegimental Number\n\n0\nK1463\n\nCANADA\nALBERTA\nBROOKS\n\n(Country)\nMuxandellla Co\nday of\n(J.NOPuan DAVIES)\n19.\n\n1:\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "K1463",
+          "spans": [
+            {
+              "offset": 3789,
+              "length": 5
+            }
+          ],
+          "confidence": 0.736,
+          "source": "D(1,1104.0000,290.0000,1256.0000,286.0000,1256.0000,324.0000,1104.0000,327.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "AEBL",
+          "spans": [
+            {
+              "offset": 367,
+              "length": 4
+            }
+          ],
+          "confidence": 0.738,
+          "source": "D(1,570.0000,369.0000,633.0000,369.0000,633.0000,392.0000,570.0000,392.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Ernest Edward",
+          "spans": [
+            {
+              "offset": 391,
+              "length": 13
+            }
+          ],
+          "confidence": 0.939,
+          "source": "D(1,932.0055,365.9579,1130.1263,367.0007,1129.9998,391.0421,931.8790,389.9994)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "Princo George, British Columbia CANADA",
+          "spans": [
+            {
+              "offset": 426,
+              "length": 38
+            }
+          ],
+          "confidence": 0.72,
+          "source": "D(1,567.0000,411.0000,1161.0000,411.0000,1161.0000,439.0000,567.0000,439.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1925-05-20",
+          "spans": [
+            {
+              "offset": 488,
+              "length": 13
+            }
+          ],
+          "confidence": 0.936,
+          "source": "D(1,567.0000,439.0000,767.0000,439.0000,767.0000,464.0000,567.0000,464.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "(UNKNOWN)",
+          "spans": [
+            {
+              "offset": 554,
+              "length": 9
+            }
+          ],
+          "confidence": 0.516,
+          "source": "D(1,813.0000,510.0000,946.0000,510.0000,946.0000,535.0000,813.0000,535.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "(UNKNOWN)",
+          "spans": [
+            {
+              "offset": 583,
+              "length": 9
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,1133.0000,511.0000,1264.0000,511.0000,1264.0000,535.0000,1133.0000,535.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "U.S.A.",
+          "spans": [
+            {
+              "offset": 627,
+              "length": 6
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,565.0000,513.0000,662.0000,513.0000,662.0000,538.0000,565.0000,538.0000)"
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "CANADA",
+          "spans": [
+            {
+              "offset": 648,
+              "length": 6
+            }
+          ],
+          "confidence": 0.971,
+          "source": "D(1,568.0000,544.0000,660.0000,544.0000,660.0000,567.0000,568.0000,567.0000)"
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "(UNKHOWN)",
+          "spans": [
+            {
+              "offset": 655,
+              "length": 9
+            }
+          ],
+          "confidence": 0.341,
+          "source": "D(1,814.0000,542.0000,946.0000,542.0000,946.0000,566.0000,814.0000,566.0000)"
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "(UNKNOWN)",
+          "spans": [
+            {
+              "offset": 666,
+              "length": 9
+            }
+          ],
+          "confidence": 0.738,
+          "source": "D(1,1133.0000,541.0000,1264.0000,541.0000,1264.0000,565.0000,1133.0000,565.0000)"
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "CANADIAN",
+          "spans": [
+            {
+              "offset": 693,
+              "length": 8
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,568.0000,584.0000,690.0000,584.0000,690.0000,606.0000,568.0000,607.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Roman Catholic",
+          "spans": [
+            {
+              "offset": 939,
+              "length": 14
+            }
+          ],
+          "confidence": 0.831,
+          "source": "D(1,579.0036,631.1169,798.1048,632.0004,798.0000,658.0000,578.8987,657.1165)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Truck Driver",
+          "spans": [
+            {
+              "offset": 980,
+              "length": 12
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,506.0000,662.0000,694.0000,662.0000,694.0000,686.0000,506.0000,686.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "valueString": "R.C.E., Prince Ceorge, B.C.",
+          "spans": [
+            {
+              "offset": 1034,
+              "length": 7
+            },
+            {
+              "offset": 1042,
+              "length": 19
+            }
+          ],
+          "confidence": 0.665,
+          "source": "D(1,840.0000,689.0000,948.0000,689.0000,948.0000,716.0000,840.0000,716.0000);D(1,841.0000,721.0000,1127.0000,721.0000,1127.0000,747.0000,841.0000,747.0000)"
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "valueString": "18 yrs.",
+          "spans": [
+            {
+              "offset": 1085,
+              "length": 7
+            }
+          ],
+          "confidence": 0.952,
+          "source": "D(1,1069.0000,747.0000,1175.0000,747.0000,1175.0000,775.0000,1069.0000,775.0000)"
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 1125,
+              "length": 6
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,581.0000,774.0000,677.0000,774.0000,677.0000,803.0000,581.0000,802.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "valueInteger": 11,
+          "spans": [
+            {
+              "offset": 1162,
+              "length": 3
+            }
+          ],
+          "confidence": 0.804,
+          "source": "D(1,1066.0000,780.0000,1114.0000,780.0000,1114.0000,804.0000,1066.0000,804.0000)"
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Edward ABBL",
+          "spans": [
+            {
+              "offset": 1192,
+              "length": 11
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,489.0069,807.1350,661.1944,808.5015,660.9892,834.3650,488.8016,832.9984)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Eather",
+          "spans": [
+            {
+              "offset": 1223,
+              "length": 6
+            }
+          ],
+          "confidence": 0.916,
+          "source": "D(1,1068.0000,809.0000,1164.0000,808.0000,1164.0000,832.0000,1068.0000,833.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "Prince George, British Columbia CANADA",
+          "spans": [
+            {
+              "offset": 1259,
+              "length": 38
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,599.0000,837.0000,1193.0000,837.0000,1193.0000,865.0000,599.0000,865.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "N11",
+          "spans": [
+            {
+              "offset": 1363,
+              "length": 3
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,755.0000,898.0000,794.0000,897.0000,794.0000,920.0000,755.0000,921.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "N11",
+          "spans": [
+            {
+              "offset": 1396,
+              "length": 3
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,749.0000,927.0000,799.0000,927.0000,799.0000,950.0000,749.0000,950.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "valueString": "Nil",
+          "spans": [
+            {
+              "offset": 1441,
+              "length": 3
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,750.0000,956.0000,796.0000,956.0000,796.0000,977.0000,750.0000,977.0000)"
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "valueString": "\u20aa11",
+          "spans": [
+            {
+              "offset": 1472,
+              "length": 3
+            }
+          ],
+          "confidence": 0.914,
+          "source": "D(1,751.1793,982.8483,796.8621,986.6552,794.8621,1010.6552,749.1793,1006.8483)"
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "valueString": "N11",
+          "spans": [
+            {
+              "offset": 1513,
+              "length": 3
+            }
+          ],
+          "confidence": 0.982,
+          "source": "D(1,750.0000,1016.0000,795.0000,1016.0000,795.0000,1038.0000,750.0000,1038.0000)"
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Ealis",
+          "spans": [
+            {
+              "offset": 1582,
+              "length": 5
+            }
+          ],
+          "confidence": 0.735,
+          "source": "D(1,867.0000,1067.0000,1017.0000,1067.0000,1017.0000,1094.0000,867.0000,1094.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "E.E.King Land",
+          "spans": [
+            {
+              "offset": 2216,
+              "length": 13
+            }
+          ],
+          "confidence": 0.741,
+          "source": "D(1,476.4937,1323.4411,723.4878,1326.0051,722.9890,1374.0587,475.9949,1371.4948)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "Capt.",
+          "spans": [
+            {
+              "offset": 2232,
+              "length": 5
+            }
+          ],
+          "confidence": 0.512,
+          "source": "D(1,827.0000,1348.0000,906.0000,1348.0000,906.0000,1372.0000,827.0000,1372.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Vancouver, B. C., Canada",
+          "spans": [
+            {
+              "offset": 2176,
+              "length": 27
+            }
+          ],
+          "confidence": 0.63,
+          "source": "D(1,294.0000,1297.0000,676.0000,1297.0000,676.0000,1328.0000,294.0000,1328.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1943-07-01",
+          "spans": [
+            {
+              "offset": 2194,
+              "length": 16
+            }
+          ],
+          "confidence": 0.064,
+          "source": "D(1,531.7145,1297.5967,781.0000,1295.0000,781.2965,1323.4657,532.0111,1326.0624)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "E abal",
+          "spans": [
+            {
+              "offset": 2950,
+              "length": 6
+            }
+          ],
+          "confidence": 0.719,
+          "source": "D(1,874.0267,1580.4487,1080.6550,1584.0113,1079.9215,1626.5504,873.2933,1622.9878)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "E abbe",
+          "spans": [
+            {
+              "offset": 3191,
+              "length": 6
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,869.0000,1720.0000,1075.0000,1720.0000,1075.0000,1761.0000,869.0000,1761.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "J.Norman DVIES",
+          "spans": [
+            {
+              "offset": 3336,
+              "length": 14
+            }
+          ],
+          "confidence": 0.723,
+          "source": "D(1,688.7146,1838.4547,917.0000,1836.0000,917.3010,1863.9968,689.0156,1866.4514)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "DUPLICATE",
+          "spans": [
+            {
+              "offset": 77,
+              "length": 9
+            }
+          ],
+          "confidence": 0.589,
+          "source": "D(1,235.0000,199.0000,335.0000,200.0000,335.0000,217.0000,235.0000,217.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.306
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.05325752,
+          "width": 1484,
+          "height": 2160
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

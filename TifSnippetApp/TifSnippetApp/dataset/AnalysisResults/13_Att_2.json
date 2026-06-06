@@ -1,0 +1,389 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T00:55:38Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "ORIGINAL\nDUPLICATE\nTRIPLICATE\n\nM.F.M. 2\nA.F.B. 271\n480 21-8-39 (1606)\nH.Q. 1772-45-18\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms nol applicable.)\n\nUnit\n\nR.H.L.I. C.A.S.F.\n\nRegimental Number.\nB37492\n\n\n# CANADIAN ACTIVE SERVICE FORCE ATTESTATION PAPER\n\n1\\. Surname.\nABBOTT\n\n2\\. Christian Names.\nJOHN RANDOLPH\n\n3\\. Present address.\n36 Duke St., Hamilton, Ont.\n\n4\\. Date of birth.\nDec 16 1913\n\n5\\. Place of birth\ncingland\nBaxxav,in, Furness\n(Towa or Township)\n\n6\\. Religion (state denomination)\nC. of E.\n\n7\\. Trade or Calling.\nShow Card Writer\n\n8\\. Married, Widower or Single.\nSingle\n\n9\\. Name of next of kin\nWellie Whitworth\n\n10\\. Relationship\nMother\nsee change\n\n11\\. Address of next of kin.\n12S Kindpeol Rd. Barrow-in-Furness., England\n\n12\\. Have you served in any Naval, Military or Air Force?\nNo\n\n13\\. If previous war service, state arm, force and regimental particulars.\nNone\n\n14\\. Do you now belong to or have you served in the Active Militia of Canada?\nNo\n\n(Give unit and date of attestation)\n\nDECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nEither at home or abroad\nI,\nJohn Randolph Abbott\ndo solemnly declare that the above\nparticulars are true, and I hereby engage to serve in the Canadian Active Service Force so long as an emergency,\nL.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the period of demobilization after\nsaid emergency ceases to exist, and in any event for a period of not less than one year, provided His Majesty\nshould so require my services.\n\nWTWINS\nBletudley\n\nDate\nApril 9 1940\n\n(Signature of recruit)\nJohn R. abbatt.\n\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI,\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithruP and DeaP tihe allegiance to His Majesty.\nJohn R. abHarl\n\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to cach question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nat\nHamilcon\nthis.\n9th\nday of.\nApr\u00e1l\n19.40.\n\nBolamana\n\nSignature of Magistrate, Justice\nor Attesting Officer.\n\nCapt. R.H.L.I.\n(Office or Rank and Unit\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\nJ.R.a.\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "B37492",
+          "spans": [
+            {
+              "offset": 232,
+              "length": 6
+            }
+          ],
+          "confidence": 0.98,
+          "source": "D(1,987.0000,275.0000,1097.0000,276.0000,1097.0000,306.0000,987.0000,305.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABBOTT",
+          "spans": [
+            {
+              "offset": 305,
+              "length": 6
+            }
+          ],
+          "confidence": 0.977,
+          "source": "D(1,610.0000,429.0000,698.0000,431.0000,698.0000,455.0000,610.0000,454.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "JOHN RANDOLPH",
+          "spans": [
+            {
+              "offset": 334,
+              "length": 13
+            }
+          ],
+          "confidence": 0.78,
+          "source": "D(1,609.0000,470.0000,797.0000,470.0000,797.0000,495.0000,609.0000,495.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "36 Duke St., Hamilton, Ont.",
+          "spans": [
+            {
+              "offset": 370,
+              "length": 27
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,610.0000,513.0000,975.0000,513.0000,975.0000,541.0000,610.0000,541.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1913-12-16",
+          "spans": [
+            {
+              "offset": 418,
+              "length": 11
+            }
+          ],
+          "confidence": 0.929,
+          "source": "D(1,611.0276,555.3733,766.4744,558.0080,765.9624,588.2197,610.5155,585.5850)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "cingland",
+          "spans": [
+            {
+              "offset": 450,
+              "length": 8
+            }
+          ],
+          "confidence": 0.713,
+          "source": "D(1,407.0000,601.0000,530.0000,600.0000,530.0000,627.0000,407.0000,628.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Baxxav,in, Furness",
+          "spans": [
+            {
+              "offset": 459,
+              "length": 18
+            }
+          ],
+          "confidence": 0.52,
+          "source": "D(1,610.0000,599.0000,852.0000,599.0000,852.0000,627.0000,610.0000,627.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "C. of E.",
+          "spans": [
+            {
+              "offset": 532,
+              "length": 8
+            }
+          ],
+          "confidence": 0.91,
+          "source": "D(1,609.0000,642.0000,723.0000,642.0000,723.0000,667.0000,609.0000,667.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Show Card Writer",
+          "spans": [
+            {
+              "offset": 564,
+              "length": 16
+            }
+          ],
+          "confidence": 0.934,
+          "source": "D(1,608.0000,677.0000,838.0000,677.0000,838.0000,702.0000,608.0000,702.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 614,
+              "length": 6
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,609.0000,727.0000,699.0000,727.0000,699.0000,753.0000,609.0000,753.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Wellie Whitworth",
+          "spans": [
+            {
+              "offset": 646,
+              "length": 16
+            }
+          ],
+          "confidence": 0.716,
+          "source": "D(1,608.0000,768.0000,841.0000,768.0000,841.0000,793.0000,608.0000,793.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Mother",
+          "spans": [
+            {
+              "offset": 682,
+              "length": 6
+            }
+          ],
+          "confidence": 0.834,
+          "source": "D(1,609.0000,806.0000,698.0000,806.0000,698.0000,830.0000,609.0000,831.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "12S Kindpeol Rd. Barrow-in-Furness., England",
+          "spans": [
+            {
+              "offset": 730,
+              "length": 44
+            }
+          ],
+          "confidence": 0.878,
+          "source": "D(1,609.0000,844.0000,1191.0000,844.0000,1191.0000,872.0000,609.0000,872.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "No",
+          "spans": [
+            {
+              "offset": 834,
+              "length": 2
+            }
+          ],
+          "confidence": 0.961,
+          "source": "D(1,779.0000,894.0000,811.0000,894.0000,811.0000,916.0000,779.0000,916.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "None",
+          "spans": [
+            {
+              "offset": 913,
+              "length": 4
+            }
+          ],
+          "confidence": 0.965,
+          "source": "D(1,849.0000,935.0000,910.0000,935.0000,910.0000,958.0000,849.0000,958.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "John R. abbatt.",
+          "spans": [
+            {
+              "offset": 1598,
+              "length": 15
+            }
+          ],
+          "confidence": 0.854,
+          "source": "D(1,713.4734,1275.0424,976.9090,1267.7247,978.4433,1322.9599,715.0077,1330.2776)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "Bolamana",
+          "spans": [
+            {
+              "offset": 2387,
+              "length": 8
+            }
+          ],
+          "confidence": 0.434,
+          "source": "D(1,456.0000,1657.0000,812.0000,1655.0000,812.0000,1699.0000,456.0000,1704.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "Capt. R.H.L.I.",
+          "spans": [
+            {
+              "offset": 2453,
+              "length": 14
+            }
+          ],
+          "confidence": 0.822,
+          "source": "D(1,574.0000,1730.0000,787.0000,1730.0000,787.0000,1756.0000,574.0000,1756.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Hamilcon",
+          "spans": [
+            {
+              "offset": 2346,
+              "length": 8
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,279.0000,1640.0000,396.0000,1639.0000,396.0000,1662.0000,278.0000,1662.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "2019-04-09",
+          "spans": [
+            {
+              "offset": 2361,
+              "length": 3
+            },
+            {
+              "offset": 2365,
+              "length": 7
+            },
+            {
+              "offset": 2373,
+              "length": 5
+            },
+            {
+              "offset": 2379,
+              "length": 6
+            }
+          ],
+          "confidence": 0.177,
+          "source": "D(1,602.0000,1639.0000,651.0000,1640.0000,651.0000,1662.0000,602.0000,1662.0000);D(1,743.0000,1632.0000,801.0000,1632.0000,801.0000,1654.0000,743.0000,1654.0000);D(1,897.0000,1638.0000,970.0000,1637.0000,970.0000,1663.0000,897.0000,1665.0000);D(1,1113.1692,1630.6462,1175.2000,1638.4000,1171.9538,1664.3692,1109.9231,1656.6154)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "John R. abbatt.",
+          "spans": [
+            {
+              "offset": 1598,
+              "length": 15
+            }
+          ],
+          "confidence": 0.454,
+          "source": "D(1,713.4734,1275.0424,976.9090,1267.7247,978.4433,1322.9599,715.0077,1330.2776)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "John R. abHarl",
+          "spans": [
+            {
+              "offset": 1776,
+              "length": 14
+            }
+          ],
+          "confidence": 0.842,
+          "source": "D(1,565.6915,1418.9859,791.9925,1417.1001,792.3010,1454.1142,566.0000,1456.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "TRIPLICATE",
+          "spans": [
+            {
+              "offset": 19,
+              "length": 10
+            }
+          ],
+          "confidence": 0.519,
+          "source": "D(1,195.0000,229.0000,316.0000,228.0000,316.0000,246.0000,195.0000,246.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.0005,
+          "width": 1386,
+          "height": 2055
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

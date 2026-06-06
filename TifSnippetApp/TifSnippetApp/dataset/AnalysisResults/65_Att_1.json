@@ -1,0 +1,388 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:18:23Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: AIR FORCE No. R. 70976 -->\n<!-- PageHeader: No. 2 Manning Depot, POSTED TO BRANDON, Manitoba. -->\n<!-- PageHeader: Pilot or Observer TRADE. (Standard) -->\n\n\n# SPECIAL RESEROYAL CANADIAN AIR FORCE (ATTESTATION PAPER) (Pages one and two, only, are to be completed in Applicant's own Handwriting)\n\nSurname\nadair\n\nFULL Christian Names.\narthur Dunham\n\n2\\. Present Address\nPercival, Sask.\n\nTelephone 80/2\n\n3\\. Permanent Address.\n7 airlight sask.\n\n4\\. Place of Birth\n7 airlight, sash.\n\nCitizenship\nCanadian:\n\n5\\. Date of Birth\nSan. 30th/1916 Married, Single, Widower, Separated, Divorced.\nlingle\n\n6\\. Particulars of Children none.\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td>na</td>\n<td>na</td>\n<td>na</td>\n<td>na</td>\n</tr>\n<tr>\n<td>na</td>\n<td>na</td>\n<td>na</td>\n<td>nao</td>\n</tr>\n<tr>\n<td>na</td>\n<td>na</td>\n<td>na-</td>\n<td>ma</td>\n</tr>\n<tr>\n<td>na</td>\n<td>na</td>\n<td>na</td>\n<td>na</td>\n</tr>\n</table>\n\n\n7\\. Occupation.\nJeacher\n\n8\\. Religion\nUnited church\n\n9\\. Languages.\n\nEnglish (nat\u00e4ve) French(Grade 12) Latin (trade12)\n\nmr. Ki State prolicieney\n\n10\\. Next of Kin (Full Name) lames Vadair\n\nRelationship\n7 attes\n\n\" Address\n7 airlight\nhek illyfry\nSask.\n\n11\\. Father (Full Name)\nlames adais\n\nBirthplace.\nJanwarth, Onto.\n\n\" Address\nHairlight, lask.\n\nCitizenship\nCanadian d\n\n\" Occupationformer\n\n12\\. Mother (Full Maiden Name) annie Dunham Birthplace North Brook Ont\n\"\nAddress\nFairlight, Sark.\n\nCitizenship\nCanadian (21G%)\n\n13\\. Details of any Naval, Military or Air Force Service:\n\n\n<table>\n<tr>\n<th rowspan=\"2\">Unit</th>\n<th rowspan=\"2\">Place</th>\n<th rowspan=\"2\">Rank</th>\n<th rowspan=\"2\">Trade</th>\n<th colspan=\"2\">Date</th>\n<th rowspan=\"2\">Reason for discharge</th>\n</tr>\n<tr>\n<th>From</th>\n<th>To</th>\n</tr>\n<tr>\n<td>101at Battery</td>\n<td>mooromin</td>\n<td>Bunner</td>\n<td>na</td>\n<td>pray 938</td>\n<td>June<br>1940</td>\n<td>20 Joni RCA7</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td>DC</td>\n<td>AD-</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td>\u0661<br>inntei</td>\n<td></td>\n<td></td>\n<td>Urrice</td>\n</tr>\n</table>\n\n\n14\\. Honours, Awards, Mentions\nna ymp\nlu\n\n15\\. Are you now on any Naval, Military or Air Force Reserve?.\ngfll tm\n\n16\\. Have you previously made application to join the I\nR.C.A.F.? no\n\nIf so, where? Na\n\nWhen?\nna\n\nResult\nna\n\n17\\. Were you ever discharged from any branch of His Majesty's Forces as Medically Unfit?\nIno\nIf so, state nature of disability\nna\n.\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension?\nno\n\nIf so, state nature of Disability.\nna\n\n19\\. Have you ever been convicted of an indictable offence?\nno\nIf so state nature na\n\n20\\. Are you in debt?\nno\nIf so, state particulars\nna\n\n<!-- PageFooter: R.C.A.F. Form R. 100 100M-2-40 (3924) H.Q. 1082-3-88 -->\n<!-- PageNumber: 43-319 -->\n<!-- PageFooter: EK -->\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "R. 70976",
+          "spans": [
+            {
+              "offset": 31,
+              "length": 8
+            }
+          ],
+          "confidence": 0.815,
+          "source": "D(1,313.0256,180.9366,414.9790,177.3966,415.9751,206.0842,314.0217,209.6242)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "adair",
+          "spans": [
+            {
+              "offset": 320,
+              "length": 5
+            }
+          ],
+          "confidence": 0.742,
+          "source": "D(1,313.0000,406.0000,466.0000,405.0000,466.0000,453.0000,312.0000,453.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "arthur Dunham",
+          "spans": [
+            {
+              "offset": 349,
+              "length": 13
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,901.0054,402.4578,1339.1655,404.0006,1338.9928,453.0422,900.8327,451.4994)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "Percival, Sask.",
+          "spans": [
+            {
+              "offset": 384,
+              "length": 15
+            }
+          ],
+          "confidence": 0.916,
+          "source": "D(1,483.1153,450.9978,873.1128,451.9752,872.9976,497.9774,483.0000,497.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1991-01-30",
+          "spans": [
+            {
+              "offset": 537,
+              "length": 14
+            }
+          ],
+          "confidence": 0.781,
+          "source": "D(1,364.2612,593.9953,668.0132,595.9300,667.7520,636.9347,364.0000,635.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "sash.",
+          "spans": [
+            {
+              "offset": 489,
+              "length": 5
+            }
+          ],
+          "confidence": 0.716,
+          "source": "D(1,716.0000,541.0000,849.0000,541.0000,849.0000,586.0000,716.0000,586.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "7 airlight",
+          "spans": [
+            {
+              "offset": 477,
+              "length": 10
+            }
+          ],
+          "confidence": 0.892,
+          "source": "D(1,398.0395,537.2759,655.6520,541.0094,654.9460,589.7239,397.3335,585.9903)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Onto.",
+          "spans": [
+            {
+              "offset": 1295,
+              "length": 5
+            }
+          ],
+          "confidence": 0.826,
+          "source": "D(1,1233.0000,1080.0000,1365.0000,1080.0000,1365.0000,1127.0000,1233.0000,1127.0000)"
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Janwarth",
+          "spans": [
+            {
+              "offset": 1285,
+              "length": 8
+            }
+          ],
+          "confidence": 0.741,
+          "source": "D(1,1026.0000,1084.0000,1220.0000,1081.0000,1220.0000,1127.0000,1026.0000,1128.0000)"
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ont",
+          "spans": [
+            {
+              "offset": 1441,
+              "length": 3
+            }
+          ],
+          "confidence": 0.739,
+          "source": "D(1,1253.0000,1212.0000,1386.0000,1211.0000,1386.0000,1259.0000,1253.0000,1260.0000)"
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "North Brook",
+          "spans": [
+            {
+              "offset": 1429,
+              "length": 11
+            }
+          ],
+          "confidence": 0.738,
+          "source": "D(1,992.7994,1214.0521,1239.0000,1213.0000,1239.2029,1260.4735,993.0022,1261.5256)"
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "Canadian",
+          "spans": [
+            {
+              "offset": 508,
+              "length": 9
+            }
+          ],
+          "confidence": 0.739,
+          "source": "D(1,1069.0456,545.5379,1337.6942,550.5129,1336.9081,592.9613,1068.2595,587.9863)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "United church",
+          "spans": [
+            {
+              "offset": 1023,
+              "length": 13
+            }
+          ],
+          "confidence": 0.866,
+          "source": "D(1,1032.0020,892.4161,1342.1801,893.5006,1341.9980,945.5769,1031.8200,944.4924)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Jeacher",
+          "spans": [
+            {
+              "offset": 1001,
+              "length": 7
+            }
+          ],
+          "confidence": 0.937,
+          "source": "D(1,443.0000,899.0000,612.0000,898.0000,612.0000,945.0000,443.0000,943.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "lingle",
+          "spans": [
+            {
+              "offset": 599,
+              "length": 6
+            }
+          ],
+          "confidence": 0.723,
+          "source": "D(1,1187.0000,590.0000,1343.0000,590.0000,1343.0000,645.0000,1187.0000,643.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "spans": [
+            {
+              "offset": 635,
+              "length": 4
+            }
+          ],
+          "confidence": 0.919,
+          "source": "D(1,443.0000,648.0000,547.0000,649.0000,547.0000,681.0000,442.0000,681.0000)"
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "lames Vadair",
+          "spans": [
+            {
+              "offset": 1160,
+              "length": 12
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,443.0000,1001.0000,725.0000,1001.0000,725.0000,1037.0000,443.0000,1037.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "7 attes",
+          "spans": [
+            {
+              "offset": 1187,
+              "length": 7
+            }
+          ],
+          "confidence": 0.883,
+          "source": "D(1,1071.0349,992.5576,1242.6284,995.0090,1242.0000,1039.0000,1070.4064,1036.5487)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "7 airlight\nhek illyfry\nSask.",
+          "spans": [
+            {
+              "offset": 1206,
+              "length": 10
+            },
+            {
+              "offset": 1217,
+              "length": 11
+            },
+            {
+              "offset": 1229,
+              "length": 5
+            }
+          ],
+          "confidence": 0.736,
+          "source": "D(1,552.2068,1035.8247,809.2105,1037.0010,809.0000,1083.0000,551.9962,1081.8238);D(1,600.0060,1072.3922,762.2257,1073.9826,761.9844,1098.5881,599.7647,1096.9977);D(1,902.0000,1036.0000,1061.0000,1036.0000,1061.0000,1080.0000,902.0000,1080.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "101at Battery mooromin Bunner na pray 938 June\n1940 20 Joni RCA7",
+          "spans": [
+            {
+              "offset": 1801,
+              "length": 13
+            },
+            {
+              "offset": 1824,
+              "length": 8
+            },
+            {
+              "offset": 1842,
+              "length": 6
+            },
+            {
+              "offset": 1858,
+              "length": 2
+            },
+            {
+              "offset": 1870,
+              "length": 8
+            },
+            {
+              "offset": 1888,
+              "length": 4
+            },
+            {
+              "offset": 1896,
+              "length": 4
+            },
+            {
+              "offset": 1910,
+              "length": 12
+            }
+          ],
+          "confidence": 0.22,
+          "source": "D(1,117.5594,1454.1979,352.5378,1457.0064,351.9784,1503.8085,117.0000,1501.0000);D(1,459.0000,1457.0000,611.0000,1456.0000,611.0000,1493.0000,459.0000,1494.0000);D(1,644.0000,1452.0000,784.0000,1452.0000,784.0000,1491.0000,643.0000,1489.0000);D(1,839.0000,1463.0000,936.0000,1463.0000,936.0000,1488.0000,839.0000,1488.0000);D(1,985.0000,1462.0000,1074.0000,1462.0000,1074.0000,1502.0000,985.0000,1502.0000);D(1,1067.0000,1451.0000,1120.0000,1451.0000,1120.0000,1469.0000,1067.0000,1469.0000);D(1,1087.0000,1464.0000,1142.0000,1465.0000,1142.0000,1500.0000,1087.0000,1500.0000);D(1,1156.0886,1456.8119,1352.9822,1452.2330,1353.8935,1491.4211,1157.0000,1496.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0,
+          "width": 1504,
+          "height": 2325
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

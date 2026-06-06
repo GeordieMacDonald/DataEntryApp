@@ -1,0 +1,393 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:21:03Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Recelved\nNOV 21 1941\nChecked\n\nE Card\n\nObservations\n\nORINNHL\nDUPLICATE\nTRIREKCATE\n(To be completed in triplicate. Copy designation to be shown by striking out terms fiol applicable.)\n\nUnit ES IX SCOTTISH REG INENT\nRegimental Number\n\n\u5e36\nA-22993\n\n\n# CANADIAN ACTIVE SERVICE FORCE ATTESTATION PAPER\n\n0FE\n\n1\\. Surname\nADAIR\n\n2\\. Christian Names\nKENNETH ALEXANDER\n\n3\\. Present address.\n1108 GILES.BLVD.WINDSCR, ONTARIO\n\n4\\. Date of birth\nAPRIL 6th 1922\n\n5\\. Place of birth\n(Country)\nGGNADA\n(County or Province)\nONTARTO\n(Towa or Township)\nLONDON\n\n6\\. Religion (state denomination)\nBARTIST\n\n7\\. Trade or Calling\nMACHTNISR\n\nS. Married, Widower or Single\nSINGLE\n\n9\\. Name of next of kin.\nMRS. DOROTHY STOOKDALE\n\n10\\. Relationship\nMOTEER\nghueo\n\n11\\. Address of next of kin\n286 Lincoln Rd\nNDCON, ONEARIO\n\n12\\. Do you belong to, or have you served in the Active Militia of Canada?.\nNO\n\n(If Yes, Give Unit and Dates of Service)\n\n13\\. Have you served in (a) The Canadian Active Service Force?\n350\n(Yes or No)\n\nForce?\n(If Yea, Give Regimental No. and Unit)\n(b) Any other Naval, Military, or Air\nNO\n\n14\\. Did you serve during the Great War 1914-1918?\n(Yes or No) (If Yes, specify Unit and Period of Service)\nNO\n\n(If Yes, specity Regimental No., Unit and Dates of Service)\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nKENNETH ALEXANDER ADAIR\ndo solemnly declare that the above\nparticulars are true, and I hereby engage to serve in the Canadian Active Service Force so long as an emergency,\ni.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the period of demobilization after\nsaid emergency ceases to exist, and in any event for a period of not less than one year, provided His' Majesty\nshould so require my services.\n\nDate.\nFEBRUARY 8th 1941\n\\* fhumeth 6 cis /\n(Signature of reeruit)\n\nOATH TO BE TAKEN BY MAN ON ATTESTATION\nI,\n\u2022 KENNETH ALEXANDER ADAIR\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\n\nY kinneti Alexander Balain.\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nat\nWINDSOR, ONTARIO\nthis.\n8th\nday of.\nFEBRUARY\n19\n41\nDat Lnmi\nMAJOR\n\nCOMMANDING.NO.1.DISTRICT SUB DEPOT (AP)\nWINDSOR, QNTARIO.\n\nSignature of Magistrate, Justice\nor Attesting Officer.\nOffice or Rank and Unit\n1\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\nFINCERFANTED\n\nA\n\nM.F.M. 2\nA.F.B. 271\n450M-5-40 (5287)\nIH.Q. 1772-30-1645\n\nNSG\nCOMPLETED\nBITNES, gchndrw.\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "A-22993",
+          "spans": [
+            {
+              "offset": 234,
+              "length": 7
+            }
+          ],
+          "confidence": 0.98,
+          "source": "D(1,1070.0000,293.0000,1164.0000,293.0000,1164.0000,317.0000,1070.0000,317.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ADAIR",
+          "spans": [
+            {
+              "offset": 312,
+              "length": 5
+            }
+          ],
+          "confidence": 0.975,
+          "source": "D(1,649.0000,436.0000,791.0000,437.0000,791.0000,462.0000,649.0000,461.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "KENNETH ALEXANDER",
+          "spans": [
+            {
+              "offset": 339,
+              "length": 17
+            }
+          ],
+          "confidence": 0.811,
+          "source": "D(1,647.0000,478.0000,910.0000,478.0000,910.0000,507.0000,647.0000,507.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "1108 GILES.BLVD.WINDSCR, ONTARIO",
+          "spans": [
+            {
+              "offset": 379,
+              "length": 32
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,649.0029,523.3604,1124.1194,525.5005,1123.9961,552.8648,648.8796,550.7247)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1922-04-06",
+          "spans": [
+            {
+              "offset": 431,
+              "length": 14
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,649.0000,572.0000,864.0000,572.0000,864.0000,598.0000,649.0000,598.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "GGNADA",
+          "spans": [
+            {
+              "offset": 476,
+              "length": 6
+            }
+          ],
+          "confidence": 0.941,
+          "source": "D(1,390.0000,617.0000,485.0000,617.0000,485.0000,641.0000,390.0000,642.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "ONTARTO",
+          "spans": [
+            {
+              "offset": 504,
+              "length": 7
+            }
+          ],
+          "confidence": 0.908,
+          "source": "D(1,649.0000,615.0000,758.0000,615.0000,758.0000,640.0000,649.0000,640.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "LONDON",
+          "spans": [
+            {
+              "offset": 531,
+              "length": 6
+            }
+          ],
+          "confidence": 0.954,
+          "source": "D(1,983.0000,614.0000,1080.0000,613.0000,1080.0000,638.0000,983.0000,638.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "BARTIST",
+          "spans": [
+            {
+              "offset": 573,
+              "length": 7
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,649.0000,663.0000,759.0000,662.0000,759.0000,685.0000,649.0000,685.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "MACHTNISR",
+          "spans": [
+            {
+              "offset": 603,
+              "length": 9
+            }
+          ],
+          "confidence": 0.87,
+          "source": "D(1,647.0000,708.0000,791.0000,708.0000,791.0000,732.0000,647.0000,732.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "SINGLE",
+          "spans": [
+            {
+              "offset": 644,
+              "length": 6
+            }
+          ],
+          "confidence": 0.961,
+          "source": "D(1,648.0000,753.0000,743.0000,753.0000,743.0000,777.0000,648.0000,777.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "MRS. DOROTHY STOOKDALE",
+          "spans": [
+            {
+              "offset": 677,
+              "length": 22
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,647.0000,794.0000,973.0000,794.0000,973.0000,824.0000,647.0000,824.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "MOTEER",
+          "spans": [
+            {
+              "offset": 719,
+              "length": 6
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,649.0000,846.0000,746.0000,845.0000,746.0000,868.0000,649.0000,869.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "286 Lincoln Rd\nNDCON, ONEARIO",
+          "spans": [
+            {
+              "offset": 761,
+              "length": 14
+            },
+            {
+              "offset": 776,
+              "length": 14
+            }
+          ],
+          "confidence": 0.817,
+          "source": "D(1,642.0000,871.0000,856.1263,871.9645,855.9945,901.2117,641.8683,900.2472);D(1,913.0000,886.0000,1125.9879,883.1088,1126.4088,914.1166,913.4209,917.0079)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "fhumeth 6 cis /",
+          "spans": [
+            {
+              "offset": 1765,
+              "length": 15
+            }
+          ],
+          "confidence": 0.384,
+          "source": "D(1,693.0000,1386.0000,1048.0000,1386.0000,1048.0000,1434.0000,693.0000,1434.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "Dat Lnmi",
+          "spans": [
+            {
+              "offset": 2623,
+              "length": 8
+            }
+          ],
+          "confidence": 0.511,
+          "source": "D(1,527.0000,1767.0000,830.0000,1767.0000,830.0000,1842.0000,527.0000,1842.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "MAJOR\n\nCOMMANDING.NO.1.DISTRICT SUB DEPOT (AP)\nWINDSOR, QNTARIO.",
+          "spans": [
+            {
+              "offset": 2632,
+              "length": 5
+            },
+            {
+              "offset": 2639,
+              "length": 39
+            },
+            {
+              "offset": 2679,
+              "length": 17
+            }
+          ],
+          "confidence": 0.602,
+          "source": "D(1,837.0000,1799.0000,919.0000,1798.0000,919.0000,1823.0000,837.0000,1825.0000);D(1,336.0000,1850.0000,934.0000,1850.0000,934.0000,1878.0000,336.0000,1878.0000);D(1,337.0027,1880.4206,583.1188,1881.5706,582.9970,1907.6495,336.8808,1906.4994)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "WINDSOR, ONTARIO",
+          "spans": [
+            {
+              "offset": 2573,
+              "length": 16
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,246.0000,1754.0000,478.0000,1754.0000,478.0000,1779.0000,246.0000,1779.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1941-02-08",
+          "spans": [
+            {
+              "offset": 1744,
+              "length": 17
+            }
+          ],
+          "confidence": 0.37,
+          "source": "D(1,287.0000,1397.0000,551.0000,1397.0000,551.0000,1425.0000,287.0000,1425.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "fhumeth 6 cis /",
+          "spans": [
+            {
+              "offset": 1765,
+              "length": 15
+            }
+          ],
+          "confidence": 0.232,
+          "source": "D(1,693.0000,1386.0000,1048.0000,1386.0000,1048.0000,1434.0000,693.0000,1434.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Y kinneti Alexander Balain.",
+          "spans": [
+            {
+              "offset": 1992,
+              "length": 27
+            }
+          ],
+          "confidence": 0.498,
+          "source": "D(1,498.0000,1536.0000,994.0000,1536.0000,994.0000,1573.0000,498.0000,1573.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "BITNES, gchndrw.",
+          "spans": [
+            {
+              "offset": 3040,
+              "length": 16
+            }
+          ],
+          "confidence": 0.432,
+          "source": "D(1,196.0000,1425.0000,555.0000,1425.0000,555.0000,1450.0000,196.0000,1450.0000)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "DUPLICATE\nTRIREKCATE",
+          "spans": [
+            {
+              "offset": 60,
+              "length": 9
+            },
+            {
+              "offset": 70,
+              "length": 10
+            }
+          ],
+          "confidence": 0.479,
+          "source": "D(1,197.0000,212.0000,311.0000,212.0000,311.0000,232.0000,197.0000,231.0000);D(1,198.0000,232.0000,317.0000,234.0000,317.0000,252.0000,198.0000,251.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.587
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.10515,
+          "width": 1479,
+          "height": 2201
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

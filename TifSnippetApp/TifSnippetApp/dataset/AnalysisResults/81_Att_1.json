@@ -1,0 +1,357 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:25:17Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: J21975 AIR F E No. R. 150789 -->\n<!-- PageHeader: POSTED TO # 3 Recruiting Centre, EDMONTON -->\n<!-- PageHeader: AIRCREW (PILOT OR TRADE OBSERVER) STANDARD -->\n\n\n# ROYAL CANADIAN AIR FORCE (ATTESTATION PAPER) (Pages one and two, only, are to be completed in Applicant's own Handwriting)\n\n1\\. Surname\nADAM\n\nFULL Christian Names.\nTHOMAS WILKIE\n\n2\\. Present Address\n9262-110 A Ave.\nEDMONTON ALBERTA\n\nTelephone\n22357\n\na\n\nermanent Address.\n9262-110 A Ave., EDMONTON ALBERTA\n\n4\\. Place of Birth\nEDMONTON ALBERTA\n\nCitizenship\nCANADIAN\n\n5\\. Date of Birth\nMARCH 30 1921\n\nMarried, Single, Widower, Separated, Divorced.\nSINGLE\n\nV\n\n6\\. Particulars of Children\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td>NONE</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td>COPIED</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td>COPIE.</td>\n</tr>\n</table>\n\n\n7\\. Occupation\nACCOUNTING.\n\n8\\. Religion\nANGLICAN\nState denomination\n\n9\\. Languages.\nENGLISH\nSARAY WINIFRED\nState proficiency\n\n10\\. Next of Kin (Full Name)\nMRS. ELSIE THOMPSON\n\nRelationship\nMOTHER\n\n\"\nAddress\n9262-110 A Ave., EDMONTON ALBERTA\n\n11\\. Father (Full Name)\nTHOMAS WILKIE ADAM\n\nBirthplace.\nENGLAND\n\n\" Address\nDECEASED\n\nCitizenship\nBRITISH\n\n\"Occupation\nBAKER\n\nSARAH\n\n12\\. Mother (Full Maiden Name)\nELSIE WINIFRED COX\n\nBirthplace.\nBRISTOL ENGLAND\n\n\u00ab\nAddress.\n9262-110 A Ave., EDMONTON\nAl ta\nCitizenship\nBRITISH\n\n13\\. Details of any Naval, Military or Air Force Service:\n\n\n<table>\n<tr>\n<th rowspan=\"2\">Unit</th>\n<th rowspan=\"2\">Place</th>\n<th rowspan=\"2\">Rank</th>\n<th rowspan=\"2\">Trade</th>\n<th>Date</th>\n<th colspan=\"2\" rowspan=\"2\">Reason for discharge</th>\n</tr>\n<tr>\n<th>From<br>To</th>\n</tr>\n<tr>\n<td>NONE</td>\n<td></td>\n<td></td>\n<td>R.</td>\n<td>C.A.F. lecor\u0107</td>\n<td>s Office</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td>Ree</td>\n<td>d. FEX</td>\n<td>4942</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td>0.</td>\n<td>K TOW<br>..C.I.E</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td>R.</td>\n<td>D. B1<br>NW</td>\n<td>mat.</td>\n<td></td>\n</tr>\n</table>\n\n\n14\\. Honours, Awards, Mentions.\nNONE\n\nS.L\nP A..\n\n15\\. Are you now on any Naval, Military or Air Force Reserve?.\nNO\n\n16\\. Have you previously made application to join the R.C.A.F.?\nNO\nIf so, where?\nN.A.\n\nWhen?\nN.A.\n\nResult\nN.A.\n\n17\\. Were you ever discharged from any branch of His Majesty's Forces as Medically Unfit? N\nNO\n\nIf so, state nature of disability\nN.A.\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension?\nNO\n\nIf so, state nature of Disability\nN.A.\n\n19\\. Have you ever been convicted of an indictable offence?\nNO\n\nIf so state nature.\nN.A.\n\n20\\. Are you in debt?\nNO\n\nIf so, state particulars.\nN.A.\n\n<!-- PageFooter: R.C.A.B. Form R. 100 400M-6-40 (5789) H.Q. 1062-3-88 -->\n<!-- PageFooter: 384.50 -->\n\npa\n\n\n![](figures/1.1)\n\n\n<!-- PageHeader: SPECIAL RESERV\u00c8 parp -->\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "R. 150789",
+          "spans": [
+            {
+              "offset": 36,
+              "length": 9
+            }
+          ],
+          "confidence": 0.264,
+          "source": "D(1,368.0000,191.0000,504.0000,191.0000,504.0000,221.0000,368.0000,221.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ADAM",
+          "spans": [
+            {
+              "offset": 317,
+              "length": 4
+            }
+          ],
+          "confidence": 0.98,
+          "source": "D(1,344.0000,438.0000,408.0000,438.0000,408.0000,464.0000,344.0000,464.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "THOMAS WILKIE",
+          "spans": [
+            {
+              "offset": 345,
+              "length": 13
+            }
+          ],
+          "confidence": 0.946,
+          "source": "D(1,1013.0333,438.8900,1210.4578,442.0072,1209.9825,472.1102,1012.5580,468.9930)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "9262-110 A Ave.\nEDMONTON ALBERTA",
+          "spans": [
+            {
+              "offset": 380,
+              "length": 15
+            },
+            {
+              "offset": 396,
+              "length": 16
+            }
+          ],
+          "confidence": 0.879,
+          "source": "D(1,489.1110,492.6695,707.0191,498.2569,706.2418,528.5703,488.3338,522.9829);D(1,738.0003,499.9655,974.2327,502.0020,973.9920,529.9310,737.7595,527.8945)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1921-03-30",
+          "spans": [
+            {
+              "offset": 564,
+              "length": 13
+            }
+          ],
+          "confidence": 0.905,
+          "source": "D(1,384.0000,636.0000,578.0000,636.0000,578.0000,664.0000,384.0000,664.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.662
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "ALBERTA",
+          "spans": [
+            {
+              "offset": 515,
+              "length": 7
+            }
+          ],
+          "confidence": 0.961,
+          "source": "D(1,589.0000,593.0000,697.0000,594.0000,697.0000,619.0000,589.0000,620.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "EDMONTON",
+          "spans": [
+            {
+              "offset": 506,
+              "length": 8
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,458.0000,592.0000,576.0000,593.0000,576.0000,620.0000,458.0000,618.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "ENGLAND",
+          "spans": [
+            {
+              "offset": 1290,
+              "length": 7
+            }
+          ],
+          "confidence": 0.958,
+          "source": "D(1,1114.0000,1177.0000,1219.0000,1177.0000,1219.0000,1202.0000,1114.0000,1202.0000)"
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "ENGLAND",
+          "spans": [
+            {
+              "offset": 1437,
+              "length": 7
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,1214.0000,1320.0000,1321.0000,1321.0000,1321.0000,1348.0000,1214.0000,1347.0000)"
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "BRISTOL",
+          "spans": [
+            {
+              "offset": 1429,
+              "length": 7
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,1098.0000,1321.0000,1202.0000,1320.0000,1202.0000,1347.0000,1098.0000,1347.0000)"
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "CANADIAN",
+          "spans": [
+            {
+              "offset": 536,
+              "length": 8
+            }
+          ],
+          "confidence": 0.829,
+          "source": "D(1,1188.0000,598.0000,1308.0000,599.0000,1308.0000,626.0000,1188.0000,625.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "ANGLICAN",
+          "spans": [
+            {
+              "offset": 1032,
+              "length": 8
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,1087.0000,981.0000,1208.0000,981.0000,1208.0000,1008.0000,1087.0000,1008.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "ACCOUNTING.",
+          "spans": [
+            {
+              "offset": 1006,
+              "length": 11
+            }
+          ],
+          "confidence": 0.868,
+          "source": "D(1,385.0925,977.9969,536.0017,978.5137,535.9092,1005.5168,385.0000,1005.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "SINGLE",
+          "spans": [
+            {
+              "offset": 626,
+              "length": 6
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,1289.0000,642.0000,1383.0000,644.0000,1383.0000,669.0000,1289.0000,668.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "valueInteger": 0,
+          "spans": [
+            {
+              "offset": 769,
+              "length": 4
+            }
+          ],
+          "confidence": 0.51,
+          "source": "D(1,295.0000,802.0000,360.0000,803.0000,360.0000,828.0000,295.0000,828.0000)"
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "MRS. ELSIE THOMPSON",
+          "spans": [
+            {
+              "offset": 1147,
+              "length": 19
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,527.0000,1072.0000,813.0000,1072.0000,813.0000,1100.0000,527.0000,1100.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "MOTHER",
+          "spans": [
+            {
+              "offset": 1181,
+              "length": 6
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,1213.0000,1075.0000,1309.0000,1076.0000,1309.0000,1100.0000,1213.0000,1099.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "9262-110 A Ave., EDMONTON ALBERTA",
+          "spans": [
+            {
+              "offset": 1199,
+              "length": 33
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,499.0000,1121.0000,985.0000,1121.0000,985.0000,1153.0000,499.0000,1153.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "NONE",
+          "spans": [
+            {
+              "offset": 1803,
+              "length": 4
+            }
+          ],
+          "confidence": 0.781,
+          "source": "D(1,276.0000,1566.0000,342.0000,1567.0000,341.0000,1593.0000,276.0000,1593.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "valueString": "NONE",
+          "spans": [
+            {
+              "offset": 2236,
+              "length": 4
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,758.0000,1740.0000,825.0000,1740.0000,825.0000,1764.0000,758.0000,1764.0000)"
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.1661016,
+          "width": 1594,
+          "height": 2466
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

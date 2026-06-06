@@ -1,0 +1,473 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:07:24Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "IDENTIFICATION CARD ISSUED\n. D4Sind. MAR 28.1944\nChecked\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\u0661\nby striking out terms not applicable.\n\nM.F.M. 2\n(Combining M.F.M. 103,\n750M-6-43 (9375)\nH.Q. 1772-39-1645\n\nWSG\nCOMPLETED\n\nCorps #10 District Depot (General List)\n\n\n# CANADIAN ARMY ENROLMENT AND ATTESTATION PAPER\n\nRalph Bernard\n212\n\n1\\.\n\nAANDAL\n(Surname),\n1341 Wolseley Avenue, Winnipeg,\n(Christian Names)\nManiSoba. Canada.\n\n2\\. Present Address\nS ptember 2nd. 1925\n\n3\\. (a) Date of birth\nCANADA\n\n(County or Province)\nSASKATCHEWAN\n(Town or Towaship)\nUSTO\n\n(a) Place of birth of Father\nDAKOBA UNKNOW!\n\n(Country)\nCANADA\n(County or Province)\n(Town or Township)\n\n5\\. Nationality\n\n(To what country do you now owe allegiance) if naturalized give certif. no. dato and place of issue. If not naturalised so state.\n\n6\\. Religion (state denomination)\nLutheran\n\n7\\. Trade or calling (a)\nCafe Proprietor\n\n(a) Name and address of last employer :\nWorked for Self.\nn-a\n\n(b) How long employed\nn-a\n\n9\\. Married, Widower or Single\nSingle\nIf married, how many children\nnil\n\n10\\. Name of Next-of-Kin\nMrs. Clara AANDAL\n\n11\\. Relationship\n\n12\\. Address of Next-of-Kin\n1341 Wolseley Avenue, Winnipeg, Manitoba. Canada.\n\n13\\. Previous Service (Navy, Army or Air Force) Units and dates\nn11\n(seechage Page 2)\n\n14\\. (a) Former war service\nn11\n\n(b) In the armed forces of what country\nnil\n\n(c) Dates of such Service\nnil\nnil\n\n15\\. Decorations and medals, if any\n\n16\\. I do solemnly declare that the above particulars are true\nRalph Bernard Gandal\nSignature of Recruit, or in the case of N.R.M.A. personnel who\nrefuse to sign, signature of officer under Regn. 8 (d) (I)\nR.A.S.R. 1941\n\n16\u03b1 CERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE ATTESTING OR ENROLLING OFFICER\n\nThe above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\nThe above questions and answers were then read to the above named in my presence.\nI have taken care that he understands each question, and that his answer to each question has\nbeen duly entered as replied to,\nat\nWinnipeg, Manitobais\n17th\nday of\nJanuary\n19.\n44\n10 mimandt\n\nLieut.\n\nfor OfC. #10 District Depot (CA)\n\nSignature of Magistrate, Justice Attesting or\nEnrolling Officer.\nOffice or Rank and Unit\nor appointment.\n\nITEMS 17, 18 AND 19 WILL NOT BE COMPLETED UNLESS A MAN ENLISTS FOR GENERAL SERVICE ANYWHERE.\n\n17\\.\nDECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nL\nRalph Bernard AANDAL\nhereby engage to serve in any Active Formation or\nUnit of the Canadian Army so long as an emergency, i.e., war, invasion, riot or insurrection, real or\napprehended, exists, and for the period of demobilization after said emergency ceases to exist, and in\nany event for a period of not less than one year, provided His Majesty should so require my services.\nDate\n17th January 1944\n\n(Signature of Recruit)\nRafch Bernard dandal\n\n18\\.\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI,\nRalph Bernard AANDAL\ndo sincerely promise and swear (or solemnly declare)\nthat I will be faithful and bear true allegiance to His Majesty.\nWitness\n(Name)\nH36779@fSaraka.cpl.\n(Hank)\n(Signature of Recruit)\n1 Ralph Bernard andat\n\n19\\. The above named recruit has made and signed the declaration and taken the oath before me.\nat\nWinnipe, Manitobath\nthis\n17th\nday of\nJanuary\n19\n44\n\n10Htmimung/\nLieut.\n(Signature of Magistrate, Justice or Attesting Officer.)\n\nfor O.C.#10 District Depot (CA)\n(Office or Rank and Unit or appointment)\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON WILFULLY MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT.\n\nsjh\n\nCopy designation to be shown\n\nRegimental Number\nH 18844\n\nPhotographed & Finger Printed\nMA\n\n(b)\nMother\nUNITED STATES OF AMERICA\nNORTH\nSTRONGFILLD\n\n(b) Place of birth\n(Country)\nNORWAY\nUNKNOWN'\nMother\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "H 18844",
+          "spans": [
+            {
+              "offset": 3690,
+              "length": 7
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,1098.0000,195.0000,1210.0000,195.0000,1210.0000,220.0000,1098.0000,220.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "AANDAL",
+          "spans": [
+            {
+              "offset": 327,
+              "length": 6
+            }
+          ],
+          "confidence": 0.723,
+          "source": "D(1,423.0000,294.0000,517.0000,292.0000,517.0000,316.0000,423.0000,319.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Ralph Bernard",
+          "spans": [
+            {
+              "offset": 303,
+              "length": 13
+            }
+          ],
+          "confidence": 0.671,
+          "source": "D(1,922.5612,287.6475,1125.0000,284.0000,1125.4503,308.9919,923.0115,312.6394)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "1341 Wolseley Avenue, Winnipeg, ManiSoba. Canada.",
+          "spans": [
+            {
+              "offset": 345,
+              "length": 31
+            },
+            {
+              "offset": 395,
+              "length": 17
+            }
+          ],
+          "confidence": 0.754,
+          "source": "D(1,497.7746,333.5018,966.9972,329.6558,967.2286,357.8916,498.0060,361.7377);D(1,983.0000,328.0000,1242.0000,328.0000,1242.0000,353.0000,983.0000,353.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1992-01-02",
+          "spans": [
+            {
+              "offset": 434,
+              "length": 19
+            }
+          ],
+          "confidence": 0.522,
+          "source": "D(1,497.7353,367.1198,791.0000,364.0000,791.2698,389.3588,498.0051,392.4787)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "CANADA",
+          "spans": [
+            {
+              "offset": 477,
+              "length": 6
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,497.0000,396.0000,595.0000,396.0000,595.0000,419.0000,497.0000,419.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "SASKATCHEWAN",
+          "spans": [
+            {
+              "offset": 506,
+              "length": 12
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,802.0000,392.0000,991.0000,389.0000,991.0000,413.0000,802.0000,416.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "USTO",
+          "spans": [
+            {
+              "offset": 538,
+              "length": 4
+            }
+          ],
+          "confidence": 0.92,
+          "source": "D(1,1120.0000,433.0000,1187.0000,431.0000,1187.0000,451.0000,1120.0000,453.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "CANADA",
+          "spans": [
+            {
+              "offset": 599,
+              "length": 6
+            }
+          ],
+          "confidence": 0.441,
+          "source": "D(1,591.0000,509.0000,685.0000,510.0000,685.0000,532.0000,591.0000,533.0000)"
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "UNITED STATES OF AMERICA",
+          "spans": [
+            {
+              "offset": 3744,
+              "length": 24
+            }
+          ],
+          "confidence": 0.585,
+          "source": "D(1,590.8673,463.3125,960.9964,461.3226,961.1291,486.0101,591.0000,488.0000)"
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "NORTH",
+          "spans": [
+            {
+              "offset": 3769,
+              "length": 5
+            }
+          ],
+          "confidence": 0.807,
+          "source": "D(1,984.0000,462.0000,1067.0000,461.0000,1067.0000,482.0000,984.0000,483.0000)"
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "STRONGFILLD",
+          "spans": [
+            {
+              "offset": 3775,
+              "length": 11
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,1121.0000,389.0000,1294.0000,386.0000,1294.0000,408.0000,1121.0000,410.0000)"
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Lutheran",
+          "spans": [
+            {
+              "offset": 829,
+              "length": 8
+            }
+          ],
+          "confidence": 0.961,
+          "source": "D(1,607.0000,556.0000,732.0000,555.0000,732.0000,577.0000,607.0000,577.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Cafe Proprietor",
+          "spans": [
+            {
+              "offset": 864,
+              "length": 15
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,515.8433,586.3959,748.9994,584.9108,749.1561,609.5149,516.0000,611.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "valueString": "Worked for Self.\nn-a",
+          "spans": [
+            {
+              "offset": 921,
+              "length": 16
+            },
+            {
+              "offset": 938,
+              "length": 3
+            }
+          ],
+          "confidence": 0.261,
+          "source": "D(1,851.8818,611.2452,1095.9996,609.9185,1096.1209,632.2548,852.0032,633.5815);D(1,942.0000,637.0000,991.0000,637.0000,991.0000,657.0000,942.0000,657.0000)"
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "valueString": "n-a",
+          "spans": [
+            {
+              "offset": 965,
+              "length": 3
+            }
+          ],
+          "confidence": 0.938,
+          "source": "D(1,1141.0000,669.0000,1190.0000,669.0000,1190.0000,688.0000,1141.0000,688.0000)"
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 1001,
+              "length": 6
+            }
+          ],
+          "confidence": 0.924,
+          "source": "D(1,608.0000,700.0000,704.0000,700.0000,704.0000,726.0000,608.0000,726.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "valueInteger": 1,
+          "spans": [
+            {
+              "offset": 1038,
+              "length": 3
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,1143.0000,696.0000,1189.0000,695.0000,1189.0000,718.0000,1143.0000,718.0000)"
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mrs. Clara AANDAL",
+          "spans": [
+            {
+              "offset": 1068,
+              "length": 17
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,500.6815,732.1579,764.9970,728.7693,765.3175,753.7652,501.0020,757.1538)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "1341 Wolseley Avenue, Winnipeg, Manitoba. Canada.",
+          "spans": [
+            {
+              "offset": 1134,
+              "length": 49
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,532.0000,754.0000,1279.0000,754.0000,1279.0000,786.0000,532.0000,786.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "n11",
+          "spans": [
+            {
+              "offset": 1249,
+              "length": 3
+            }
+          ],
+          "confidence": 0.941,
+          "source": "D(1,945.0000,788.0000,993.0000,787.0000,993.0000,811.0000,945.0000,812.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "n11",
+          "spans": [
+            {
+              "offset": 1300,
+              "length": 3
+            }
+          ],
+          "confidence": 0.959,
+          "source": "D(1,993.0000,839.0000,1040.0000,839.0000,1040.0000,864.0000,993.0000,865.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "valueString": "nil",
+          "spans": [
+            {
+              "offset": 1345,
+              "length": 3
+            }
+          ],
+          "confidence": 0.955,
+          "source": "D(1,1037.0000,878.0000,1086.0000,878.0000,1086.0000,900.0000,1037.0000,900.0000)"
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "valueString": "nil",
+          "spans": [
+            {
+              "offset": 1376,
+              "length": 3
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,1085.0000,910.0000,1130.0000,910.0000,1130.0000,934.0000,1085.0000,934.0000)"
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Ralph Bernard Gandal",
+          "spans": [
+            {
+              "offset": 1485,
+              "length": 20
+            }
+          ],
+          "confidence": 0.803,
+          "source": "D(1,854.4056,985.4213,1290.9813,979.6002,1291.5866,1024.9922,855.0108,1030.8132)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "Lieut.",
+          "spans": [
+            {
+              "offset": 2153,
+              "length": 6
+            }
+          ],
+          "confidence": 0.453,
+          "source": "D(1,828.0000,1268.0000,921.0000,1268.0000,921.0000,1293.0000,828.0000,1293.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "for OfC. #10 District Depot (CA)",
+          "spans": [
+            {
+              "offset": 2161,
+              "length": 32
+            }
+          ],
+          "confidence": 0.815,
+          "source": "D(1,278.0000,1303.0000,770.0000,1303.0000,770.0000,1337.0000,278.0000,1337.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Winnipeg, Manitobais",
+          "spans": [
+            {
+              "offset": 2093,
+              "length": 20
+            }
+          ],
+          "confidence": 0.613,
+          "source": "D(1,321.0000,1238.0000,619.0000,1238.0000,619.0000,1266.0000,321.0000,1266.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "2019-01-17",
+          "spans": [
+            {
+              "offset": 2114,
+              "length": 4
+            },
+            {
+              "offset": 2119,
+              "length": 6
+            },
+            {
+              "offset": 2126,
+              "length": 7
+            },
+            {
+              "offset": 2134,
+              "length": 3
+            },
+            {
+              "offset": 2138,
+              "length": 2
+            }
+          ],
+          "confidence": 0.478,
+          "source": "D(1,690.0000,1235.0000,756.0000,1235.0000,756.0000,1260.0000,690.0000,1260.0000);D(1,854.0000,1245.0000,924.0000,1245.0000,924.0000,1269.0000,854.0000,1269.0000);D(1,1012.0000,1232.0000,1123.0000,1232.0000,1123.0000,1257.0000,1012.0000,1257.0000);D(1,1252.0000,1243.0000,1277.0000,1243.0000,1277.0000,1264.0000,1252.0000,1264.0000);D(1,1287.0000,1228.0000,1321.0000,1228.0000,1321.0000,1252.0000,1287.0000,1252.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Rafch Bernard dandal",
+          "spans": [
+            {
+              "offset": 2873,
+              "length": 20
+            }
+          ],
+          "confidence": 0.63,
+          "source": "D(1,856.6607,1516.9420,1268.9802,1512.9518,1269.3196,1548.0259,857.0002,1552.0161)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "1 Ralph Bernard andat",
+          "spans": [
+            {
+              "offset": 3147,
+              "length": 21
+            }
+          ],
+          "confidence": 0.463,
+          "source": "D(1,858.5544,1646.1014,1323.9765,1641.5828,1324.4273,1688.0153,859.0052,1692.5339)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "H36779@fSaraka.cpl.",
+          "spans": [
+            {
+              "offset": 3097,
+              "length": 19
+            }
+          ],
+          "confidence": 0.827,
+          "source": "D(1,386.9509,1656.0014,761.9979,1655.4898,762.0471,1691.4883,387.0000,1692.0000)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.261
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.3231,
+          "width": 1487,
+          "height": 2118
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

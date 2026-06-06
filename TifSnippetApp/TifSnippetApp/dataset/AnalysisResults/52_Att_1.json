@@ -1,0 +1,436 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:12:36Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "SPECIAL RESERVE\n\n<!-- PageHeader: AIR FORCE NO R.129960 -->\n<!-- PageHeader: POSTED TO -->\n<!-- PageHeader: No. 1 Manning Depot Toronto, Ontario -->\n\nTRADE.\nPilot or Observer\n\nMI C\nn\n\n\n# ROYAL CANADIAN AIR FORCE am (ATTESTATION PAPER) (Pages one and two, only, are to be completed in Applicant's own Handwriting)\n\n1\\. Surname\nACKER\nWILL Chrietion Names\nSIDNEY\n\n2\\. Present Address.\n25 George St., Stratfora, Ontario.\n\nTelephone.\n1762\n\n3\\. Permanent Address.\n113 Cambridge St., Guelph, Ontario.\n\n4\\. Place of Birth\nGuelph, Ontario.\nWellington Co.\nCitizenship\nCanadian\n\n5\\. Date of Birth\nApril 2, 1919\n\nMarxted, Single, WrdowuE, Supavated\u00e7Diworvudk\nSingle\n\n6\\. Particulars of Children\nNone\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td>N.A.</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n7\\. Occupation\nStore Manager\n\n8\\. Religion\nHebrew\n\nState denomination\n\n9\\. Languages.\nEnglish, Jewish\n\nState proficiency\n\n10\\. Next of Kin (Full Name)\nMolly Acker\n\nRelationship\nMother\n\n\"\nAddress\n113 Cambridge St., Guelph, Ontario.\n\n11\\. Father (Full Name)\nSAMUEL ACKER\n\nBirthplace.\nStanislaw, Austria\n\n\" Address.\n113 Cambridge St., Guelph, Ont.\nCitizenship\nCanadian\n\n\" Occupation\nPresident of Acker Furniture Co.\n\n12\\. Mother (Full Maiden Name)\nMOLLY LAMPEL\n\nBirthplace.\n\nKalish, Austria\n\n\"\nAddress.\n113 Cambridge St., Guelph, Oht.\nCitizenship\nCanadian\n\n13\\. Details of any Naval, Military or Air Force Service:\n\n\n<table>\n<tr>\n<th rowspan=\"2\">Unit</th>\n<th rowspan=\"2\">Place</th>\n<th rowspan=\"2\">Rank</th>\n<th rowspan=\"2\">Trade</th>\n<th colspan=\"2\">Date</th>\n<th rowspan=\"2\">Reason for discharge</th>\n</tr>\n<tr>\n<th>From</th>\n<th>To</th>\n</tr>\n<tr>\n<td>No. 10 B.T.C.</td>\n<td>Kitchener,</td>\n<td>Ont.<br>Pte.</td>\n<td>N.A.</td>\n<td>oct. 1940</td>\n<td>NOV. 1940</td>\n<td>End of training</td>\n</tr>\n<tr>\n<td>Perth Regiment (RF)</td>\n<td>Stratford,</td>\n<td>Ont.<br>Pte.</td>\n<td>N.A.</td>\n<td>Anr. 1941</td>\n<td>Jen. 1942</td>\n<td>Join R.C.A.F.</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n<table>\n<tr>\n<td>14. Honours, Awards, Mentions. NO</td>\n<td>R.C.A.F.Records Office</td>\n<td></td>\n</tr>\n<tr>\n<td>15. Are you now on any Naval, Military or Air Force Reserve?. as abov</td>\n<td>Ree'd. FEB 3 1942</td>\n<td></td>\n</tr>\n<tr>\n<td>NO<br>16. Have you previously made application to join the R.C.A.F.?</td>\n<td>O. KiNk omarce If so, where?..</td>\n<td></td>\n</tr>\n<tr>\n<td>When? N.A.<br>Result</td>\n<td>H9b7 N1/ml</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>S. L.P. Ao</td>\n<td></td>\n</tr>\n</table>\n\n\n17\\. Were you ever discharged from any branch of His Majesty's Forces as Medically Unfit?\n\nIf so, state nature of disability\nN.A.\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension?\nNO\n\nIf so, state nature of Disability\nN.A.\n\n19\\. Have you ever been convicted of an indictable offence?\nNO\n\nIf so state nature.\nN.A.\n\n20\\. Are you in debt?\nNO\nIf so, state particulars.\nN.A.\n\n<!-- PageFooter: B.O.A.V. Poro R. 100 400X-6-40 (6739) K.Q. 1002-4-83 -->\n<!-- PageFooter: 381- 421 -->\n<!-- PageFooter: GAM -->\n\nL\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "R.129960",
+          "spans": [
+            {
+              "offset": 47,
+              "length": 8
+            }
+          ],
+          "confidence": 0.74,
+          "source": "D(1,329.0000,182.0000,445.0000,182.0000,445.0000,208.0000,329.0000,208.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ACKER",
+          "spans": [
+            {
+              "offset": 326,
+              "length": 5
+            }
+          ],
+          "confidence": 0.824,
+          "source": "D(1,387.0000,423.0000,461.0000,424.0000,461.0000,447.0000,387.0000,446.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "SIDNEY",
+          "spans": [
+            {
+              "offset": 353,
+              "length": 6
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,977.0000,425.0000,1064.0000,427.0000,1064.0000,451.0000,977.0000,449.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "25 George St., Stratfora, Ontario.",
+          "spans": [
+            {
+              "offset": 382,
+              "length": 34
+            }
+          ],
+          "confidence": 0.91,
+          "source": "D(1,429.0000,469.0000,897.0000,469.0000,897.0000,495.0000,429.0000,495.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1919-04-02",
+          "spans": [
+            {
+              "offset": 586,
+              "length": 13
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,360.0000,601.0000,541.0000,601.0000,541.0000,630.0000,360.0000,630.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ontario",
+          "spans": [
+            {
+              "offset": 522,
+              "length": 7
+            }
+          ],
+          "confidence": 0.727,
+          "source": "D(1,495.0000,556.0000,594.0000,557.0000,594.0000,584.0000,495.0000,584.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Guelph",
+          "spans": [
+            {
+              "offset": 514,
+              "length": 6
+            }
+          ],
+          "confidence": 0.98,
+          "source": "D(1,388.0000,555.0000,470.0000,556.0000,470.0000,584.0000,388.0000,583.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Austria",
+          "spans": [
+            {
+              "offset": 1295,
+              "length": 7
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,1207.0000,1102.0000,1308.0000,1103.0000,1308.0000,1128.0000,1207.0000,1128.0000)"
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Stanislaw",
+          "spans": [
+            {
+              "offset": 1284,
+              "length": 9
+            }
+          ],
+          "confidence": 0.96,
+          "source": "D(1,1058.0000,1100.0000,1183.0000,1102.0000,1183.0000,1128.0000,1058.0000,1126.0000)"
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Austria",
+          "spans": [
+            {
+              "offset": 1482,
+              "length": 7
+            }
+          ],
+          "confidence": 0.958,
+          "source": "D(1,1150.0000,1238.0000,1253.0000,1239.0000,1253.0000,1264.0000,1150.0000,1263.0000)"
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Kalish",
+          "spans": [
+            {
+              "offset": 1474,
+              "length": 6
+            }
+          ],
+          "confidence": 0.959,
+          "source": "D(1,1041.0000,1239.0000,1127.0000,1238.0000,1127.0000,1263.0000,1041.0000,1264.0000)"
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "Canadian",
+          "spans": [
+            {
+              "offset": 558,
+              "length": 8
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,1114.0000,561.0000,1226.0000,561.0000,1226.0000,586.0000,1114.0000,586.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Hebrew",
+          "spans": [
+            {
+              "offset": 1045,
+              "length": 6
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,1029.0000,919.0000,1119.0000,920.0000,1119.0000,945.0000,1029.0000,944.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Store Manager",
+          "spans": [
+            {
+              "offset": 1017,
+              "length": 13
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,358.0000,919.0000,542.0000,919.0000,542.0000,946.0000,358.0000,946.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 647,
+              "length": 6
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,1236.0000,615.0000,1322.0000,616.0000,1322.0000,642.0000,1236.0000,642.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "spans": [
+            {
+              "offset": 683,
+              "length": 4
+            }
+          ],
+          "confidence": 0.752,
+          "source": "D(1,466.0000,662.0000,527.0000,662.0000,527.0000,686.0000,466.0000,685.0000)"
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Molly Acker",
+          "spans": [
+            {
+              "offset": 1153,
+              "length": 11
+            }
+          ],
+          "confidence": 0.974,
+          "source": "D(1,508.0000,1008.0000,664.1800,1009.0846,663.9925,1036.0833,507.8125,1034.9987)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Mother",
+          "spans": [
+            {
+              "offset": 1179,
+              "length": 6
+            }
+          ],
+          "confidence": 0.908,
+          "source": "D(1,1057.0000,1011.0000,1145.0000,1012.0000,1145.0000,1039.0000,1057.0000,1037.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "113 Cambridge St., Guelph, Ontario.",
+          "spans": [
+            {
+              "offset": 1197,
+              "length": 35
+            }
+          ],
+          "confidence": 0.937,
+          "source": "D(1,440.0000,1053.0000,922.0000,1053.0000,922.0000,1082.0000,440.0000,1082.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "No. 10 B.T.C., Kitchener, Ont., Pte., N.A., oct. 1940 to NOV. 1940, End of training; Perth Regiment (RF), Stratford, Ont., Pte., N.A., Anr. 1941 to Jen. 1942, Join R.C.A.F.",
+          "spans": [
+            {
+              "offset": 1855,
+              "length": 13
+            },
+            {
+              "offset": 1878,
+              "length": 10
+            },
+            {
+              "offset": 1898,
+              "length": 4
+            },
+            {
+              "offset": 1906,
+              "length": 4
+            },
+            {
+              "offset": 1920,
+              "length": 4
+            },
+            {
+              "offset": 1934,
+              "length": 4
+            },
+            {
+              "offset": 1939,
+              "length": 4
+            },
+            {
+              "offset": 1953,
+              "length": 4
+            },
+            {
+              "offset": 1958,
+              "length": 4
+            },
+            {
+              "offset": 1972,
+              "length": 15
+            },
+            {
+              "offset": 2008,
+              "length": 19
+            },
+            {
+              "offset": 2037,
+              "length": 10
+            },
+            {
+              "offset": 2057,
+              "length": 4
+            },
+            {
+              "offset": 2065,
+              "length": 4
+            },
+            {
+              "offset": 2079,
+              "length": 4
+            },
+            {
+              "offset": 2093,
+              "length": 4
+            },
+            {
+              "offset": 2098,
+              "length": 4
+            },
+            {
+              "offset": 2112,
+              "length": 4
+            },
+            {
+              "offset": 2117,
+              "length": 4
+            },
+            {
+              "offset": 2131,
+              "length": 13
+            }
+          ],
+          "confidence": 0.226,
+          "source": "D(1,163.0000,1471.0000,344.0000,1471.0000,344.0000,1496.0000,163.0000,1496.0000);D(1,480.6802,1462.4772,615.8477,1472.1320,613.3909,1506.5279,478.2234,1496.8731);D(1,630.3770,1468.8525,689.2541,1474.2049,686.6230,1503.1475,627.7459,1497.7951);D(1,727.0000,1473.0000,782.0000,1473.0000,782.0000,1496.0000,727.0000,1496.0000);D(1,892.0000,1472.0000,944.0000,1472.0000,944.0000,1497.0000,892.0000,1497.0000);D(1,1002.2412,1455.8647,1057.3765,1460.1059,1055.7588,1481.1353,1000.6235,1476.8941);D(1,1015.0000,1477.0000,1071.0000,1475.0000,1071.0000,1498.0000,1015.0000,1499.0000);D(1,1098.0000,1459.0000,1149.6626,1460.8901,1148.9684,1479.8647,1097.3058,1477.9746);D(1,1097.0000,1477.0000,1155.0000,1477.0000,1155.0000,1502.0000,1097.0000,1502.0000);D(1,1179.0000,1475.0000,1386.0000,1475.0000,1386.0000,1503.0000,1179.0000,1503.0000);D(1,164.0000,1509.0000,426.0000,1509.0000,426.0000,1536.0000,164.0000,1536.0000);D(1,481.0000,1511.0000,613.0000,1511.0000,613.0000,1536.0000,481.0000,1536.0000);D(1,631.0000,1511.0000,687.0000,1511.0000,687.0000,1536.0000,631.0000,1536.0000);D(1,727.0000,1513.0000,782.0000,1513.0000,782.0000,1536.0000,727.0000,1536.0000);D(1,891.0973,1510.0549,951.1471,1513.0574,949.9027,1537.9451,889.8529,1534.9426);D(1,1002.4158,1494.8416,1055.7822,1500.1782,1053.5842,1522.1584,1000.2178,1516.8218);D(1,1015.0000,1514.0000,1069.0000,1514.0000,1069.0000,1537.0000,1015.0000,1537.0000);D(1,1099.6757,1497.9459,1154.0000,1507.0000,1150.4054,1528.5676,1096.0811,1519.5135);D(1,1085.0000,1517.0000,1143.0000,1515.0000,1143.0000,1538.0000,1085.0000,1540.0000);D(1,1182.0000,1513.0000,1358.0000,1513.0000,1358.0000,1538.0000,1182.0000,1538.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "valueString": "NO",
+          "spans": [
+            {
+              "offset": 2377,
+              "length": 2
+            }
+          ],
+          "confidence": 0.736,
+          "source": "D(1,642.0000,1637.0000,674.0000,1637.0000,674.0000,1660.0000,642.0000,1659.0000)"
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.05994236,
+          "width": 1504,
+          "height": 2330
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

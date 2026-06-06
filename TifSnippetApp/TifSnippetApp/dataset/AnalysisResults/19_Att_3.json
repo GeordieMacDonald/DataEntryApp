@@ -1,0 +1,381 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T00:57:41Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Received OCT 5 1947 Checked WH \"E Card \u2713 Obse\n\nObservations.\n\nORIGINAK\nDUPLICATE\nTRIPLIOATEX\n2\nO\n\nM.F.M. 2\nA.F.B. 271\n450 81-8-89 (1025)\nU.Q. 1772-45-18\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\n\nUnit.\nREGINA RIFLE REGIMENT\n\nRegimental Number.\nL 27855\n\n\n# CANADIAN ACTIVE SERVICE FORCE ATTESTATION PAPER\n\nRFN\n\n1\\. Surname.\nABEL\n\n2\\. Christian Names\nJOHN JAMES\n\n3\\. Present address.\nPERDUE SASK.\n\n4\\. Date of birth\n5th JANUARY 1916\n\n5\\. Place of birth\n(Country)\n(County or l'uovince)\n(Town or Township)\n\n6\\. Religion (state denomination)\nUnited Chufen\n\n7\\. Trade or Calling\nLaborer\n\n8\\. Married, Widower or Single.\nSingle\n\n9\\. Name of next of kin\nADEL,\nMRG.ALICE EMILY\n\nsu change\n\n10\\. Relationship\nMother\n\n11\\. Address of next of kin.\nRitz Hotel, Seckateen bask.\n\n12\\. Have you served in any Naval, Military or Air Force?\nNO\n\n13\\. If previous war service, state arm, force and regimental particulars.\nN/A\n\n14\\. Do you now belong to or have you served in the Active Militia of Canada?\nNO\n\n(Give unit and date of attestation)\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\n1,\nJOHN JAMES ABEL\ndo solemnly declare that the above\nparticulars are true, and I hereby engage to serve in the Canadian Active Service Force so long as an emergency,\ni.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the period of demobilization after\nsaid emergency ceases to exist, and in any event for a period of not less than one year, provided His Majesty\nshould so require my services.\n\nC.navp..Witness\n\nDate\n18th JUNE 1940\n\n(Signature of recruit)\nog abel\n\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI,\nJOHN JALLS ABEL\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\nEh. hasp. Witness\nyg abel\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\nNORTH BATTLEFORD SASK.\nthis.\n18th\nday of.\nJUNE\n40\nat.\n\nAsharp. Majon\nREGINA RIFLE REGIMENT\n\nSignature of Magistrate, Justice\nor Attesting Officer.\nOffice or Rank and Unit\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTIHS' IMPRISONMENT\n\nFUSERT RIINED\n\n01\n\nC . A . A.\n\nCANADA\nSASKATCHEWAN\nKEPPLE\n19\n\n\n![](figures/1.1)\n\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "L 27855",
+          "spans": [
+            {
+              "offset": 303,
+              "length": 7
+            }
+          ],
+          "confidence": 0.971,
+          "source": "D(1,1001.0000,273.0000,1104.0000,273.0000,1104.0000,300.0000,1001.0000,300.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABEL",
+          "spans": [
+            {
+              "offset": 382,
+              "length": 4
+            }
+          ],
+          "confidence": 0.975,
+          "source": "D(1,528.0000,403.0000,588.0000,403.0000,588.0000,426.0000,528.0000,425.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "JOHN JAMES",
+          "spans": [
+            {
+              "offset": 408,
+              "length": 10
+            }
+          ],
+          "confidence": 0.867,
+          "source": "D(1,528.0000,451.0000,671.0000,451.0000,671.0000,476.0000,528.0000,476.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "PERDUE SASK.",
+          "spans": [
+            {
+              "offset": 441,
+              "length": 12
+            }
+          ],
+          "confidence": 0.96,
+          "source": "D(1,530.0000,490.0000,697.0000,490.0000,697.0000,514.0000,530.0000,514.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1916-01-05",
+          "spans": [
+            {
+              "offset": 473,
+              "length": 16
+            }
+          ],
+          "confidence": 0.875,
+          "source": "D(1,531.0000,532.0000,759.0000,532.0000,759.0000,560.0000,531.0000,560.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "CANADA",
+          "spans": [
+            {
+              "offset": 2757,
+              "length": 6
+            }
+          ],
+          "confidence": 0.938,
+          "source": "D(1,531.0000,574.0000,619.0000,575.0000,619.0000,597.0000,531.0000,597.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "SASKATCHEWAN",
+          "spans": [
+            {
+              "offset": 2764,
+              "length": 12
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,672.0000,573.0000,845.0000,571.0000,845.0000,594.0000,672.0000,595.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "KEPPLE",
+          "spans": [
+            {
+              "offset": 2777,
+              "length": 6
+            }
+          ],
+          "confidence": 0.885,
+          "source": "D(1,939.0000,571.0000,1029.0000,571.0000,1029.0000,593.0000,939.0000,593.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "United Chufen",
+          "spans": [
+            {
+              "offset": 596,
+              "length": 13
+            }
+          ],
+          "confidence": 0.834,
+          "source": "D(1,534.6942,617.0036,723.9974,614.7765,724.3046,640.8905,535.0014,643.1176)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Laborer",
+          "spans": [
+            {
+              "offset": 632,
+              "length": 7
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,537.0000,661.0000,638.0000,661.0000,638.0000,684.0000,537.0000,684.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 673,
+              "length": 6
+            }
+          ],
+          "confidence": 0.937,
+          "source": "D(1,536.0000,703.0000,624.0000,703.0000,624.0000,728.0000,536.0000,729.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "ADEL,\nMRG.ALICE EMILY",
+          "spans": [
+            {
+              "offset": 705,
+              "length": 5
+            },
+            {
+              "offset": 711,
+              "length": 15
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,535.0000,743.0000,608.2116,743.6101,607.9949,769.6083,534.7833,768.9982);D(1,662.0000,742.0000,876.0000,742.0000,876.0000,765.0000,662.0000,765.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Mother",
+          "spans": [
+            {
+              "offset": 757,
+              "length": 6
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,536.0000,786.0000,625.0000,786.0000,625.0000,809.0000,536.0000,809.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "Ritz Hotel, Seckateen bask.",
+          "spans": [
+            {
+              "offset": 794,
+              "length": 27
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,535.8983,826.5465,914.9965,825.0885,915.0982,851.5419,536.0000,853.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "NO",
+          "spans": [
+            {
+              "offset": 881,
+              "length": 2
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,985.0000,871.0000,1016.0000,871.0000,1016.0000,893.0000,985.0000,893.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "N/A",
+          "spans": [
+            {
+              "offset": 960,
+              "length": 3
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,984.0000,913.0000,1030.0000,913.0000,1030.0000,936.0000,984.0000,936.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "og abel",
+          "spans": [
+            {
+              "offset": 1619,
+              "length": 7
+            }
+          ],
+          "confidence": 0.879,
+          "source": "D(1,686.6097,1285.6382,941.0000,1255.0000,948.3903,1316.3618,694.0000,1347.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "Asharp. Majon",
+          "spans": [
+            {
+              "offset": 2436,
+              "length": 13
+            }
+          ],
+          "confidence": 0.585,
+          "source": "D(1,512.0000,1654.0000,899.3038,1656.3712,898.9916,1707.3693,511.6878,1704.9981)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "REGINA RIFLE REGIMENT",
+          "spans": [
+            {
+              "offset": 2450,
+              "length": 21
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,485.0000,1703.0000,780.0000,1703.0000,780.0000,1728.0000,485.0000,1728.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "NORTH BATTLEFORD SASK.",
+          "spans": [
+            {
+              "offset": 2381,
+              "length": 22
+            }
+          ],
+          "confidence": 0.827,
+          "source": "D(1,220.0000,1614.0000,527.0000,1614.0000,527.0000,1638.0000,220.0000,1638.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1940-06-18",
+          "spans": [
+            {
+              "offset": 1580,
+              "length": 14
+            }
+          ],
+          "confidence": 0.737,
+          "source": "D(1,287.0000,1288.0000,486.0000,1288.0000,486.0000,1314.0000,287.0000,1314.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "og abel",
+          "spans": [
+            {
+              "offset": 1619,
+              "length": 7
+            }
+          ],
+          "confidence": 0.884,
+          "source": "D(1,686.6097,1285.6382,941.0000,1255.0000,948.3903,1316.3618,694.0000,1347.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "yg abel",
+          "spans": [
+            {
+              "offset": 1823,
+              "length": 7
+            }
+          ],
+          "confidence": 0.826,
+          "source": "D(1,643.5467,1416.8773,876.0000,1410.0000,877.4533,1459.1227,645.0000,1466.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.1367,
+          "width": 1386,
+          "height": 2049
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

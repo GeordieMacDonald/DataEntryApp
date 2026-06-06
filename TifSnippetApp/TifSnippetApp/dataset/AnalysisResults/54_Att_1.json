@@ -1,0 +1,456 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:13:18Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "IDENTIFICAION CARD ISSU\nDATE MAR 9 1944\n\nDUPLICATE\nTDIDUCATE.\n\nCopy denightion to \"\nby striking out tein\n\nReceive Corps'\n1.\n\\# 10 D.D ( General List) CA. Card.\n\n\n# CANADIAN ARMY ENROLMENT AND ATTESTATION PAPER\n\nACKERMAN\nHarold Albert\n(Clhsiction, Names)\n\n2\\. Present Address\nPortage la Prairie, Manitoba, Canaea (General Delivery)\n\n3\\. (a) Date of birth\n17th Mey 1925\n\nWSG\n\n(b) Place of birth\nManitoba\nPortagecde, Praifrie\n(Country)\nCanada\n\n4\\. (a) Place of birth of Father\nCanada\n(County or Province)\nManitoba\nPortage 1a-Praisie\n(b)\n\"\n**\n\"\nMother\nCountry)\nCenada\n(County or Province)\nPortage la Prairie\n\n5\\. Nationality\n(To what country do you now owe allegianco) if naturalized give certif, no. date and place of issue. If not naturalized so state.\n\n6\\. Religion (state denomination)\nUnited Church\n\n7\\. Trade or calling (a)\nFarm Laborer\n(a) Name and address of last employer :\nWorked for Father\n\nSingle\n\n(b) How long employed 4 years\n\n9\\. Married, Widower or Single\n\nIf married, how many children a-a\n\n10\\. Name of Next-of-Kin\nMrs. Edit h ACKERMAN\n\n11\\. Relationship\nMother\n\n12\\. Address of Next-of-Kin\nPortage la Prairie, Manitoba, Canada\n\n13\\. Previous Service (Navy, Army or Air Force) Units and dates\n\n14\\. (a) Former war service\nn-a\n\n(b) In the armed forces of what country\nn-a\n\n(c) Dates of such Service\nn-a\nn-a\n\n15\\. Decorations and medals, if any\n\n16\\. I do solemnly declare that the above particulars are true\nVarold a acherman\nSignature of Recruit, or in the case of N.R.M.A. personnel who\nrefuse to sign, signature of officer under Regn. 8 (d) (I)\nR.A.S.R. 1941\n\n16\u03b1 CERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE ATTESTING OR ENROLLING OFFICER\n\nThe above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\nThe above questions and answers were then read to the above named in my presence.\nI have taken care that he understands each question, and that his answer to each question has\nbeen duly entered as replied to,\nat\nWinnipeg, Maniton mis\n7th\nday of\nFebruary\n19\n\nO.C. District Depottito 10 (C.A.)\n\nOffice or Rank and Unit\n1\nor appointment.\n\nITEMS 17, 18 AND 19 WILL NOT BE COMPLETED UNLESS A MAN ENLISTS FOR GENERAL SERVICE ANYWHERE.\n\n17\\.\nDECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nL,\nHARold Albert ACKERMAN\nhereby engage to serve in any Active Formation or\nUnit of the Canadian Army so long as an emergency, i.e., war, invasion, riot or insurrection, real or\napprehended, exists, and for the period of demobilization after said emergency ceases to exist, and in\nany event for a period of not less than one year, provided His Majesty should so require my services.\nDate\n7th February 1944\n\n(Signature of Recruit)\nKarold Aacher\n\n18\\.\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI.\nI Harold Albert ACKERMAN\ndo sincerely promise and swear (or solemnly declare)\nthat I will be faithful and bear true allegiance to His Majesty.\nWitness\n(Name)\nH367790Suahi dl.\n(R\u1ea1n):)\n(Signature of Recruit)\nHarold 7 acherman\n\n19\\. The above named recruit has made and signed the declaration and taken the oath before me.\nafwinnIneg, Manitob a this\n7th\nday of\nFebruary\n19 44\nNW immund\nLieut.\n(Signature of Magistrate, Justice or Attesting Officer.)\n\nO.C. District Depot No 10 (C.A.)\n(Office or Rank and Unit or appointment)\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON WILFULLY MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT.\n\n<!-- PageFooter: bm -->\n\nACCUPATIONAL HISTORY FORM COMVLETES.\nJ 80780\n\nM.F.N. 2\n(Combining M.F.M. 103)\n750M-4-43 (3375) (786-820)\nH.Q. 1772-39-1645\nObservations.18706\n\nRegimental Number\n\nThotographed a Finger Frimce.\n8 Sebuy\n\n(Surname)\nCarada\nManitoba\n(Town or Township)\nPOTVAS PLIMPLETED\n(Town or Towaship) ED\n44\nWfamumoLieut.\n\nSignature of Magistrate, Justice Attesting or\nEnrolling Officer.\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "J 80780",
+          "spans": [
+            {
+              "offset": 3539,
+              "length": 7
+            }
+          ],
+          "confidence": 0.522,
+          "source": "D(1,796.0000,152.0000,898.1688,152.6811,897.9955,178.6800,795.8267,177.9988)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ACKERMAN",
+          "spans": [
+            {
+              "offset": 211,
+              "length": 8
+            }
+          ],
+          "confidence": 0.754,
+          "source": "D(1,403.0000,345.0000,520.0000,345.0000,520.0000,366.0000,403.0000,366.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Harold Albert",
+          "spans": [
+            {
+              "offset": 220,
+              "length": 13
+            }
+          ],
+          "confidence": 0.955,
+          "source": "D(1,544.0229,341.9123,734.2527,344.0028,733.9880,368.0878,543.7583,365.9973)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "Portage la Prairie, Manitoba, Canaea (General Delivery)",
+          "spans": [
+            {
+              "offset": 275,
+              "length": 55
+            }
+          ],
+          "confidence": 0.893,
+          "source": "D(1,444.0000,378.0000,1213.0000,378.0000,1213.0000,403.0000,444.0000,403.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "spans": [
+            {
+              "offset": 354,
+              "length": 13
+            }
+          ],
+          "confidence": 0.939,
+          "source": "D(1,442.0000,409.0000,634.0000,409.0000,634.0000,433.0000,442.0000,433.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 433,
+              "length": 6
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,443.0000,437.0000,531.0000,437.0000,531.0000,458.0000,443.0000,458.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Manitoba",
+          "spans": [
+            {
+              "offset": 393,
+              "length": 8
+            }
+          ],
+          "confidence": 0.959,
+          "source": "D(1,758.0000,435.0000,876.0000,436.0000,876.0000,457.0000,758.0000,457.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Portagecde, Praifrie",
+          "spans": [
+            {
+              "offset": 402,
+              "length": 20
+            }
+          ],
+          "confidence": 0.914,
+          "source": "D(1,1017.0000,435.0000,1275.0000,435.0000,1275.0000,459.0000,1017.0000,459.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 474,
+              "length": 6
+            }
+          ],
+          "confidence": 0.971,
+          "source": "D(1,557.0000,476.0000,647.0000,476.0000,647.0000,498.0000,557.0000,497.0000)"
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Manitoba",
+          "spans": [
+            {
+              "offset": 502,
+              "length": 8
+            }
+          ],
+          "confidence": 0.952,
+          "source": "D(1,758.0000,476.0000,876.0000,477.0000,876.0000,498.0000,758.0000,497.0000)"
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Portage 1a-Praisie",
+          "spans": [
+            {
+              "offset": 511,
+              "length": 18
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,1017.0000,476.0000,1275.0000,476.0000,1275.0000,498.0000,1017.0000,498.0000)"
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Cenada",
+          "spans": [
+            {
+              "offset": 557,
+              "length": 6
+            }
+          ],
+          "confidence": 0.509,
+          "source": "D(1,544.0000,507.0000,647.0000,507.0000,647.0000,529.0000,544.0000,529.0000)"
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Portage la Prairie",
+          "spans": [
+            {
+              "offset": 585,
+              "length": 18
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,1018.0000,507.0000,1275.0000,507.0000,1275.0000,530.0000,1018.0000,530.0000)"
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "United Church",
+          "spans": [
+            {
+              "offset": 786,
+              "length": 13
+            }
+          ],
+          "confidence": 0.91,
+          "source": "D(1,574.0085,586.4616,763.1236,587.5007,762.9943,611.0384,573.8791,609.9993)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Farm Laborer",
+          "spans": [
+            {
+              "offset": 826,
+              "length": 12
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,472.0000,617.0000,649.0000,617.0000,649.0000,640.0000,472.0000,640.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "valueString": "Worked for Father",
+          "spans": [
+            {
+              "offset": 879,
+              "length": 17
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,817.0000,644.0000,1063.0000,644.0000,1063.0000,668.0000,817.0000,668.0000)"
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "valueString": "4 years",
+          "spans": [
+            {
+              "offset": 928,
+              "length": 7
+            }
+          ],
+          "confidence": 0.939,
+          "source": "D(1,974.0000,704.0000,1078.0000,704.0000,1078.0000,729.0000,974.0000,729.0000)"
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 898,
+              "length": 6
+            }
+          ],
+          "confidence": 0.96,
+          "source": "D(1,558.0000,716.0000,649.0000,717.0000,649.0000,742.0000,558.0000,742.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mrs. Edit h ACKERMAN",
+          "spans": [
+            {
+              "offset": 1029,
+              "length": 20
+            }
+          ],
+          "confidence": 0.82,
+          "source": "D(1,474.0000,750.0000,749.0000,750.0000,749.0000,772.0000,474.0000,772.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Mother",
+          "spans": [
+            {
+              "offset": 1069,
+              "length": 6
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,988.0000,754.0000,1079.0000,757.0000,1079.0000,778.0000,988.0000,775.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "Portage la Prairie, Manitoba, Canada",
+          "spans": [
+            {
+              "offset": 1105,
+              "length": 36
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,487.0000,781.0000,1006.0000,781.0000,1006.0000,804.0000,487.0000,804.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "n-a",
+          "spans": [
+            {
+              "offset": 1236,
+              "length": 3
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,761.0000,866.0000,807.0000,866.0000,807.0000,885.0000,761.0000,885.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "valueString": "n-a",
+          "spans": [
+            {
+              "offset": 1281,
+              "length": 3
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,762.0000,899.0000,807.0000,899.0000,807.0000,917.0000,762.0000,917.0000)"
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "valueString": "n-a",
+          "spans": [
+            {
+              "offset": 1312,
+              "length": 3
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,762.0000,919.0000,808.0000,919.0000,808.0000,938.0000,762.0000,938.0000)"
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Varold a acherman",
+          "spans": [
+            {
+              "offset": 1421,
+              "length": 17
+            }
+          ],
+          "confidence": 0.525,
+          "source": "D(1,834.0000,996.0000,1213.0000,996.0000,1213.0000,1033.0000,834.0000,1033.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "NW immund",
+          "spans": [
+            {
+              "offset": 3161,
+              "length": 9
+            }
+          ],
+          "confidence": 0.274,
+          "source": "D(1,325.8453,1726.6956,619.7738,1733.0166,618.9286,1772.3210,325.0000,1766.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "Lieut.",
+          "spans": [
+            {
+              "offset": 3171,
+              "length": 6
+            }
+          ],
+          "confidence": 0.573,
+          "source": "D(1,634.0000,1743.0000,721.0000,1743.0000,721.0000,1765.0000,634.0000,1765.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Winnipeg, Maniton mis",
+          "spans": [
+            {
+              "offset": 2026,
+              "length": 21
+            }
+          ],
+          "confidence": 0.466,
+          "source": "D(1,301.0000,1225.0000,577.0000,1225.0000,577.0000,1252.0000,301.0000,1252.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "2019-02-07",
+          "spans": [
+            {
+              "offset": 2059,
+              "length": 8
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,874.0000,1221.0000,993.0000,1221.0000,993.0000,1246.0000,874.0000,1246.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Karold Aacher",
+          "spans": [
+            {
+              "offset": 2725,
+              "length": 13
+            }
+          ],
+          "confidence": 0.806,
+          "source": "D(1,962.0000,1489.0000,1193.0000,1489.0000,1193.0000,1522.0000,962.0000,1522.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Harold 7 acherman",
+          "spans": [
+            {
+              "offset": 2994,
+              "length": 17
+            }
+          ],
+          "confidence": 0.868,
+          "source": "D(1,851.0000,1614.0000,1224.0000,1614.0000,1224.0000,1654.0000,851.0000,1654.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "H367790Suahi dl.",
+          "spans": [
+            {
+              "offset": 2946,
+              "length": 16
+            }
+          ],
+          "confidence": 0.779,
+          "source": "D(1,360.0000,1621.0000,738.0000,1621.0000,738.0000,1655.0000,360.0000,1655.0000)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "DUPLICATE",
+          "spans": [
+            {
+              "offset": 41,
+              "length": 9
+            }
+          ],
+          "confidence": 0.524,
+          "source": "D(1,228.0000,187.0000,324.0000,188.0000,324.0000,204.0000,228.0000,203.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.002
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.02034764,
+          "width": 1412,
+          "height": 2057
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

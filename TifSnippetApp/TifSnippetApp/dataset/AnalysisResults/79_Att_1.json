@@ -1,0 +1,397 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:24:08Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Beceived.\nCheckedCard\n/\nUuservations\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\n10\n\nM.F.M. 2\nA.F.B. 271\n480 M-8-39 (1006)\nII.Q. 1772-48-18\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\n\nUnit Royal Mensnypeg Rifles\nCASF.\n\nRegimental Number.\nH40755\n\nCANADIAN ACTIVE SERVICE FORCE\nATTESTATION PAPER\n\n1\\. Surname.\nADAM\n\nC A A\n\nWSG\n\n2\\. Christian Names.\nROBERT NESBIT\n\nCOMPLETED\n\n3\\. Present address.\nOberon manitoba\n\n4\\. Date of birth.\n15th September 1908\n\n5\\. Place of birth\nScotland Janarkahire motherwell\n(Country)\n(County or Provinco)\n(Town or Township)\n\n6\\. Religion (state denomination)\nGrespyterian\n\n7\\. Trade or Calling.\nButcher\n\nMarried, Widower or Single.\nLisqte\n\n9\\. Name of next of kin\nmrgrel adam see change\n\n10\\. Relationship\npmstker\n\n11\\. Address of next of kin\nAHost:Sinton, eaotehire Sestland\n\n12\\. Have you served in any Naval, Military or Air Force?.\nmil\n\n13\\. If previous war service, state arm, force and regimental particulars.\nmil\n\n1\n\n14\\. Do you now belong to or have you served in the Active Militia of Canada?\nMil\n\n(Give unit and date of attestation)\n\n\n# DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nKoterthesfit adam\ndo solemnly declare that the above\nparticulars are true, and I hereby engage to serve in the Canadian Active Service Force so long as an emergency,\ni.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the period of demobilization after\nsaid emergency ceases to exist, and in any event for a period of not less than one year, provided His Majesty\nshould so require my services.\n\nmitnero Books\n\nJune 16th, 1940\n+\nB adam\n(Signature of recruit)\n\n\n## OATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI, Robert Neshit Adam\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\n\n12 adam\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nat.\nWinnipeg, Manitobathis 16th\nday of.\nJune\n19\n40\n\ngtrnps omiaga\nTHE ROYAL WINNIPEG RIFLES C.A.S.F.\n\nSignature of Magistrate, Justice\n1\nor Attesting Officer.\n(Office or Rank and Unit\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\nte\n1N\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "H40755",
+          "spans": [
+            {
+              "offset": 284,
+              "length": 6
+            }
+          ],
+          "confidence": 0.98,
+          "source": "D(1,948.0000,273.0000,1112.0000,272.0000,1112.0000,302.0000,948.0000,303.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ADAM",
+          "spans": [
+            {
+              "offset": 354,
+              "length": 4
+            }
+          ],
+          "confidence": 0.958,
+          "source": "D(1,440.0000,405.0000,589.0000,406.0000,588.0000,446.0000,439.0000,446.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "ROBERT NESBIT",
+          "spans": [
+            {
+              "offset": 393,
+              "length": 13
+            }
+          ],
+          "confidence": 0.921,
+          "source": "D(1,518.0798,454.9422,956.0725,456.0002,955.9926,489.0580,518.0000,488.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "Oberon manitoba",
+          "spans": [
+            {
+              "offset": 440,
+              "length": 15
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,377.0000,487.0000,969.1025,488.5379,968.9908,531.5376,376.8883,529.9997)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1908-09-15",
+          "spans": [
+            {
+              "offset": 476,
+              "length": 19
+            }
+          ],
+          "confidence": 0.826,
+          "source": "D(1,575.6442,536.3950,1161.0000,531.0000,1161.3777,571.9781,576.0219,577.3731)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Scotland",
+          "spans": [
+            {
+              "offset": 516,
+              "length": 8
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,320.0000,578.0000,513.0000,578.0000,512.0000,618.0000,319.0000,619.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Janarkahire",
+          "spans": [
+            {
+              "offset": 525,
+              "length": 11
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,549.0000,578.0000,829.0000,578.0000,828.0000,616.0000,549.0000,617.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "motherwell",
+          "spans": [
+            {
+              "offset": 537,
+              "length": 10
+            }
+          ],
+          "confidence": 0.824,
+          "source": "D(1,904.0000,578.0000,1198.0000,575.0000,1198.0000,615.0000,904.0000,616.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Grespyterian",
+          "spans": [
+            {
+              "offset": 633,
+              "length": 12
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,584.0000,629.0000,940.0000,629.0000,940.0000,660.0000,583.0000,660.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Butcher",
+          "spans": [
+            {
+              "offset": 669,
+              "length": 7
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,379.0000,667.0000,598.0000,667.0000,598.0000,702.0000,378.0000,702.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Lisqte",
+          "spans": [
+            {
+              "offset": 706,
+              "length": 6
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,681.0000,704.0000,873.0000,705.0000,873.0000,742.0000,681.0000,741.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "mrgrel adam see change",
+          "spans": [
+            {
+              "offset": 738,
+              "length": 22
+            }
+          ],
+          "confidence": 0.818,
+          "source": "D(1,397.4009,744.6279,1221.3538,733.9825,1222.0103,784.7957,398.0574,795.4411)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "pmstker",
+          "spans": [
+            {
+              "offset": 780,
+              "length": 7
+            }
+          ],
+          "confidence": 0.887,
+          "source": "D(1,596.0000,800.0000,835.0000,798.0000,835.0000,829.0000,596.0000,830.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "AHost:Sinton, eaotehire Sestland",
+          "spans": [
+            {
+              "offset": 817,
+              "length": 32
+            }
+          ],
+          "confidence": 0.883,
+          "source": "D(1,407.6466,836.6526,1274.9935,829.2394,1275.3589,871.9969,408.0121,879.4102)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "mil",
+          "spans": [
+            {
+              "offset": 910,
+              "length": 3
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,724.0000,881.0000,854.0000,881.0000,854.0000,911.0000,724.0000,912.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "mil",
+          "spans": [
+            {
+              "offset": 990,
+              "length": 3
+            }
+          ],
+          "confidence": 0.959,
+          "source": "D(1,828.0000,921.0000,951.0000,920.0000,951.0000,954.0000,828.0000,955.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "B adam",
+          "spans": [
+            {
+              "offset": 1626,
+              "length": 6
+            }
+          ],
+          "confidence": 0.822,
+          "source": "D(1,703.8500,1294.0005,918.9973,1293.2322,919.1473,1335.2316,704.0000,1336.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "gtrnps omiaga",
+          "spans": [
+            {
+              "offset": 2453,
+              "length": 13
+            }
+          ],
+          "confidence": 0.52,
+          "source": "D(1,600.0930,1675.0125,844.1293,1671.6580,845.0364,1737.6455,601.0000,1741.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "THE ROYAL WINNIPEG RIFLES C.A.S.F.",
+          "spans": [
+            {
+              "offset": 2467,
+              "length": 34
+            }
+          ],
+          "confidence": 0.727,
+          "source": "D(1,335.0000,1732.0000,820.0000,1732.0000,820.0000,1763.0000,335.0000,1763.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Winnipeg, Manitoba",
+          "spans": [
+            {
+              "offset": 2405,
+              "length": 22
+            }
+          ],
+          "confidence": 0.38,
+          "source": "D(1,229.6772,1651.8247,528.0000,1648.0000,528.3308,1673.8035,230.0081,1677.6281)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1940-06-16",
+          "spans": [
+            {
+              "offset": 1613,
+              "length": 4
+            },
+            {
+              "offset": 2441,
+              "length": 4
+            },
+            {
+              "offset": 2446,
+              "length": 2
+            },
+            {
+              "offset": 2449,
+              "length": 2
+            }
+          ],
+          "confidence": 0.262,
+          "source": "D(1,316.0000,1313.0000,371.0000,1312.0000,371.0000,1336.0000,317.0000,1337.0000);D(1,862.0000,1641.0000,917.0000,1641.0000,917.0000,1663.0000,862.0000,1663.0000);D(1,1103.0000,1647.0000,1124.0000,1646.0000,1124.0000,1665.0000,1103.0000,1666.0000);D(1,1130.0000,1635.0000,1161.0000,1635.0000,1161.0000,1658.0000,1130.0000,1658.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "B adam",
+          "spans": [
+            {
+              "offset": 1626,
+              "length": 6
+            }
+          ],
+          "confidence": 0.628,
+          "source": "D(1,703.8500,1294.0005,918.9973,1293.2322,919.1473,1335.2316,704.0000,1336.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "12 adam",
+          "spans": [
+            {
+              "offset": 1842,
+              "length": 7
+            }
+          ],
+          "confidence": 0.828,
+          "source": "D(1,558.0000,1436.0000,773.0000,1436.0000,773.0000,1473.0000,558.0000,1473.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "ORIGINAL",
+          "spans": [
+            {
+              "offset": 38,
+              "length": 8
+            }
+          ],
+          "confidence": 0.447,
+          "source": "D(1,160.0000,187.0000,256.0000,187.0000,256.0000,207.0000,160.0000,207.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.1881,
+          "width": 1404,
+          "height": 2080
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

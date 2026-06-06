@@ -1,0 +1,345 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:11:53Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "\"SPECIAL RESERVE\"\n\n<!-- PageHeader: AIR FORCE No. R.91189 -->\n<!-- PageHeader: POSTED TO #2 Manning Depot, BrandonfRADE Air Crew Gunner) -->\n\n\n# ROYAL CANADIAN AIR FORCE (ATTESTATION PAPER) (Pages one and two, only, are to be completed in Applicant's own Handwriting)\n\n1\\. Surname\nARKER\n\nFULL Christian Names JAMES GORDON\n\n2\\. Present Address 119 DAVISVILlE AVE Torento Ont Telephone.\n\n3\\. Permanent Address 119 DAVISvillE AVE Torante ON.\n\nPlace of Birth\nHAMILTON ONTARIO\n\nCitizenship yes FANADIAN\n\u2713\n5. Date of Birth May 15 1921 Married, Single, Widower, Separated, Divorced SiNghe\n\n6\\. Particulars of Children\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>None</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>\u00a2</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>:</td>\n<td></td>\n</tr>\n</table>\n\n\n7\\. Occupation NONE\n\n8\\. Religion ANglISAN\n\n9\\. Languages ENglish\n\nState denomination\n.\n\nState proficiency\n.\n\n10\\. Next of Kin (Full Name) James GORDON Acker Relationship FATBER\n\" Address 119 DAVISVIlla Ave Tornte Out\n\n11\\. Father (Full Name) JAMES BORDON AEKER Birthplace JARVIR ONT\n\n\"Address 119 DAVISVIlle Avi TorntoOt Citizenship yes FANRDIRN\n\n\"Occupation Aovertiser\n\n12\\. Mother (Full Maiden Name) MADELINE McMURRAY Birthplace Brook.lyN New York\n\"Address 119 Davisville Ave Toato Oat, Citizenship yes EANROAN\n\n13\\. Details of any Naval, Military or Air Force Service:\n\n\n<table>\n<tr>\n<th rowspan=\"2\">Unit</th>\n<th rowspan=\"2\">Place</th>\n<th rowspan=\"2\">Rank</th>\n<th rowspan=\"2\">Trade</th>\n<th colspan=\"2\">Date</th>\n<th rowspan=\"2\">\u2713<br>Reason for</th>\n<th rowspan=\"2\">discharge</th>\n</tr>\n<tr>\n<th colspan=\"2\">From To</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>JAN</td>\n<td>31 194</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>none</td>\n<td></td>\n<td></td>\n<td>Vnela</td>\n<td></td>\n<td>tte</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>TRAm</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>69m</td>\n<td></td>\n<td>Pri</td>\n<td></td>\n</tr>\n</table>\n\n\n14\\. Honours, Awards, Mentions.\nna\n\n15\\. Are you now on any Naval, Military or Air Force Reserve? No\n\n16\\. Have you previously made application to join the R.C.A.F.? NA\n\nIf so, where? No\n\nWhen? NO\n\nResult NO\n:\n\n17\\. Were you ever discharged from any branch of His Majesty's Forces as Medically Unfit? NO\n\nIf so, state nature of disability NO\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension? NO\n\nIf so, state nature of Disability NO\n\n19\\. Have you ever been convicted of an indictable offence? No\n\nIf so state nature NO\n\n20\\. Are you in debt? NO\n\nIf so, state particulars 10\n\n<!-- PageFooter: R.C.A.F. Form R. 100 400M-6-40 (5739) II.Q. 1062-3-83 -->\n<!-- PageFooter: 124-267 -->\n\n10\n\n<!-- PageHeader: (W.O. Air -->\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "R.91189",
+          "spans": [
+            {
+              "offset": 50,
+              "length": 7
+            }
+          ],
+          "confidence": 0.741,
+          "source": "D(1,342.0000,184.0000,444.0000,184.0000,444.0000,213.0000,342.0000,213.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ARKER",
+          "spans": [
+            {
+              "offset": 281,
+              "length": 5
+            }
+          ],
+          "confidence": 0.72,
+          "source": "D(1,349.0000,419.0000,507.0000,420.0000,507.0000,453.0000,349.0000,452.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "JAMES GORDON",
+          "spans": [
+            {
+              "offset": 309,
+              "length": 12
+            }
+          ],
+          "confidence": 0.944,
+          "source": "D(1,902.8875,420.0066,1225.0000,419.0000,1225.1156,455.9996,903.0031,457.0062)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "119 DAVISVILlE AVE Torento Ont",
+          "spans": [
+            {
+              "offset": 343,
+              "length": 30
+            }
+          ],
+          "confidence": 0.871,
+          "source": "D(1,375.1247,463.5963,1019.1205,465.8018,1018.9959,502.2055,375.0000,500.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1921-05-15",
+          "spans": [
+            {
+              "offset": 517,
+              "length": 11
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,353.0044,603.2147,615.1938,604.6960,615.0000,639.0000,352.8106,637.5187)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "ONTARIO",
+          "spans": [
+            {
+              "offset": 464,
+              "length": 7
+            }
+          ],
+          "confidence": 0.649,
+          "source": "D(1,654.0000,556.0000,834.0000,557.0000,834.0000,589.0000,654.0000,589.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "HAMILTON",
+          "spans": [
+            {
+              "offset": 455,
+              "length": 8
+            }
+          ],
+          "confidence": 0.84,
+          "source": "D(1,402.0000,555.0000,600.0000,556.0000,600.0000,588.0000,401.0000,587.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "ONT",
+          "spans": [
+            {
+              "offset": 1207,
+              "length": 3
+            }
+          ],
+          "confidence": 0.738,
+          "source": "D(1,1170.0000,1091.0000,1259.0000,1091.0000,1259.0000,1125.0000,1170.0000,1125.0000)"
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "JARVIR",
+          "spans": [
+            {
+              "offset": 1200,
+              "length": 6
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,1011.0000,1091.0000,1142.0000,1091.0000,1142.0000,1125.0000,1011.0000,1125.0000)"
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "New York",
+          "spans": [
+            {
+              "offset": 1369,
+              "length": 8
+            }
+          ],
+          "confidence": 0.664,
+          "source": "D(1,1202.0031,1230.5063,1361.2156,1231.5013,1360.9969,1266.5000,1201.7843,1265.5049)"
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Brook.lyN",
+          "spans": [
+            {
+              "offset": 1359,
+              "length": 9
+            }
+          ],
+          "confidence": 0.741,
+          "source": "D(1,992.0000,1230.0000,1151.0000,1231.0000,1151.0000,1265.0000,992.0000,1263.0000)"
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "FANADIAN",
+          "spans": [
+            {
+              "offset": 489,
+              "length": 8
+            }
+          ],
+          "confidence": 0.611,
+          "source": "D(1,1165.0000,552.0000,1347.0000,551.0000,1347.0000,592.0000,1165.0000,592.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "ANglISAN",
+          "spans": [
+            {
+              "offset": 961,
+              "length": 8
+            }
+          ],
+          "confidence": 0.773,
+          "source": "D(1,981.0000,914.0000,1174.0000,913.0000,1174.0000,945.0000,981.0000,947.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "NONE",
+          "spans": [
+            {
+              "offset": 942,
+              "length": 4
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,355.0000,916.0000,464.0000,917.0000,464.0000,945.0000,355.0000,945.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "SiNghe",
+          "spans": [
+            {
+              "offset": 575,
+              "length": 6
+            }
+          ],
+          "confidence": 0.775,
+          "source": "D(1,1183.0000,609.0000,1323.0000,610.0000,1323.0000,643.0000,1183.0000,642.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "James GORDON Acker",
+          "spans": [
+            {
+              "offset": 1066,
+              "length": 18
+            }
+          ],
+          "confidence": 0.739,
+          "source": "D(1,473.0000,1002.0000,875.0000,1002.0000,875.0000,1035.0000,473.0000,1035.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "FATBER",
+          "spans": [
+            {
+              "offset": 1098,
+              "length": 6
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,1027.0000,1003.0000,1193.0000,1003.0000,1193.0000,1036.0000,1027.0000,1036.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "119 DAVISVIlla Ave Tornte Out",
+          "spans": [
+            {
+              "offset": 1115,
+              "length": 29
+            }
+          ],
+          "confidence": 0.816,
+          "source": "D(1,427.8350,1043.0529,1130.0000,1040.0000,1130.1739,1079.9992,428.0089,1083.0521)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "valueString": "na",
+          "spans": [
+            {
+              "offset": 2199,
+              "length": 2
+            }
+          ],
+          "confidence": 0.919,
+          "source": "D(1,579.0000,1616.0000,674.0000,1615.0000,674.0000,1650.0000,579.0000,1651.0000)"
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0,
+          "width": 1494,
+          "height": 2308
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T00:53:58Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Deseived....dAN 15.1941......Checked.\nE 9cm Card\n\nObservations.................osaccan cn\n\nORIGINAL:\nDUPLICATE\nTRIPLICATE.\n\nM.F.M.2\nA.F.B. 271\n16SM-11-38 (9350)\n\nH.Q. 1772-45-18\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\n\nUnit Queons Own Cameron Highlanders\nRegimental Number.\nH 19188\n\n\n# of Canada ACTIVE SERVICE CANADIAN FIELD FORCE ATTESTATION PAPER\n\n1\\. Surname.\nAdams\n\n2\\. Christian Names\nFrederick William\n66 Manyland St. H01.\n\n3\\. Present address.\n35d Chmtod Str6ax\nWishnipeey manitoba\n\n4\\. Date of birth.\nNovember 15, 1912\n\n5\\. Place of birth\n(Country)\nCanada\n(County or Province)\nSaskatchewan\n(Towa or Towastilp)\nCarlyle\n\n6\\. Religion (state denomination)\nProbestart\nanglican\n\n7\\. Trade or Calling.\nTruck Driver\n\n8\\. Married, Widower or Single.\nMarried\n\n9\\. Name of next of kin)\nMyrtle Adams\nDO1901k 104 Scott Sliut\n\n10\\. Relationship\nwife\n66 Mangland str. TA\npmanelola\n\n11\\. Address of next of kin.\n35510grlton sitsebtz\nWimipeg\n\n12\\. Have you served in any Naval, Military or Air Force?.\nYes\n\n13\\. If previous war service, state arm, force and regimental particulars.\nNo\n\n14\\. Do you now belong to or have you served in the Active Militia of Canada? Yes (@.O.C.H. of C.)\n(Give unit and date of attestation)\n8/0/09\n\nBEAT ADATION TO RE MADR RV MAN ON ATTESTATION\n\nI.\ndo solemnly declare that\nthe above particulars are Drie and I hereby engage to serve in the Ounx.dian\nActive Service Force so long as an emergency i.e., war, invasion, riot, or\ninsurrection, real or apprehended exists and for the period of domobilization\nafter said emorgoncy ceases to exist and in any event for a period of not less\nthan one year provided His Majesty should so require mt services.\n\nDate.\n2/9/19\n\nwitness\nCKBoyd\n7 IN adams.\nSignature of Recruit.\n\n\n## OATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI, Frederick W4lliam Adams\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\n7 w adams.\n(Signature of Recruit.)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER.\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been\nduly entered as replied to, and the said recruit has made and signed the declaration and taken the oath\n\nbefore me it M. wa\nHte innyeeg\nthis\nand\nday of\nDept\n1939\n. F. M. Wy\nRECEIVED /\nJAN 13 1041\n\nmyn\nSardlomuoes\n\nSignature of Magistrate, Justice\n1\nor Attesting Officer.\nOffice or Rank and Unit\n1\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\n1\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "H 19188",
+          "spans": [
+            {
+              "offset": 335,
+              "length": 7
+            }
+          ],
+          "confidence": 0.982,
+          "source": "D(1,1072.0000,278.0000,1223.0000,278.0000,1223.0000,312.0000,1072.0000,312.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "Adams",
+          "spans": [
+            {
+              "offset": 425,
+              "length": 5
+            }
+          ],
+          "confidence": 0.985,
+          "source": "D(1,436.0000,433.0000,514.0000,434.0000,514.0000,456.0000,436.0000,455.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Frederick William",
+          "spans": [
+            {
+              "offset": 452,
+              "length": 17
+            }
+          ],
+          "confidence": 0.801,
+          "source": "D(1,507.0029,478.3421,771.1118,479.5005,770.9949,506.1579,506.8860,504.9995)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "35d Chmtod Str6ax\nWishnipeey manitoba",
+          "spans": [
+            {
+              "offset": 513,
+              "length": 17
+            },
+            {
+              "offset": 531,
+              "length": 19
+            }
+          ],
+          "confidence": 0.739,
+          "source": "D(1,511.0000,520.0000,790.0000,520.0000,790.0000,551.0000,511.0000,551.0000);D(1,864.0096,500.2723,1355.2444,503.0014,1354.9998,547.0389,863.7649,544.3098)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1912-11-15",
+          "spans": [
+            {
+              "offset": 571,
+              "length": 17
+            }
+          ],
+          "confidence": 0.914,
+          "source": "D(1,509.0000,569.0000,769.0000,569.0000,769.0000,596.0000,509.0000,596.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 619,
+              "length": 6
+            }
+          ],
+          "confidence": 0.971,
+          "source": "D(1,494.0000,614.0000,588.0000,615.0000,588.0000,639.0000,494.0000,637.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Saskatchewan",
+          "spans": [
+            {
+              "offset": 647,
+              "length": 12
+            }
+          ],
+          "confidence": 0.883,
+          "source": "D(1,720.0000,616.0000,902.0000,616.0000,902.0000,640.0000,720.0000,638.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Carlyle",
+          "spans": [
+            {
+              "offset": 680,
+              "length": 7
+            }
+          ],
+          "confidence": 0.978,
+          "source": "D(1,1030.0000,619.0000,1140.0000,619.0000,1140.0000,643.0000,1030.0000,643.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Probestart\nanglican",
+          "spans": [
+            {
+              "offset": 723,
+              "length": 10
+            },
+            {
+              "offset": 734,
+              "length": 8
+            }
+          ],
+          "confidence": 0.519,
+          "source": "D(1,643.0000,661.0000,807.0000,663.0000,807.0000,686.0000,643.0000,684.0000);D(1,879.0000,650.0000,1209.0000,650.0000,1209.0000,684.0000,879.0000,684.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Truck Driver",
+          "spans": [
+            {
+              "offset": 766,
+              "length": 12
+            }
+          ],
+          "confidence": 0.898,
+          "source": "D(1,644.0024,704.5365,829.1380,705.5007,828.9950,732.9635,643.8594,731.9993)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Married",
+          "spans": [
+            {
+              "offset": 812,
+              "length": 7
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,643.0000,751.0000,754.0000,751.0000,754.0000,774.0000,643.0000,774.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Myrtle Adams",
+          "spans": [
+            {
+              "offset": 846,
+              "length": 12
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,643.0054,794.0055,826.1304,795.0007,825.9919,820.4945,642.8669,819.4993)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "wife",
+          "spans": [
+            {
+              "offset": 902,
+              "length": 4
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,659.0000,841.0000,723.0000,841.0000,723.0000,863.0000,659.0000,863.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "35510grlton sitsebtz\nWimipeg",
+          "spans": [
+            {
+              "offset": 967,
+              "length": 20
+            },
+            {
+              "offset": 988,
+              "length": 7
+            }
+          ],
+          "confidence": 0.827,
+          "source": "D(1,659.0000,886.0000,950.0000,886.0000,950.0000,916.0000,659.0000,916.0000);D(1,975.0000,871.0000,1272.0000,870.0000,1272.0000,904.0000,975.0000,909.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "Yes",
+          "spans": [
+            {
+              "offset": 1056,
+              "length": 3
+            }
+          ],
+          "confidence": 0.825,
+          "source": "D(1,808.0000,940.0000,855.0000,940.0000,855.0000,963.0000,808.0000,963.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "No",
+          "spans": [
+            {
+              "offset": 1136,
+              "length": 2
+            }
+          ],
+          "confidence": 0.958,
+          "source": "D(1,927.0000,985.0000,962.0000,987.0000,962.0000,1008.0000,927.0000,1007.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "7 IN adams.",
+          "spans": [
+            {
+              "offset": 1763,
+              "length": 11
+            }
+          ],
+          "confidence": 0.663,
+          "source": "D(1,811.0000,1351.0000,1082.1318,1351.8690,1081.9940,1394.8686,810.8622,1393.9996)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "Sardlomuoes",
+          "spans": [
+            {
+              "offset": 2634,
+              "length": 11
+            }
+          ],
+          "confidence": 0.18,
+          "source": "D(1,578.0000,1824.0000,901.0000,1812.0000,901.0000,1847.0000,579.0000,1865.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "1",
+          "spans": [
+            {
+              "offset": 2680,
+              "length": 1
+            }
+          ],
+          "confidence": 0.432,
+          "source": "D(1,960.0000,1817.0000,971.0000,1819.0000,971.0000,1843.0000,960.0000,1841.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "2019-02-09",
+          "spans": [
+            {
+              "offset": 1740,
+              "length": 6
+            }
+          ],
+          "confidence": 0.662,
+          "source": "D(1,386.0000,1354.0000,551.0000,1352.0000,552.0000,1396.0000,386.0000,1397.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "7 IN adams.",
+          "spans": [
+            {
+              "offset": 1763,
+              "length": 11
+            }
+          ],
+          "confidence": 0.675,
+          "source": "D(1,811.0000,1351.0000,1082.1318,1351.8690,1081.9940,1394.8686,810.8622,1393.9996)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "7 w adams.",
+          "spans": [
+            {
+              "offset": 1987,
+              "length": 10
+            }
+          ],
+          "confidence": 0.88,
+          "source": "D(1,612.0000,1524.0000,868.3381,1526.5131,867.9852,1562.5097,611.6471,1559.9965)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "CKBoyd",
+          "spans": [
+            {
+              "offset": 1756,
+              "length": 6
+            }
+          ],
+          "confidence": 0.662,
+          "source": "D(1,653.0000,1373.0000,781.0000,1370.0000,781.0000,1410.0000,653.0000,1412.0000)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "TRIPLICATE.",
+          "spans": [
+            {
+              "offset": 111,
+              "length": 11
+            }
+          ],
+          "confidence": 0.262,
+          "source": "D(1,226.0022,224.4744,349.0000,225.0000,348.9272,242.0424,225.9294,241.5168)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0,
+          "width": 1467,
+          "height": 2170
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

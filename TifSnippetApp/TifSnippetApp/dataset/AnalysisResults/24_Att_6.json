@@ -1,0 +1,384 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:00:18Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "ORIGINAL\nDUPLICATE\nTRIRLICATE\nLL\n\nM.F.M. 2\nA.F.B. 271\n450M-5-40 (5237)\nH.Q. 1772-30-1045\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\n\nUnit\nC/C\n\nRegimental Number.\nK2312\n\nCANADIAN ACTIVE SERVICE FORCE\n\nK608218\n\n\n# ATTESTATION PAPER\n\n1\\. Surname\nABERCROMBIE\nthe\n\n2\\. Christian Names.\nJahn. lames 2h atsin\n\n3\\. Present address.\n376 Donen Rd RRT Chuine B.C. Con.\n\n4\\. Date of birth\n9 Mae 1925.\n\n5\\. Place of birth\n(Country)\nCanada B.C.\n(County or Province)\n(Town or Township)\n\n6\\. Religion (state denomination)\nUnited Church.\n\n7\\. Trade or Calling.\nIs itter\n\n8\\. Married, Widower or Single.\nLangle\n\n9\\. Name of next of kin\nFlorence. abercrambie\n\n10\\. Relationship\nMother\n\n11\\. Address of next of kin.\n376 Doner Rd RRI Eburne, B.C. Com:\n\n12\\. Do you belong to, or have you served in the Active Militia of Canada? Reperted for NRMA Sernia\n10-12-43\ntill 13-1-44.\nK162491\n\n(Ii Yes, Give Unit and Dates of Service)\n\n13\\. Have you served in (a) The Canadian Active Service Force?\n30\n(Yes or No)\n\n-no\n(b) Any other Naval, Military, or Air\nForce?\n(Yes or No) (If Yes, specify Unit and Period of Service)\n\n14\\. Did you serve during the Great War 1914-1918?\nno\n\nno\n\n(It Yes, spacify Regimental No., Unit and Dates of Service)\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI, John James hation abercrombie\nlo solemnly declare that the above\nparticulars are true, and I hereby engage to serve in the Canadian Active Service Force so long as an emergency,\ni.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the period of demobilization after\nsaid emergency ceases to exist, and in any event for a period of not less than one year, provided His Majesty\nshould so require my services.\n\nDate\n9 Teb 44.\n\n(Signature of recruit)\nJ J. W. abeserombie\n\nOATH TO BE TAKEN BY M\u1ea0N ON ATTESTATION\n\nI, John Comeo Thatson Obercrembie\ndo sincerely promise and swear (or solemnly\ndeclares that I will be faithful and bear true allegiance to His Majesty.\n\n40 W ahercrombie\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nat\nCamaose alta\nthis\nninth\nday of.\nGelruana.\n1944\n\nLt Col.\nSignature of Magistrate, Justice\n1\nor Attesting Officer.\n\n(P.J.A. Aleming) Commanderg\n131 CHASTC. CA\nCamroa alta\nOffice or Rank and Unit\n1\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n(li Yes, Give Regimental No. and Unit)\nn0\n\n2\n\nRichmand\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "K2312",
+          "spans": [
+            {
+              "offset": 220,
+              "length": 5
+            }
+          ],
+          "confidence": 0.83,
+          "source": "D(1,1069.0000,299.0000,1246.0000,298.0000,1246.0000,329.0000,1069.0000,330.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABERCROMBIE",
+          "spans": [
+            {
+              "offset": 301,
+              "length": 11
+            }
+          ],
+          "confidence": 0.814,
+          "source": "D(1,361.0000,438.0000,809.0000,437.0000,809.0000,478.0000,360.0000,479.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Jahn. lames 2h atsin",
+          "spans": [
+            {
+              "offset": 339,
+              "length": 20
+            }
+          ],
+          "confidence": 0.803,
+          "source": "D(1,475.6789,485.0096,1065.9905,480.7008,1066.3130,524.8809,476.0014,529.1898)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "376 Donen Rd RRT Chuine B.C. Con.",
+          "spans": [
+            {
+              "offset": 382,
+              "length": 33
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,466.0000,531.0000,1304.0000,531.0000,1304.0000,576.0000,466.0000,576.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "2019-02-05",
+          "spans": [
+            {
+              "offset": 435,
+              "length": 11
+            }
+          ],
+          "confidence": 0.93,
+          "source": "D(1,453.0000,588.0000,786.0000,588.0000,786.0000,621.0000,453.0000,621.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada B.C.",
+          "spans": [
+            {
+              "offset": 477,
+              "length": 11
+            }
+          ],
+          "confidence": 0.783,
+          "source": "D(1,405.0000,627.0000,794.0000,627.0000,794.0000,668.0000,405.0000,668.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "United Church.",
+          "spans": [
+            {
+              "offset": 564,
+              "length": 14
+            }
+          ],
+          "confidence": 0.892,
+          "source": "D(1,642.6747,682.0029,1021.9962,678.5753,1022.3595,718.7889,643.0381,722.2165)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Is itter",
+          "spans": [
+            {
+              "offset": 602,
+              "length": 8
+            }
+          ],
+          "confidence": 0.757,
+          "source": "D(1,580.0121,728.5247,760.2705,730.0022,759.9879,764.4753,579.7295,762.9978)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Langle",
+          "spans": [
+            {
+              "offset": 644,
+              "length": 6
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,591.0000,766.0000,724.0000,766.0000,723.0000,812.0000,591.0000,811.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Florence. abercrambie",
+          "spans": [
+            {
+              "offset": 676,
+              "length": 21
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,474.0000,815.0000,1156.0000,815.0000,1156.0000,857.0000,474.0000,857.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Mother",
+          "spans": [
+            {
+              "offset": 717,
+              "length": 6
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,682.0000,868.0000,881.0000,868.0000,881.0000,904.0000,682.0000,903.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "376 Doner Rd RRI Eburne, B.C. Com:",
+          "spans": [
+            {
+              "offset": 754,
+              "length": 34
+            }
+          ],
+          "confidence": 0.833,
+          "source": "D(1,487.0000,913.0000,1426.0000,913.0000,1426.0000,955.0000,487.0000,955.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "Reperted for NRMA Sernia\n10-12-43\ntill 13-1-44.\nK162491",
+          "spans": [
+            {
+              "offset": 865,
+              "length": 24
+            },
+            {
+              "offset": 890,
+              "length": 8
+            },
+            {
+              "offset": 899,
+              "length": 13
+            },
+            {
+              "offset": 913,
+              "length": 7
+            }
+          ],
+          "confidence": 0.454,
+          "source": "D(1,922.6887,968.3825,1396.0000,964.0000,1396.3240,998.9970,923.0128,1003.3795);D(1,231.0000,1009.0000,400.0000,1008.0000,400.0000,1034.0000,231.0000,1034.0000);D(1,475.0027,999.5652,729.1854,1001.1440,728.9840,1033.5775,474.8012,1031.9988);D(1,869.0000,1003.0000,1088.0000,1005.0000,1088.0000,1035.0000,869.0000,1035.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "J J. W. abeserombie",
+          "spans": [
+            {
+              "offset": 1797,
+              "length": 19
+            }
+          ],
+          "confidence": 0.679,
+          "source": "D(1,774.8002,1445.8087,1201.9244,1436.5234,1203.1242,1491.7147,776.0000,1501.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "(P.J.A. Aleming) Commanderg",
+          "spans": [
+            {
+              "offset": 2696,
+              "length": 27
+            }
+          ],
+          "confidence": 0.469,
+          "source": "D(1,405.0000,1908.0000,855.0000,1908.0000,855.0000,1937.0000,405.0000,1937.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "Lt Col.",
+          "spans": [
+            {
+              "offset": 2630,
+              "length": 7
+            }
+          ],
+          "confidence": 0.662,
+          "source": "D(1,835.0000,1879.0000,934.0000,1879.0000,934.0000,1908.0000,835.0000,1908.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Camaose alta",
+          "spans": [
+            {
+              "offset": 2582,
+              "length": 12
+            }
+          ],
+          "confidence": 0.52,
+          "source": "D(1,235.0000,1823.0000,524.1004,1823.8503,523.9946,1859.8500,234.8941,1858.9997)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "spans": [
+            {
+              "offset": 2600,
+              "length": 5
+            },
+            {
+              "offset": 2606,
+              "length": 7
+            },
+            {
+              "offset": 2614,
+              "length": 9
+            },
+            {
+              "offset": 2624,
+              "length": 4
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,615.0000,1828.0000,734.0000,1828.0000,734.0000,1855.0000,615.0000,1856.0000);D(1,802.0000,1838.0000,868.0000,1838.0000,868.0000,1862.0000,802.0000,1862.0000);D(1,889.5777,1822.0048,1121.9926,1819.3517,1122.4149,1856.3469,890.0000,1859.0000);D(1,1216.0000,1830.0000,1294.0000,1829.0000,1294.0000,1858.0000,1216.0000,1859.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "J J. W. abeserombie",
+          "spans": [
+            {
+              "offset": 1797,
+              "length": 19
+            }
+          ],
+          "confidence": 0.662,
+          "source": "D(1,774.8002,1445.8087,1201.9244,1436.5234,1203.1242,1491.7147,776.0000,1501.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "40 W ahercrombie",
+          "spans": [
+            {
+              "offset": 2011,
+              "length": 16
+            }
+          ],
+          "confidence": 0.78,
+          "source": "D(1,660.0000,1592.0000,1036.0000,1592.0000,1036.0000,1636.0000,660.0000,1636.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "TRIRLICATE",
+          "spans": [
+            {
+              "offset": 19,
+              "length": 10
+            }
+          ],
+          "confidence": 0.312,
+          "source": "D(1,187.0000,239.0000,316.0000,239.0000,316.0000,259.0000,187.0000,259.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.0107,
+          "width": 1536,
+          "height": 2284
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

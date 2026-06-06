@@ -1,0 +1,381 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T00:56:17Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "0\n\nReceived.\nDEC 4 .341\nChecked..............\nCard.\nObservations.\n\nM.F.M.2\nA.P.B. 271\n300M-3-41 (0730)\nIH.Q. I772:38-108p......\n\n(To be completed in triplicate. Copy designation to be skown by striking out terms not applicable.)\n\nUnit 67th, L.A.A. BTY. R.C.A. A.F.\n\nRegimental Number.\nL57872\n\nACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY\n0\nGNR\n\n\n# ATTESTATION PAPER\n\n1\\. Surname\nABBOTT\n\n2\\. Christian Names WALTER JOHN\n\n3\\. Present address RICHLEA SASKATCHEWAN\n\n4\\. Date of birth.\n15/2/20\n\n5\\. Place of birth\n(Country)\nCANADA\n(County or Province)\nSASKATCHEWAN\nRIgW (wAhip)\n\n6\\. Religion (state denomination)\nUNITED CHURCH OF CANADA\n\n7\\. Trade or Calling\nFARM HELP TRACTOR TRUCK OPERATOR\n\n8\\. Married, Widower or Single\nS.INGLE.\n\n9\\. Name of next of kin\nABBOTT John\n\n10\\. Relationship\nFATHER\n\n11\\. Address of next of kin.\nRICHLEA SASKATCHE WAN\n\n12\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army? NO\nN.A.\n(If Yes, Give Unit and Dates of Service)\n\n13\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?.\n(Yes or No)\nNO\nN.A.\n(b) Any other Naval, Military, or Air\n(If Yes, Give Regimental No. and Unit)\nForce?\n(Yes or No) (If Yes, specify Uait and Period of Service)\nN.A.\n\n14\\. Did you serve during the Great War 1914-1918?\n\nNO\n\nN.A.\n(If Yes, specify Regimental No., Unit and Dates of Service)\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\n1,\nWalter John Abbott\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\n\nDate.\nJULY 21st, 1941\nl'alter abestt\nstrmi lupi\n(\nOATH TO BE TAKEN BY MAN ON ATTESTATION\nI,\nWalter Jom Abbott\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\n\nsononstupi\n1'alter abbati\n(Signature of Recruit)\n\nCERTIFICAT\u00c9 OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to, the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\natRosetown Sask\nthis.\n21st\nday of.\nJULY\n141\n\nO.C. 67th, L.A.A. BTX. R.C.A. A.F.\nH.N. McKenzie Mator\narionsteni\n(Signature of Magistrate, Justice\n1\nor Attesting Officer.\nOffice or Rank and Unit\n1\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT..\n\nFINGERPRINTED\n\nORIGINAL.\nDUPLICATE\nTRIPLICATEY\n\n(Signature of recruit)\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "L57872",
+          "spans": [
+            {
+              "offset": 285,
+              "length": 6
+            }
+          ],
+          "confidence": 0.979,
+          "source": "D(1,1002.0000,285.0000,1155.0000,283.0000,1155.0000,311.0000,1002.0000,313.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABBOTT",
+          "spans": [
+            {
+              "offset": 383,
+              "length": 6
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,417.0000,491.0000,504.0000,491.0000,504.0000,515.0000,417.0000,514.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "WALTER JOHN",
+          "spans": [
+            {
+              "offset": 411,
+              "length": 11
+            }
+          ],
+          "confidence": 0.949,
+          "source": "D(1,412.0000,527.0000,573.0000,527.0000,573.0000,551.0000,412.0000,551.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "RICHLEA SASKATCHEWAN",
+          "spans": [
+            {
+              "offset": 444,
+              "length": 20
+            }
+          ],
+          "confidence": 0.74,
+          "source": "D(1,412.0027,566.4461,700.1183,567.8584,699.9955,592.9117,411.8799,591.4994)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "2015-02-20",
+          "spans": [
+            {
+              "offset": 485,
+              "length": 7
+            }
+          ],
+          "confidence": 0.98,
+          "source": "D(1,416.0000,605.0000,515.0000,605.0000,515.0000,632.0000,416.0000,632.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "CANADA",
+          "spans": [
+            {
+              "offset": 523,
+              "length": 6
+            }
+          ],
+          "confidence": 0.972,
+          "source": "D(1,412.0000,645.0000,501.0000,645.0000,501.0000,667.0000,412.0000,667.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "SASKATCHEWAN",
+          "spans": [
+            {
+              "offset": 551,
+              "length": 12
+            }
+          ],
+          "confidence": 0.933,
+          "source": "D(1,650.0000,647.0000,825.0000,648.0000,825.0000,671.0000,650.0000,669.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "UNITED CHURCH OF CANADA",
+          "spans": [
+            {
+              "offset": 612,
+              "length": 23
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,652.0075,686.6630,978.1377,688.4952,977.9953,713.8314,651.8652,711.9992)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "FARM HELP TRACTOR TRUCK OPERATOR",
+          "spans": [
+            {
+              "offset": 658,
+              "length": 32
+            }
+          ],
+          "confidence": 0.826,
+          "source": "D(1,652.0063,725.7300,1106.1250,728.0006,1105.9947,754.0700,651.8760,751.7994)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "S.INGLE.",
+          "spans": [
+            {
+              "offset": 723,
+              "length": 8
+            }
+          ],
+          "confidence": 0.82,
+          "source": "D(1,650.0000,765.0000,739.0000,765.0000,739.0000,788.0000,650.0000,788.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "ABBOTT John",
+          "spans": [
+            {
+              "offset": 757,
+              "length": 11
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,651.0000,804.0000,810.0000,804.0000,810.0000,828.0000,651.0000,828.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "FATHER",
+          "spans": [
+            {
+              "offset": 788,
+              "length": 6
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,651.0000,841.0000,738.0000,841.0000,738.0000,863.0000,651.0000,863.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "RICHLEA SASKATCHE WAN",
+          "spans": [
+            {
+              "offset": 825,
+              "length": 21
+            }
+          ],
+          "confidence": 0.696,
+          "source": "D(1,650.0000,878.0000,938.0000,878.0000,938.0000,903.0000,650.0000,903.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "NO",
+          "spans": [
+            {
+              "offset": 1084,
+              "length": 2
+            }
+          ],
+          "confidence": 0.519,
+          "source": "D(1,1112.0000,993.0000,1145.0000,994.0000,1145.0000,1015.0000,1112.0000,1015.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "NO",
+          "spans": [
+            {
+              "offset": 1291,
+              "length": 2
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,1112.0000,1120.0000,1145.0000,1120.0000,1145.0000,1142.0000,1112.0000,1142.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "l'alter abestt",
+          "spans": [
+            {
+              "offset": 1876,
+              "length": 14
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,737.2104,1334.8891,1108.0000,1327.0000,1108.8217,1365.6208,738.0321,1373.5100)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "H.N. McKenzie Mator",
+          "spans": [
+            {
+              "offset": 2739,
+              "length": 19
+            }
+          ],
+          "confidence": 0.187,
+          "source": "D(1,381.0000,1784.0000,651.0000,1784.0000,651.0000,1807.0000,381.0000,1807.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "O.C. 67th, L.A.A. BTX. R.C.A. A.F.",
+          "spans": [
+            {
+              "offset": 2704,
+              "length": 34
+            }
+          ],
+          "confidence": 0.828,
+          "source": "D(1,381.0000,1744.0000,858.0000,1744.0000,858.0000,1769.0000,381.0000,1769.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Rosetown Sask",
+          "spans": [
+            {
+              "offset": 2659,
+              "length": 15
+            }
+          ],
+          "confidence": 0.468,
+          "source": "D(1,225.6148,1679.1533,429.0000,1676.0000,429.3879,1701.0172,226.0026,1704.1705)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "2014-07-21",
+          "spans": [
+            {
+              "offset": 2694,
+              "length": 4
+            },
+            {
+              "offset": 2699,
+              "length": 3
+            }
+          ],
+          "confidence": 0.07,
+          "source": "D(1,869.0000,1675.0000,931.0000,1676.0000,931.0000,1698.0000,869.0000,1697.0000);D(1,1144.0000,1678.0000,1180.0000,1678.0000,1180.0000,1700.0000,1144.0000,1700.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "l'alter abestt",
+          "spans": [
+            {
+              "offset": 1876,
+              "length": 14
+            }
+          ],
+          "confidence": 0.282,
+          "source": "D(1,737.2104,1334.8891,1108.0000,1327.0000,1108.8217,1365.6208,738.0321,1373.5100)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "1'alter abbati",
+          "spans": [
+            {
+              "offset": 2094,
+              "length": 14
+            }
+          ],
+          "confidence": 0.466,
+          "source": "D(1,571.5442,1479.3613,985.9856,1473.9081,986.4414,1508.5468,572.0000,1514.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "TRIPLICATEY",
+          "spans": [
+            {
+              "offset": 3064,
+              "length": 11
+            }
+          ],
+          "confidence": 0.74,
+          "source": "D(1,214.0000,224.0000,336.0000,224.0000,336.0000,243.0000,214.0000,242.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.612
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.1856,
+          "width": 1383,
+          "height": 2049
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T00:55:16Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "3\n\nFINGERPRINTED\nReceived...............................Checked...................Card....ka..........Observations.\nPHOTOGKA\nOCCUPATIONAL\n\nOTRTGINAL\nDUPLICATE\nTRIFLIOATE\nGRADE,8:\n\nM.F.M. 2\nA.F.B. 271\n750M-S-42 (4398)\nH.Q. 1772-39-1645\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.).\n\nUnit No. 6. Dietrics Depet, (Genenal List) Regimental Number.\n732583\n\nACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY\n\nPTE\n\n\n# ATTESTATION PAPER\n\n1\\. Surname.\nABBOTT,\n\n2\\. Christian Names\nGeorge William.\n\n3\\. Present address.\n19 Rrnce St, Glase Bay, N.S.,\n\n4\\. Date of birth\n20th February, 1924.\n\n5\\. Place of birth\nCANADA.\n(Country)\n(County or Province)\nNOVA SCOTIA.\nGLAGE BAX.\n\n6\\. Citizenship\n(Of What Country are You Now a Citizen)\nRoman Catholic,\n\n8\\. Trade or Calling\nLaborer,\n\n9\\. Married, Widower or Single.\nSingie,\n\n10\\. Name of next of kin\nMr., William ABDOTT.\n\u4ef6.\n\n11\\. Relationship\n1\nFather,\n\n12\\. Address of next of kin\n19 Bruce St. Glace Bay, \u062a.S.,\n\n13\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army?.\nNO\n\n#5 Fortress Signal Co'y (R) 1942, Glaco Bay, H.S.\n\n(If Yes, Give Unit and Dates of Service)\n\n14\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?\nNO.\n\n(If Yes, Give Regimental No. and Unit)\nNA\n(b) Any other Naval, Military, or Air\nForce?\n(Yes or No) (If Yes, specify Unit and Period of Service)\n\n15\\. Did you serve during the Great War 1914-1918?.\nNO\n\nMA\n\n(If Yes, specify Regimental No., Unit and Dates of Service)\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nGeorge Williani ABBOTT.\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\n\nDate\nwitness.\nDuily Inderi 1\n(Signature of recruit)\n\n\n## OATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI, George William ABROTT\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\n\nWitness.\nCuilia Gadersan Dcorge W a bbott\n(Name)\n(Rank)\n\n(Signature of Recrunt)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nat\nSydney.\nthis.\n23rd\nday of.\nOctober\n19\n42\n\nAtennedy\nSignature of Magistrate, Justice\nor Attesting Officer.\n\n(J. F. Nennedy/Maj or.\nBranch Rebrniitane taeef.\nOfficer or Rank and Unit\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\n(Town or Township)\nCARADA.\n\n7\\. Religion (state denomination)\nQ 23A16-43. 1 George s abbott\n\n(Yes or No)\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "732583",
+          "spans": [
+            {
+              "offset": 400,
+              "length": 6
+            }
+          ],
+          "confidence": 0.939,
+          "source": "D(1,995.0000,271.0000,1159.0000,276.0000,1157.0000,329.0000,993.0000,324.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABBOTT",
+          "spans": [
+            {
+              "offset": 498,
+              "length": 7
+            }
+          ],
+          "confidence": 0.826,
+          "source": "D(1,611.0061,468.7413,707.5879,471.0138,706.9939,496.2587,610.4121,493.9862)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "George William.",
+          "spans": [
+            {
+              "offset": 527,
+              "length": 15
+            }
+          ],
+          "confidence": 0.751,
+          "source": "D(1,610.0000,521.0000,821.0044,522.2788,820.8363,550.0111,609.8319,548.7323)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "19 Rrnce St, Glase Bay, N.S.,",
+          "spans": [
+            {
+              "offset": 565,
+              "length": 29
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,621.7448,556.8149,1030.0000,568.0000,1029.2402,595.7326,620.9850,584.5475)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1924-02-20",
+          "spans": [
+            {
+              "offset": 614,
+              "length": 20
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,620.6985,596.9922,902.0189,604.2677,901.3058,631.8441,619.9853,624.5686)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "CANADA.",
+          "spans": [
+            {
+              "offset": 655,
+              "length": 7
+            }
+          ],
+          "confidence": 0.913,
+          "source": "D(1,466.0154,630.5523,566.7922,634.0273,565.9846,657.4477,465.2078,653.9727)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "NOVA SCOTIA.",
+          "spans": [
+            {
+              "offset": 694,
+              "length": 12
+            }
+          ],
+          "confidence": 0.921,
+          "source": "D(1,677.4384,634.7902,844.4401,637.6946,843.9967,663.1912,676.9950,660.2869)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "GLAGE BAX.",
+          "spans": [
+            {
+              "offset": 707,
+              "length": 10
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,1028.0188,642.1560,1168.5271,645.2784,1167.9975,669.1111,1027.4891,665.9886)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Roman Catholic,",
+          "spans": [
+            {
+              "offset": 775,
+              "length": 15
+            }
+          ],
+          "confidence": 0.781,
+          "source": "D(1,633.5344,716.9901,843.0114,721.4661,842.4397,748.2231,632.9627,743.7471)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Laborer,",
+          "spans": [
+            {
+              "offset": 813,
+              "length": 8
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,688.0050,754.8897,801.0000,760.0000,799.7764,787.0552,686.7814,781.9449)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Singie,",
+          "spans": [
+            {
+              "offset": 855,
+              "length": 7
+            }
+          ],
+          "confidence": 0.82,
+          "source": "D(1,704.6463,795.6958,802.0000,798.0000,801.3537,825.3042,704.0000,823.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mr., William ABDOTT.",
+          "spans": [
+            {
+              "offset": 889,
+              "length": 20
+            }
+          ],
+          "confidence": 0.722,
+          "source": "D(1,604.0179,830.2791,867.0293,836.8216,866.2654,867.5290,603.2541,860.9864)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Father,",
+          "spans": [
+            {
+              "offset": 934,
+              "length": 7
+            }
+          ],
+          "confidence": 0.659,
+          "source": "D(1,713.0065,875.7144,813.0000,878.0000,812.4221,903.2839,712.4286,900.9984)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "19 Bruce St. Glace Bay, \u062a.S.,",
+          "spans": [
+            {
+              "offset": 971,
+              "length": 29
+            }
+          ],
+          "confidence": 0.828,
+          "source": "D(1,614.7859,902.9031,1022.7744,914.3154,1021.9849,942.5380,613.9965,931.1258)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "#5 Fortress Signal Co'y (R) 1942, Glaco Bay, H.S.",
+          "spans": [
+            {
+              "offset": 1102,
+              "length": 49
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,290.1755,971.7924,977.0019,994.9439,975.8670,1028.6135,289.0406,1005.4620)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "George Williani ABBOTT.",
+          "spans": [
+            {
+              "offset": 1597,
+              "length": 23
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,311.3096,1259.9918,618.3375,1263.6469,618.0000,1292.0000,310.9721,1288.3449)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "Atennedy",
+          "spans": [
+            {
+              "offset": 2936,
+              "length": 8
+            }
+          ],
+          "confidence": 0.662,
+          "source": "D(1,424.0000,1752.0000,648.0000,1760.0000,648.0000,1819.0000,423.0000,1818.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "J. F. Nennedy/Maj or.\nBranch Rebrniitane taeef.",
+          "spans": [
+            {
+              "offset": 3002,
+              "length": 21
+            },
+            {
+              "offset": 3024,
+              "length": 25
+            }
+          ],
+          "confidence": 0.247,
+          "source": "D(1,408.0034,1816.9315,684.1535,1830.4683,682.9223,1855.5844,406.7722,1842.0477);D(1,380.4213,1840.9878,699.4273,1847.7037,698.9429,1870.7146,379.9369,1863.9987)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Sydney.",
+          "spans": [
+            {
+              "offset": 2894,
+              "length": 7
+            }
+          ],
+          "confidence": 0.832,
+          "source": "D(1,286.0000,1739.0000,378.0000,1739.0000,378.0000,1763.0000,286.0000,1763.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1942-10-23",
+          "spans": [
+            {
+              "offset": 2908,
+              "length": 4
+            },
+            {
+              "offset": 2913,
+              "length": 7
+            },
+            {
+              "offset": 2921,
+              "length": 7
+            },
+            {
+              "offset": 2929,
+              "length": 2
+            },
+            {
+              "offset": 2932,
+              "length": 2
+            }
+          ],
+          "confidence": 0.249,
+          "source": "D(1,653.0000,1729.0000,767.0000,1724.0000,767.0000,1765.0000,653.0000,1767.0000);D(1,784.0000,1746.0000,842.0000,1746.0000,842.0000,1770.0000,784.0000,1770.0000);D(1,955.0000,1753.0000,1061.0000,1753.0000,1061.0000,1775.0000,955.0000,1775.0000);D(1,1158.0000,1745.0000,1180.0000,1744.0000,1180.0000,1762.0000,1158.0000,1763.0000);D(1,1162.0000,1751.0000,1201.0000,1751.0000,1201.0000,1774.0000,1162.0000,1774.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "George Williani ABBOTT.",
+          "spans": [
+            {
+              "offset": 1597,
+              "length": 23
+            }
+          ],
+          "confidence": 0.262,
+          "source": "D(1,311.3096,1259.9918,618.3375,1263.6469,618.0000,1292.0000,310.9721,1288.3449)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "George William ABROTT",
+          "spans": [
+            {
+              "offset": 2142,
+              "length": 21
+            }
+          ],
+          "confidence": 0.464,
+          "source": "D(1,306.0000,1461.0000,609.2497,1464.0325,608.9884,1490.1599,305.7387,1487.1274)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "Cuilia Gadersan Dcorge W a bbott",
+          "spans": [
+            {
+              "offset": 2292,
+              "length": 32
+            }
+          ],
+          "confidence": 0.664,
+          "source": "D(1,340.6233,1507.0559,1161.9987,1499.8509,1162.4210,1547.9963,341.0456,1555.2014)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "TRIFLIOATE",
+          "spans": [
+            {
+              "offset": 159,
+              "length": 10
+            }
+          ],
+          "confidence": 0.519,
+          "source": "D(1,241.0000,220.0000,375.0000,223.0000,375.0000,240.0000,241.0000,238.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.003
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.1017559,
+          "width": 1379,
+          "height": 2045
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

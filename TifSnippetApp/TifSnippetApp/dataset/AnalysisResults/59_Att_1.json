@@ -1,0 +1,361 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:15:51Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Prepared by : FL\nChecked by :\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\nM.F.M. 2\nA.F.B. 271\n750M-5-42 (4398)\n11.Q. 1772-39-1645\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\n\nUnit West N.S. Regiment\n\nRegimental Number\nF-40906\n\n\n# ACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY ATTESTATION PAPER\n\n1\\. Surname\nACORN\n\n2\\. Christian Names.\nJohn Murdock\n\n3\\. Present address.\nWood Islands, North R.R.2, P.E.I., Canada\n\n4\\. Date of birth.\nJuly 11, 1917\n\n5\\. Place of birth\n(Country)\nCanada\n\nC\nova Sco\n(County or Provic\n\nA\n\nTrenton\n\n6\\. Citizenship\n\n(Of\nB\nuntry are You\nizen)\n\n7\\. Religion (state denomination) Presbyterian\n\n8\\. Trade or Calling\nLaborer\nMarried\n\n9\\. Married, Widower or Single Single D.0.79 d/14 Apr 41 R.R. of C. \"W\" Force\nLillian\n\n10\\. Name of next of kin\nEffie ACORN\nWife\n\n11\\. Relationship\nMother\n\n12\\. Address of next of kin\nB\u00f6twood, Newfoundland\nWeed-Islands,-Nerth-R-R-2,-P.E.I.:-Ganada\n\n13\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army?.\nno\n\n14\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?.\n(Yes or No)\n(If Yes, Give Regimental No. and Unit)\nno\n(b) Any other Naval Military, or Air\nForce?\n(Yes or No) (If Yes, specify Unit and Period of Service)\nno\n\n15\\. Did you serve during the Great War 1914-1918?.\n\n(If Yes, specify Regimental No., Unit and Dates of Service)\nno\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nJohn Murdock ACORN\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\n\nDate.\n13 Jul 40\n\n(Signature of recruit)\n\n\n## O\u0391\u03a4\u0397 \u03a4\u039f BE TAKEN BY MAN ON ATTESTATION\n\nI,\nJohn Murdock ACORN\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\n\nWitness.\n(Name)\n(Sgd) C. Campbell\n(Rank)\nPte.\n(Sgd) J. Murdock Acorn\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\nat Charlottetown, PEI this 13th\nday of July\n1940\n(Sgd) ???\nMajor\nOfficer or Rank and Unit\nor appointment.\nRecruiting Officer Prince Edward Island.\nSignature of Magistrate, Justice\nor Attesting Officer.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n(Sgd) J. Murdock Acorn\n\n(If Yes, Give Unit and Dates of Service)\n\na\n\nTown or Township)\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "F-40906",
+          "spans": [
+            {
+              "offset": 263,
+              "length": 7
+            }
+          ],
+          "confidence": 0.981,
+          "source": "D(1,1056.0000,315.0000,1164.0000,315.0000,1164.0000,338.0000,1056.0000,338.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ACORN",
+          "spans": [
+            {
+              "offset": 355,
+              "length": 5
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,570.0000,516.0000,650.0000,515.0000,650.0000,539.0000,570.0000,540.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "John Murdock",
+          "spans": [
+            {
+              "offset": 383,
+              "length": 12
+            }
+          ],
+          "confidence": 0.937,
+          "source": "D(1,570.0000,555.0000,755.0000,555.0000,755.0000,580.0000,570.0000,580.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "Wood Islands, North R.R.2, P.E.I., Canada",
+          "spans": [
+            {
+              "offset": 418,
+              "length": 41
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,568.0000,596.0000,1196.0000,596.0000,1196.0000,625.0000,568.0000,625.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1917-07-11",
+          "spans": [
+            {
+              "offset": 480,
+              "length": 13
+            }
+          ],
+          "confidence": 0.925,
+          "source": "D(1,569.0000,638.0000,770.0000,638.0000,770.0000,665.0000,569.0000,665.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 524,
+              "length": 6
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,432.0000,683.0000,526.0000,683.0000,526.0000,707.0000,432.0000,706.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Trenton",
+          "spans": [
+            {
+              "offset": 564,
+              "length": 7
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,1040.0000,680.0000,1150.0000,681.0000,1150.0000,705.0000,1040.0000,705.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Presbyterian",
+          "spans": [
+            {
+              "offset": 651,
+              "length": 12
+            }
+          ],
+          "confidence": 0.895,
+          "source": "D(1,567.0000,769.0000,757.0000,767.0000,757.0000,792.0000,567.0000,795.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Laborer",
+          "spans": [
+            {
+              "offset": 686,
+              "length": 7
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,569.0000,807.0000,679.0000,808.0000,679.0000,831.0000,569.0000,830.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 727,
+              "length": 6
+            }
+          ],
+          "confidence": 0.973,
+          "source": "D(1,479.0000,854.0000,537.0000,853.0000,536.0000,880.0000,479.0000,880.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Effie ACORN",
+          "spans": [
+            {
+              "offset": 815,
+              "length": 11
+            }
+          ],
+          "confidence": 0.938,
+          "source": "D(1,567.8442,892.0697,739.0000,891.0000,739.1562,915.9990,568.0004,917.0687)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Mother",
+          "spans": [
+            {
+              "offset": 851,
+              "length": 6
+            }
+          ],
+          "confidence": 0.969,
+          "source": "D(1,568.0000,934.0000,663.0000,934.0000,663.0000,956.0000,568.0000,955.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "B\u00f6twood, Newfoundland",
+          "spans": [
+            {
+              "offset": 887,
+              "length": 21
+            }
+          ],
+          "confidence": 0.589,
+          "source": "D(1,570.0005,954.9388,891.1636,957.5013,890.9942,978.7234,569.8312,976.1609)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "J. Murdock Acorn",
+          "spans": [
+            {
+              "offset": 3109,
+              "length": 16
+            }
+          ],
+          "confidence": 0.834,
+          "source": "D(1,813.0000,1488.0000,1062.0000,1488.0000,1062.0000,1515.0000,813.0000,1515.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "Major",
+          "spans": [
+            {
+              "offset": 2804,
+              "length": 5
+            }
+          ],
+          "confidence": 0.717,
+          "source": "D(1,707.0000,1934.0000,789.0000,1934.0000,789.0000,1959.0000,707.0000,1959.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Charlottetown, PEI",
+          "spans": [
+            {
+              "offset": 2748,
+              "length": 18
+            }
+          ],
+          "confidence": 0.85,
+          "source": "D(1,267.0000,1884.0000,541.0000,1884.0000,541.0000,1910.0000,267.0000,1910.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1940-07-13",
+          "spans": [
+            {
+              "offset": 2772,
+              "length": 4
+            },
+            {
+              "offset": 2777,
+              "length": 11
+            },
+            {
+              "offset": 2789,
+              "length": 4
+            }
+          ],
+          "confidence": 0.261,
+          "source": "D(1,633.0000,1884.0000,696.0000,1884.0000,696.0000,1910.0000,633.0000,1909.0000);D(1,830.0544,1889.0358,1002.9805,1882.4856,1003.9834,1908.9627,831.0573,1915.5130);D(1,1240.0000,1882.0000,1308.0000,1882.0000,1308.0000,1908.0000,1240.0000,1908.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "J. Murdock Acorn",
+          "spans": [
+            {
+              "offset": 2178,
+              "length": 16
+            }
+          ],
+          "confidence": 0.519,
+          "source": "D(1,860.0000,1641.0000,1107.0000,1641.0000,1107.0000,1667.0000,860.0000,1667.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "J. Murdock Acorn",
+          "spans": [
+            {
+              "offset": 2178,
+              "length": 16
+            }
+          ],
+          "confidence": 0.848,
+          "source": "D(1,860.0000,1641.0000,1107.0000,1641.0000,1107.0000,1667.0000,860.0000,1667.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "C. Campbell",
+          "spans": [
+            {
+              "offset": 2148,
+              "length": 11
+            }
+          ],
+          "confidence": 0.76,
+          "source": "D(1,417.0000,1641.0000,589.0000,1641.0000,589.0000,1668.0000,417.0000,1668.0000)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.0144,
+          "width": 1483,
+          "height": 2203
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

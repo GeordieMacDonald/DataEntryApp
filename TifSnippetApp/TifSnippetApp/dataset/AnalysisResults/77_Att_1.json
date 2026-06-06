@@ -1,0 +1,360 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:23:22Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: AIR FORCE NO. R-187715 -->\n<!-- PageHeader: No. & Recruiting Centre. -->\n<!-- PageHeader: POSTED TO Windsor,, Ontarior -->\n<!-- PageHeader: TRADE. Aircrew (ITS) -->\n\n\n# WWP ROYAL CANADIAN AIR FORCE 19-12-44\n\n\n# (ATTESTATION PAPER) SPECIAL RESERVE\n\n\n![](figures/1.1)\n\n\n## (Pages one and two, only, are to be completed in Applicant's own Handwriting)\n\n1\\. Surname\nADAM.\n\nFULL Christian Names.\nRaymond Francis\n\u2713\n\n2\\. Present Address 1234 Hall Avenue, Windsor, Ontario\n\nTelephone.\n3-1397\n\u2713\n\n3\\. Permanent Address\n1234 Hall Avenue, Windsor, Ontario\n\n\u2713\n\n4\\. Place of Birth\nWindsor, Ontario\n\nCitizenship\nCanadian\n\u2713\n\n5\\. Date of Birth August 21, 1924\ny\nMarried, Single, Widower, Separated, Divorced\nSingle\n\u2713\n\n6\\. Particulars of Children\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td>\u2713</td>\n</tr>\n<tr>\n<td>None</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n7\\. Occupation\nSchool Student\n\n8\\. Religion\nState denomination\nL\n\n9\\. Languages\nFrench and English\n\nState proficiency\n\u2713\n\n10\\. Next of Kin (Full Name) Denis Joseph Adam\nRelationship\nFather\n\u2713\n\n\"\nAddress 1234 Hall Avenue, Windsor, Ontario\n\n\u2612\n\n11\\. Father (Full Name)\nDenis Joseph Adam\nBirthplace\nBelle River, Ontario\nL\n\" Address 1234 Hall Avenue, Windsor, Ontario\nCitizenship\nCanadian\n\n\" Occupation City Assessor\n\u2713\n\n12\\. Mother (Full Maiden Name)\nMarie Tessier\n\nBirthplace\nSudbury, Ontario\n\n\"\nAddress\n1234 Hall Avenue, Windsor, Ontario\nCitizenship\nCanadian\n\u2713\n\n13\\. Details of any Naval, Military or Air Force Service:\n\n\n<table>\n<tr>\n<th rowspan=\"2\">Unit</th>\n<th rowspan=\"2\">Place</th>\n<th rowspan=\"2\">Rank</th>\n<th colspan=\"2\" rowspan=\"2\">Trade<br>n.c..</th>\n<th colspan=\"2\">Date</th>\n<th colspan=\"2\" rowspan=\"2\">Reason for discharge<br>Difice</th>\n</tr>\n<tr>\n<th>\u00b7</th>\n<th>Froneponds</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>tec'd.</td>\n<td>SEP</td>\n<td>23</td>\n<td>1042</td>\n<td>\u2713</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>O K.</td>\n<td>10</td>\n<td>CI B</td>\n<td>1</td>\n<td></td>\n</tr>\n<tr>\n<td>None</td>\n<td></td>\n<td></td>\n<td></td>\n<td>R.C..</td>\n<td>J</td>\n<td>.</td>\n<td>Kim</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>S.</td>\n<td></td>\n<td>P.A</td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n14\\. Honours, Awards, Mentions.\n\nNone\n\n15\\. Are you now on any Naval, Military or Air Force Reserve?.\n\n\u2713\nNo\n\n16\\. Have you previously made application to join the R.C.A.F.?\nNo\nIf so, where?\nN. A.\n\u2713\n\nWhen?\nN. A.\nResult\n\nN. A.\n\u2713\n\n17\\. Were you ever discharged from any branch of His Majesty's Forces as Medically Unfit?\n\u2713\nNo\n\nIf so, state nature of disability\n\nN. A.\n\u2713\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension?\n\u2713\nNo\n\u2713\n\nIf so, state nature of Disability\nN. A.\n\n19\\. Have you ever been convicted of an indictable offence?\nNo\nIf so state nature\nN. A.\n\u2713\n\n20\\. Are you in debt?\nNo.\nIf so, state particulars.\nN.A.\n\u2713\n\n<!-- PageFooter: R.C.A.F. Form R. 100 150M-10-41 (993) H.Q. 1062-3-83 -->\n\n515-183\n\nIM\n\u2612\n\u221a\n\u2713\nRoman Catholic\n\u2713\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "R-187715",
+          "spans": [
+            {
+              "offset": 31,
+              "length": 8
+            }
+          ],
+          "confidence": 0.936,
+          "source": "D(1,334.0000,160.0000,448.0000,160.0000,448.0000,185.0000,334.0000,185.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ADAM.",
+          "spans": [
+            {
+              "offset": 379,
+              "length": 5
+            }
+          ],
+          "confidence": 0.711,
+          "source": "D(1,417.0000,401.0000,476.0000,401.0000,476.0000,424.0000,417.0000,424.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Raymond Francis",
+          "spans": [
+            {
+              "offset": 408,
+              "length": 15
+            }
+          ],
+          "confidence": 0.961,
+          "source": "D(1,1002.0027,400.4647,1207.1338,401.5007,1206.9948,429.0353,1001.8636,427.9993)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "1234 Hall Avenue, Windsor, Ontario",
+          "spans": [
+            {
+              "offset": 447,
+              "length": 34
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,362.0000,442.0000,820.0000,442.0000,820.0000,470.0000,362.0000,470.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1924-08-21",
+          "spans": [
+            {
+              "offset": 644,
+              "length": 15
+            }
+          ],
+          "confidence": 0.878,
+          "source": "D(1,332.0000,576.0000,540.0000,576.0000,540.0000,604.0000,332.0000,604.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ontario",
+          "spans": [
+            {
+              "offset": 593,
+              "length": 7
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,495.0000,533.0000,593.0000,534.0000,593.0000,559.0000,495.0000,559.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Windsor",
+          "spans": [
+            {
+              "offset": 584,
+              "length": 7
+            }
+          ],
+          "confidence": 0.98,
+          "source": "D(1,373.0000,533.0000,471.0000,533.0000,471.0000,559.0000,373.0000,558.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ontario",
+          "spans": [
+            {
+              "offset": 1367,
+              "length": 7
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,1148.0000,1058.0000,1245.0000,1058.0000,1245.0000,1082.0000,1148.0000,1083.0000)"
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Belle River",
+          "spans": [
+            {
+              "offset": 1354,
+              "length": 11
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,974.0028,1055.8089,1123.3676,1058.0054,1122.9825,1084.1909,973.6177,1081.9944)"
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ontario",
+          "spans": [
+            {
+              "offset": 1540,
+              "length": 7
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,1133.0000,1187.0000,1230.0000,1188.0000,1230.0000,1215.0000,1133.0000,1214.0000)"
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Sudbury",
+          "spans": [
+            {
+              "offset": 1531,
+              "length": 7
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,1014.0000,1187.0000,1110.0000,1187.0000,1110.0000,1214.0000,1014.0000,1214.0000)"
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "Canadian",
+          "spans": [
+            {
+              "offset": 614,
+              "length": 8
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,1095.0000,533.0000,1207.0000,534.0000,1207.0000,559.0000,1095.0000,559.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Roman Catholic",
+          "spans": [
+            {
+              "offset": 3153,
+              "length": 14
+            }
+          ],
+          "confidence": 0.725,
+          "source": "D(1,1042.0000,878.0000,1232.0000,878.0000,1232.0000,904.0000,1042.0000,904.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "School Student",
+          "spans": [
+            {
+              "offset": 1076,
+              "length": 14
+            }
+          ],
+          "confidence": 0.921,
+          "source": "D(1,349.0000,878.0000,542.0000,878.0000,542.0000,904.0000,349.0000,904.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 708,
+              "length": 6
+            }
+          ],
+          "confidence": 0.959,
+          "source": "D(1,1190.0000,576.0000,1273.0000,577.0000,1273.0000,602.0000,1190.0000,602.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "spans": [
+            {
+              "offset": 902,
+              "length": 4
+            }
+          ],
+          "confidence": 0.78,
+          "source": "D(1,295.0000,761.0000,352.0000,761.0000,352.0000,786.0000,295.0000,786.0000)"
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Denis Joseph Adam",
+          "spans": [
+            {
+              "offset": 1211,
+              "length": 17
+            }
+          ],
+          "confidence": 0.936,
+          "source": "D(1,467.0000,972.0000,700.0000,972.0000,700.0000,1000.0000,467.0000,1000.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Father",
+          "spans": [
+            {
+              "offset": 1242,
+              "length": 6
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,1122.0000,972.0000,1205.0000,974.0000,1205.0000,999.0000,1122.0000,997.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "1234 Hall Avenue, Windsor, Ontario",
+          "spans": [
+            {
+              "offset": 1262,
+              "length": 34
+            }
+          ],
+          "confidence": 0.944,
+          "source": "D(1,414.0000,1015.0000,872.0000,1015.0000,872.0000,1042.0000,414.0000,1042.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "None",
+          "spans": [
+            {
+              "offset": 2194,
+              "length": 4
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,320.0000,1478.0000,378.0000,1479.0000,378.0000,1503.0000,320.0000,1501.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "valueString": "None",
+          "spans": [
+            {
+              "offset": 2450,
+              "length": 4
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,1186.0000,1575.0000,1243.0000,1576.0000,1243.0000,1601.0000,1186.0000,1600.0000)"
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.04130538,
+          "width": 1483,
+          "height": 2270
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

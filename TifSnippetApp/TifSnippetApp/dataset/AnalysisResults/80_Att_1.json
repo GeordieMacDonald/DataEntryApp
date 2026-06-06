@@ -1,0 +1,344 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:24:57Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: R161411 AIR FORCE NO. R161411 -->\n<!-- PageHeader: SPECIAL RESERVE -->\n<!-- PageHeader: POSTED TO Toronto, Ont. -->\n<!-- PageHeader: TRADE. -->\n<!-- PageHeader: Obs-Pilot WETP STD. -->\n\n\n# ROYAL CANADIAN AIR FORCE (ATTESTATION PAPER) (Pages.one and two, only, are to be completed in /tpplicant's own Handwriting)\n\n\n![OFIRD Archives](figures/1.1)\n\n\n1\\. Surname\nADAM\n\nFULL Christian Names RUSSELL EDWIN\n\n2\\. Present Address R.R. No. 1 Putnam, Ontarig,\n\nTelephone 201 J 4\n\n3\\. Permanent Address R.R. No. 1, Putnam, Ontario.\n\n4\\. Place of Birth West Oxford, Ontario.\n\nCitizenship Canadian\n\n5\\. Date of Birth March 16th, 1916.\n\u2713\nMarried, Single, Widower, Separated, Divorced Married\n\n6\\. Particulars of Children\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td>N.A.</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n7\\. Occupation\nClerk in Feed Store\n\n8\\. Religion\nUnited Church\nState denomination\n\n9\\. Languages\nEnglish\n\nState proficiency\n\n10\\. Next of Kin (Full Name) Mrs. Betty Jane Adam\nRelationship Wife\n\n\"\nAddress R.R. No. 1, Putnam, Ontario.\n\n11\\. Father (Full Name) James Arthur Adam\n\nBirthplace Oxford County, Ontario.\n\n\" Address\nPutnam, Ontari.\n\nCitizenship Canadian\n\n\" Occupation\nFarmer.\n:0:M.11\n:04:\n\n12\\. Mother (Full Maiden Name) Ethel Mae George\n\nBirthplace Putnam, Ontario.\n\n\" Address Putnam, Ontario.\n\nCitizenship Canadian\n\n13\\. Details of any Naval, Military or Air Force Service:\n\n\n<table>\n<tr>\n<th rowspan=\"2\">Unit</th>\n<th rowspan=\"2\">Place</th>\n<th rowspan=\"2\">Rank</th>\n<th colspan=\"2\" rowspan=\"2\">Trade</th>\n<th colspan=\"2\">Date</th>\n<th colspan=\"2\" rowspan=\"2\">Reason for discharge</th>\n</tr>\n<tr>\n<th>From |</th>\n<th>To</th>\n</tr>\n<tr>\n<td>N.A.</td>\n<td></td>\n<td></td>\n<td></td>\n<td>R.C.A.F.Records</td>\n<td></td>\n<td></td>\n<td>Office</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>Rec'd</td>\n<td>MAY 26</td>\n<td>1942</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>oikle</td>\n<td>2c</td>\n<td>gbm</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>G</td>\n<td>Mobl</td>\n<td>. Am</td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n14\\. Honours, Awards, Mentions.\n\nS.L........ P.A...\n\nNONE.\n\n15\\. Are you now on any Naval, Military or Air Force Reserve?.\n\nNO.\n\n16\\. Have you previously made application to join the R.C.A.F.?\nNO\n\nIf so, where?\nN.A.\n\nWhen?\nN.A.\n\nResult\n\nD:A:\n\n17\\. Were you ever discharged from any branch of His Majesty's Forces as Medically Unfit?\n\nNO\nIf so, state nature of disability\nNA.\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension?.\nNO.\n\nIf so, state nature of Disability\nN.A.\n\n19\\. Have you ever been convicted of an indictable offence?\nNO\nIf so state nature.\n\nN.A...\n\n20\\. Are you in debt?\nNO\nIf so, state particulars\n\nN.A..\n\n<!-- PageFooter: R.C.A.F. Form R. 100 150M-10-41 (993) H.Q. 1062-3-83 -->\n<!-- PageFooter: Oyt: -->\n<!-- PageFooter: 451- 260 -->\n\nin\n\n7 CLMO4\n1\nSPV3\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "R161411",
+          "spans": [
+            {
+              "offset": 39,
+              "length": 7
+            }
+          ],
+          "confidence": 0.939,
+          "source": "D(1,357.0000,163.0000,457.0000,164.0000,457.0000,189.0000,357.0000,189.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ADAM",
+          "spans": [
+            {
+              "offset": 377,
+              "length": 4
+            }
+          ],
+          "confidence": 0.838,
+          "source": "D(1,332.0000,404.0000,391.0000,404.0000,391.0000,428.0000,332.0000,428.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "RUSSELL EDWIN",
+          "spans": [
+            {
+              "offset": 404,
+              "length": 13
+            }
+          ],
+          "confidence": 0.882,
+          "source": "D(1,925.8008,406.7127,1109.9959,405.4155,1110.1951,433.7029,926.0000,435.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "R.R. No. 1 Putnam, Ontarig,",
+          "spans": [
+            {
+              "offset": 439,
+              "length": 27
+            }
+          ],
+          "confidence": 0.95,
+          "source": "D(1,381.0000,452.0000,761.0000,452.0000,761.0000,481.0000,381.0000,481.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1916-03-16",
+          "spans": [
+            {
+              "offset": 621,
+              "length": 17
+            }
+          ],
+          "confidence": 0.812,
+          "source": "D(1,354.0000,587.0000,591.0000,587.0000,591.0000,615.0000,354.0000,615.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ontario.",
+          "spans": [
+            {
+              "offset": 571,
+              "length": 8
+            }
+          ],
+          "confidence": 0.74,
+          "source": "D(1,534.0000,544.0000,643.1414,544.5626,642.9971,572.5618,533.8557,571.9993)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "West Oxford",
+          "spans": [
+            {
+              "offset": 558,
+              "length": 11
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,352.1726,543.0381,508.1728,544.0011,508.0000,572.0000,351.9998,571.0370)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Oxford County, Ontario.",
+          "spans": [
+            {
+              "offset": 1326,
+              "length": 23
+            }
+          ],
+          "confidence": 0.454,
+          "source": "D(1,1018.0000,1080.0000,1336.0000,1080.0000,1336.0000,1109.0000,1018.0000,1109.0000)"
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Putnam, Ontario.",
+          "spans": [
+            {
+              "offset": 1495,
+              "length": 16
+            }
+          ],
+          "confidence": 0.738,
+          "source": "D(1,1014.0000,1220.0000,1236.0000,1220.0000,1236.0000,1247.0000,1014.0000,1247.0000)"
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "Canadian",
+          "spans": [
+            {
+              "offset": 593,
+              "length": 8
+            }
+          ],
+          "confidence": 0.821,
+          "source": "D(1,1090.0000,547.0000,1204.0000,548.0000,1204.0000,574.0000,1090.0000,574.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "United Church",
+          "spans": [
+            {
+              "offset": 1087,
+              "length": 13
+            }
+          ],
+          "confidence": 0.949,
+          "source": "D(1,1047.0136,896.8573,1227.3095,899.0037,1226.9864,926.1427,1046.6905,923.9963)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Clerk in Feed Store",
+          "spans": [
+            {
+              "offset": 1053,
+              "length": 19
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,367.0222,890.4432,629.0116,894.1859,628.6038,922.7372,366.6144,918.9945)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Married",
+          "spans": [
+            {
+              "offset": 641,
+              "length": 7
+            }
+          ],
+          "confidence": 0.893,
+          "source": "D(1,680.0000,591.0000,763.0000,591.0000,762.0000,620.0000,679.0000,620.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "spans": [
+            {
+              "offset": 828,
+              "length": 4
+            }
+          ],
+          "confidence": 0.821,
+          "source": "D(1,314.0000,736.0000,370.0000,736.0000,370.0000,760.0000,314.0000,760.0000)"
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mrs. Betty Jane Adam",
+          "spans": [
+            {
+              "offset": 1192,
+              "length": 20
+            }
+          ],
+          "confidence": 0.833,
+          "source": "D(1,471.0000,991.0000,752.0000,991.0000,752.0000,1018.0000,471.0000,1018.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Wife",
+          "spans": [
+            {
+              "offset": 1226,
+              "length": 4
+            }
+          ],
+          "confidence": 0.906,
+          "source": "D(1,1029.0000,993.0000,1091.0000,992.0000,1091.0000,1019.0000,1029.0000,1020.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "R.R. No. 1, Putnam, Ontario.",
+          "spans": [
+            {
+              "offset": 1242,
+              "length": 28
+            }
+          ],
+          "confidence": 0.938,
+          "source": "D(1,431.0000,1037.0000,814.0000,1037.0000,814.0000,1065.0000,431.0000,1065.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "N.A.",
+          "spans": [
+            {
+              "offset": 1888,
+              "length": 4
+            }
+          ],
+          "confidence": 0.818,
+          "source": "D(1,240.0000,1445.0000,296.0000,1445.0000,296.0000,1470.0000,240.0000,1470.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "valueString": "NONE.",
+          "spans": [
+            {
+              "offset": 2406,
+              "length": 5
+            }
+          ],
+          "confidence": 0.648,
+          "source": "D(1,1284.0000,1604.0000,1349.5200,1613.3600,1345.0200,1644.8600,1279.5000,1635.5000)"
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0,
+          "width": 1500,
+          "height": 2314
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

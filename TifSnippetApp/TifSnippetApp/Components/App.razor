@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" class="dark-mode">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
+    <link rel="stylesheet" href="@Assets["lib/bootstrap/dist/css/bootstrap.min.css"]" />
+    <link rel="stylesheet" href="@Assets["app.css"]" />
+    <link rel="stylesheet" href="@Assets["TifSnippetApp.styles.css"]" />
+    <ImportMap />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <HeadOutlet @rendermode="InteractiveWebAssembly" />
+</head>
+
+<body>
+    <Routes @rendermode="InteractiveWebAssembly" />
+    <script src="_framework/blazor.web.js"></script>
+    <script>
+        window.toggleDarkMode = (isDark) => {
+            if (isDark) {
+                document.documentElement.classList.add('dark-mode');
+            } else {
+                document.documentElement.classList.remove('dark-mode');
+            }
+        };
+        window.toggleInvertSnippets = (invert) => {
+            if (invert) {
+                document.documentElement.classList.add('invert-snippets');
+            } else {
+                document.documentElement.classList.remove('invert-snippets');
+            }
+        };
+        window.toggleHighContrast = (isHighContrast) => {
+            if (isHighContrast) {
+                document.documentElement.classList.add('high-contrast');
+            } else {
+                document.documentElement.classList.remove('high-contrast');
+            }
+        };
+        window.scrollToElement = (element, duration = 500, easing = 'easeInOutCubic') => {
+            if (!element) return;
+            
+            const container = element.closest('.scrollable-content');
+            if (!container) {
+                // Fallback to window scrolling if not inside a container
+                const targetPosition = element.getBoundingClientRect().top + window.pageYOffset - (window.innerHeight / 2) + (element.offsetHeight / 2);
+                const startPosition = window.pageYOffset;
+                const distance = targetPosition - startPosition;
+                let startTime = null;
+
+                const easingFunctions = {
+                    linear: t => t,
+                    easeInOutQuad: t => t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t,
+                    easeInOutCubic: t => t < 0.5 ? 4 * t * t * t : (t - 1) * (2 * t - 2) * (2 * t - 2) + 1,
+                    easeOutQuint: t => 1 + (--t) * t * t * t * t
+                };
+
+                const animation = (currentTime) => {
+                    if (startTime === null) startTime = currentTime;
+                    const timeElapsed = currentTime - startTime;
+                    const run = easingFunctions[easing](Math.min(timeElapsed / duration, 1));
+                    window.scrollTo(0, startPosition + distance * run);
+                    if (timeElapsed < duration) requestAnimationFrame(animation);
+                };
+                requestAnimationFrame(animation);
+                return;
+            }
+
+            // Container scrolling logic
+            const containerRect = container.getBoundingClientRect();
+            const elementRect = element.getBoundingClientRect();
+            const startPosition = container.scrollTop;
+            
+            // Calculate target position: center element in container
+            const relativeTop = elementRect.top - containerRect.top + startPosition;
+            const targetPosition = relativeTop - (containerRect.height / 2) + (element.offsetHeight / 2);
+            const distance = targetPosition - startPosition;
+            let startTime = null;
+
+            const easingFunctions = {
+                linear: t => t,
+                easeInOutQuad: t => t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t,
+                easeInOutCubic: t => t < 0.5 ? 4 * t * t * t : (t - 1) * (2 * t - 2) * (2 * t - 2) + 1,
+                easeOutQuint: t => 1 + (--t) * t * t * t * t
+            };
+
+            const animation = (currentTime) => {
+                if (startTime === null) startTime = currentTime;
+                const timeElapsed = currentTime - startTime;
+                const run = easingFunctions[easing](Math.min(timeElapsed / duration, 1));
+                container.scrollTop = startPosition + distance * run;
+                if (timeElapsed < duration) requestAnimationFrame(animation);
+            };
+
+            requestAnimationFrame(animation);
+        };
+    </script>
+</body>
+
+</html>

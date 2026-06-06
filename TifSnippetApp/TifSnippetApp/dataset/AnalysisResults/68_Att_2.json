@@ -1,0 +1,500 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:19:48Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "DUPLICATE\nCopy designation to be shown\nby striking out terms not applicable.\n\nNo7 District Depot (General Lis t)\n\nM.F.M. 2\n(Combining M.F.M. 103)\n750M-4-43 (9375) (786-828)\nH.Q. 1772-39-1645\n\nCorps\n\nRegimental Number\n42588\n\n\n# CANADIAN ARMY ENROLMENT AND ATTESTATION PAPER\n\n1\\.\n(Surhame)\nAdeir\nEldon Nelson\n(Christian Names)\n\n2\\. Present Address:\nR.R.#4, Sussex, Kings Co., N.B.\n\n3\\. (a) Date of birth\n13 April 1925\n\n.(b) Place of birth\n(Country)\nCanada\nKings Co., N.B\n(Town or Township)\nPiesdillv\n\n4\\. (a) Place of birth of Father Canada\nKings Co., N B.\nDunnygaul\n(b)\n\\*\n\" Mother Cansda\n(Countsy)\nKinge Co., N.B\n(County or Province)\n(Town of Township)\nUphem\n\n5\\. Nationality\nCanada\n\n(To what country do you now owe allegiance) if naturalized give certif. no. date and place of issue. If not naturalized so state.\n\n6\\. Religion (state denomination) Church of England\n\n7\\. Trade or calling (a)\nFermer\n(a) Name and address of last employer:\nMr. Jamee Acbir (Farmur)\nR.R.#4, Suscek, N.B.\n\n(b) How long employed\nS yrs.\n\n9\\. Married, Widower or Single\nSingle\nIf married, how many children\nn/a\n\n10\\. Name of Next-of-Kin Mrg. Gertrude Adair\n\n11\\. Relationship Mother\n\n12\\. Address of Next-of-Kin\nR.R./l., Sussex, Kings Co., N.B.\n\n13\\. Previous Service (Navy, Army or Air Force) Units and dates\nNIL\n\n14\\. (a) Former war service\nNIL\n\n(b) In the armed forces of what country\nN/A\n\n(c) Dates of such Service\nN/A\n\n15\\. Decorations and medals, if any\nN/A\n\n16\\. I do solemnly declare that the above particulars are true\nEldon adais\n\nSignature of Recruit, or in the case of N.R.M.A. personnel who\nrefuse to sign, signature of officer under Regn. 8 (d) (1)\nR.A.S.R. 1941\n\n\n## 16\u03b1 CERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE ATTESTING OR ENROLLING OFFICER\n\nThe above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the above named in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has\nbeen duly entered as replied to,\n\nat\nEvedericton N, Bbis\n14th\nday of\nDeceaiber\n1943\nE manh maje\nSignature of Magistrate, Justice Attesting or\nEnrolling Officer.\n\nRecruiting Coy., M. D No. 7\nOffice or Rank and Unit\nor appointment.\n\nITEMS 17, 18 AND 19 WILL NOT BE COMPLETED UNLESS A MAN ENLISTS FOR GENERAL SERVICE ANYWHERE.\n\n17\\.\nDECLARATION TO BE MADE BY MAN ON ATTESTATION\n\n1\\. Eldon Nelson Adair\nhereby engage to serve in any Active Formation or\nUnit of the Canadian Army so long as an emergency, i.e., war, invasion, riot or insurrection, real or\napprehended, exists, and for the period of demobilization after said emergency ceases to exist, and in\nany event for a period of not less than one year, provided His Majesty should so require my services.\n\nDate\n14th December 1943\n(Signature of Recruit)\nEldon adair\n\n18\\.\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI.\nEldon Nelson Adair\ndo sincerely promise and swear (or solemnly declare)\nthat I will be faithful and bear true allegiance to His Majesty.\nWitness\n(Name)\n(Rank)\n(Signature of Recruit)\nEldon adair\n\n19\\. The above named recruit has made and signed the declaration and taken the oath before me.\nat\nF'ton, N. B.\nthis\n14th\nday of December\n19 43\n\na motith Main\n(Signature of Magistrate, Justice or Attesting Officer.)\nFOR:\nD. R. O., M. D., # 7\n(Office or Rank and Unit or appointment)\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON WILFULLY MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT.\n\n<!-- PageFooter: OCCUPATIONAL HISTORY FORM COMPLETED. -->\n<!-- PageFooter: FINCERPRINTED -->\n\n#2 sub-station, Frederieton, N.B.\n(County or Province)\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "42588",
+          "spans": [
+            {
+              "offset": 217,
+              "length": 5
+            }
+          ],
+          "confidence": 0.981,
+          "source": "D(1,1022.0000,253.0000,1179.0000,258.0000,1178.0000,294.0000,1021.0000,290.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "Adeir",
+          "spans": [
+            {
+              "offset": 288,
+              "length": 5
+            }
+          ],
+          "confidence": 0.767,
+          "source": "D(1,548.0000,377.0000,629.0000,377.0000,629.0000,401.0000,548.0000,400.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Eldon Nelson",
+          "spans": [
+            {
+              "offset": 294,
+              "length": 12
+            }
+          ],
+          "confidence": 0.911,
+          "source": "D(1,987.0260,379.9904,1174.6746,384.8267,1174.0000,411.0000,986.3515,406.1637)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "R.R.#4, Sussex, Kings Co., N.B.",
+          "spans": [
+            {
+              "offset": 347,
+              "length": 31
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,544.0000,417.0000,1017.0000,417.0000,1017.0000,449.0000,544.0000,449.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1925-04-13",
+          "spans": [
+            {
+              "offset": 402,
+              "length": 13
+            }
+          ],
+          "confidence": 0.936,
+          "source": "D(1,548.0000,447.0000,748.0000,447.0000,748.0000,477.0000,548.0000,477.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 447,
+              "length": 6
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,546.0000,476.0000,639.0000,477.0000,638.0000,501.0000,545.0000,500.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Kings Co., N.B",
+          "spans": [
+            {
+              "offset": 454,
+              "length": 14
+            }
+          ],
+          "confidence": 0.83,
+          "source": "D(1,788.0000,476.0000,1008.0000,476.0000,1008.0000,504.0000,788.0000,504.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Piesdillv",
+          "spans": [
+            {
+              "offset": 488,
+              "length": 9
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,1109.0000,484.0000,1247.0000,486.0000,1247.0000,508.0000,1109.0000,505.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 532,
+              "length": 6
+            }
+          ],
+          "confidence": 0.949,
+          "source": "D(1,545.0000,520.0000,639.0000,521.0000,639.0000,546.0000,545.0000,545.0000)"
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Kings Co., N B.",
+          "spans": [
+            {
+              "offset": 539,
+              "length": 15
+            }
+          ],
+          "confidence": 0.738,
+          "source": "D(1,787.0000,523.0000,1016.0000,523.0000,1016.0000,552.0000,787.0000,552.0000)"
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Dunnygaul",
+          "spans": [
+            {
+              "offset": 555,
+              "length": 9
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,1109.0000,525.0000,1245.0000,526.0000,1245.0000,553.0000,1109.0000,553.0000)"
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Cansda",
+          "spans": [
+            {
+              "offset": 581,
+              "length": 6
+            }
+          ],
+          "confidence": 0.819,
+          "source": "D(1,545.0000,551.0000,641.0000,552.0000,640.0000,577.0000,545.0000,577.0000)"
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Kinge Co., N.B",
+          "spans": [
+            {
+              "offset": 598,
+              "length": 14
+            }
+          ],
+          "confidence": 0.738,
+          "source": "D(1,787.0114,551.1014,1008.3810,553.9036,1007.9989,584.0886,786.6293,581.2864)"
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Uphem",
+          "spans": [
+            {
+              "offset": 653,
+              "length": 5
+            }
+          ],
+          "confidence": 0.818,
+          "source": "D(1,1105.0000,557.0000,1187.0000,559.0000,1187.0000,581.0000,1105.0000,581.0000)"
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 676,
+              "length": 6
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,546.0000,594.0000,639.0000,594.0000,638.0000,618.0000,545.0000,617.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Church of England",
+          "spans": [
+            {
+              "offset": 849,
+              "length": 17
+            }
+          ],
+          "confidence": 0.881,
+          "source": "D(1,543.0031,637.3091,805.1205,638.5005,804.9965,665.7682,542.8792,664.5767)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Fermer",
+          "spans": [
+            {
+              "offset": 893,
+              "length": 6
+            }
+          ],
+          "confidence": 0.871,
+          "source": "D(1,513.0000,671.0000,609.0000,673.0000,609.0000,699.0000,513.0000,696.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "valueString": "Mr. Jamee Acbir (Farmur)\nR.R.#4, Suscek, N.B.",
+          "spans": [
+            {
+              "offset": 939,
+              "length": 24
+            },
+            {
+              "offset": 964,
+              "length": 20
+            }
+          ],
+          "confidence": 0.822,
+          "source": "D(1,907.0241,700.4095,1276.4999,706.0076,1275.9835,740.0907,906.5077,734.4925);D(1,983.0000,733.0000,1291.0000,733.0000,1291.0000,764.0000,983.0000,764.0000)"
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "valueString": "S yrs.",
+          "spans": [
+            {
+              "offset": 1008,
+              "length": 6
+            }
+          ],
+          "confidence": 0.586,
+          "source": "D(1,1077.0000,764.0000,1166.2356,764.9106,1165.9907,788.9081,1076.7551,787.9975)"
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 1047,
+              "length": 6
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,572.0000,785.0000,669.0000,787.0000,669.0000,814.0000,572.0000,812.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "spans": [
+            {
+              "offset": 1084,
+              "length": 3
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,1091.0000,789.0000,1139.0000,789.0000,1139.0000,816.0000,1091.0000,816.0000)"
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mrg. Gertrude Adair",
+          "spans": [
+            {
+              "offset": 1114,
+              "length": 19
+            }
+          ],
+          "confidence": 0.776,
+          "source": "D(1,451.0000,815.0000,746.0000,815.0000,746.0000,840.0000,451.0000,840.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Mother",
+          "spans": [
+            {
+              "offset": 1153,
+              "length": 6
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,1011.0000,819.0000,1110.0000,820.0000,1110.0000,844.0000,1011.0000,843.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "R.R./l., Sussex, Kings Co., N.B.",
+          "spans": [
+            {
+              "offset": 1189,
+              "length": 32
+            }
+          ],
+          "confidence": 0.8,
+          "source": "D(1,541.0000,841.0000,1014.0000,841.0000,1014.0000,872.0000,541.0000,872.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "NIL",
+          "spans": [
+            {
+              "offset": 1287,
+              "length": 3
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,954.0000,882.0000,1001.0000,884.0000,1001.0000,908.0000,954.0000,906.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "NIL",
+          "spans": [
+            {
+              "offset": 1320,
+              "length": 3
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,952.0000,933.0000,1001.0000,933.0000,1001.0000,960.0000,952.0000,960.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "valueString": "N/A",
+          "spans": [
+            {
+              "offset": 1365,
+              "length": 3
+            }
+          ],
+          "confidence": 0.954,
+          "source": "D(1,952.0000,965.0000,1002.0000,965.0000,1002.0000,993.0000,952.0000,993.0000)"
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "valueString": "N/A",
+          "spans": [
+            {
+              "offset": 1396,
+              "length": 3
+            }
+          ],
+          "confidence": 0.936,
+          "source": "D(1,952.0000,994.0000,1002.0000,994.0000,1002.0000,1020.0000,952.0000,1020.0000)"
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "valueString": "N/A",
+          "spans": [
+            {
+              "offset": 1437,
+              "length": 3
+            }
+          ],
+          "confidence": 0.916,
+          "source": "D(1,953.0000,1028.0000,1001.0000,1028.0000,1001.0000,1057.0000,953.0000,1057.0000)"
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Eldon adais",
+          "spans": [
+            {
+              "offset": 1505,
+              "length": 11
+            }
+          ],
+          "confidence": 0.824,
+          "source": "D(1,909.0210,1059.6001,1203.2143,1061.0010,1202.9910,1107.9000,908.7976,1106.4990)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "E manh maje",
+          "spans": [
+            {
+              "offset": 2159,
+              "length": 11
+            }
+          ],
+          "confidence": 0.74,
+          "source": "D(1,464.0000,1342.0000,760.4218,1345.3182,759.9629,1386.3130,463.5411,1382.9949)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "Recruiting Coy., M. D No. 7",
+          "spans": [
+            {
+              "offset": 2237,
+              "length": 27
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,448.0000,1378.0000,862.0000,1378.0000,862.0000,1409.0000,448.0000,1409.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Evedericton N, Bbis",
+          "spans": [
+            {
+              "offset": 2112,
+              "length": 19
+            }
+          ],
+          "confidence": 0.633,
+          "source": "D(1,312.0015,1315.7471,574.1512,1317.2891,573.9968,1343.5412,311.8471,1341.9991)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1943-12-14",
+          "spans": [
+            {
+              "offset": 2132,
+              "length": 4
+            },
+            {
+              "offset": 2144,
+              "length": 9
+            },
+            {
+              "offset": 2154,
+              "length": 4
+            }
+          ],
+          "confidence": 0.182,
+          "source": "D(1,692.0000,1316.0000,758.0000,1316.0000,758.0000,1344.0000,692.0000,1344.0000);D(1,952.0000,1323.0000,1077.0000,1324.0000,1077.0000,1349.0000,952.0000,1348.0000);D(1,1200.0000,1321.0000,1267.0000,1321.0000,1267.0000,1352.0000,1200.0000,1352.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Eldon adair",
+          "spans": [
+            {
+              "offset": 2879,
+              "length": 11
+            }
+          ],
+          "confidence": 0.803,
+          "source": "D(1,853.0290,1593.5476,1144.4135,1596.9891,1143.9712,1634.4367,852.5867,1630.9951)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Eldon adair",
+          "spans": [
+            {
+              "offset": 3122,
+              "length": 11
+            }
+          ],
+          "confidence": 0.875,
+          "source": "D(1,885.0105,1716.0216,1255.5376,1720.0058,1255.0000,1770.0000,884.4729,1766.0158)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "DUPLICATE",
+          "spans": [
+            {
+              "offset": 0,
+              "length": 9
+            }
+          ],
+          "confidence": 0.815,
+          "source": "D(1,208.0000,205.0000,309.0000,206.0000,309.0000,225.0000,208.0000,225.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.024
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.4400043,
+          "width": 1489,
+          "height": 2174
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

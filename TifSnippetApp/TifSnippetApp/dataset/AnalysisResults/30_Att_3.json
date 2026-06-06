@@ -1,0 +1,217 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:03:39Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: D/L -->\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\nM.F.M.2\nA.F.B. 271\n200M-3-41 (0720)\nH.Q. -30-1645\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\n\nUnit No. 13 \"A\" District Depot, C.A.\nRegimental Number\nM 37401\n\n\n# ACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY ATTESTATION PAPER\n\n1\\. Surname\nABIE\n\n2\\. Christian Names\nLeon Frederick\n\n3\\. Present address\n\n4\\. Date of birth\n\n5\\. Place of birth\n(Country)\n(County or Province)\n(Town or Township)\n\n6\\. Religion (state denomination)\n\n7\\. Trade or Calling\n\n8\\. Married, Widower or Single\n\n9\\. Name of next of kin\n\n10\\. Relationship\n\n11\\. Address of next of kin\n\n12\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army?\n\n(If Yes, Give Unit and Dates of Service)\n\n13\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?\n(Yes or No)\n(b) Any other Naval, Military, or Air\n\n(If Yes, Give Regimental No. and Unit)\nForce?\n(Yes or No) (If Yes, specify Unit and Period of Service)\n\n14\\. Did you serve during the Great War 1914-1918?\n\n(If Yes, specify Regimental No., Unit and Dates of Service)\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\n\nDate.\n\n(Siganture of recruit)\n\n\n## OATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI,\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\n\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nat\nthis\nday of\n19\n\n(Signature of Magistrate, Justice\nor Attesting Officer.\nOffice or Rank and Unit\n1\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "M 37401",
+          "spans": [
+            {
+              "offset": 264,
+              "length": 7
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,1129.0000,322.0000,1244.0000,322.0000,1244.0000,349.0000,1129.0000,349.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABIE",
+          "spans": [
+            {
+              "offset": 356,
+              "length": 4
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,625.0000,541.0000,693.0000,541.0000,693.0000,564.0000,625.0000,564.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Leon Frederick",
+          "spans": [
+            {
+              "offset": 382,
+              "length": 14
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,622.0000,584.0000,850.0000,584.0000,850.0000,610.0000,622.0000,610.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PreviousService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.2482,
+          "width": 1536,
+          "height": 2291
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:30:37Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: AIm FORCE, No. R62099 -->\n<!-- PageHeader: SPECIAL RESERVE ADE. Air Crew (Standard) -->\n\n\n# ROYAL CANADIAN AIR FORCE (ATTESTATION PAPER)\n\n1135-A-16\n\n(Pages one and two, only, are to be completed in Applicant's own Handwriting)\n\n1\\. Surname\nabbott.\n\nFULL Christian Names.\narthur Williamt\n\n2\\. Present Address\nHerschel, P.O. Sark.\n\nTelephone 13-2\n\n3\\. Permanent Address.\nHerschel, P.O. Sark.\n\n4\\. Place of Birth\n35-31-17-3 Sark.\n\nCitizenship Canalian\n\n5\\. Date of Birth nov. 24 1918 Married, Single, Widower, Separated, Divorced Single\n\u2713\n\n6\\. Particulars of Children\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>none</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n7\\. Occupation\nfarmur\n\n8\\. Religion anglican\n\u2713\nState denomination\n\n9\\. Languages.\nEnglish: french (cannot speak fluently)\nState proficiency\n\u2713\n\n10\\. Next of Kin (Full Name)\narthur abbott\n\nRelationship\nfather.\n\n\" Address.\nHerschel, P.O. Sark.\n\n11\\. Father (Full Name)\narthur abbott\n\nBirthplace Leeds, Yorkshire, Eng:\n\n\" Address.\nHerchel, P.O. Sark\n\nCitizenship\nEnglish\n\n\" Occupation farmer\n\n12\\. Mother (Full Maiden Name) Emily Jorman\n\nBirthplace Lade, Mrkshine, Eng.\n\n\"Address Heunchel, P. G. Sark.\nCitizenship English.\n\n13\\. Details of any Naval, Military or Air Force Service:\n\n\n<table>\n<tr>\n<th rowspan=\"2\">Unit</th>\n<th rowspan=\"2\">Place</th>\n<th rowspan=\"2\">Rank</th>\n<th rowspan=\"2\">Trade</th>\n<th colspan=\"2\">Date</th>\n<th rowspan=\"2\">Reason for discharge</th>\n</tr>\n<tr>\n<th>From</th>\n<th>To</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>Nil</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n14\\. Honours, Awards, Mentions\nnone\n\n15\\. Are you now on any Naval, Military or Air Force Reserve?.\nno.\n\n16\\. Have you previously made application to join the R.C.A.F.? Yes\nIf so, where? Saskatoon, Sark\nWhen?\nnov. 15, 1939\nResult.\nReceived in good standing\n\n17\\. Were you ever discharged from any branch of His Majesty's Forces as Medically Unfit?\nno.\n\nIf so, state nature of disability\nN.A.\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension?.\nno\n\nIf so, state nature of Disability.\nN.A.\n\n19\\. Have you ever been convicted of an indictable offence?\nNOR C. If so statesnso12\nRec'd JUN 13'1940\nNEA.\n\n20\\. Are you in debt? no.\n\nIf so, state particulars.\n\nnDR. C.A F. Records Office\n\nO. K. II C.I.B.\nR.C hM\u00e4tN, And\nP.A. ME\n\n<!-- PageFooter: R.C.A.F. Form R. 100 100M-2-40 (3924) II.Q. 1002-3-S3 -->\n\nS. L\n\n<!-- PageFooter: AB -->\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "R62099",
+          "spans": [
+            {
+              "offset": 32,
+              "length": 6
+            }
+          ],
+          "confidence": 0.818,
+          "source": "D(1,216.0000,66.0000,295.0000,64.0000,295.0000,92.0000,216.0000,95.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "abbott.",
+          "spans": [
+            {
+              "offset": 257,
+              "length": 7
+            }
+          ],
+          "confidence": 0.745,
+          "source": "D(1,217.0000,262.0000,398.0000,262.0000,398.0000,303.0000,217.0000,303.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "arthur Williamt",
+          "spans": [
+            {
+              "offset": 288,
+              "length": 15
+            }
+          ],
+          "confidence": 0.895,
+          "source": "D(1,722.6958,263.5468,1120.0000,261.0000,1120.3042,308.4532,723.0000,311.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "Herschel, P.O. Sark.",
+          "spans": [
+            {
+              "offset": 325,
+              "length": 20
+            }
+          ],
+          "confidence": 0.959,
+          "source": "D(1,272.0000,309.0000,665.0000,309.0000,665.0000,348.0000,272.0000,348.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1918-11-24",
+          "spans": [
+            {
+              "offset": 485,
+              "length": 12
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,239.0000,441.0000,482.0000,441.0000,482.0000,470.0000,239.0000,470.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Sark.",
+          "spans": [
+            {
+              "offset": 438,
+              "length": 5
+            }
+          ],
+          "confidence": 0.349,
+          "source": "D(1,518.0000,391.0000,620.0000,391.0000,620.0000,427.0000,518.0000,427.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Eng:",
+          "spans": [
+            {
+              "offset": 1206,
+              "length": 4
+            }
+          ],
+          "confidence": 0.519,
+          "source": "D(1,1035.1768,864.6409,1110.4945,868.6050,1107.9033,917.8370,1032.5856,913.8729)"
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Yorkshire",
+          "spans": [
+            {
+              "offset": 1195,
+              "length": 9
+            }
+          ],
+          "confidence": 0.833,
+          "source": "D(1,891.0000,867.0000,1017.0000,868.0000,1017.0000,913.0000,891.0000,911.0000)"
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Leeds",
+          "spans": [
+            {
+              "offset": 1188,
+              "length": 5
+            }
+          ],
+          "confidence": 0.914,
+          "source": "D(1,792.0000,867.0000,887.0000,867.0000,887.0000,911.0000,792.0000,910.0000)"
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Eng.",
+          "spans": [
+            {
+              "offset": 1357,
+              "length": 4
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,1035.0389,991.3265,1108.0227,993.0238,1107.0000,1037.0000,1034.0162,1035.3027)"
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Mrkshine",
+          "spans": [
+            {
+              "offset": 1347,
+              "length": 8
+            }
+          ],
+          "confidence": 0.738,
+          "source": "D(1,885.0000,992.0000,1019.0000,992.0000,1019.0000,1035.0000,885.0000,1033.0000)"
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Lade",
+          "spans": [
+            {
+              "offset": 1341,
+              "length": 4
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,794.0000,993.0000,869.0000,992.0000,869.0000,1033.0000,794.0000,1033.0000)"
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "Canalian",
+          "spans": [
+            {
+              "offset": 457,
+              "length": 8
+            }
+          ],
+          "confidence": 0.739,
+          "source": "D(1,859.0000,396.0000,1046.0000,395.0000,1046.0000,429.0000,859.0000,429.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "anglican",
+          "spans": [
+            {
+              "offset": 932,
+              "length": 8
+            }
+          ],
+          "confidence": 0.879,
+          "source": "D(1,805.0000,713.0000,986.0000,713.0000,986.0000,745.0000,805.0000,746.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "farmur",
+          "spans": [
+            {
+              "offset": 911,
+              "length": 6
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,310.0000,717.0000,444.0000,718.0000,444.0000,747.0000,310.0000,746.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 507,
+              "length": 6
+            }
+          ],
+          "confidence": 0.939,
+          "source": "D(1,604.0000,441.0000,659.0000,440.0000,659.0000,470.0000,604.0000,470.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "spans": [
+            {
+              "offset": 737,
+              "length": 4
+            }
+          ],
+          "confidence": 0.614,
+          "source": "D(1,178.0000,604.0000,286.0000,604.0000,286.0000,638.0000,178.0000,638.0000)"
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "arthur abbott",
+          "spans": [
+            {
+              "offset": 1068,
+              "length": 13
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,342.0000,791.0000,576.0000,791.0000,576.0000,827.0000,342.0000,827.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "father.",
+          "spans": [
+            {
+              "offset": 1096,
+              "length": 7
+            }
+          ],
+          "confidence": 0.891,
+          "source": "D(1,846.0026,788.4439,965.1682,789.0008,964.9996,825.0794,845.8340,824.5226)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "Herschel, P.O. Sark.",
+          "spans": [
+            {
+              "offset": 1116,
+              "length": 20
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,341.0000,827.0000,655.0000,827.0000,655.0000,869.0000,341.0000,869.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "Nil",
+          "spans": [
+            {
+              "offset": 1796,
+              "length": 3
+            }
+          ],
+          "confidence": 0.262,
+          "source": "D(1,141.0000,1233.0000,238.0000,1231.0000,238.0000,1267.0000,142.0000,1269.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "valueString": "none",
+          "spans": [
+            {
+              "offset": 2075,
+              "length": 4
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,373.0000,1344.0000,489.0000,1343.0000,489.0000,1376.0000,373.0000,1377.0000)"
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.1226,
+          "width": 1154,
+          "height": 1888
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

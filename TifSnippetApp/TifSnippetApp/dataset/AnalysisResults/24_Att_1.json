@@ -1,0 +1,500 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T00:59:52Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Received\nChecked\nE\nOCCUPATIONAL HISTORY FORM COMPLETED\nCard\nObservations\n\n1\\.\n(Surname)\n(Christian Names)\nJohn James Watson\n0\n\n2\\. Present Address 376 Dover Rd., R.R #1, Eburne BC/Cana da\n\n3\\. (a) Date of birth 9th May, 1925\n\n(b) Place of birth Canada\n(Country)\n(County or Province)\nOntario\n(Town or Township)\nSaulte St. Marie\n(b) \" \" \" \" MotherEngland\nLancashire\nBolton\n\n5\\. Nationality\nCanada (238 P.O. Vancouver, BC )\n(Country)\n(County or Province)\n(Town or Township)\n\n(To what country do you now owe allegiance) if naturalized give certif, no. date and place of issue. If not naturalized so state.\n\n6\\. Religion (state denomination)\nUnitea Church\n\n7\\. Trade or calling (a) Fitter\n\n(a) Name and address of last employer :\nSea Island, B.C. Canada\nBoeing Aircraft\n\n(b) How long employed\n1 vr 8 months\n\n9\\. Married, Widower or Single\nSingle\n\nIf married, how many children\nNone\n\n10\\. Name of Next-of-Kin Florence ABERCROMBIE\n\n11\\. Relationshipi ther\n\n12\\. Address of Next-of-Kin 376 Dover Rd., R.R. #1, Eburne, BC Cana a\n\n13\\. Previous Service (Navy, Army or Air Force) Units and dates Reported for NRMA SERVCE\n\nReported for NRMA Service\n13-1-44 K-162 491\n\n14\\. (a) Former war service\n10-12-43\n\nno\n\n(b) In the armed forces of what country\nno\n.\n\n(c) Dates of such Service\nno.\n\n15\\. Decorations and medals, if any\nno\n\n16\\. I do solemnly declare that the above particulars are true\nI Do\n\nx\nS.0.In abecrambire\nSignature of Recruit. or in the case of N.R.M.A. personnel who\nrefuse to sign, signature of officer under Regn. 8 (d) (I)\nR.A.S.R. 1941\n\n16\u03b1 CERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE ATTESTING OR ENROLLING OFFICER\n\nThe above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\nThe above questions and answers were then read to the above named in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has\nbeen duly entered as replied to,\nat\nVancouver, Be this\n13th\nday of\nJanuary\n19.\n44\nafaupund kunt\nCapt.s Signature of Magistrate, Justice Attesting or\nCagteeryend UU.P. Thompson, MC Enrolling Officer.\nOffice or Rank and Unit\nor appointment.\n\nO.C.Central Station #K1 R cruiting Detachment.\n\nITEMS 17, 18 AND 19 WILL NOT BE COMPLETED UNLESS A MAN ENLISTS FOR GENERAL SERVICE ANYWHERE.\n\n17\\.\nDECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI, JOHN JAMES WATSON ABERCROMBIEhereby engage to serve in any Active Formation or\nUnit of the Canadian Army so long as an emergency, i.e., war, invasion, riot or insurrection, real or\napprehended, exists, and for the period of demobilization after said emergency ceases to exist, and in\nany event for a period of not less than one year, provided His Majesty shoulkd so require my services.\n\nDate\n9 Feb 44\ndd\n(Signature of Recruit)\nJ.J.M. abercrombie\n\n18\\.\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI, JOHN JAMES WATSON ABERCROMBIE do sincerely promise and swear (or solemnly declare)\nthat I will be faithful and bear true allegiance to His Majesty.\n\nWitness\na Longhurst\n(Rank)\nCpl.\nl.l. y. abercrombie\ndo\n(Signature of Recruit)\n\n19\\. The aboye named recruit has made and signed the declaration and taken the oath before me.\n\nat CAMROSE/ Alberta this\nNinth\nday of\nFebruary\n1944\nPlaming\nLt.-ColGignature of Magistrate, Justice or Attesting Officer.)\n(P.J.A. Fleming) Commanding\n(Office or Rank and Unit or appointment)\nIBVC.I.(B)T.C., C.A.\n\nN.EaMFIENTION IA PRAMNt TO THE FACT THAT ANY PERSON WILFULLY MAKING A FALSE ANSWER TO ANY OF /THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT.\n\n<!-- PageFooter: identification Cape Issued -->\n<!-- PageFooter: 2 - MAR '44 -->\n\nFINGERPRINTED\nPE PHOTOGRAPHED IS MAR. 44\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\nCopy designation to be shown\nby, striking out ternis not applicable.\nCanadian Infartiy corps\n\n9-2-4KJ\n\nM.F.M. 2\n(Combining M.F.M. 103)\n750M-4-43 (9375) (786-828)\nH.Q. 1772-39-1645\n\nCorps\nXXXXXXXXXXXXXXXXXX\n\nXXX\u0130RR\u00c3X\n\nRegimental Number\nK/2312\n\nC.I.C. Reinf.\n\n\n# CANADIAN ARMY 'ENROLMENT AND ATTESTATION PAPER\n\nAB RCROMBTE\nDate.\n\n1\n\nB.C.\nRichmond\n\n4\\. (a) Place of birth of Father Canaa\n\nJAN 24 1944\nC. A . A .\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "K/2312",
+          "spans": [
+            {
+              "offset": 3984,
+              "length": 6
+            }
+          ],
+          "confidence": 0.975,
+          "source": "D(1,1165.0000,280.0000,1262.0000,280.0000,1262.0000,311.0000,1165.0000,311.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "AB RCROMBTE",
+          "spans": [
+            {
+              "offset": 4058,
+              "length": 11
+            }
+          ],
+          "confidence": 0.208,
+          "source": "D(1,371.9041,384.1078,548.9980,383.4519,549.0944,409.4997,372.0006,410.1556)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "John James Watson",
+          "spans": [
+            {
+              "offset": 106,
+              "length": 17
+            }
+          ],
+          "confidence": 0.68,
+          "source": "D(1,831.0000,383.0000,1102.0000,383.0000,1102.0000,407.0000,831.0000,407.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "376 Dover Rd., R.R #1, Eburne BC/Cana da",
+          "spans": [
+            {
+              "offset": 147,
+              "length": 40
+            }
+          ],
+          "confidence": 0.921,
+          "source": "D(1,480.0000,428.0000,1111.0000,428.0000,1111.0000,458.0000,480.0000,458.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1925-05-09",
+          "spans": [
+            {
+              "offset": 211,
+              "length": 13
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,481.0000,462.0000,691.0000,462.0000,691.0000,489.0000,481.0000,489.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 245,
+              "length": 6
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,481.0000,495.0000,577.0000,495.0000,577.0000,519.0000,481.0000,520.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ontario",
+          "spans": [
+            {
+              "offset": 283,
+              "length": 7
+            }
+          ],
+          "confidence": 0.958,
+          "source": "D(1,892.0000,535.0000,1005.0000,536.0000,1005.0000,557.0000,892.0000,556.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Saulte St. Marie",
+          "spans": [
+            {
+              "offset": 310,
+              "length": 16
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,1096.0000,530.0000,1351.0000,530.0000,1351.0000,556.0000,1096.0000,556.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canaa",
+          "spans": [
+            {
+              "offset": 4128,
+              "length": 5
+            }
+          ],
+          "confidence": 0.813,
+          "source": "D(1,604.0000,538.0000,695.0000,538.0000,695.0000,562.0000,604.0000,563.0000)"
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "England",
+          "spans": [
+            {
+              "offset": 339,
+              "length": 13
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,522.0000,567.0000,704.0000,564.0000,704.0000,592.0000,522.0000,593.0000)"
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Lancashire",
+          "spans": [
+            {
+              "offset": 353,
+              "length": 10
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,890.0000,565.0000,1051.0000,565.0000,1051.0000,588.0000,890.0000,589.0000)"
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Bolton",
+          "spans": [
+            {
+              "offset": 364,
+              "length": 6
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,1111.0000,565.0000,1209.0000,565.0000,1209.0000,588.0000,1111.0000,589.0000)"
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "Canada (238 P.O. Vancouver, BC )",
+          "spans": [
+            {
+              "offset": 388,
+              "length": 32
+            }
+          ],
+          "confidence": 0.811,
+          "source": "D(1,462.0000,605.0000,1002.0000,605.0000,1002.0000,634.0000,462.0000,634.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Unitea Church",
+          "spans": [
+            {
+              "offset": 637,
+              "length": 13
+            }
+          ],
+          "confidence": 0.821,
+          "source": "D(1,684.8637,656.1060,895.0000,655.0000,895.1393,681.4730,685.0030,682.5789)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Fitter",
+          "spans": [
+            {
+              "offset": 677,
+              "length": 6
+            }
+          ],
+          "confidence": 0.868,
+          "source": "D(1,524.0000,692.0000,625.0000,690.0000,625.0000,716.0000,524.0000,719.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "valueString": "Boeing Aircraft\nSea Island, B.C. Canada",
+          "spans": [
+            {
+              "offset": 725,
+              "length": 23
+            }
+          ],
+          "confidence": 0.052,
+          "source": "D(1,875.0000,718.0000,1241.0000,718.0000,1241.0000,743.0000,875.0000,743.0000)"
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "valueString": "1 vr 8 months",
+          "spans": [
+            {
+              "offset": 788,
+              "length": 13
+            }
+          ],
+          "confidence": 0.822,
+          "source": "D(1,1144.0108,779.9201,1352.2500,782.0025,1351.9954,807.4600,1143.7562,805.3776)"
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 834,
+              "length": 6
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,638.0000,808.0000,725.0000,808.0000,725.0000,834.0000,638.0000,834.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "spans": [
+            {
+              "offset": 872,
+              "length": 4
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,1111.0000,808.0000,1178.0000,809.0000,1178.0000,830.0000,1111.0000,829.0000)"
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Florence ABERCROMBIE",
+          "spans": [
+            {
+              "offset": 903,
+              "length": 20
+            }
+          ],
+          "confidence": 0.823,
+          "source": "D(1,522.6986,843.6752,847.9994,839.9504,848.3009,866.2752,523.0000,870.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "ther",
+          "spans": [
+            {
+              "offset": 944,
+              "length": 4
+            }
+          ],
+          "confidence": 0.468,
+          "source": "D(1,1080.0000,842.0000,1147.0000,840.0000,1147.0000,865.0000,1080.0000,868.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "376 Dover Rd., R.R. #1, Eburne, BC Cana a",
+          "spans": [
+            {
+              "offset": 978,
+              "length": 41
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,541.0000,872.0000,1199.0000,872.0000,1199.0000,902.0000,541.0000,902.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "Reported for NRMA SERVCE\nReported for NRMA Service\n13-1-44 K-162 491",
+          "spans": [
+            {
+              "offset": 1085,
+              "length": 24
+            },
+            {
+              "offset": 1111,
+              "length": 25
+            },
+            {
+              "offset": 1137,
+              "length": 17
+            }
+          ],
+          "confidence": 0.461,
+          "source": "D(1,946.0000,905.0000,1338.0000,905.0000,1338.0000,933.0000,946.0000,933.0000);D(1,242.0000,938.0000,642.0000,938.0000,642.0000,965.0000,242.0000,965.0000);D(1,798.0000,934.0000,1100.0000,934.0000,1100.0000,960.0000,798.0000,960.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "10-12-43\nno",
+          "spans": [
+            {
+              "offset": 1184,
+              "length": 8
+            },
+            {
+              "offset": 1194,
+              "length": 2
+            }
+          ],
+          "confidence": 0.246,
+          "source": "D(1,343.0000,958.0000,467.0000,959.0000,467.0000,978.0000,343.0000,977.0000);D(1,742.0000,972.0000,785.0000,972.0000,785.0000,991.0000,742.0000,991.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "valueString": "no",
+          "spans": [
+            {
+              "offset": 1238,
+              "length": 2
+            }
+          ],
+          "confidence": 0.966,
+          "source": "D(1,782.0000,999.0000,816.0000,997.0000,816.0000,1016.0000,782.0000,1017.0000)"
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "valueString": "no.",
+          "spans": [
+            {
+              "offset": 1270,
+              "length": 3
+            }
+          ],
+          "confidence": 0.881,
+          "source": "D(1,813.0095,1026.3908,852.3124,1027.0049,851.9905,1047.6092,812.6876,1046.9951)"
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "valueString": "no",
+          "spans": [
+            {
+              "offset": 1311,
+              "length": 2
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,845.0000,1061.0000,879.0000,1062.0000,879.0000,1083.0000,845.0000,1082.0000)"
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "S.0.In abecrambire",
+          "spans": [
+            {
+              "offset": 1386,
+              "length": 18
+            }
+          ],
+          "confidence": 0.262,
+          "source": "D(1,916.0000,1117.0000,1296.0000,1117.0000,1296.0000,1146.0000,916.0000,1146.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "afaupund kunt",
+          "spans": [
+            {
+              "offset": 2039,
+              "length": 13
+            }
+          ],
+          "confidence": 0.157,
+          "source": "D(1,454.7597,1390.3301,866.0000,1381.0000,867.2514,1436.1583,456.0111,1445.4884)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "Capt.s\nCagteeryend UU.P. Thompson, MC",
+          "spans": [
+            {
+              "offset": 2053,
+              "length": 6
+            },
+            {
+              "offset": 2106,
+              "length": 30
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,893.0128,1400.5761,983.6872,1403.3239,982.9771,1426.7569,892.3028,1424.0092);D(1,460.1412,1396.3535,1059.9413,1411.3485,1058.7252,1459.9931,458.9250,1444.9981)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Vancouver, Be",
+          "spans": [
+            {
+              "offset": 1993,
+              "length": 13
+            }
+          ],
+          "confidence": 0.595,
+          "source": "D(1,386.0000,1365.0000,594.0000,1365.0000,594.0000,1392.0000,386.0000,1392.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "2019-01-13",
+          "spans": [
+            {
+              "offset": 2012,
+              "length": 4
+            },
+            {
+              "offset": 2024,
+              "length": 7
+            },
+            {
+              "offset": 2032,
+              "length": 3
+            },
+            {
+              "offset": 2036,
+              "length": 2
+            }
+          ],
+          "confidence": 0.159,
+          "source": "D(1,688.0000,1363.0000,754.0000,1363.0000,754.0000,1390.0000,688.0000,1390.0000);D(1,1050.0000,1361.0000,1164.0000,1361.0000,1164.0000,1388.0000,1050.0000,1387.0000);D(1,1299.0000,1369.0000,1327.8462,1374.7692,1323.0000,1399.0000,1294.1538,1393.2308);D(1,1351.0000,1359.0000,1385.0000,1360.0000,1385.0000,1383.0000,1351.0000,1382.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "J.J.M. abercrombie",
+          "spans": [
+            {
+              "offset": 2821,
+              "length": 18
+            }
+          ],
+          "confidence": 0.879,
+          "source": "D(1,914.2829,1655.0156,1330.8470,1645.9598,1331.6519,1682.9858,915.0879,1692.0416)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "l.l. y. abercrombie",
+          "spans": [
+            {
+              "offset": 3070,
+              "length": 19
+            }
+          ],
+          "confidence": 0.697,
+          "source": "D(1,903.4679,1794.6879,1326.9695,1788.8060,1327.5267,1828.9232,904.0251,1834.8052)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "a Longhurst",
+          "spans": [
+            {
+              "offset": 3046,
+              "length": 11
+            }
+          ],
+          "confidence": 0.52,
+          "source": "D(1,421.0113,1801.2122,650.6375,1804.5020,649.9817,1850.2805,420.3554,1846.9908)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.024
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.003710726,
+          "width": 1541,
+          "height": 2264
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

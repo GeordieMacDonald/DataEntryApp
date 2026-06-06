@@ -1,0 +1,413 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:02:52Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Received...Checkedupational History\nCard.\nObservations\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\nForm Forwarded to\nN. D. H. Q.\n\n0\nM.F.M. 2\nA.F.B. 271\n800M-7-41 (1131)\nH.Q. 1772-39-1645\n\n(To be completed in triplicate. Copy'designation to-be shown by striking out terms not applicable.)\n37401\n\nUnit No. 13A, District Depot CA. Cdmi Piaz Regimental Number\nM.67519.\n1\nCL.A 378\nEDMONTON REGIMENT\nD.O.305-\n3-12-41\n\n\n# ATTESTATION PAPER\n\nPTE\n\n1\\. Surname.\nABLE\n\n2\\. Christian Names\nLeon Frederick.\n\n3\\. Present address\nCAMROSE\nALBERTA\nCANADA\n\n4\\. Date of birth\nJANUARY 17th., 1923.\n\n5\\. Place of birth\n(Country)\nCANADA.\n(County or Province)\nALBERTA\nWABAMUN\n(Town or Township)\n\n6\\. Religion (state denomination)\nUNITED CHURCH.\n\n7\\. Trade or Calling\nLUMBER JACK.\n\n8\\. Married, Widower or Single\nSENGEE.\nMarried\nSee Page 2.\n\n9\\. Name of next of kin\nZells-ABLE-\nMrs. Eileen Margaret Able\n\n10\\. Relationship\nMOTHER.\nWife.\nle Change\n\n11\\. Address of next of kin\nCAMROSE\nALBERTA.\nCANADA.\n\n12\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army?....NO\n\n(If Yes, Give Unit and Dates of Service)\nYes D.O.305 3-12-41\n\n13\\. Have you served in (a) an Active Formation or Unit of The Canadian Army? NO\n(Yes or No)\nM 37401 Lard Strath. Korne15/4/11: 17/8/40\n(If Yes, Give Regimental No. and Unit)\n(b) Any other Naval, Military, or Air\nForce?\n(Yes or No) (If Yes, specify Unit and Period of Service)\n\n14\\. Did you serve during the Great War 1914-1918? NO.\n\n(If Yes, specify Regimental No., Unit and Dates of Service)\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nLeon Frederick ABLE.\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\n\nDate.\n22-11-41.\n\n(Signature of recruit)\nLeonaule\nUsual eig\n\n\n## OATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI,\nLeon Frederick ABLE.\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\nUgudl Signature,\nLeon Ablo (Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\nEDMONTON ALBERTA O this 22nd.\nday of.\nNOVEMBER\n141..\nskrhan\nBapt.\nLt. Col.,\nSignature of Magistrate, Justice\nor Attesting Officer.\nCommanding, No. 13A, Dist, Depot. CA:\nMajer.\nOfficer or Rank and Unit\n1\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIM MONTHS IMPRISONMENT\nFINGERPRINTED\ngh.\nat\nA , H. E2IIOt,\n\nACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY\n\nSignature\n\nNO.\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "M.67519.",
+          "spans": [
+            {
+              "offset": 344,
+              "length": 8
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,1093.0055,315.5488,1212.3780,317.0046,1211.9970,348.2439,1092.6245,346.7881)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABLE",
+          "spans": [
+            {
+              "offset": 440,
+              "length": 4
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,696.0000,517.0000,764.0000,517.0000,764.0000,541.0000,696.0000,541.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Leon Frederick.",
+          "spans": [
+            {
+              "offset": 466,
+              "length": 15
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,773.0036,556.7347,1013.3809,560.0052,1012.9964,588.2653,772.6191,584.9948)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "CAMROSE\nALBERTA\nCANADA",
+          "spans": [
+            {
+              "offset": 503,
+              "length": 7
+            },
+            {
+              "offset": 511,
+              "length": 7
+            },
+            {
+              "offset": 519,
+              "length": 6
+            }
+          ],
+          "confidence": 0.521,
+          "source": "D(1,488.0000,607.0000,604.0000,607.0000,603.0000,632.0000,488.0000,633.0000);D(1,870.0000,611.0000,982.0000,612.0000,982.0000,637.0000,870.0000,635.0000);D(1,1202.0000,615.0000,1305.0000,616.0000,1305.0000,641.0000,1202.0000,640.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1923-01-17",
+          "spans": [
+            {
+              "offset": 545,
+              "length": 20
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,662.5332,648.6058,965.0015,653.9123,964.4545,685.0957,661.9862,679.7892)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "CANADA.",
+          "spans": [
+            {
+              "offset": 596,
+              "length": 7
+            }
+          ],
+          "confidence": 0.95,
+          "source": "D(1,456.0029,689.4337,567.1378,690.0007,566.9997,717.0663,455.8648,716.4993)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "ALBERTA",
+          "spans": [
+            {
+              "offset": 625,
+              "length": 7
+            }
+          ],
+          "confidence": 0.882,
+          "source": "D(1,774.0000,692.0000,888.0000,695.0000,888.0000,720.0000,774.0000,718.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "WABAMUN",
+          "spans": [
+            {
+              "offset": 633,
+              "length": 7
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,1106.0000,697.0000,1221.0000,697.0000,1221.0000,723.0000,1106.0000,722.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "UNITED CHURCH.",
+          "spans": [
+            {
+              "offset": 695,
+              "length": 14
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,614.0000,743.0000,836.1333,744.1450,835.9993,770.1443,613.8660,768.9993)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "LUMBER JACK.",
+          "spans": [
+            {
+              "offset": 732,
+              "length": 12
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,646.0000,784.0000,836.0000,784.0000,836.0000,812.0000,646.0000,812.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "SENGEE.",
+          "spans": [
+            {
+              "offset": 777,
+              "length": 7
+            }
+          ],
+          "confidence": 0.519,
+          "source": "D(1,678.0065,829.6876,789.5414,832.0113,788.9935,858.3124,677.4586,855.9887)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mrs. Eileen Margaret Able",
+          "spans": [
+            {
+              "offset": 842,
+              "length": 25
+            }
+          ],
+          "confidence": 0.453,
+          "source": "D(1,852.0049,874.0357,1249.1374,876.0619,1248.9979,903.4133,851.8654,901.3871)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "MOTHER.",
+          "spans": [
+            {
+              "offset": 887,
+              "length": 7
+            }
+          ],
+          "confidence": 0.511,
+          "source": "D(1,709.0659,912.4194,819.9983,917.0416,818.9341,942.5806,708.0017,937.9584)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "CAMROSE\nALBERTA.\nCANADA.",
+          "spans": [
+            {
+              "offset": 940,
+              "length": 7
+            },
+            {
+              "offset": 948,
+              "length": 8
+            },
+            {
+              "offset": 957,
+              "length": 7
+            }
+          ],
+          "confidence": 0.739,
+          "source": "D(1,514.0000,959.0000,670.0000,960.0000,670.0000,986.0000,514.0000,985.0000);D(1,883.0019,962.8919,1000.4503,965.0081,999.9968,990.1801,882.5484,988.0639);D(1,1199.0000,967.0000,1308.0000,967.0000,1308.0000,992.0000,1199.0000,992.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Leonaule",
+          "spans": [
+            {
+              "offset": 2060,
+              "length": 8
+            }
+          ],
+          "confidence": 0.518,
+          "source": "D(1,1008.0000,1496.0000,1209.0000,1497.0000,1209.0000,1535.0000,1008.0000,1535.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "skrhan",
+          "spans": [
+            {
+              "offset": 2896,
+              "length": 6
+            }
+          ],
+          "confidence": 0.667,
+          "source": "D(1,419.0000,1914.0000,718.0000,1917.0000,718.0000,1953.0000,419.0000,1955.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "Bapt.\nLt. Col.,\nCommanding, No. 13A, Dist, Depot. CA:\nMajer.",
+          "spans": [
+            {
+              "offset": 2893,
+              "length": 2
+            },
+            {
+              "offset": 2929,
+              "length": 2
+            },
+            {
+              "offset": 2942,
+              "length": 1
+            },
+            {
+              "offset": 2974,
+              "length": 37
+            },
+            {
+              "offset": 3012,
+              "length": 6
+            }
+          ],
+          "confidence": 0.162,
+          "source": "D(1,1303.0000,1887.0000,1329.0000,1887.0000,1329.0000,1916.0000,1303.0000,1916.0000);D(1,1103.0000,1923.0000,1125.0000,1923.0000,1125.0000,1948.0000,1103.0000,1948.0000);D(1,1242.0000,1923.0000,1247.0000,1923.0000,1247.0000,1948.0000,1242.0000,1948.0000);D(1,399.0000,1973.0000,969.0000,1973.0000,969.0000,2001.0000,399.0000,2001.0000);D(1,876.0531,1957.9521,969.1814,1962.6674,967.9668,1986.6565,874.8384,1981.9412)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "EDMONTON ALBERTA",
+          "spans": [
+            {
+              "offset": 2843,
+              "length": 16
+            }
+          ],
+          "confidence": 0.589,
+          "source": "D(1,234.0107,1881.0449,498.3134,1884.0035,497.9949,1912.4552,233.6922,1909.4966)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "2014-11-22",
+          "spans": [
+            {
+              "offset": 2867,
+              "length": 5
+            },
+            {
+              "offset": 2873,
+              "length": 7
+            },
+            {
+              "offset": 2881,
+              "length": 8
+            },
+            {
+              "offset": 2890,
+              "length": 5
+            }
+          ],
+          "confidence": 0.262,
+          "source": "D(1,652.0000,1885.0000,733.2150,1885.6153,732.9954,1914.6136,651.7803,1913.9983);D(1,835.0000,1889.0000,907.0000,1889.0000,907.0000,1915.0000,835.0000,1915.0000);D(1,954.0000,1887.0000,1084.0000,1887.0000,1084.0000,1911.0000,954.0000,1911.0000);D(1,1262.0169,1885.3254,1329.7245,1887.0181,1328.9831,1916.6746,1261.2755,1914.9819)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Leonaule",
+          "spans": [
+            {
+              "offset": 2060,
+              "length": 8
+            }
+          ],
+          "confidence": 0.657,
+          "source": "D(1,1008.0000,1496.0000,1209.0000,1497.0000,1209.0000,1535.0000,1008.0000,1535.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Leon Ablo",
+          "spans": [
+            {
+              "offset": 2283,
+              "length": 9
+            }
+          ],
+          "confidence": 0.813,
+          "source": "D(1,901.0041,1664.2907,1109.1831,1665.5011,1108.9930,1698.2093,900.8140,1696.9989)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "TRIPLICATE",
+          "spans": [
+            {
+              "offset": 75,
+              "length": 10
+            }
+          ],
+          "confidence": 0.519,
+          "source": "D(1,223.0000,232.0000,357.0000,232.0000,356.0000,253.0000,223.0000,253.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.479
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0,
+          "width": 1541,
+          "height": 2285
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

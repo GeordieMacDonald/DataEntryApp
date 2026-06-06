@@ -1,0 +1,333 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:07:05Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Observer\n\n<!-- PageHeader: STOIAL RESERV\u0112! -->\n<!-- PageHeader: POSTED TO No.1 Manning Depot, TorontoTRADE AIRCREWMAN. STD. -->\n\n3012\nROYAL CANADIAN AIR FORCE\n(ATTESTATION PAPER)\n(Pages one and two, only, are to be completed in Applicant's own Handwriting)\n\nSurname.\nAbRAMSON\n\nFULL Christian Names\nMARK Leslie\n\nPresent Address.\n333 minto Place OlMava Telephone 42695\n\n3\\. Permanent Address.\n333 Minto Place Ollava Ontario\n\n4\\. Place of Birth\nKingston Ontario\n\nCitizenship\nCanadian\n\n5\\. Date of Birth\nnovember 21/13 Married, Single, Widower, Separated, Divorced single\n\n6\\. Particulars of Children\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td></td>\n<td>M</td>\n<td>.U.</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n7\\. Occupation\nSalesman\n\n8\\. Religion\nHebrew\n\n9\\. Languages English\n\nJewish fair.\nStato denomination\n\n10\\. Next of Kin (Full Name)\nState proficiency\nN.g. abramson Relationship brother\n\" Address.\n333 Minto Place\n\nOttawa\n\nJ\n\n11\\. Father (Full Name)\ndead Louis aluamson\n\nBirthplace.\nRussia V\n\n\" Address\nna\n\nCitizenship\nCanadian\n\n\" Occupation\nna\n\n12\\. Mother (Full Maiden Name)\ndead\n\nBirthplace\nRussia V\n\n\"\n\nAddress\nDora Cofen\n\nCitizenship\nCanadian\n\n13\\. Details of any Naval, Military or Air Force Service:\n\n\n<table>\n<tr>\n<th rowspan=\"2\">Unit. \u0660\u0660\u0668</th>\n<th rowspan=\"2\">Place</th>\n<th rowspan=\"2\">Rank</th>\n<th rowspan=\"2\">Trade</th>\n<th colspan=\"2\">Date</th>\n<th rowspan=\"2\">Reason for discharge</th>\n</tr>\n<tr>\n<th>From</th>\n<th>To</th>\n</tr>\n<tr>\n<td>1</td>\n<td></td>\n<td>17.9.</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>1</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n14\\. Honours, Awards, Mentions.\nW.a.\n\n15\\. Are you now on ant Naval, Military or Air Force Reserve?\nno\n\n16\\. Have you previously made application to join the R.C.A.F.? no\nIf so, where?\nma\n\nWhen?\n1a\n\nResult - na\n\n17\\. Were you ever discharged from any branch of His Majesty's Forces as Medically Unfit?\nno\n\nIf so, state nature of disability\n7/a\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension?\nno\n\nR.C.A.F Records Offiee\n\nIf so, state nature of Disability\n71a\n\nRec'd MUL 10 3980\n\n19\\. Have you ever been convicted of an indictable offence? no-\nIf so state\n\nn@turo naO IB\n\n20\\. Are you in debt? no-\n\nIf so, state particulars\nNa\n\nB. e. KEh N.I\n\n<!-- PageFooter: R.C.A.F. Form R. 100 100M-2-40 (3924) II.Q. 1002-3-S3 -->\n<!-- PageFooter: 9-36 -->\n<!-- PageNumber: 03 -->\n<!-- PageHeader: AIR FORCE NO R.54,123 tores -->\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "3012",
+          "spans": [
+            {
+              "offset": 129,
+              "length": 4
+            }
+          ],
+          "confidence": 0.468,
+          "source": "D(1,306.0000,263.0000,402.0000,221.0000,406.0000,258.0000,313.0000,302.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "AbRAMSON",
+          "spans": [
+            {
+              "offset": 267,
+              "length": 8
+            }
+          ],
+          "confidence": 0.619,
+          "source": "D(1,322.0000,406.0000,556.0000,410.0000,555.0000,448.0000,322.0000,445.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "MARK Leslie",
+          "spans": [
+            {
+              "offset": 298,
+              "length": 11
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,916.1831,401.6443,1289.1818,403.0007,1288.9942,454.5818,915.9955,453.2254)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "333 minto Place OlMava Telephone 42695",
+          "spans": [
+            {
+              "offset": 328,
+              "length": 38
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,433.4971,446.6053,1351.4667,456.4407,1350.9696,502.8354,433.0000,493.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "2013-11-21",
+          "spans": [
+            {
+              "offset": 500,
+              "length": 14
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,370.0084,582.6571,682.0709,590.3057,680.9842,634.6467,368.9216,626.9981)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ontario",
+          "spans": [
+            {
+              "offset": 451,
+              "length": 7
+            }
+          ],
+          "confidence": 0.938,
+          "source": "D(1,661.0000,541.0000,848.0000,541.0000,848.0000,586.0000,661.0000,586.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Kingston",
+          "spans": [
+            {
+              "offset": 442,
+              "length": 8
+            }
+          ],
+          "confidence": 0.909,
+          "source": "D(1,372.0000,541.0000,581.0000,541.0000,581.0000,586.0000,372.0000,585.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Russia",
+          "spans": [
+            {
+              "offset": 1191,
+              "length": 6
+            }
+          ],
+          "confidence": 0.876,
+          "source": "D(1,1022.0000,1081.0000,1197.0000,1082.0000,1196.0000,1124.0000,1021.0000,1123.0000)"
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Russia",
+          "spans": [
+            {
+              "offset": 1302,
+              "length": 6
+            }
+          ],
+          "confidence": 0.876,
+          "source": "D(1,1025.0000,1211.0000,1199.0000,1211.0000,1199.0000,1258.0000,1025.0000,1257.0000)"
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "Canadian",
+          "spans": [
+            {
+              "offset": 472,
+              "length": 8
+            }
+          ],
+          "confidence": 0.946,
+          "source": "D(1,1073.0000,538.0000,1288.0000,539.0000,1288.0000,586.0000,1073.0000,586.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Hebrew",
+          "spans": [
+            {
+              "offset": 949,
+              "length": 6
+            }
+          ],
+          "confidence": 0.822,
+          "source": "D(1,997.0000,890.0000,1181.0000,891.0000,1181.0000,939.0000,995.0000,940.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Salesman",
+          "spans": [
+            {
+              "offset": 926,
+              "length": 8
+            }
+          ],
+          "confidence": 0.937,
+          "source": "D(1,354.0000,893.0000,590.0000,895.0000,589.0000,942.0000,353.0000,942.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "single",
+          "spans": [
+            {
+              "offset": 561,
+              "length": 6
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,1171.0000,594.0000,1313.0000,593.0000,1313.0000,638.0000,1170.0000,638.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "N.g. abramson",
+          "spans": [
+            {
+              "offset": 1060,
+              "length": 13
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,492.6267,987.5018,840.5859,992.4026,839.9522,1037.3937,491.9931,1032.4929)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "brother",
+          "spans": [
+            {
+              "offset": 1087,
+              "length": 7
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,1030.0000,991.0000,1195.0000,988.0000,1195.0000,1036.0000,1029.0000,1035.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "333 Minto Place\n\nOttawa",
+          "spans": [
+            {
+              "offset": 1106,
+              "length": 15
+            },
+            {
+              "offset": 1123,
+              "length": 6
+            }
+          ],
+          "confidence": 0.59,
+          "source": "D(1,478.0000,1034.0000,905.0000,1034.0000,905.0000,1075.0000,478.0000,1075.0000);D(1,997.0000,1035.0000,1159.0000,1036.0000,1159.0000,1074.0000,997.0000,1074.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "valueString": "W.a.",
+          "spans": [
+            {
+              "offset": 2026,
+              "length": 4
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,506.5027,1602.2954,649.0000,1601.0000,649.5050,1656.5500,507.0077,1657.8454)"
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.08481552,
+          "width": 1500,
+          "height": 2318
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

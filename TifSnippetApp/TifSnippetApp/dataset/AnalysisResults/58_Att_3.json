@@ -1,0 +1,361 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:15:29Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: AIR FORCE No R112252 -->\n<!-- PageHeader: POSTED TO -->\n<!-- PageHeader: /1 Manning Depot, Toronto, Ontario. -->\n<!-- PageHeader: Wireless Operator TRADE Air Gunner STD -->\n\n\n# PEy Arat have ROYAL CANADIAN AIR FORCE PECIALtoRERDDY not withheld LUIALONETndr (ATTESTATION PAPER)\n\nany relevant ihndonaudy\n\n\n## (Pages one and two, only, are to be completed in Applicant's own Handwriting)\n\n1\\. Surname ACORN\n\nFULL Christian Names.\nGEORGE WARBURTON\n\n2\\. Present Address 171 Great George Street, Charlottetown, P.E.I.\n\nTelephone 170-2010\n\n3\\. Permanent Address 171 Great George Street, Charlottetown, P.D.I.\n\n4\\. Place of Birth Charlottetown, P.E.I.\n\nCitizenship\nCanadian\n\n5\\. Date of Birth 7-8-23\n\nMarried, Single, Widower, Separated, Divorced Single\n\n6\\. Particulars of Children\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>None</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n7\\. Occupation Taxi Driver\n\n8\\. Religion\nState denomination\n\n9\\. Languages.\nEnglish\n\nState proficiency\n\n10\\. Next of Kin (Full Name) Edgar F. Acorn\n\nRelationship.\nFather\n\n\"\nAddress.\n171 Great George Street, Charlottetown, P.B.I.\n\n11\\. Father (Full Name) Edgar F. Acorn\n.\nBirthplace\nMILTON REJ.\n\n\" Address 171 Great George Street, Ch'town PEI\n\nCitizenship\nCanedian\n\n\" Occupation Taxi proprietor\n\n12\\. Mother (Full Maiden Name) Lena Judson Sheperd :\n\nBirthplace Birch Gfove, Cape Breton, N.S.\n\n\" Address 171 Great George Street, Ch'town PEI Citizenship Canadian\n\n13\\. Details of any Naval, Military or Air Force Service:\n\n\n<table>\n<tr>\n<th rowspan=\"2\">Unit</th>\n<th rowspan=\"2\">Place</th>\n<th rowspan=\"2\">Rank</th>\n<th rowspan=\"2\">Trade</th>\n<th colspan=\"2\">Date</th>\n<th rowspan=\"2\">Reason for discharge.</th>\n</tr>\n<tr>\n<th>From</th>\n<th>To</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>P.E.I. Lighthorse</td>\n<td>Charlottetown</td>\n<td>Pte.</td>\n<td></td>\n<td>1919</td>\n<td>1940</td>\n<td>10 days,</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>each summer</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n14\\. Honours, Awards, Mentions.\n\nRec'd OCT 2 1841, Hine\n\n15\\. Are you now on any Naval, Military or Air Force Reserve?\n\nO ANKA GIB Rils\n\nNo\n\n16\\. Have you previously made application to join the R.C.A.F.?\n\nNo\n\nR. M1 If so, where ? :\nR mir so m\n\nWhen?\nN.A.\n\nResult\nS.L...N.AP A\n\n17\\. Were you ever discharged from any branch of His Majesty's Forces as Medically Unfit?\nNo\n\nIf so, state nature of disability\nN.A.\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension?\nNo\n\nIf so, state nature of Disability.\nN.A.\n\n19\\. Have you ever been convicted of an indictable offence?\nNo\n\nIf so state nature.\nN.A.\n\n20\\. Are you in debt?\nNo\nIf so, state particulars.\nN.4.\n\n<!-- PageFooter: R.C.A.F. Form R. 100 400M---6-40 (5730) ER.Q. 1062-8-89 -->\n<!-- PageFooter: 221-8. cm -->\n\nBaptist\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "R112252",
+          "spans": [
+            {
+              "offset": 30,
+              "length": 7
+            }
+          ],
+          "confidence": 0.817,
+          "source": "D(1,312.0000,164.0000,414.0000,163.0000,414.0000,189.0000,312.0000,191.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ACORN",
+          "spans": [
+            {
+              "offset": 415,
+              "length": 5
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,288.0000,406.0000,361.0000,406.0000,361.0000,430.0000,288.0000,430.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "GEORGE WARBURTON",
+          "spans": [
+            {
+              "offset": 444,
+              "length": 16
+            }
+          ],
+          "confidence": 0.936,
+          "source": "D(1,925.0059,405.2520,1147.1890,407.0015,1146.9941,431.7480,924.8110,429.9985)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "171 Great George Street, Charlottetown, P.E.I.",
+          "spans": [
+            {
+              "offset": 482,
+              "length": 46
+            }
+          ],
+          "confidence": 0.928,
+          "source": "D(1,343.0000,449.0000,966.0000,449.0000,966.0000,476.0000,343.0000,476.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "2023-07-08",
+          "spans": [
+            {
+              "offset": 702,
+              "length": 6
+            }
+          ],
+          "confidence": 0.98,
+          "source": "D(1,341.0000,586.0000,427.0000,585.0000,427.0000,610.0000,341.0000,611.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "P.E.I.",
+          "spans": [
+            {
+              "offset": 654,
+              "length": 6
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,533.0000,537.0000,611.0000,537.0000,611.0000,564.0000,533.0000,564.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Charlottetown",
+          "spans": [
+            {
+              "offset": 639,
+              "length": 13
+            }
+          ],
+          "confidence": 0.877,
+          "source": "D(1,328.0000,539.0000,507.0000,538.0000,507.0000,564.0000,328.0000,566.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "MILTON REJ.",
+          "spans": [
+            {
+              "offset": 1388,
+              "length": 11
+            }
+          ],
+          "confidence": 0.61,
+          "source": "D(1,998.0000,1078.0000,1242.0000,1078.0000,1242.0000,1106.0000,998.0000,1106.0000)"
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Cape Breton, N.S.",
+          "spans": [
+            {
+              "offset": 1579,
+              "length": 17
+            }
+          ],
+          "confidence": 0.265,
+          "source": "D(1,1142.0000,1212.0000,1374.0000,1212.0000,1374.0000,1240.0000,1142.0000,1240.0000)"
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Birch Gfove",
+          "spans": [
+            {
+              "offset": 1566,
+              "length": 11
+            }
+          ],
+          "confidence": 0.819,
+          "source": "D(1,964.7900,1212.5944,1117.9964,1211.5000,1118.2065,1240.9057,965.0000,1242.0000)"
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "Canadian",
+          "spans": [
+            {
+              "offset": 674,
+              "length": 8
+            }
+          ],
+          "confidence": 0.939,
+          "source": "D(1,1061.0000,539.0000,1173.0000,540.0000,1173.0000,563.0000,1061.0000,562.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Baptist",
+          "spans": [
+            {
+              "offset": 3142,
+              "length": 7
+            }
+          ],
+          "confidence": 0.936,
+          "source": "D(1,966.0000,895.0000,1064.0000,895.0000,1064.0000,919.0000,966.0000,919.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Taxi Driver",
+          "spans": [
+            {
+              "offset": 1121,
+              "length": 11
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,366.5282,894.9501,522.9864,892.2212,523.4582,919.2711,367.0000,922.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 719,
+              "length": 6
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,753.0000,588.0000,815.0000,589.0000,815.0000,618.0000,753.0000,617.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Edgar F. Acorn",
+          "spans": [
+            {
+              "offset": 1239,
+              "length": 14
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,450.0000,987.0000,645.0000,987.0000,645.0000,1015.0000,450.0000,1015.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Father",
+          "spans": [
+            {
+              "offset": 1269,
+              "length": 6
+            }
+          ],
+          "confidence": 0.958,
+          "source": "D(1,1021.0000,988.0000,1106.0000,988.0000,1106.0000,1011.0000,1021.0000,1011.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "171 Great George Street, Charlottetown, P.B.I.",
+          "spans": [
+            {
+              "offset": 1288,
+              "length": 46
+            }
+          ],
+          "confidence": 0.913,
+          "source": "D(1,438.0000,1031.0000,1056.0000,1031.0000,1056.0000,1057.0000,438.0000,1057.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "P.E.I. Lighthorse, Charlottetown, Pte., 1919, 1940, 10 days, each summer",
+          "spans": [
+            {
+              "offset": 2048,
+              "length": 17
+            },
+            {
+              "offset": 2075,
+              "length": 13
+            },
+            {
+              "offset": 2098,
+              "length": 3
+            },
+            {
+              "offset": 2122,
+              "length": 4
+            },
+            {
+              "offset": 2136,
+              "length": 4
+            },
+            {
+              "offset": 2150,
+              "length": 8
+            },
+            {
+              "offset": 2239,
+              "length": 11
+            }
+          ],
+          "confidence": 0.312,
+          "source": "D(1,138.0000,1472.0000,374.0000,1472.0000,374.0000,1500.0000,138.0000,1500.0000);D(1,451.0000,1473.0000,630.0000,1474.0000,630.0000,1498.0000,451.0000,1498.0000);D(1,668.0000,1474.0000,712.0000,1474.0000,712.0000,1498.0000,668.0000,1498.0000);D(1,983.0000,1474.0000,1040.0000,1473.0000,1040.0000,1495.0000,983.0000,1497.0000);D(1,1063.0000,1474.0000,1120.0000,1474.0000,1120.0000,1497.0000,1063.0000,1497.0000);D(1,1145.0135,1473.2548,1251.4693,1475.1904,1250.9831,1501.9270,1144.5274,1499.9914);D(1,1146.0000,1506.0000,1295.0000,1506.0000,1295.0000,1524.0000,1146.0000,1524.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0,
+          "width": 1494,
+          "height": 2310
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

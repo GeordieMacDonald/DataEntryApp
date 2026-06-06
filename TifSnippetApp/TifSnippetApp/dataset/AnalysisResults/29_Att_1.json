@@ -1,0 +1,360 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:02:11Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: AIR FORCE NO. R-145109 POSTED TO. -->\n<!-- PageHeader: No. 8 Recruiting Centre, RCAF., Wireless Operator Air Windsor, Ontario. -->\n<!-- PageHeader: TRADE Gunner (Std.) -->\n\n\n# ROYAL CANADIAN AIR FORCE\n\nSPECIAL RESERVE\n(ATTESTATION PAPER)\n\nLeavigithoutpap\ntill yaukil9n\n\n(Pages one and two, only, are to be completed in Applicant's own Handwriting)\n\n1\\. Surname.\nABILDGAARD\n\nFULL Christian Names.\nCHRISTIAN\n\u2713\n\n2\\. Present Address 1384 Bruce Avenue, Windsor, Ontario.\n\nTelephone.\n3-9478\n\u2713\n\n3\\. Permanent Address 1384 Bruce Ave., Windsor, Ontario.\n\u2713\n\n4\\. Place of Birth\nLondon, Ontario.\n\nCitizenship\nCanadian\n\u2713\n\n5\\. Date of Birth June 28th, 1923\n\u2713\nMarried, Single, Widower, Separated, Divorced.\nSingle\n\u2713\n\u2713\n\n6\\. Particulars of Children\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td>None</td>\n<td></td>\n<td></td>\n<td>\u2713</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n7\\. Occupation\nBrewery Worker\n\n8\\. Religion.\nState denomination\nAnglican\n\u2713\n\n9\\. Languages\nEnglish\n\u2713\n\nState proficiency\n\n10\\. Next of Kin (Full Name) Mrs. Jennie Abildgaard\n\nRelationship\nMother\n\n\u2713\n\n\"\nAddress 1384 Bruce Avenue, Windsor, Ontario.\n\n\u2713\n\n11\\. Father (Full Name)\nValdemar Abildgaard\n\nBirthplace\nNakskov, Denmark\n\n\u2713\n\n\" Address\n1384 Bruce Avenue.\n\nCitizenship\nBritish\n\u2713\n\n\"\nOccupation\nLandscape Designer\n\u2713\n\n12\\. Mother (Full Maiden Name) Jennie Possnett\nBirthplace.\nLondon, England\n\n\"\nAddress\n1384 Bruce Avenue, Windsor, Ont.\n\nCitizenship\nBritish\n\n13\\. Details of any Naval, Military or Air Force Service:\n\n\n<table>\n<tr>\n<th rowspan=\"2\">Unit</th>\n<th rowspan=\"2\">Place</th>\n<th rowspan=\"2\">Rank</th>\n<th rowspan=\"2\">Trade</th>\n<th colspan=\"2\">Date</th>\n<th colspan=\"2\" rowspan=\"2\">Reason for discharge</th>\n</tr>\n<tr>\n<th>From</th>\n<th>To</th>\n</tr>\n<tr>\n<td>None</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>\u2713 \u2713</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td>R.C.A.</td>\n<td>F. Reous</td>\n<td></td>\n<td>ufficet</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td>Rec'd.</td>\n<td>DEC</td>\n<td>12</td>\n<td>19104</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td>O K</td>\n<td>m C.</td>\n<td>:.B</td>\n<td>@</td>\n<td></td>\n</tr>\n</table>\n\n\n14\\. Honours, Awards, Mentions.\n\nR. C\n\u2713\nN.I.\nml\n\nNONE\n\u2713\n\u2713\n\nS.L\n. P A\n\n\u2713\nNO\n\n16\\. Have you previously made application to join the R.C.A.F.?\nNO\nIf so, where?\nN.A. V\n\u2713\n\nWhen?\n\nN.A.\n\nResult\n\nN.A.r\n\u2713\n\n17\\. Were you ever discharged from any branch of His Majesty's Forces as Medically Unfit?\nNO\n\nIf so, state nature of disability\n\nN.A.\n\u2713\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension?\n\u2713\nNO\n\nIf so, state nature of Disability\n\nN.A./\n\u2713\n\n19\\. Have you ever been convicted of an indictable offence?\nNO\n\nIf so state nature.\nN.A.\n\u2713\n\n20\\. Are you in debt?.\nNO\nIf so, state particulars.\n\nN.A.\n\u2713\n\n<!-- PageFooter: R.C.A.F. Form R. 100 150M-10-41 (993) H.Q. 1062-3-83 -->\n<!-- PageFooter: 414-149 -->\n\nM\n\nenleded\n\u2713\n\n15\\. Are you now on any Naval, Military or Air Force Reserve?\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "R-145109",
+          "spans": [
+            {
+              "offset": 31,
+              "length": 8
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,325.0000,165.0000,440.0000,165.0000,440.0000,188.0000,325.0000,188.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABILDGAARD",
+          "spans": [
+            {
+              "offset": 379,
+              "length": 10
+            }
+          ],
+          "confidence": 0.887,
+          "source": "D(1,393.0000,401.0000,532.0000,401.0000,532.0000,426.0000,393.0000,426.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "CHRISTIAN",
+          "spans": [
+            {
+              "offset": 413,
+              "length": 9
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,983.0000,402.0000,1109.0000,402.0000,1109.0000,426.0000,983.0000,426.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "1384 Bruce Avenue, Windsor, Ontario.",
+          "spans": [
+            {
+              "offset": 446,
+              "length": 36
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,382.0000,448.0000,874.0000,448.0000,874.0000,477.0000,382.0000,477.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1923-06-28",
+          "spans": [
+            {
+              "offset": 644,
+              "length": 15
+            }
+          ],
+          "confidence": 0.885,
+          "source": "D(1,354.5334,586.9391,563.9884,583.3278,564.4654,610.9920,355.0104,614.6033)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.468
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ontario",
+          "spans": [
+            {
+              "offset": 592,
+              "length": 7
+            }
+          ],
+          "confidence": 0.961,
+          "source": "D(1,464.0000,538.0000,561.0000,538.0000,561.0000,562.0000,464.0000,562.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "London",
+          "spans": [
+            {
+              "offset": 584,
+              "length": 6
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,353.0000,538.0000,438.0000,538.0000,438.0000,562.0000,353.0000,562.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Denmark",
+          "spans": [
+            {
+              "offset": 1377,
+              "length": 7
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,1129.0000,1078.0000,1232.0000,1079.0000,1232.0000,1103.0000,1129.0000,1103.0000)"
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Nakskov",
+          "spans": [
+            {
+              "offset": 1368,
+              "length": 7
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,1009.0000,1078.0000,1106.0000,1078.0000,1106.0000,1103.0000,1009.0000,1103.0000)"
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "England",
+          "spans": [
+            {
+              "offset": 1544,
+              "length": 7
+            }
+          ],
+          "confidence": 0.939,
+          "source": "D(1,1157.0000,1213.0000,1257.0000,1213.0000,1257.0000,1238.0000,1157.0000,1238.0000)"
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "London",
+          "spans": [
+            {
+              "offset": 1536,
+              "length": 6
+            }
+          ],
+          "confidence": 0.958,
+          "source": "D(1,1049.0000,1214.0000,1133.0000,1213.0000,1133.0000,1238.0000,1049.0000,1239.0000)"
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "Canadian",
+          "spans": [
+            {
+              "offset": 614,
+              "length": 8
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,1077.0000,538.0000,1191.0000,539.0000,1191.0000,562.0000,1077.0000,562.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Anglican",
+          "spans": [
+            {
+              "offset": 1128,
+              "length": 8
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,1010.0000,893.0000,1124.0000,893.0000,1124.0000,918.0000,1010.0000,919.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Brewery Worker",
+          "spans": [
+            {
+              "offset": 1079,
+              "length": 14
+            }
+          ],
+          "confidence": 0.939,
+          "source": "D(1,325.0063,891.8921,520.1477,893.0008,519.9937,920.1079,324.8523,918.9992)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 709,
+              "length": 6
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,1212.0000,587.0000,1351.0000,585.0000,1351.0000,608.0000,1212.0000,611.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "spans": [
+            {
+              "offset": 853,
+              "length": 4
+            }
+          ],
+          "confidence": 0.662,
+          "source": "D(1,311.0000,740.0000,370.0000,739.0000,370.0000,763.0000,311.0000,762.0000)"
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mrs. Jennie Abildgaard",
+          "spans": [
+            {
+              "offset": 1213,
+              "length": 22
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,458.6591,988.5310,766.9981,984.8383,767.3390,1013.3073,459.0000,1017.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Mother",
+          "spans": [
+            {
+              "offset": 1250,
+              "length": 6
+            }
+          ],
+          "confidence": 0.959,
+          "source": "D(1,1035.0000,985.0000,1121.0000,987.0000,1121.0000,1010.0000,1035.0000,1008.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "1384 Bruce Avenue, Windsor, Ontario.",
+          "spans": [
+            {
+              "offset": 1271,
+              "length": 36
+            }
+          ],
+          "confidence": 0.914,
+          "source": "D(1,422.8281,1033.4589,915.9969,1030.4880,916.1689,1059.0291,423.0000,1062.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "None",
+          "spans": [
+            {
+              "offset": 1929,
+              "length": 4
+            }
+          ],
+          "confidence": 0.924,
+          "source": "D(1,228.0000,1450.0000,288.0000,1450.0000,287.0000,1472.0000,228.0000,1472.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "valueString": "NONE",
+          "spans": [
+            {
+              "offset": 2399,
+              "length": 4
+            }
+          ],
+          "confidence": 0.871,
+          "source": "D(1,1280.0000,1606.0000,1340.0000,1606.0000,1340.0000,1629.0000,1280.0000,1629.0000)"
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0,
+          "width": 1504,
+          "height": 2325
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

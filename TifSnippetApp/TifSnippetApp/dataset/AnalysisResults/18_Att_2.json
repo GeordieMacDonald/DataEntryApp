@@ -1,0 +1,509 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T00:57:14Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "158th Qurer\nDUPLICATE\n\ngdenx bard 18\nooued 4\nee.R\nNRMA\n\n0\n\nM.F.M. 2\n(Combining M.F.M. 103)\n750M-6-43 (0375)\nH.Q. 1772-39-1645\n\nCorps\nNo. \u0397 DISTRICT DEPOT.\nCanadian Onfantiy\n\nCANADIAN ARMY\nENROLMENT AND ATTESTATION PAPER\n\n1\\.\n(Surname)\nABEL\nHenry William\n\n(e(Cristien Rames)\n2603 Duke St., Vancouver, B:C. CANADA\n\n3\\. (a) Date of birth\nAugust 16, 1924\n\n(b) Place of birth\nCANADA\nBritish Columbia\nVancouver\n\n4\\. (a) Place of birth of Father FINGLAND\nent\n(Town or Township)\nUnknown\n(b) \" \" \" \" MotherKNGLAND\nUnknown\nUnknown\n\n5\\. Nationality\n(Country)\nCANADIAN\n(Elect. Dist.235-99, White Rock, B.C.)\n\n(To what country do you now owe allegiance) if naturalized give certif. no. date and place of issue. If not naturalized so state.\n\n6\\. Religion (state denomination)\nChurch of England\n\n7\\. Trade or calling (a)\nTruck Driver\n\n(a) Name and address of last employer :\nCanadian White Pine\nVancouver, B.C. CANADA\n\n(b) How long employed\n12 Years\n\n9\\. Married, Widower or Single\nSingle\nIf married, how many children\nNIL\n\n10\\. Name of Next-of-Kin\nLaura ABEL\n\n11\\. Relationship aHother\n\n12\\. Address of Next-of-Kin\n2603 Duke St., Vancouver, D.C. CANADA\n\n13\\. Previous Service (Navy, Army or Air Force) Units and dates\n\neported for NRMA Service\nMEL\nK-96805\n23rd set., 1943\n\n14\\. (a) Former war service\nNIL\n\n(b) In the armed forces of what country\nNIL\n\n(c) Dates of such Service\nNIL\n\n15\\. Decorations and medals, if any\nNIL\n\n16\\. I do solemnly declare that the above particulars are true\nHurakl\nSignature of Rocruit, or in the case of N.R.M.A. personnel who\nrefuse to sign, signature of officer under Regn, 8 (4) (1)\nR.A.S.R. 1941\n\n16a CERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE ATTESTING OR ENROLLING OFFICER\n\nThe above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\nThe above questions and answers were then read to the above named in my presence.\nI have taken care that he understands each question, and. that his answer to each question has\nbeen duly entered as replied to,\nVancouver, B.C.\nat\nthis\n23rd\nday of\nSeptember\n1943\n2/emah\nJajor\n\nSignature of Magistrate, Justice Attesting or\nEnrolling Officer.\nOffice or Rank and Unit\nor appointment.\n\nITEMS 17, 18 AND 19 WILL NOT BE COMPLETED UNLESS A MAN ENLISTS FOR GENERAL SERVICE ANYWHERE.\n\n17\\.\nDECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI.\nHenry William ABEL\nhereby engage to serve in any Active Formation or\nUnit of the Canadian Army so long as an emergency, i.e., war, invasion, riot or insurrection, real or\napprehended, exists, and for the period of demobilization after said emergency ceases to exist, and in\nany event for a period of not less than one year, provided His Majesty should so require my services.\n\nDate\n23rd Sept., 1943\n\n(Signature of Recruit)\nmabel\n\n18\\.\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI.\nHenry William ABEL\ndo sincerely promise and swear (or solemnly declare)\nthat I will be faithful and bear true allegiance to His Majesty.\nWitness a fadlor\n(Name)\na fgdlor\n(Rank)\n9r\n(Signature of Recruit)\nBWabel\n\n19\\. The above named recruit has made and signed the declaration and taken the oath before me.\nVancouver, B.C.\nthis\n23rd\nday of\nSeptember\n19 43\nWasoh\nMajor\n(Signature of Magistrate, Justice or Attesting Officer.)\nO.C. Central Station #Al Recmitine Dot\nT. Brayshaw\n(Office or Rank and Unit or appointment)\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON WILFULLY MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT.\njs\n\ner-b-se\nERPRINTED\nOGRAPHED\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\nCopy designation to be shown\nby striking out terms not applicable.\n\nC. A. A\n\nRegimental Number\n\n1335\n\n01\nRTE\n\n2\\. Present Address\n(Country)\n(County or Province)\n(County or Province)\n(Town or Township)\n\nm\n\nLL.A.\n\nO.C. Central Station /XI Recruiting Det.\nT. Brayshaw\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "1335",
+          "spans": [
+            {
+              "offset": 3702,
+              "length": 4
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,1061.0000,274.0000,1175.0000,285.0000,1174.0000,322.0000,1058.0000,311.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABEL",
+          "spans": [
+            {
+              "offset": 235,
+              "length": 4
+            }
+          ],
+          "confidence": 0.82,
+          "source": "D(1,437.0000,350.0000,495.0000,350.0000,495.0000,371.0000,437.0000,370.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Henry William",
+          "spans": [
+            {
+              "offset": 240,
+              "length": 13
+            }
+          ],
+          "confidence": 0.949,
+          "source": "D(1,757.0041,353.4155,945.1568,354.7405,944.9942,377.8239,756.8416,376.4989)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "2603 Duke St., Vancouver, B:C. CANADA",
+          "spans": [
+            {
+              "offset": 274,
+              "length": 37
+            }
+          ],
+          "confidence": 0.904,
+          "source": "D(1,477.0000,389.0000,1000.0000,389.0000,1000.0000,415.0000,477.0000,415.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1924-08-16",
+          "spans": [
+            {
+              "offset": 335,
+              "length": 15
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,465.0000,415.0000,677.0000,415.0000,677.0000,440.0000,465.0000,440.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "CANADA",
+          "spans": [
+            {
+              "offset": 371,
+              "length": 6
+            }
+          ],
+          "confidence": 0.976,
+          "source": "D(1,477.0000,444.0000,564.0000,444.0000,564.0000,465.0000,477.0000,465.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "British Columbia",
+          "spans": [
+            {
+              "offset": 378,
+              "length": 16
+            }
+          ],
+          "confidence": 0.811,
+          "source": "D(1,743.0191,447.5261,973.3038,450.5039,972.9874,474.9740,742.7026,471.9962)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Vancouver",
+          "spans": [
+            {
+              "offset": 395,
+              "length": 9
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,1025.0000,452.0000,1156.0000,455.0000,1156.0000,476.0000,1025.0000,474.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "FINGLAND",
+          "spans": [
+            {
+              "offset": 439,
+              "length": 8
+            }
+          ],
+          "confidence": 0.445,
+          "source": "D(1,508.0000,488.0000,608.0000,486.0000,608.0000,510.0000,508.0000,512.0000)"
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Unknown",
+          "spans": [
+            {
+              "offset": 471,
+              "length": 7
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,998.0000,493.0000,1098.0000,495.0000,1098.0000,516.0000,998.0000,513.0000)"
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "KNGLAND",
+          "spans": [
+            {
+              "offset": 439,
+              "length": 8
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,508.0000,488.0000,608.0000,486.0000,608.0000,510.0000,508.0000,512.0000)"
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Unknown",
+          "spans": [
+            {
+              "offset": 505,
+              "length": 7
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,759.0000,516.0000,860.0000,519.0000,860.0000,541.0000,759.0000,539.0000)"
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Unknown",
+          "spans": [
+            {
+              "offset": 513,
+              "length": 7
+            }
+          ],
+          "confidence": 0.96,
+          "source": "D(1,998.0000,520.0000,1099.0000,523.0000,1099.0000,544.0000,998.0000,542.0000)"
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "CANADIAN",
+          "spans": [
+            {
+              "offset": 548,
+              "length": 8
+            }
+          ],
+          "confidence": 0.914,
+          "source": "D(1,464.0000,549.0000,579.0000,552.0000,579.0000,574.0000,464.0000,572.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Church of England",
+          "spans": [
+            {
+              "offset": 762,
+              "length": 17
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,547.0000,593.0000,788.1168,594.1819,788.0000,618.0000,546.8832,616.8181)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Truck Driver",
+          "spans": [
+            {
+              "offset": 806,
+              "length": 12
+            }
+          ],
+          "confidence": 0.958,
+          "source": "D(1,449.0014,621.8056,621.1528,623.0011,620.9986,645.1944,448.8472,643.9989)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "valueString": "Canadian White Pine\nVancouver, B.C. CANADA",
+          "spans": [
+            {
+              "offset": 860,
+              "length": 19
+            },
+            {
+              "offset": 880,
+              "length": 22
+            }
+          ],
+          "confidence": 0.722,
+          "source": "D(1,757.0016,652.8065,1029.1935,655.0016,1028.9978,679.2742,756.8058,677.0791);D(1,756.0000,682.0000,1068.0000,682.0000,1068.0000,706.0000,756.0000,706.0000)"
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "valueString": "12 Years",
+          "spans": [
+            {
+              "offset": 926,
+              "length": 8
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,969.0623,707.4425,1083.9585,712.0383,1082.8578,739.5543,967.9617,734.9585)"
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 967,
+              "length": 6
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,531.0000,730.0000,621.0000,732.0000,621.0000,755.0000,531.0000,754.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "valueInteger": 1,
+          "spans": [
+            {
+              "offset": 1004,
+              "length": 3
+            }
+          ],
+          "confidence": 0.98,
+          "source": "D(1,1009.0000,741.0000,1055.0000,741.0000,1055.0000,761.0000,1009.0000,761.0000)"
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Laura ABEL",
+          "spans": [
+            {
+              "offset": 1034,
+              "length": 10
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,449.0174,756.8389,593.1774,758.0014,592.9906,781.1612,448.8307,779.9986)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "aHother",
+          "spans": [
+            {
+              "offset": 1064,
+              "length": 7
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,922.0000,765.0000,1027.0000,766.0000,1027.0000,789.0000,922.0000,789.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "2603 Duke St., Vancouver, D.C. CANADA",
+          "spans": [
+            {
+              "offset": 1101,
+              "length": 37
+            }
+          ],
+          "confidence": 0.931,
+          "source": "D(1,475.0000,784.0000,997.0000,784.0000,997.0000,812.0000,475.0000,812.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "eported for NRMA Service\nMEL\nK-96805\n23rd set., 1943",
+          "spans": [
+            {
+              "offset": 1205,
+              "length": 24
+            },
+            {
+              "offset": 1230,
+              "length": 3
+            },
+            {
+              "offset": 1234,
+              "length": 7
+            },
+            {
+              "offset": 1242,
+              "length": 15
+            }
+          ],
+          "confidence": 0.595,
+          "source": "D(1,247.1805,835.6964,587.1815,838.5778,586.9996,860.0508,246.9986,857.1695);D(1,641.0000,840.0000,690.0000,840.0000,690.0000,863.0000,641.0000,863.0000);D(1,724.0000,842.0000,826.0000,842.0000,826.0000,865.0000,724.0000,865.0000);D(1,878.0152,844.1210,1103.4137,848.0071,1102.9842,872.9135,877.5857,869.0273)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "NIL",
+          "spans": [
+            {
+              "offset": 1287,
+              "length": 3
+            }
+          ],
+          "confidence": 0.984,
+          "source": "D(1,643.0000,869.0000,689.0000,868.0000,689.0000,890.0000,643.0000,890.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "valueString": "NIL",
+          "spans": [
+            {
+              "offset": 1332,
+              "length": 3
+            }
+          ],
+          "confidence": 0.982,
+          "source": "D(1,643.0000,897.0000,690.0000,897.0000,690.0000,918.0000,643.0000,918.0000)"
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "valueString": "NIL",
+          "spans": [
+            {
+              "offset": 1363,
+              "length": 3
+            }
+          ],
+          "confidence": 0.982,
+          "source": "D(1,643.0000,924.0000,689.0000,924.0000,689.0000,945.0000,643.0000,945.0000)"
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "valueString": "NIL",
+          "spans": [
+            {
+              "offset": 1404,
+              "length": 3
+            }
+          ],
+          "confidence": 0.984,
+          "source": "D(1,643.0000,951.0000,690.0000,951.0000,690.0000,972.0000,643.0000,972.0000)"
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Hurakl",
+          "spans": [
+            {
+              "offset": 1472,
+              "length": 6
+            }
+          ],
+          "confidence": 0.587,
+          "source": "D(1,814.0000,994.0000,1051.0000,992.0000,1051.0000,1033.0000,814.0000,1031.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "2/emah",
+          "spans": [
+            {
+              "offset": 2115,
+              "length": 6
+            }
+          ],
+          "confidence": 0.512,
+          "source": "D(1,417.5754,1243.9942,650.0250,1247.1784,649.4460,1289.4445,416.9964,1286.2602)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "Jajor",
+          "spans": [
+            {
+              "offset": 2122,
+              "length": 5
+            }
+          ],
+          "confidence": 0.638,
+          "source": "D(1,762.0000,1261.0000,832.0000,1261.0000,832.0000,1284.0000,762.0000,1283.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Vancouver, B.C.",
+          "spans": [
+            {
+              "offset": 2064,
+              "length": 15
+            }
+          ],
+          "confidence": 0.813,
+          "source": "D(1,268.0000,1217.0000,479.0000,1217.0000,479.0000,1242.0000,268.0000,1242.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1943-09-23",
+          "spans": [
+            {
+              "offset": 2100,
+              "length": 9
+            },
+            {
+              "offset": 2110,
+              "length": 4
+            }
+          ],
+          "confidence": 0.089,
+          "source": "D(1,869.0000,1230.0000,1000.0000,1231.0000,1000.0000,1253.0000,869.0000,1252.0000);D(1,1129.0000,1234.0000,1187.0000,1234.0000,1187.0000,1258.0000,1129.0000,1258.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "mabel",
+          "spans": [
+            {
+              "offset": 2806,
+              "length": 5
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,838.0000,1486.0000,1095.0000,1483.0000,1095.0000,1515.0000,838.0000,1518.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "BWabel",
+          "spans": [
+            {
+              "offset": 3064,
+              "length": 6
+            }
+          ],
+          "confidence": 0.827,
+          "source": "D(1,833.0000,1602.0000,1095.0000,1601.0000,1095.0000,1645.0000,833.0000,1645.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "a fadlor",
+          "spans": [
+            {
+              "offset": 3006,
+              "length": 8
+            }
+          ],
+          "confidence": 0.37,
+          "source": "D(1,341.0000,1612.0000,565.0000,1612.0000,565.0000,1643.0000,341.0000,1643.0000)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "DUPLICATE",
+          "spans": [
+            {
+              "offset": 12,
+              "length": 9
+            }
+          ],
+          "confidence": 0.803,
+          "source": "D(1,546.0000,124.0000,822.0000,132.0000,822.0000,167.0000,544.0000,158.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.364
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.3434899,
+          "width": 1389,
+          "height": 2014
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

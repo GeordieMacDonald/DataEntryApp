@@ -1,0 +1,337 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:13:57Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: AIR FORCE No. R.160310 -->\n<!-- PageHeader: \"SPECIAL RESERVE\" -->\n<!-- PageHeader: POSTED TO #lix M. D. Toronto, Ont. TRADE Aircrew (P. or O.) -->\n\n\n![](figures/1.1)\n\n\n# ROYAL CANADIAN AIR FORCE (ATTESTATION PAPER) (Pages one and two, only, are to be completed in Applicant's own Handwriting)\n\n1\\. Surname\nACKLAND\n\nFULL Christian Names.\nWILLIAM ERIC\n\n2\\. Present Address.\n1454 Harvard St.N.W. Washington D.C., U.S.A.\n\nTelephone Decatur 4206\n\n3\\. Permanent Address.\n1434 Harvard St.N.W. Washington D.C. U.S.A.\n\n4\\. Place of Birth\nWALES\nBrynamnen\nCitizenship\nBRITISH\n\n5\\. Date of Birth\n\u2713\nJune 30, 1923\nMarfied, Single, Widower, Separated, Divorced Single\n\n6\\. Particulars of Children\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>*</td>\n<td></td>\n</tr>\n<tr>\n<td>NONE</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n7\\. Occupation Mimeograph Operator\n\n8\\. Religion\n\nEpiscapalian Church\nState denomination\n\n9\\. Languages\nEnglish (fluently)\nState proficiency\n\n10\\. Next of Kin (Full Name)\nWILLIAM H NRY ACKLAND\n\nRelationship\nFather\n\n\"\nAddress\n1434 Harvard St.,N.W. Washington D.C., U.S.A.\n\n11\\. Father (Full Name) WILLIAM HENRY ACKLAND\n\nBirthplace.\nEngland\n\n\"\nAddress\n1434 Harvard St., N.W. Washington D.C\nU.S.A. Citizenship\nBritish\n\n\" Occupation Clerk with British Purchasing Commission, Washington\n\u2022\n\n12\\. Mother (Full Maiden Name)\nELIZABETH GWEN WILLIAMS\n\nBirthplace\nWales\n\n\"\nAddress\n1434 Harvard St.N.W., Washington, D.8\n\u010citizenship.\nBritish\n\n13\\. Details of any Naval, Military or Air Force Service:\n\n\n<table>\n<tr>\n<th rowspan=\"2\">Unit</th>\n<th rowspan=\"2\">Place</th>\n<th rowspan=\"2\">Rank</th>\n<th colspan=\"2\">Trade</th>\n<th colspan=\"2\">Date</th>\n<th></th>\n<th>Reason for discharge</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>From</td>\n<td>To</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>NONE</td>\n<td></td>\n<td></td>\n<td></td>\n<td>R.C.A.F.</td>\n<td>Records</td>\n<td>Office</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>Rec'd. APR</td>\n<td>15</td>\n<td>1942</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>O.K. MV</td>\n<td>c.i.B</td>\n<td>pll<br>.l.</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>R024</td>\n<td>N.l.</td>\n<td>m</td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n14\\. Honours, Awards, Mentions.\n\nS.L\nP.A.NOT\n\n15\\. Are you now on any Naval, Military or Air Force Reserve?\nNO\n\n16\\. Have you previously made application to join the R.C.A.F.?.\nN/A\nIf so, where?\nM/A\n\nWhen?\nM/A\nResult\nN/A\n\n17\\. Were you ever discharged from any branch of His Majesty's Forces as Medically Unfit?\nNO\n\nIf so, state nature of disability\n\nNO\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension?\nNO\n\nIf so, state nature of Disability\nDIO\n\n19\\. Have you ever been convicted of an indictable offence?\nNO\nIf so state nature\nNO\n\n20\\. Are you in debt?\nNO\nIf so, state particulars.\nNQ\n\n<!-- PageFooter: R.C.A.F. Form R. 100 150M-10-41 (993) H.Q. 1062-3-83 -->\n<!-- PageFooter: 436 - 136 -->\n\ngm\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "R.160310",
+          "spans": [
+            {
+              "offset": 31,
+              "length": 8
+            }
+          ],
+          "confidence": 0.876,
+          "source": "D(1,340.0000,166.0000,456.0000,166.0000,456.0000,194.0000,340.0000,194.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ACKLAND",
+          "spans": [
+            {
+              "offset": 323,
+              "length": 7
+            }
+          ],
+          "confidence": 0.936,
+          "source": "D(1,373.0000,404.0000,474.0000,404.0000,474.0000,428.0000,373.0000,427.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "WILLIAM ERIC",
+          "spans": [
+            {
+              "offset": 354,
+              "length": 12
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,930.0496,404.1215,1097.4137,407.0071,1096.9676,432.8788,929.6036,429.9932)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "1454 Harvard St.N.W. Washington D.C., U.S.A.",
+          "spans": [
+            {
+              "offset": 389,
+              "length": 44
+            }
+          ],
+          "confidence": 0.914,
+          "source": "D(1,414.0000,451.0000,1014.0000,451.0000,1014.0000,478.0000,414.0000,478.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1923-06-30",
+          "spans": [
+            {
+              "offset": 603,
+              "length": 13
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,373.0000,584.0000,555.0000,584.0000,555.0000,609.0000,373.0000,609.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "WALES",
+          "spans": [
+            {
+              "offset": 546,
+              "length": 5
+            }
+          ],
+          "confidence": 0.801,
+          "source": "D(1,400.0000,538.0000,473.0000,538.0000,473.0000,560.0000,400.0000,560.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Brynamnen",
+          "spans": [
+            {
+              "offset": 552,
+              "length": 9
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,514.0000,523.0000,765.0000,528.0000,765.0000,566.0000,514.0000,563.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "England",
+          "spans": [
+            {
+              "offset": 1345,
+              "length": 7
+            }
+          ],
+          "confidence": 0.808,
+          "source": "D(1,1043.0000,1076.0000,1141.0000,1076.0000,1141.0000,1099.0000,1043.0000,1099.0000)"
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Wales",
+          "spans": [
+            {
+              "offset": 1566,
+              "length": 5
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,1043.0000,1211.0000,1115.0000,1211.0000,1115.0000,1234.0000,1043.0000,1234.0000)"
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "BRITISH",
+          "spans": [
+            {
+              "offset": 574,
+              "length": 7
+            }
+          ],
+          "confidence": 0.76,
+          "source": "D(1,1133.0000,536.0000,1237.0000,537.0000,1237.0000,560.0000,1133.0000,560.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Episcapalian Church",
+          "spans": [
+            {
+              "offset": 1064,
+              "length": 19
+            }
+          ],
+          "confidence": 0.676,
+          "source": "D(1,1082.0000,900.0000,1344.0000,900.0000,1344.0000,927.0000,1082.0000,927.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Mimeograph Operator",
+          "spans": [
+            {
+              "offset": 1029,
+              "length": 19
+            }
+          ],
+          "confidence": 0.83,
+          "source": "D(1,317.0018,901.8724,584.3877,905.6651,583.9747,934.7869,316.5887,930.9942)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 626,
+              "length": 6
+            }
+          ],
+          "confidence": 0.961,
+          "source": "D(1,783.0000,588.0000,844.0000,588.0000,844.0000,618.0000,783.0000,617.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "valueInteger": 0,
+          "spans": [
+            {
+              "offset": 855,
+              "length": 4
+            }
+          ],
+          "confidence": 0.756,
+          "source": "D(1,263.0000,771.0000,323.0000,772.0000,323.0000,796.0000,263.0000,795.0000)"
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "WILLIAM H NRY ACKLAND",
+          "spans": [
+            {
+              "offset": 1185,
+              "length": 21
+            }
+          ],
+          "confidence": 0.867,
+          "source": "D(1,468.0000,985.0000,760.0000,985.0000,760.0000,1009.0000,468.0000,1009.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Father",
+          "spans": [
+            {
+              "offset": 1221,
+              "length": 6
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,1122.0000,981.0000,1209.0000,982.0000,1209.0000,1006.0000,1122.0000,1005.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "1434 Harvard St.,N.W. Washington D.C., U.S.A.",
+          "spans": [
+            {
+              "offset": 1239,
+              "length": 45
+            }
+          ],
+          "confidence": 0.879,
+          "source": "D(1,456.0000,1023.0000,1069.0000,1023.0000,1069.0000,1052.0000,456.0000,1052.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "NONE",
+          "spans": [
+            {
+              "offset": 1980,
+              "length": 4
+            }
+          ],
+          "confidence": 0.819,
+          "source": "D(1,252.0000,1451.0000,312.0000,1451.0000,312.0000,1474.0000,252.0000,1474.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0,
+          "width": 1507,
+          "height": 2316
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

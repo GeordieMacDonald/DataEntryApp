@@ -1,0 +1,376 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:03:20Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: ORIGINAL\" DUPLICATE TRIPLICATE -->\n\nM.F.M. 2\nA.F.B. 271\n450M-5-40 (5287)\nH.Q. 1772-33-1645\n\n(To be completed in triplicate. Gopy designation to be shown by striking out terms not applicable.)\n\nUnit\n2nd Armoured Reg't (L.S.H. R.C.) Regimental Number.\nM 37401\n\n\n# CANADIAN ACTIVE SERVICE FORCE ATTESTATION PAPER\n\n1\\. Surname.\nABLE,\n\n2\\. Christian Names\nLeon Frederic\n\n3\\. Present address\nCANROSE, Alberta, Ganada.\n\n4\\. Date of birth\n17th January, 1922.\n\n5\\. Place of birth\n(Country)\nCanada,\n(County or Province)\nAlberte,\nWABAMUN\n\n6\\. Religion (state denomination)\nUnited Church.\n\n7\\. Trade or Calling Losging, Farm Laboring, & Truck driver.\n\n8\\. Married, Widower or Single\nSingle.\n\n9\\. Name of next of kin\nFrank William ABIR,\n\n10\\. Relationship\nFather.\n\n11\\. Address of next of kin\nCAMROSE, Alberta, Canada.\n\n12\\. Do you belong to, or have you served in the Active Militia of Canada?MO.\n\n(If Yes, Give Unit and Dates of Service)\n\n13\\. Have you served in (a) The Canadian Active Service Force? NO.\n(Yes or No)\n(b) Any other Naval, Military, or Air\n\nForce?\nNo.\n(If Yes, Give Regimental No. and Unit)\n\n14\\. Did you serve during the Great War 1914-1918? NO.\n(Yes or No) (If Yes, specify Unit and Period of Service)\n\n(It Yes, specify Regimental No., Unit and Dates of Service)\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI, Leon Frederic Able\ndo solemnly declare that the above\nparticulars are true, and I hereby engage to serve in the Canadian Active Service Force so long as an emergency,\ni.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the period of demobilization after\nsaid emergency ceases to exist, and in any event for a period of not less than one year, provided His Majesty\nshould so require my services.\n\nTHIS MAN RO *\n\nDate.\nApril 15. 1941\n\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI, Leon Frederic Ahio\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\nLeon able\nTAME IN BLUANteY\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\nat Campongt\nAlbent\n11 hengel\nthis\n15th\nday of\n19\n. District Recruiting Officer, U.D.#13\nAlhmin\n\nSignature of Magistrate, Justice\n1\nor Attesting Officer.\nOffice or Rank and Unit\n1\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\nOTIZER NAME IN SIGNAR\n\nWITNESS:H36774 D.Rfassio\n(Signature of recruit)\nLeon alu\n(Signature of Recruit)\n(Town or Township)\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "M 37401",
+          "spans": [
+            {
+              "offset": 267,
+              "length": 7
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,1110.0000,307.0000,1223.0000,307.0000,1223.0000,336.0000,1110.0000,336.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABLE,",
+          "spans": [
+            {
+              "offset": 341,
+              "length": 5
+            }
+          ],
+          "confidence": 0.463,
+          "source": "D(1,563.0035,446.7752,642.4030,448.0062,641.9964,474.2325,562.5969,473.0015)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Leon Frederic",
+          "spans": [
+            {
+              "offset": 368,
+              "length": 13
+            }
+          ],
+          "confidence": 0.884,
+          "source": "D(1,562.0000,495.0000,774.0000,495.0000,774.0000,521.0000,562.0000,521.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "CANROSE, Alberta, Ganada.",
+          "spans": [
+            {
+              "offset": 403,
+              "length": 25
+            }
+          ],
+          "confidence": 0.694,
+          "source": "D(1,561.0000,545.0000,960.0000,545.0000,960.0000,572.0000,561.0000,572.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1922-01-17",
+          "spans": [
+            {
+              "offset": 448,
+              "length": 19
+            }
+          ],
+          "confidence": 0.886,
+          "source": "D(1,562.0000,591.0000,865.0000,591.0000,865.0000,622.0000,562.0000,622.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada,",
+          "spans": [
+            {
+              "offset": 498,
+              "length": 7
+            }
+          ],
+          "confidence": 0.827,
+          "source": "D(1,562.5601,636.6935,675.5536,639.0114,674.9935,666.3178,562.0000,664.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Alberte,",
+          "spans": [
+            {
+              "offset": 527,
+              "length": 8
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,722.5941,630.2765,850.9118,640.1471,848.3294,673.7176,720.0118,663.8471)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "WABAMUN",
+          "spans": [
+            {
+              "offset": 536,
+              "length": 7
+            }
+          ],
+          "confidence": 0.917,
+          "source": "D(1,894.0000,638.0000,1013.0000,638.0000,1013.0000,663.0000,894.0000,663.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "United Church.",
+          "spans": [
+            {
+              "offset": 579,
+              "length": 14
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,560.0000,687.0000,787.0000,687.0000,787.0000,713.0000,560.0000,713.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Losging, Farm Laboring, & Truck driver.",
+          "spans": [
+            {
+              "offset": 616,
+              "length": 39
+            }
+          ],
+          "confidence": 0.739,
+          "source": "D(1,415.0000,735.0000,1039.0000,735.0000,1039.0000,765.0000,415.0000,765.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single.",
+          "spans": [
+            {
+              "offset": 688,
+              "length": 7
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,562.0673,777.8459,679.7961,781.5249,678.9171,809.6537,561.1883,805.9746)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Frank William ABIR,",
+          "spans": [
+            {
+              "offset": 721,
+              "length": 19
+            }
+          ],
+          "confidence": 0.869,
+          "source": "D(1,562.0016,826.6135,881.1136,827.9543,880.9958,855.9916,561.8838,854.6508)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Father.",
+          "spans": [
+            {
+              "offset": 760,
+              "length": 7
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,561.0654,871.9083,677.7951,875.5561,676.9493,902.6234,560.2195,898.9756)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "CAMROSE, Alberta, Canada.",
+          "spans": [
+            {
+              "offset": 797,
+              "length": 25
+            }
+          ],
+          "confidence": 0.877,
+          "source": "D(1,562.0000,922.0000,959.0000,922.0000,959.0000,949.0000,562.0000,949.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Leon alu",
+          "spans": [
+            {
+              "offset": 2958,
+              "length": 8
+            }
+          ],
+          "confidence": 0.711,
+          "source": "D(1,706.0000,1433.0000,996.7821,1437.2296,995.9532,1494.2175,705.1711,1489.9879)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "1",
+          "spans": [
+            {
+              "offset": 2665,
+              "length": 1
+            }
+          ],
+          "confidence": 0.598,
+          "source": "D(1,971.0000,1907.0000,977.0000,1908.0000,977.0000,1934.0000,971.0000,1933.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "1",
+          "spans": [
+            {
+              "offset": 2713,
+              "length": 1
+            }
+          ],
+          "confidence": 0.522,
+          "source": "D(1,971.0000,1955.0000,979.0000,1959.0000,979.0000,1987.0000,971.0000,1986.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Campongt",
+          "spans": [
+            {
+              "offset": 2539,
+              "length": 8
+            }
+          ],
+          "confidence": 0.519,
+          "source": "D(1,223.0000,1834.0000,347.0000,1836.0000,347.0000,1860.0000,223.0000,1858.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "spans": [
+            {
+              "offset": 2570,
+              "length": 4
+            }
+          ],
+          "confidence": 0.453,
+          "source": "D(1,651.0000,1831.0000,716.0000,1832.0000,716.0000,1858.0000,651.0000,1858.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Leon able",
+          "spans": [
+            {
+              "offset": 1982,
+              "length": 9
+            }
+          ],
+          "confidence": 0.519,
+          "source": "D(1,568.0065,1599.2793,870.3333,1602.0030,869.9821,1640.9908,567.6553,1638.2672)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Leon alu",
+          "spans": [
+            {
+              "offset": 2958,
+              "length": 8
+            }
+          ],
+          "confidence": 0.39,
+          "source": "D(1,706.0000,1433.0000,996.7821,1437.2296,995.9532,1494.2175,705.1711,1489.9879)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "H36774 D.Rfassio",
+          "spans": [
+            {
+              "offset": 2918,
+              "length": 16
+            }
+          ],
+          "confidence": 0.752,
+          "source": "D(1,336.8810,1486.2876,615.0000,1485.0000,615.1190,1510.7124,337.0000,1512.0000)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "TRIPLICATE",
+          "spans": [
+            {
+              "offset": 37,
+              "length": 10
+            }
+          ],
+          "confidence": 0.622,
+          "source": "D(1,201.0000,238.0000,369.0000,239.0000,369.0000,259.0000,201.0000,258.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.1531164,
+          "width": 1538,
+          "height": 2281
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

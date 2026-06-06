@@ -1,0 +1,392 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:26:23Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Checked\nOecuptional History Forms Comploted\n\nORIGINAL ..D.R.O.\nDUPLICATE\nTRIPEICATE\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\nTHE ALGONQUIN REGT. C.A. (A)\n\n\n# Unit \u0ba4\u00e5nee3e Sn# #ell\u0b95sd Sogt L. CASE CANADIAN ACTIVE SERVICE FORCE ATTESTATION PAPER\n\n03\nHEPM\n\n1\\. Surname\nAdams.\n\n2\\. Christian Names Allan Frederick\n\n3\\. Present address 79 Lovell Ave. St. Catharines Ont.\n\n4\\. Date of birth\nOctober 21 1980\n\n5\\. Place of birth\n(Country)\nCanada\n(County or Province)\nOntario\n(Town or Township)\nSt. Catherines\n\n6\\. Religion (state denomination) selvatiea Aray\n\n7\\. Trade or Calling\nLaborer\n\n8\\. Married, Widower or Single Bingle\n\n9\\. Name of next of kin Mx. Charles Ademe\n\n10\\. Relationship\nFather\n1++\n\n11\\. Address of next of kin 29 LOWell:Ave. St, Catharines Ont. Prifrid Dou\n\n12\\. Have you served in any Naval, Military or Air Force?..\n5\nno\n24 Jan 44\n\n13\\. If previous war service, state arm, force and regimental particulars none\n\n14\\. Do you now belong to or have you served in the Active Militia of Canada?no\n\n(Give unit and date of attestation)\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI, Allon Frederick Adams\ndo solemnly declare that the above\nparticulars are true, and I hereby engage to serve in the Canadian Active Service Force so long as an emergency,\ni.e., war, invasion, riot or insurrection, real or apprehended, exiats, and for the period of demobilization after\nsaid emergency ceases to exist, and in any event for a period of not less than one year, provided His Majesty\nshould so require my services.\n\n\\- 2 @ Pales 17 dmiss\n\nDate\nJeine 2812 1940 allan hrederich adams.\n(Signature of recruit)\n\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI,\nAllan Fredericz\nAdams\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\nallan. JKrederick adama\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nat\n11. Cattarmio ne 28th\nday of.\nFerne\n1940\nOn R.Klat\nma\nfSignature of Magistrate, Justice\nor Attesting Officer.\n\nOffice or Rank and Unit\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\nFINGERPRINTED\nA.F.B. 21\nPHOTOCIAF HED\nB40912\nNoan 3391\n\nRegimental Number.\n\nSEP 4 1941\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "B40912",
+          "spans": [
+            {
+              "offset": 2782,
+              "length": 6
+            }
+          ],
+          "confidence": 0.714,
+          "source": "D(1,980.0000,242.0000,1116.0000,244.0000,1116.0000,276.0000,980.0000,276.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "Adams.",
+          "spans": [
+            {
+              "offset": 326,
+              "length": 6
+            }
+          ],
+          "confidence": 0.883,
+          "source": "D(1,335.0121,420.4169,411.4581,422.0095,410.9965,444.1666,334.5505,442.5740)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Allan Frederick",
+          "spans": [
+            {
+              "offset": 354,
+              "length": 15
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,401.0000,464.0000,626.0000,464.0000,626.0000,487.0000,401.0000,487.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "79 Lovell Ave. St. Catharines Ont.",
+          "spans": [
+            {
+              "offset": 391,
+              "length": 34
+            }
+          ],
+          "confidence": 0.913,
+          "source": "D(1,390.0000,507.0000,878.0000,507.0000,878.0000,531.0000,390.0000,531.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1980-10-21",
+          "spans": [
+            {
+              "offset": 445,
+              "length": 15
+            }
+          ],
+          "confidence": 0.823,
+          "source": "D(1,378.0000,546.0000,595.0000,546.0000,595.0000,569.0000,378.0000,569.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 491,
+              "length": 6
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,380.0000,595.0000,466.0000,595.0000,466.0000,615.0000,380.0000,616.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ontario",
+          "spans": [
+            {
+              "offset": 519,
+              "length": 7
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,623.0000,594.0000,724.0000,594.0000,724.0000,614.0000,623.0000,615.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "St. Catherines",
+          "spans": [
+            {
+              "offset": 546,
+              "length": 14
+            }
+          ],
+          "confidence": 0.871,
+          "source": "D(1,935.0005,591.8586,1136.0809,592.5520,1136.0000,616.0000,934.9196,615.3066)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "selvatiea Aray",
+          "spans": [
+            {
+              "offset": 596,
+              "length": 14
+            }
+          ],
+          "confidence": 0.739,
+          "source": "D(1,507.0037,638.6705,712.2727,641.0031,711.9963,665.3295,506.7273,662.9969)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Laborer",
+          "spans": [
+            {
+              "offset": 633,
+              "length": 7
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,409.0000,680.0000,512.0000,680.0000,512.0000,701.0000,409.0000,701.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Bingle",
+          "spans": [
+            {
+              "offset": 673,
+              "length": 6
+            }
+          ],
+          "confidence": 0.88,
+          "source": "D(1,494.0000,721.0000,584.0000,720.0000,584.0000,744.0000,494.0000,745.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mx. Charles Ademe",
+          "spans": [
+            {
+              "offset": 705,
+              "length": 17
+            }
+          ],
+          "confidence": 0.663,
+          "source": "D(1,432.7645,764.4524,683.9994,761.9400,684.2412,786.1176,433.0063,788.6299)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Father",
+          "spans": [
+            {
+              "offset": 742,
+              "length": 6
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,365.0000,802.0000,455.0000,804.0000,455.0000,825.0000,365.0000,823.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "29 LOWell:Ave. St, Catharines Ont. Prifrid Dou",
+          "spans": [
+            {
+              "offset": 782,
+              "length": 46
+            }
+          ],
+          "confidence": 0.818,
+          "source": "D(1,464.0000,838.0000,1182.0000,838.0000,1182.0000,877.0000,464.0000,877.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "no",
+          "spans": [
+            {
+              "offset": 892,
+              "length": 2
+            }
+          ],
+          "confidence": 0.587,
+          "source": "D(1,755.0000,896.0000,784.0000,895.0000,784.0000,912.0000,755.0000,914.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "none",
+          "spans": [
+            {
+              "offset": 980,
+              "length": 4
+            }
+          ],
+          "confidence": 0.818,
+          "source": "D(1,836.0000,933.0000,948.0000,931.0000,948.0000,956.0000,836.0000,958.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "allan hrederich adams.",
+          "spans": [
+            {
+              "offset": 1628,
+              "length": 22
+            }
+          ],
+          "confidence": 0.663,
+          "source": "D(1,646.5938,1287.0029,1179.9729,1283.2021,1180.3791,1340.1992,647.0000,1344.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "On R.Klat\nma",
+          "spans": [
+            {
+              "offset": 2477,
+              "length": 9
+            },
+            {
+              "offset": 2487,
+              "length": 2
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,433.8291,1671.6672,954.0000,1670.0000,954.1709,1723.3328,434.0000,1725.0000);D(1,769.0000,1712.0000,940.0000,1711.0000,943.0000,1742.0000,771.0000,1747.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "11. Cattarmio",
+          "spans": [
+            {
+              "offset": 2436,
+              "length": 13
+            }
+          ],
+          "confidence": 0.449,
+          "source": "D(1,229.3813,1627.0312,526.9820,1623.4883,527.6075,1676.0285,230.0068,1679.5713)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "spans": [
+            {
+              "offset": 2450,
+              "length": 7
+            },
+            {
+              "offset": 2458,
+              "length": 7
+            },
+            {
+              "offset": 2466,
+              "length": 5
+            },
+            {
+              "offset": 2472,
+              "length": 4
+            }
+          ],
+          "confidence": 0.182,
+          "source": "D(1,515.5276,1625.3950,697.9967,1623.6572,698.4728,1673.6431,516.0036,1675.3809);D(1,751.0000,1651.0000,811.0000,1651.0000,811.0000,1672.0000,751.0000,1672.0000);D(1,854.0000,1623.0000,996.0000,1623.0000,996.0000,1667.0000,854.0000,1669.0000);D(1,1128.0000,1633.0000,1214.0000,1631.0000,1214.0000,1667.0000,1128.0000,1668.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "allan hrederich adams.",
+          "spans": [
+            {
+              "offset": 1628,
+              "length": 22
+            }
+          ],
+          "confidence": 0.696,
+          "source": "D(1,646.5938,1287.0029,1179.9729,1283.2021,1180.3791,1340.1992,647.0000,1344.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "allan. JKrederick adama",
+          "spans": [
+            {
+              "offset": 1858,
+              "length": 23
+            }
+          ],
+          "confidence": 0.803,
+          "source": "D(1,507.8232,1432.5197,980.9966,1430.2878,981.1758,1468.2775,508.0024,1470.5094)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "ORIGINAL ..D.R.O.",
+          "spans": [
+            {
+              "offset": 45,
+              "length": 17
+            }
+          ],
+          "confidence": 0.428,
+          "source": "D(1,190.0000,184.0000,542.0000,184.0000,542.0000,216.0000,190.0000,216.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.165
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.1791,
+          "width": 1408,
+          "height": 2070
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

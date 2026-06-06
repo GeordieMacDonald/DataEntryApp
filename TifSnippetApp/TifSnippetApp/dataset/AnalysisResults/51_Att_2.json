@@ -1,0 +1,517 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:12:11Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Grade 8\nChscked..\nG-62655\nFINGERPRINTED\nng\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\nCopy designation to be shown\nby striking out terms not applicable.\n\nPHOTOGRAPHED\n\nM.F.M. 2\n(Combining M.F.M. 103)\n75014-4-43 (9375) (786-820)\nH.Q. 1772-39-1645\n\nCorps\nNo. 6 District\nDevot.\nGeneral List.\n\nRegimental Number\n7 57596\n\nCANADIAN ARMY\nENROLMENT AND ATTESTATION PAPER\nLloyd Mitchell\n\uc720*\n\n1\\.\nACKER\n(Surname)\n\n(Christian Names)\n\n2\\. Present Address\nShelburne, Shelburne Courty, Nova Scotia\n\n3\\. (a) Date of birth\n28 November 1924\n\n(b) Place of birth\nCanada\nNova Scotia\n(Country)\n\nChurchover\n\n4\\. (a) Place of birth of Father\nCanada\n(County or Province)\nNova Scotia\n(Town or Township)\nChurchover\n(b) \" \" \" \" Mother\n(Country)\nCanada\nNova Scotia\n(County or Province)\nIngomar\n\n5\\. Nationality\nCanadian\n(Town or Township)\n(To what country do you new owe allegiance) if naturalized givo certif, no, dato and plase of issue. If not naturalized so state.\n\n6\\. Religion (state denomination)\nChurch of Enghand\n\n7\\. Trade or calling (a)\nChecker\n\n(a) Name and address of last employer :\nCanadian National Railways\nShelburne,\nN'\n\n(b) How long employed\n4 Months\n\n9\\. Married, Widower or Single\nSingle\n\nIf married, how many children\n\n10\\. Name of Next-of-KinMrs. Elizabeth Acker\n\n11\\. Relationship\nMother\n\n12\\. Address of Next-of-Kin Shelburne, Shelburne Cbunty, Nova Scotia\n\n13\\. Previous Service (Navy, Army or Air Force) Units and dates\nN57\n\n14\\. (a) Former war service\nN12\n\n(b) In the armed forces of what country\nN17\n\n(c) Dates of such Service\n\u0e21\u0e23\u0e32\n\n15\\. Decorations and medals, if any\nN17\ntehel\n\n16\\. I do solemnly declare that the above particulars are true\n22 m\ngasud acker.\n\nSignature of Recruit, or in the case of N.R.M.A. personnel who\nrefuse to sign, signature of officer under Regn. 8 (d) (I)\nR.A.S.R. 1941\n\n16\u03b1 CERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE ATTESTING OR ENROLLING OFFICER\n\nThe above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\nThe above questions and answers were then read to the above named in my presence.\nI have taken care that he understands each question, and that his answer to each question has\nbeen duly entered as replied to,\nat\nHa' ifax, Ajs\nthis\n6th\nday of\nOctober\n19 43\nNivitea\n(D.R. Ke'ley) Capt.\nSignature of Magistrate, Justice Attesting or\nEnrolling Officer.\nOffice or Rank and Unit\nor appointment.\n\nITEMS 17, 18 AND 19 WILL NOT BE COMPLETED UNLESS A MAN ENLISTS FOR GENERAL SERVICE ANYWHERE.\n\n17\\.\nDECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI, Liloyd Mitchell ACKHR\nhereby engage to serve in any Active Formation or\nUnit of the Canadian Army so long as an emergency, i.e., war, invasion, riot or insurrection, real or\napprehended, exists, and for the period of demobilization after said emergency ceases to exist, and in\nany event for a period of not less than one year, provided His Majesty should so require my services.\nDate\n6-0ct-k3\n\n(Signature of Recruit)\nLand mitchellacker\n\n18\\.\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI.\nLoyd Mitchell ACKER\ndo sincerely promise and swear (or solemnly declare)\nthat I will be faithful and bear true allegiance to His Majesty.\nWitness 1\u00d7fHale\n(Name)\n(Rank)\nbte\nhlugh mitchellacKer\n(Signature of Recruit)\n\n19\\. The above named recruit has made and signed the declaration and taken the oath before me.\nat\nHelifax, N. S.\nthis\n7th\nday of\nOctober\n1943\nN.M.tele\n( D. R. KELLLEY ) Napt.\n(Signature of Magistrate, Justice or Attesting Officer.)\nRecention Centre No. 6 D. D.\n(Office or Rank and Unit or appointment)\n\u2612\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON WILFULLY MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS.IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT.\n\nMf.\n\n#6 DV Reception Centre\n\necSNCUPATIONAL COMPLETED\n\n0\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "757596",
+          "spans": [
+            {
+              "offset": 297,
+              "length": 7
+            }
+          ],
+          "confidence": 0.466,
+          "source": "D(1,1011.2840,267.8817,1100.0000,274.0000,1098.0663,302.0391,1009.3503,295.9207)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ACKER",
+          "spans": [
+            {
+              "offset": 375,
+              "length": 5
+            }
+          ],
+          "confidence": 0.595,
+          "source": "D(1,325.0000,350.0000,399.0000,351.0000,399.0000,375.0000,325.0000,373.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Lloyd Mitchell",
+          "spans": [
+            {
+              "offset": 352,
+              "length": 14
+            }
+          ],
+          "confidence": 0.739,
+          "source": "D(1,691.5331,368.0118,893.5000,372.5000,892.9669,396.4882,691.0000,392.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "Shelburne, Shelburne Courty, Nova Scotia",
+          "spans": [
+            {
+              "offset": 431,
+              "length": 40
+            }
+          ],
+          "confidence": 0.83,
+          "source": "D(1,480.5928,401.7092,1052.6067,415.1158,1052.0000,441.0000,479.9861,427.5934)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1924-11-28",
+          "spans": [
+            {
+              "offset": 495,
+              "length": 16
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,480.2206,428.6280,712.2205,430.6454,711.9998,456.0174,480.0000,454.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 532,
+              "length": 6
+            }
+          ],
+          "confidence": 0.896,
+          "source": "D(1,493.0000,459.0000,581.0000,461.0000,580.0000,484.0000,493.0000,482.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Nova Scotia",
+          "spans": [
+            {
+              "offset": 539,
+              "length": 11
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,737.0282,464.0181,893.6460,468.5186,892.9741,491.9016,736.3563,487.4010)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Churchover",
+          "spans": [
+            {
+              "offset": 562,
+              "length": 10
+            }
+          ],
+          "confidence": 0.884,
+          "source": "D(1,979.0000,472.0000,1122.0000,475.0000,1121.0000,497.0000,978.0000,494.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 607,
+              "length": 6
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,564.0000,494.0000,652.0000,495.0000,651.0000,518.0000,564.0000,516.0000)"
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Nova Scotia",
+          "spans": [
+            {
+              "offset": 635,
+              "length": 11
+            }
+          ],
+          "confidence": 0.886,
+          "source": "D(1,735.7922,498.0273,893.0190,503.4489,892.2245,526.4905,734.9976,521.0689)"
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Churchover",
+          "spans": [
+            {
+              "offset": 666,
+              "length": 10
+            }
+          ],
+          "confidence": 0.937,
+          "source": "D(1,979.0000,504.0000,1121.0000,511.0000,1119.0000,533.0000,978.0000,527.0000)"
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 706,
+              "length": 6
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,579.0000,528.0000,664.0000,530.0000,663.0000,553.0000,578.0000,551.0000)"
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Nova Scotia",
+          "spans": [
+            {
+              "offset": 713,
+              "length": 11
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,721.0155,532.1457,878.3999,535.0073,877.9845,557.8543,720.6001,554.9927)"
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Ingomar",
+          "spans": [
+            {
+              "offset": 746,
+              "length": 7
+            }
+          ],
+          "confidence": 0.817,
+          "source": "D(1,950.0000,540.0000,1050.0000,542.0000,1049.0000,564.0000,950.0000,561.0000)"
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "Canadian",
+          "spans": [
+            {
+              "offset": 771,
+              "length": 8
+            }
+          ],
+          "confidence": 0.897,
+          "source": "D(1,520.0000,565.0000,638.0000,569.0000,638.0000,592.0000,519.0000,588.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Church of Enghand",
+          "spans": [
+            {
+              "offset": 964,
+              "length": 17
+            }
+          ],
+          "confidence": 0.826,
+          "source": "D(1,647.5520,609.9897,891.0555,615.5875,890.4705,641.0338,646.9670,635.4360)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Checker",
+          "spans": [
+            {
+              "offset": 1008,
+              "length": 7
+            }
+          ],
+          "confidence": 0.973,
+          "source": "D(1,490.0000,638.0000,593.0000,640.0000,592.0000,662.0000,490.0000,660.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "valueString": "Canadian National Railways\nShelburne,\nN'",
+          "spans": [
+            {
+              "offset": 1057,
+              "length": 26
+            },
+            {
+              "offset": 1084,
+              "length": 10
+            },
+            {
+              "offset": 1095,
+              "length": 2
+            }
+          ],
+          "confidence": 0.646,
+          "source": "D(1,759.6263,670.9903,1131.0084,680.6785,1130.3621,705.4529,758.9801,695.7647);D(1,775.1023,694.5459,918.0208,700.5009,916.9185,726.9549,774.0000,721.0000);D(1,931.0311,700.5019,956.2451,702.0778,954.9494,722.8093,929.7354,721.2335)"
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "valueString": "4 Months",
+          "spans": [
+            {
+              "offset": 1121,
+              "length": 8
+            }
+          ],
+          "confidence": 0.92,
+          "source": "D(1,986.0166,733.5006,1103.6859,737.4229,1102.9867,758.3996,985.3174,754.4772)"
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 1162,
+              "length": 6
+            }
+          ],
+          "confidence": 0.934,
+          "source": "D(1,544.0000,745.0000,632.0000,749.0000,632.0000,772.0000,544.0000,768.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mrs. Elizabeth Acker",
+          "spans": [
+            {
+              "offset": 1222,
+              "length": 23
+            }
+          ],
+          "confidence": 0.476,
+          "source": "D(1,425.3223,775.6665,744.3061,779.8915,743.9838,804.2250,425.0000,800.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Mother",
+          "spans": [
+            {
+              "offset": 1265,
+              "length": 6
+            }
+          ],
+          "confidence": 0.961,
+          "source": "D(1,1013.0000,789.0000,1100.0000,790.0000,1099.0000,812.0000,1013.0000,811.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "Shelburne, Shelburne Cbunty, Nova Scotia",
+          "spans": [
+            {
+              "offset": 1301,
+              "length": 40
+            }
+          ],
+          "confidence": 0.874,
+          "source": "D(1,481.0444,803.0621,1056.5899,816.2425,1055.9504,844.1668,480.4049,830.9864)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "N57",
+          "spans": [
+            {
+              "offset": 1407,
+              "length": 3
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,883.0000,846.0000,925.0000,846.0000,925.0000,867.0000,883.0000,867.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "N12",
+          "spans": [
+            {
+              "offset": 1440,
+              "length": 3
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,755.0000,898.0000,795.0000,898.0000,795.0000,921.0000,755.0000,921.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "valueString": "N17",
+          "spans": [
+            {
+              "offset": 1485,
+              "length": 3
+            }
+          ],
+          "confidence": 0.973,
+          "source": "D(1,799.0000,919.0000,837.0000,920.0000,837.0000,941.0000,799.0000,941.0000)"
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "valueString": "\u0e21\u0e23\u0e32",
+          "spans": [
+            {
+              "offset": 1516,
+              "length": 3
+            }
+          ],
+          "confidence": 0.741,
+          "source": "D(1,839.0000,947.0000,878.0000,947.0000,878.0000,968.0000,839.0000,968.0000)"
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "valueString": "N17\ntehel",
+          "spans": [
+            {
+              "offset": 1557,
+              "length": 3
+            },
+            {
+              "offset": 1561,
+              "length": 5
+            }
+          ],
+          "confidence": 0.222,
+          "source": "D(1,882.0000,974.0000,921.0000,974.0000,921.0000,996.0000,882.0000,996.0000);D(1,967.0000,979.0000,1081.0000,948.0000,1085.0000,989.0000,970.0000,1016.0000)"
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "gasud acker.",
+          "spans": [
+            {
+              "offset": 1636,
+              "length": 12
+            }
+          ],
+          "confidence": 0.671,
+          "source": "D(1,808.0211,1027.0502,1095.2064,1029.1015,1094.9989,1058.1571,807.8135,1056.1058)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "Nivitea\n(D.R. Ke'ley) Capt.",
+          "spans": [
+            {
+              "offset": 2281,
+              "length": 7
+            },
+            {
+              "offset": 2289,
+              "length": 19
+            }
+          ],
+          "confidence": 0.465,
+          "source": "D(1,427.0000,1276.0000,712.0000,1280.0000,712.0000,1308.0000,427.0000,1304.0000);D(1,477.0000,1303.0000,744.6340,1309.3722,743.9813,1336.7853,476.3473,1330.4130)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Ha' ifax, Ajs",
+          "spans": [
+            {
+              "offset": 2237,
+              "length": 13
+            }
+          ],
+          "confidence": 0.467,
+          "source": "D(1,345.0063,1255.7144,508.0154,1259.2970,507.4515,1284.9550,344.4424,1281.3724)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1943-10-06",
+          "spans": [
+            {
+              "offset": 2256,
+              "length": 3
+            },
+            {
+              "offset": 2260,
+              "length": 6
+            },
+            {
+              "offset": 2267,
+              "length": 7
+            },
+            {
+              "offset": 2275,
+              "length": 5
+            }
+          ],
+          "confidence": 0.265,
+          "source": "D(1,665.0000,1250.0000,703.0000,1250.0000,703.0000,1275.0000,664.0000,1273.0000);D(1,791.0411,1258.1096,855.5324,1259.5116,854.9698,1285.3906,790.4785,1283.9887);D(1,960.0000,1263.0000,1063.0000,1265.0000,1061.0000,1289.0000,958.0000,1286.0000);D(1,1160.1735,1263.7101,1231.8831,1269.1427,1229.9772,1294.3013,1158.2675,1288.8688)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Land mitchellacker",
+          "spans": [
+            {
+              "offset": 2980,
+              "length": 18
+            }
+          ],
+          "confidence": 0.661,
+          "source": "D(1,789.6571,1512.9934,1197.6014,1520.8764,1196.9443,1554.8830,789.0000,1547.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "hlugh mitchellacKer",
+          "spans": [
+            {
+              "offset": 3220,
+              "length": 19
+            }
+          ],
+          "confidence": 0.735,
+          "source": "D(1,795.0022,1639.7776,1197.0703,1640.4930,1196.9991,1680.5000,794.9310,1679.7846)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "1\u00d7fHale",
+          "spans": [
+            {
+              "offset": 3194,
+              "length": 7
+            }
+          ],
+          "confidence": 0.588,
+          "source": "D(1,330.0000,1642.0000,538.0000,1642.0000,538.0000,1671.0000,330.0000,1671.0000)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "ORIGINAL",
+          "spans": [
+            {
+              "offset": 44,
+              "length": 8
+            }
+          ],
+          "confidence": 0.28,
+          "source": "D(1,238.0000,188.0000,322.0000,188.0000,321.0000,205.0000,238.0000,205.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "valueBoolean": true,
+          "spans": [
+            {
+              "offset": 3566,
+              "length": 1
+            }
+          ],
+          "confidence": 0.675,
+          "source": "D(1,1018.0000,1815.0000,1144.0000,1814.0000,1144.0000,1889.0000,1018.0000,1888.0000)"
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.9598531,
+          "width": 1414,
+          "height": 2065
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

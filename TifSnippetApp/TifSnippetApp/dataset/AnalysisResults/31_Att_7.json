@@ -1,0 +1,377 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:04:18Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "ORIGINAL\nDUPLICATE\nTRIPLICATE\n\nChecked........Card.\n\nObservations.\n\nM.F.M. 2\nA.F.B. 271\n95000-49-42 (4898)\nH.Q. 1772-39-1645\n\n(To be completed in triplicate. Copy designation to be shown by striking out terma not applicable.)\n\"2 DISTRICT DEPOT (AF)\n\nUnit INF (R) R WING #4 Coy.\n\nRegimental Number\nB-135808\n\nACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY\n\n01\n\n\n# ATTESTATION PAPER\n\n1\\. Surname\nABLETT\n\n2\\. Christian Names\nAlfred\nAlyma Frederick\n\n3\\. Present address\n45 Dunfield Avenue, Toronto Ontario Canada\n\n4\\. Date of birth\n9 November 1924\n\n5\\. Place of birth\n(Country)\n(County or Province)\nCanada Ontario Torento\n\n6\\. Citizenship\n(Of What Country are You Now a Citizen)\nChurch of England\n\n8\\. Trade or Calling\nStudent\n\n9\\. Married, Widower or Single\nSingle Harriet\n\n10\\. Name of next of kin\nrs\nAda 1 ABLETT\n\n11\\. Relationship\nMother\n\n12\\. Address of next of kin\n45 Dunfield Avenue, Iaronto Onterio 6 nuia\n\n13\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army? YS\ny\n\nB-486293 48th Highlanders B. Company 12 Platoon April 1942 to dat\n(If Yes, Give Unit and Dates of Service)\n\n14\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?\n(Yes or No)\n\nNO\n(b) Any other Naval, Military, or Air\n\n(If Yes, Give Regimental No. and Unit)\n\nForce?\n(Yes or No) (If Yes, specify Unit and Period of Service)\nNO.\n\n15\\. Did you serve during the Great War 1914-1918?.\n\n(If Yes, specify Regimental No., Unit and Dates of Sprvice)\nNO\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nAlfred Alyma Frederick ABLETT\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\n\nDate.\n116\nNovember 1942\n(Signature of recruit)\nalfred ablett\n\n\n### OATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI,\nAlfrod Alyma Prederiek\nALLET\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty,\n\nWitness\n(Nanie)\n(Rank)\nRte.\n(Signature of Recruit)\nalfred ablots\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nat\nCa\u0434ada\n\nSignature of Magistrate, Justice\nor Attesting Officer.\n(Officer or Rank and Unit\nAPT or appointment.\n\n\u0165p\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\nO. H. F. COMPLETED\n\n<!-- PageFooter: IOV 161942 -->\n\n\n![WSG COMPLETED](figures/1.1)\n\n\nhurphy\n\nToronto Ontario\nthis.\n11'6\nday of\nNovember 1942\nFor D.R.O.\nJ.l. Cape.ta C.px\n\n(Town or Township)\nCanada\n\n7\\. Religion (state denomination)\n\nChodad -E eb9\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "B-135808",
+          "spans": [
+            {
+              "offset": 297,
+              "length": 8
+            }
+          ],
+          "confidence": 0.96,
+          "source": "D(1,1053.0000,307.0000,1184.0000,307.0000,1184.0000,337.0000,1053.0000,337.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABLETT",
+          "spans": [
+            {
+              "offset": 395,
+              "length": 6
+            }
+          ],
+          "confidence": 0.816,
+          "source": "D(1,637.0000,530.0000,735.0000,530.0000,735.0000,554.0000,637.0000,554.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Alfred Alyma Frederick",
+          "spans": [
+            {
+              "offset": 423,
+              "length": 6
+            },
+            {
+              "offset": 430,
+              "length": 15
+            }
+          ],
+          "confidence": 0.663,
+          "source": "D(1,640.0000,575.0000,737.0000,575.0000,737.0000,601.0000,640.0000,600.0000);D(1,782.0000,571.0000,1038.0000,571.0000,1038.0000,599.0000,782.0000,599.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "45 Dunfield Avenue, Toronto Ontario Canada",
+          "spans": [
+            {
+              "offset": 467,
+              "length": 42
+            }
+          ],
+          "confidence": 0.884,
+          "source": "D(1,637.0000,613.0000,1310.2422,618.7789,1309.9919,647.9484,636.7496,642.1695)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1924-11-09",
+          "spans": [
+            {
+              "offset": 529,
+              "length": 15
+            }
+          ],
+          "confidence": 0.885,
+          "source": "D(1,637.0027,658.6489,878.2024,660.4901,877.9936,687.8396,636.7939,685.9984)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 596,
+              "length": 6
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,637.0000,702.0000,733.0000,703.0000,733.0000,729.0000,637.0000,729.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ontario",
+          "spans": [
+            {
+              "offset": 603,
+              "length": 7
+            }
+          ],
+          "confidence": 0.955,
+          "source": "D(1,747.0000,703.0000,861.0000,703.0000,861.0000,729.0000,747.0000,729.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Torento",
+          "spans": [
+            {
+              "offset": 611,
+              "length": 7
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,876.0000,703.0000,990.0000,704.0000,990.0000,730.0000,876.0000,729.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Chodad -E eb9",
+          "spans": [
+            {
+              "offset": 3341,
+              "length": 13
+            }
+          ],
+          "confidence": 0.74,
+          "source": "D(1,425.5689,119.0914,915.0000,109.0000,917.4849,229.5158,428.0538,239.6071)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Student",
+          "spans": [
+            {
+              "offset": 716,
+              "length": 7
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,630.0000,832.0000,747.0000,833.0000,747.0000,859.0000,629.0000,858.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single Harriet",
+          "spans": [
+            {
+              "offset": 756,
+              "length": 14
+            }
+          ],
+          "confidence": 0.769,
+          "source": "D(1,629.0424,875.3378,851.7138,881.0182,850.9194,912.1612,628.2479,906.4808)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Ada 1 ABLETT",
+          "spans": [
+            {
+              "offset": 800,
+              "length": 12
+            }
+          ],
+          "confidence": 0.464,
+          "source": "D(1,729.0000,914.0000,919.0000,914.0000,919.0000,951.0000,729.0000,951.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Mother",
+          "spans": [
+            {
+              "offset": 832,
+              "length": 6
+            }
+          ],
+          "confidence": 0.96,
+          "source": "D(1,630.0000,966.0000,729.0000,967.0000,729.0000,993.0000,630.0000,992.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "45 Dunfield Avenue, Iaronto Onterio 6 nuia",
+          "spans": [
+            {
+              "offset": 868,
+              "length": 42
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,629.4706,1005.2572,1311.4638,1015.6959,1310.9933,1046.4387,629.0000,1036.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "B-486293 48th Highlanders B. Company 12 Platoon April 1942 to dat",
+          "spans": [
+            {
+              "offset": 1013,
+              "length": 65
+            }
+          ],
+          "confidence": 0.71,
+          "source": "D(1,234.0065,1091.2632,1344.2456,1101.0022,1343.9843,1130.7893,233.7452,1121.0504)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "alfred ablett",
+          "spans": [
+            {
+              "offset": 2031,
+              "length": 13
+            }
+          ],
+          "confidence": 0.817,
+          "source": "D(1,785.0463,1518.4991,1136.0000,1512.0000,1136.9781,1564.8152,786.0243,1571.3144)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "\u0165p",
+          "spans": [
+            {
+              "offset": 2948,
+              "length": 2
+            }
+          ],
+          "confidence": 0.74,
+          "source": "D(1,1312.0000,2068.0000,1341.0000,2073.0000,1341.0000,2095.0000,1312.0000,2091.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Ca\u0434ada",
+          "spans": [
+            {
+              "offset": 2838,
+              "length": 6
+            }
+          ],
+          "confidence": 0.181,
+          "source": "D(1,233.0000,1978.0000,333.0000,1979.0000,333.0000,1997.0000,233.0000,1996.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1942-11-16",
+          "spans": [
+            {
+              "offset": 1990,
+              "length": 3
+            },
+            {
+              "offset": 1994,
+              "length": 13
+            }
+          ],
+          "confidence": 0.207,
+          "source": "D(1,359.0000,1534.0000,459.0000,1534.0000,459.0000,1572.0000,359.0000,1572.0000);D(1,521.0128,1545.3673,730.2109,1547.0016,729.9951,1574.6328,520.7969,1572.9984)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "alfred ablett",
+          "spans": [
+            {
+              "offset": 2031,
+              "length": 13
+            }
+          ],
+          "confidence": 0.758,
+          "source": "D(1,785.0463,1518.4991,1136.0000,1512.0000,1136.9781,1564.8152,786.0243,1571.3144)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "alfred ablots",
+          "spans": [
+            {
+              "offset": 2293,
+              "length": 13
+            }
+          ],
+          "confidence": 0.739,
+          "source": "D(1,814.8573,1675.4379,1157.0000,1668.0000,1158.1427,1720.5621,816.0000,1728.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "hurphy",
+          "spans": [
+            {
+              "offset": 3193,
+              "length": 6
+            }
+          ],
+          "confidence": 0.416,
+          "source": "D(1,250.0000,1693.0000,645.0000,1688.0000,645.0000,1743.0000,250.0000,1744.0000)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0,
+          "width": 1489,
+          "height": 2285
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

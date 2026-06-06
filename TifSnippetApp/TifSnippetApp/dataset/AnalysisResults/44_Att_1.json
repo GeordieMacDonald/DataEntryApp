@@ -1,0 +1,360 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:09:34Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: AIR FORCE No. R.216441 -->\n<!-- PageHeader: R.C.A.F. Special Reserve -->\n<!-- PageHeader: POSTED TO #13 Rec.C RCAF.,MTL.P.Q. -->\n<!-- PageHeader: CLERK TRADE ACCOUNTANC (std) -->\n\nhut\n\n\n# ROYAL CANADIAN AIR FORCE (ATTESTATION PAPER) (Pages one and two, only, are to be completed in Applicant's own Handwriting)\n\n1\\. Surname\nACHESON\n\nFULL Christian Names.\nCHARLES FREDERICK RICHARDS\n\n2\\. Present Address\n6991 de L'Epee, Montreal, P.Q.\n\nTelephone.\nC4. 5806\n\n3\\. Permanent Address\n6991 de L'Epee, Montreal, P.Q.\n.\n\n4\\. Place of Birth\nMontreal Due\n\nCitizenship\nCanadian\n\n5\\. Date of Birth\nNovember 2nd, 1903\n\u2713\nMarried, Single, Widower, Separated, Divorced\n\n6\\. Particulars of Children\nNone\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>N/A</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n7\\. Occupation\nClerk\n\n8\\. Religion\nR.C.\n\n9\\. Languages\n\nState proficiency\n\n10\\. Next of Kin (Full Name)\nEdgar Acheson\n\nRelationship\nBrother\n\n\"\nAddress.\n6990 Bloomfield Avenue, Montreal, P.Q.\n\n11\\. Father (Full Name)\nMatthew William Acheson\n\nBirthplace.\nMontreal\nOue.\n\n\"\nAddress.\nDeceased\n\nCitizenship.\nCanadian\n\n\"\nOccupation\nMachinist\nmagnet\n\n12\\. Mother (Full Maiden Name)\nMargionite\nJane Richards\n\nBirthplace.\nHatlow, P.Q.\n\n\"\nAddress\nDeceased\n\nCitizenship\nCanadian\n\n13\\. Details of any Naval, Military or Air Force Service:\n\n\n<table>\n<tr>\n<th rowspan=\"2\">Unit</th>\n<th rowspan=\"2\">Place</th>\n<th rowspan=\"2\">Rank</th>\n<th rowspan=\"2\">Trade</th>\n<th colspan=\"2\">Date</th>\n<th rowspan=\"2\">Reason for discharge</th>\n</tr>\n<tr>\n<th>From</th>\n<th>To</th>\n</tr>\n<tr>\n<td>Victoria Rifles (Reserve</td>\n<td>)</td>\n<td></td>\n<td>R.C.A.F.Pecords</td>\n<td>1943</td>\n<td>2</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>Montreal</td>\n<td>Rec'L</td>\n<td>FEB I</td>\n<td>anted.</td>\n<td>Still</td>\n<td>on strength</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>EL</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td>9K \u0668\u0660\u0661\u0660</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n14\\. Honours, Awards, Mentions.\nNONE\ns....\u2026.\n\n15\\. Are you now on any Naval, Military or Air Force Reserve?\n\uc788\nYES, as above\n\n16\\. Have you previously made application to join the R.C.A.F.?\nNO\n\nIf so, where?\nN/A\n\nWhen?\nN/A\n\nResult\nN/A\n\n17\\. Were you ever discharged from any branch of His Majesty's Forces as Medically Unfit?NO.\n\nIf so, state nature of disability\nN/A\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension?\nNO\n\nIf so, state nature of Disability.\nN/A\n\n19\\. Have you ever been convicted of an indictable offence?\nNO\n\nIf so state nature.\nN/A\n\n20\\. Are you in debt?.\nNO\nIf so, state particulars.\nN/A\n\n<!-- PageFooter: R.C.A.F. Form R. 100 150M-10-41 (993) H.Q. 1062-3-83 -->\n<!-- PageFooter: 594-419 -->\n\nSingle\nP A. M\n\nEnglish fluently.\n\nState denomination\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "R.216441",
+          "spans": [
+            {
+              "offset": 31,
+              "length": 8
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,306.3445,166.4680,421.9932,163.7144,422.6487,191.2465,307.0000,194.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ACHESON",
+          "spans": [
+            {
+              "offset": 341,
+              "length": 7
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,331.0000,404.0000,430.0000,406.0000,430.0000,430.0000,331.0000,429.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "CHARLES FREDERICK RICHARDS",
+          "spans": [
+            {
+              "offset": 372,
+              "length": 26
+            }
+          ],
+          "confidence": 0.937,
+          "source": "D(1,927.8834,403.4216,1284.9994,401.8553,1285.1184,428.9995,928.0025,430.5658)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "6991 de L'Epee, Montreal, P.Q.",
+          "spans": [
+            {
+              "offset": 420,
+              "length": 30
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,371.0000,439.0000,779.0000,439.0000,779.0000,470.0000,371.0000,470.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1903-11-02",
+          "spans": [
+            {
+              "offset": 602,
+              "length": 18
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,343.0000,576.0000,592.0000,576.0000,592.0000,606.0000,343.0000,606.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Que.",
+          "spans": [
+            {
+              "offset": 1278,
+              "length": 4
+            }
+          ],
+          "confidence": 0.057,
+          "source": "D(1,1158.0026,1066.8308,1234.6306,1068.0097,1233.9967,1109.2153,1157.3687,1108.0364)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Montreal",
+          "spans": [
+            {
+              "offset": 548,
+              "length": 8
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,357.0000,532.0000,469.0000,531.0000,469.0000,568.0000,357.0000,566.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Oue.",
+          "spans": [
+            {
+              "offset": 1278,
+              "length": 4
+            }
+          ],
+          "confidence": 0.381,
+          "source": "D(1,1158.0026,1066.8308,1234.6306,1068.0097,1233.9967,1109.2153,1157.3687,1108.0364)"
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Montreal",
+          "spans": [
+            {
+              "offset": 1269,
+              "length": 8
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,1023.0000,1074.0000,1135.0000,1074.0000,1135.0000,1100.0000,1023.0000,1099.0000)"
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "P.Q.",
+          "spans": [
+            {
+              "offset": 1436,
+              "length": 4
+            }
+          ],
+          "confidence": 0.884,
+          "source": "D(1,1129.0000,1210.0000,1186.0000,1210.0000,1186.0000,1239.0000,1129.0000,1239.0000)"
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Hatlow",
+          "spans": [
+            {
+              "offset": 1428,
+              "length": 6
+            }
+          ],
+          "confidence": 0.758,
+          "source": "D(1,1023.0000,1209.0000,1106.0000,1209.0000,1106.0000,1238.0000,1023.0000,1237.0000)"
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "Canadian",
+          "spans": [
+            {
+              "offset": 574,
+              "length": 8
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,1078.0000,534.0000,1188.0000,536.0000,1188.0000,560.0000,1078.0000,559.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "R.C.",
+          "spans": [
+            {
+              "offset": 1051,
+              "length": 4
+            }
+          ],
+          "confidence": 0.958,
+          "source": "D(1,1037.0000,892.0000,1091.0000,892.0000,1091.0000,918.0000,1037.0000,918.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Clerk",
+          "spans": [
+            {
+              "offset": 1031,
+              "length": 5
+            }
+          ],
+          "confidence": 0.971,
+          "source": "D(1,346.0000,894.0000,418.0000,895.0000,418.0000,920.0000,346.0000,919.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 2940,
+              "length": 6
+            }
+          ],
+          "confidence": 0.756,
+          "source": "D(1,1184.0000,577.0000,1271.0000,577.0000,1271.0000,602.0000,1184.0000,603.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "spans": [
+            {
+              "offset": 698,
+              "length": 4
+            }
+          ],
+          "confidence": 0.756,
+          "source": "D(1,561.0000,636.0000,619.0000,637.0000,618.0000,660.0000,561.0000,659.0000)"
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Edgar Acheson",
+          "spans": [
+            {
+              "offset": 1120,
+              "length": 13
+            }
+          ],
+          "confidence": 0.939,
+          "source": "D(1,455.0160,986.3497,635.2515,988.0995,634.9830,1015.7474,454.7476,1013.9975)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Brother",
+          "spans": [
+            {
+              "offset": 1148,
+              "length": 7
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,1064.0000,985.0000,1162.0000,986.0000,1162.0000,1012.0000,1064.0000,1010.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "6990 Bloomfield Avenue, Montreal, P.Q.",
+          "spans": [
+            {
+              "offset": 1168,
+              "length": 38
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,440.0000,1021.0000,956.0000,1021.0000,956.0000,1052.0000,440.0000,1052.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "Victoria Rifles (Reserve",
+          "spans": [
+            {
+              "offset": 1783,
+              "length": 24
+            }
+          ],
+          "confidence": 0.649,
+          "source": "D(1,143.0000,1436.0000,467.0000,1436.0000,467.0000,1465.0000,143.0000,1465.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "valueString": "NONE",
+          "spans": [
+            {
+              "offset": 2235,
+              "length": 4
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,589.0000,1604.0000,649.0000,1604.0000,649.0000,1629.0000,589.0000,1629.0000)"
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.06429037,
+          "width": 1494,
+          "height": 2314
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

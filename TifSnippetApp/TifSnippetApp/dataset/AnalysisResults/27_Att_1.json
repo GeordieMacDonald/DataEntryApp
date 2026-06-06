@@ -1,0 +1,397 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:01:27Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Prepared by:FL\nChecked by:\nl.\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\nM.F.M. 2\nA.F.B. 271\n750M-5-42 (4398)\nH.Q. 1772-39-1645\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicaple.)\nUnit No.10 D.D. Winnipeg Grenadiers (AF) Regimental Number FI-6960\n\n\n# ACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY\n\n\n## ATTESTATION PAPER\n\n1\\. Surname\nABGRALL\n\n2\\. Christian Names.\nHarvey\n\n3\\. Present address\n576 Deniset Street, St. Boniface, Manitoba, Canada\n\n4\\. Date of birth\n15th January 1919\n\n5\\. Place of birth\n(Country)\nCanada\n(County or Province)\nManitoba\n(Town or Township)\nSt. Laurent\n\n6\\. Citizenship\n(Of What Country are You Now a Citizen)\n\n7\\. Religion (state denomination) Roman Catholic\n\n8\\. Trade or Calling\nPainter's Helper\n\n9\\. Married, Widower or Single\nSingle\n\n10\\. Name of next of kin\nMr. Yves ABGRALL,\n\n11\\. Relationship\nFather\n\n12\\. Address of next of kin\nSt. Laurent, Manitoba, Canada\n\n13\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army? Yes\n6 weeks training at 100th Basic Training Centre, Portage la Prairie\n(If Yes, Give Unit and Dates of Service) (28 Aug 41 to 19 Oct 41)\n\n14\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?.\n(Yes or No)\nNo\n\n(If Yes, Give Regimental No. and Unit)\nN.A.\n(b) Any other Naval, Military, or Air\nForce?\n(Yes or No) (If Yes, specify Unit and Period of Service)\nNo\n\n15\\. Did you serve during the Great War 1914-1918?.\nNo\n\n(If Yes, specify Regimental No., Unit and Dates of Service)\nN/A\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nHarvey ABGRALL\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\n\nDate October 20, 1941\n(Signature of recruit)\n(Sgd) H. Abgrall\n\n\n## OATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI, Harvey ABGRALL\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\n\nWitness (Sgd) R. Finlavson H-70408\n(Name)\n(Rank)\n\n(Signature of Recruit)\n(Sgd) H. Abgrall\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nat\nWinnipeg, Manitoba this.\n20th\nday of\nOctober\n19 41\n(Sgd) T.M. McIlwraith\nLieut\n\nSignature of Magistrate, Justice\nor Attesting Officer.\n\nfor Major\n\nDistrict Recruiting Officer, M.D.10(\nOfficer or Rank and Unit\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "FI-6960",
+          "spans": [
+            {
+              "offset": 277,
+              "length": 7
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,1112.0000,324.0000,1216.0000,324.0000,1216.0000,357.0000,1112.0000,357.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABGRALL",
+          "spans": [
+            {
+              "offset": 374,
+              "length": 7
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,595.0000,534.0000,708.0000,534.0000,708.0000,559.0000,595.0000,559.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Harvey",
+          "spans": [
+            {
+              "offset": 404,
+              "length": 6
+            }
+          ],
+          "confidence": 0.978,
+          "source": "D(1,592.0000,577.0000,693.0000,577.0000,692.0000,603.0000,592.0000,602.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "576 Deniset Street, St. Boniface, Manitoba, Canada",
+          "spans": [
+            {
+              "offset": 432,
+              "length": 50
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,595.0000,617.0000,1388.0000,617.0000,1388.0000,648.0000,595.0000,648.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1919-01-15",
+          "spans": [
+            {
+              "offset": 502,
+              "length": 17
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,595.0000,663.0000,866.0000,663.0000,866.0000,691.0000,595.0000,691.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 550,
+              "length": 6
+            }
+          ],
+          "confidence": 0.959,
+          "source": "D(1,467.0000,707.0000,564.0000,707.0000,564.0000,732.0000,467.0000,732.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Manitoba",
+          "spans": [
+            {
+              "offset": 578,
+              "length": 8
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,735.0000,707.0000,864.0000,709.0000,864.0000,734.0000,735.0000,732.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "St. Laurent",
+          "spans": [
+            {
+              "offset": 606,
+              "length": 11
+            }
+          ],
+          "confidence": 0.832,
+          "source": "D(1,1067.0000,710.0000,1228.0000,710.0000,1228.0000,735.0000,1067.0000,735.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Roman Catholic",
+          "spans": [
+            {
+              "offset": 710,
+              "length": 14
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,589.8974,796.3119,816.9978,795.4385,817.1019,822.4996,590.0014,823.3731)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Painter's Helper",
+          "spans": [
+            {
+              "offset": 747,
+              "length": 16
+            }
+          ],
+          "confidence": 0.741,
+          "source": "D(1,592.0058,836.1773,849.1773,838.0013,848.9871,864.8226,591.8156,862.9987)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 796,
+              "length": 6
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,592.0000,883.0000,689.0000,883.0000,689.0000,907.0000,592.0000,907.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mr. Yves ABGRALL,",
+          "spans": [
+            {
+              "offset": 829,
+              "length": 17
+            }
+          ],
+          "confidence": 0.824,
+          "source": "D(1,591.0000,926.0000,848.0000,926.0000,848.0000,951.0000,591.0000,951.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Father",
+          "spans": [
+            {
+              "offset": 866,
+              "length": 6
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,591.0000,971.0000,690.0000,971.0000,690.0000,994.0000,591.0000,994.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "St. Laurent, Manitoba, Canada",
+          "spans": [
+            {
+              "offset": 902,
+              "length": 29
+            }
+          ],
+          "confidence": 0.89,
+          "source": "D(1,591.0000,1013.0000,1053.0000,1013.0000,1053.0000,1040.0000,591.0000,1040.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "6 weeks training at 100th Basic Training Centre, Portage la Prairie (28 Aug 41 to 19 Oct 41)",
+          "spans": [
+            {
+              "offset": 1032,
+              "length": 67
+            },
+            {
+              "offset": 1100,
+              "length": 1
+            },
+            {
+              "offset": 1142,
+              "length": 23
+            }
+          ],
+          "confidence": 0.449,
+          "source": "D(1,291.0000,1099.0000,1357.0000,1099.0000,1357.0000,1128.0000,291.0000,1128.0000);D(1,676.0000,1126.0000,685.0000,1126.0000,685.0000,1150.0000,676.0000,1150.0000);D(1,967.0000,1125.0000,1336.0000,1125.0000,1336.0000,1152.0000,967.0000,1152.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "(Sgd) H. Abgrall",
+          "spans": [
+            {
+              "offset": 2067,
+              "length": 16
+            }
+          ],
+          "confidence": 0.455,
+          "source": "D(1,800.0000,1550.0000,1067.0000,1550.0000,1067.0000,1578.0000,800.0000,1578.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "(Sgd) T.M. McIlwraith",
+          "spans": [
+            {
+              "offset": 2938,
+              "length": 21
+            }
+          ],
+          "confidence": 0.732,
+          "source": "D(1,433.0000,2008.0000,781.0000,2008.0000,781.0000,2037.0000,433.0000,2037.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "Lieut",
+          "spans": [
+            {
+              "offset": 2960,
+              "length": 5
+            }
+          ],
+          "confidence": 0.975,
+          "source": "D(1,826.0000,2009.0000,907.0000,2009.0000,907.0000,2034.0000,826.0000,2034.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Winnipeg, Manitoba",
+          "spans": [
+            {
+              "offset": 2887,
+              "length": 18
+            }
+          ],
+          "confidence": 0.81,
+          "source": "D(1,285.0004,1956.9008,573.1031,1958.0004,572.9996,1985.0992,284.8969,1983.9996)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1941-10-20",
+          "spans": [
+            {
+              "offset": 2912,
+              "length": 4
+            },
+            {
+              "offset": 2917,
+              "length": 6
+            },
+            {
+              "offset": 2924,
+              "length": 7
+            },
+            {
+              "offset": 2932,
+              "length": 5
+            }
+          ],
+          "confidence": 0.364,
+          "source": "D(1,685.0000,1958.0000,752.0000,1958.0000,752.0000,1980.0000,685.0000,1981.0000);D(1,866.6694,1962.8728,933.0000,1962.0000,933.3306,1987.1272,867.0000,1988.0000);D(1,1016.0000,1956.0000,1130.0000,1956.0000,1130.0000,1982.0000,1016.0000,1981.0000);D(1,1292.0000,1956.0000,1367.0000,1956.0000,1367.0000,1983.0000,1292.0000,1983.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "(Sgd) H. Abgrall",
+          "spans": [
+            {
+              "offset": 2067,
+              "length": 16
+            }
+          ],
+          "confidence": 0.828,
+          "source": "D(1,800.0000,1550.0000,1067.0000,1550.0000,1067.0000,1578.0000,800.0000,1578.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "(Sgd) H. Abgrall",
+          "spans": [
+            {
+              "offset": 2339,
+              "length": 16
+            }
+          ],
+          "confidence": 0.876,
+          "source": "D(1,798.0000,1706.0000,1065.0000,1706.0000,1065.0000,1736.0000,798.0000,1736.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "R. Finlavson H-70408",
+          "spans": [
+            {
+              "offset": 2280,
+              "length": 20
+            }
+          ],
+          "confidence": 0.691,
+          "source": "D(1,427.7991,1706.2741,753.0000,1704.0000,753.2009,1732.7259,428.0000,1735.0000)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0,
+          "width": 1535,
+          "height": 2287
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

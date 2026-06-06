@@ -1,0 +1,389 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:09:15Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "3\nReceived 15 ang y1 Checked Sth E Card G Observations.\n\nCRIGINAL\nDUFLICATE\nTRIRMGATE\n\nMP A . Am\n\nM.F.M. 2\nA.F.B. 271\n4301-8-39 (1598)\nU.Q. 1778-10-18\n\n(To be completed in triplicate. Copy designation to be shown by striking out tepns not applicab\nSTORMONT, DUNDAS & GLENGAERY\n\nUnit\nHIGHLANDERS\n\nRegimental Number.\nC - 54174\n\nCANADIAN ACTIVE SERVICE FORCE\nATTESTATION PAPER\n\n\uc704\nITE\n\n1\\. Surname\nAce\n\n2\\. Christian Names.\n(Janes, CCallace, PartII-30- 8-8.40.\n\n3\\. Present address.\nRR 1 Iroquois Ontario\n\n4\\. Date of birth\n16-6-11\n\n5\\. Place of birth.\n(Country)\nungland\n(County or Province)\nGlamorgan S.M.\n(Towa or Towzahip)\nSwansea\n\n6\\. Religion (state denomination)\nChurch of anglend\n\n7\\. Trade or Calling.\nFarm Hand\n\nMarried, Widower or Single\nsingle\n\n9\\. Name of next of kin\nJohn # AGe\n10\n\n10\\. Relationship\nFather\n\n11\\. Address of next of kin\nRR 1 Iroquois Ontario\n\n12\\. Have you served in any Naval, Military or Air Force?.\nNQ\n\n13\\. If previous war service, state arm, force and regimental particulars.\nNIL\n\n14\\. Do you now belong to or have you served in the Active Militia of Canada?.\nNL\n\n(Give unit and date of attestation)\n\n\n# DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nJames Wallace Ace\ndo solemnly declare that the above\nparticulars are true, and I hereby engage to serve in the Canadian Active Service Force so long as an emergency,\ni.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the period of demobilization after\nsaid emergency ceases to exist, and in any event for a period of not less than one year, provided His Majesty\nshould so require my services.\n\nte\n28-6-40\n\n(Signature of recruit)\nWallace James Oce\n\nOATH TO BE TAKEN BY MAN ON ATTESTATION\nI,\nJames Wallace Ace\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\nMallace James aa\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\nCORNWALL\nat\nthis\nJUN 27 1940\nday of.\nentar\u00e3o AucaR ruacials\n\nor Attesting Officer.\nSignature of Mogistrate, Justice\nSTORMONT, DUNDAS & GLENGARKY\nHIGHLANDERS\n(Office or Rank and Unit\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\nPEP\n\nWallare Jomis\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "C - 54174",
+          "spans": [
+            {
+              "offset": 315,
+              "length": 9
+            }
+          ],
+          "confidence": 0.981,
+          "source": "D(1,961.0000,275.0000,1091.0000,275.0000,1091.0000,299.0000,961.0000,299.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "Ace",
+          "spans": [
+            {
+              "offset": 394,
+              "length": 3
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,384.0000,423.0000,428.0000,423.0000,428.0000,444.0000,384.0000,443.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "James Wallace",
+          "spans": [
+            {
+              "offset": 1183,
+              "length": 13
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,315.8743,1165.4834,515.9975,1164.4975,516.1232,1190.0142,316.0000,1191.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "RR 1 Iroquois Ontario",
+          "spans": [
+            {
+              "offset": 479,
+              "length": 21
+            }
+          ],
+          "confidence": 0.882,
+          "source": "D(1,483.0100,507.9510,799.1201,509.5006,798.9932,535.3921,482.8831,533.8426)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "2016-06-11",
+          "spans": [
+            {
+              "offset": 520,
+              "length": 7
+            }
+          ],
+          "confidence": 0.98,
+          "source": "D(1,499.0000,554.0000,598.0000,554.0000,598.0000,579.0000,499.0000,579.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "ungland",
+          "spans": [
+            {
+              "offset": 559,
+              "length": 7
+            }
+          ],
+          "confidence": 0.423,
+          "source": "D(1,386.0000,597.0000,487.0000,597.0000,487.0000,619.0000,386.0000,619.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Glamorgan S.M.",
+          "spans": [
+            {
+              "offset": 588,
+              "length": 14
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,610.0000,595.0000,812.0000,595.0000,812.0000,618.0000,610.0000,618.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Swansea",
+          "spans": [
+            {
+              "offset": 622,
+              "length": 7
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,913.0000,598.0000,1013.0000,598.0000,1013.0000,618.0000,913.0000,618.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Church of anglend",
+          "spans": [
+            {
+              "offset": 665,
+              "length": 17
+            }
+          ],
+          "confidence": 0.827,
+          "source": "D(1,542.8542,641.5009,785.9944,640.0536,786.1437,665.1420,543.0035,666.5893)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Farm Hand",
+          "spans": [
+            {
+              "offset": 706,
+              "length": 9
+            }
+          ],
+          "confidence": 0.938,
+          "source": "D(1,628.0000,677.0000,756.0000,677.0000,756.0000,701.0000,628.0000,701.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "single",
+          "spans": [
+            {
+              "offset": 744,
+              "length": 6
+            }
+          ],
+          "confidence": 0.958,
+          "source": "D(1,628.0000,720.0000,716.0000,720.0000,716.0000,744.0000,628.0000,745.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "John # AGe",
+          "spans": [
+            {
+              "offset": 776,
+              "length": 10
+            }
+          ],
+          "confidence": 0.711,
+          "source": "D(1,570.0000,762.0000,741.0000,762.0000,741.0000,791.0000,570.0000,791.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Father",
+          "spans": [
+            {
+              "offset": 809,
+              "length": 6
+            }
+          ],
+          "confidence": 0.905,
+          "source": "D(1,572.0000,805.0000,661.0000,805.0000,661.0000,828.0000,572.0000,828.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "RR 1 Iroquois Ontario",
+          "spans": [
+            {
+              "offset": 845,
+              "length": 21
+            }
+          ],
+          "confidence": 0.876,
+          "source": "D(1,541.0000,851.0000,841.0000,851.0000,841.0000,878.0000,541.0000,878.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "NQ",
+          "spans": [
+            {
+              "offset": 927,
+              "length": 2
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,839.0000,893.0000,870.0000,892.0000,870.0000,912.0000,839.0000,913.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "NIL",
+          "spans": [
+            {
+              "offset": 1006,
+              "length": 3
+            }
+          ],
+          "confidence": 0.92,
+          "source": "D(1,867.0000,935.0000,913.0000,935.0000,913.0000,957.0000,867.0000,957.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Wallace James Oce",
+          "spans": [
+            {
+              "offset": 1641,
+              "length": 17
+            }
+          ],
+          "confidence": 0.757,
+          "source": "D(1,639.0062,1271.0150,1116.9822,1263.8165,1118.0088,1331.9848,640.0329,1339.1832)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "entar\u00e3o AucaR ruacials",
+          "spans": [
+            {
+              "offset": 2442,
+              "length": 22
+            }
+          ],
+          "confidence": 0.464,
+          "source": "D(1,381.1246,1673.1150,1184.0000,1641.0000,1186.1166,1693.9153,383.2412,1726.0304)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "STORMONT, DUNDAS & GLENGARKY\nHIGHLANDERS",
+          "spans": [
+            {
+              "offset": 2521,
+              "length": 28
+            },
+            {
+              "offset": 2550,
+              "length": 11
+            }
+          ],
+          "confidence": 0.237,
+          "source": "D(1,382.5773,1717.9734,868.9959,1709.7568,869.4291,1735.4015,383.0104,1743.6181);D(1,537.0000,1743.0000,722.0000,1740.0000,723.0000,1762.0000,538.0000,1767.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "CORNWALL",
+          "spans": [
+            {
+              "offset": 2405,
+              "length": 8
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,306.0000,1625.0000,426.0000,1624.0000,427.0000,1648.0000,307.0000,1650.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1940-06-27",
+          "spans": [
+            {
+              "offset": 2422,
+              "length": 11
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,555.9872,1638.1161,702.0000,1636.0000,702.4129,1664.4868,556.4000,1666.6029)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Wallace James Oce",
+          "spans": [
+            {
+              "offset": 1641,
+              "length": 17
+            }
+          ],
+          "confidence": 0.737,
+          "source": "D(1,639.0062,1271.0150,1116.9822,1263.8165,1118.0088,1331.9848,640.0329,1339.1832)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Mallace James aa",
+          "spans": [
+            {
+              "offset": 1838,
+              "length": 16
+            }
+          ],
+          "confidence": 0.664,
+          "source": "D(1,506.9168,1427.8136,958.0000,1417.0000,959.1537,1465.1265,508.0705,1475.9401)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "CRIGINAL",
+          "spans": [
+            {
+              "offset": 57,
+              "length": 8
+            }
+          ],
+          "confidence": 0.379,
+          "source": "D(1,168.0000,188.0000,258.0000,188.0000,258.0000,206.0000,168.0000,206.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.2119,
+          "width": 1397,
+          "height": 2070
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

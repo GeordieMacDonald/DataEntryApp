@@ -1,0 +1,385 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:08:14Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "UPLICATE\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\n01\n\nM.F.M. 2\nA.F.B. 271\n500M-7-41 (1131)\nH.Q. 1772-39-1645\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\nCanadeair Onfantry Corpo\n\nUnit No 1 District Depat (i) RCA (A.P.)Regimental Number.\nA-28694\n\n\n# ACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY ATTESTATION PAPER\n\n1\\. Surname\nACC\u0130ETON\n\n2\\. Christian Names\nSamuel\n\n3\\. Present address\nP.O. Palmerston, Ontario, Canada\n\n4\\. Date of birth\n15th. December 1913\n\n5\\. Place of birth England\n(Country)\n(County or Province)\nKent\nGravesend\n(Town or Township)\n\n6\\. Religion (state denomination)\nChurch of England\n\n7\\. Trade or Calling\nLumberman\n\n8\\. Married, Widower or Single.\nSingle:\n\n9\\. Name of next of kin.\nMr Kiseheaer A C.C LE T/O N\n\n10\\. Relationship\nBrothern\nda change\n\n11\\. Address of next of kin.\nGratzesend, hant, angland\n\n12\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army?.\nNo\n\n(If Yes, Give Unit and Dates of Service)\n\n13\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?\n(Yes or No)\nNo.\n\n(b) Any other Naval, Military, or Air\n\n(If Yes, Give Regimental No. and Unit)\n\nForce?\n(Yes or No) (If Yes, specify Unit and Period of Service)\nNO\n\n14\\. Did you serve during the Great War 1914-1918?\nNo\n\n(If Yes, specify Regimental No., Unit and Dates of Service)\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nSamuel Accleton\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\n\nDate.\n27th November, 1941\nsamuel\n(Signature of recruit)\nAccleton\n\nWitness:\nVOameil\n\nJ.E. Vallieres, SgtOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI\nSamuel Accleton\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\n\nSamuel Accleton\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nat\nLondon, Ont., Centns\n27th\nday of.\nNovember\n1941\nd.a.Am\n\nBEU\n\nFor O.C. No. 1 District Depot (AF)\n\nSignature of Magistrate, Justice\nor Attesting Officer.\nOfficer or Rank and Unit\nor appointment.\n\nN.B. ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\nABOLSIN TWNOM 12000\ntuLa COMPLETED.\n\nJingerprinted and Photographed\nM:F/ML 182 ISSUEUVObservations.\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "A-28694",
+          "spans": [
+            {
+              "offset": 285,
+              "length": 7
+            }
+          ],
+          "confidence": 0.979,
+          "source": "D(1,1005.0000,281.0000,1111.0000,281.0000,1111.0000,304.0000,1005.0000,304.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ACC\u0130ETON",
+          "spans": [
+            {
+              "offset": 377,
+              "length": 8
+            }
+          ],
+          "confidence": 0.379,
+          "source": "D(1,638.0000,475.0000,855.0000,475.0000,855.0000,502.0000,638.0000,502.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Samuel",
+          "spans": [
+            {
+              "offset": 407,
+              "length": 6
+            }
+          ],
+          "confidence": 0.907,
+          "source": "D(1,637.0000,518.0000,727.0000,518.0000,727.0000,541.0000,637.0000,541.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "P.O. Palmerston, Ontario, Canada",
+          "spans": [
+            {
+              "offset": 435,
+              "length": 32
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,636.0000,554.0000,1095.0000,554.0000,1095.0000,581.0000,636.0000,581.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1913-12-15",
+          "spans": [
+            {
+              "offset": 487,
+              "length": 19
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,639.0055,594.3417,898.2042,596.5017,897.9903,622.1583,638.7917,619.9983)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "England",
+          "spans": [
+            {
+              "offset": 527,
+              "length": 7
+            }
+          ],
+          "confidence": 0.918,
+          "source": "D(1,408.0000,639.0000,514.0000,637.0000,514.0000,661.0000,407.0000,662.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Kent",
+          "spans": [
+            {
+              "offset": 566,
+              "length": 4
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,639.0000,637.0000,699.0000,638.0000,699.0000,660.0000,639.0000,659.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Gravesend",
+          "spans": [
+            {
+              "offset": 571,
+              "length": 9
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,993.0000,637.0000,1123.0000,636.0000,1123.0000,660.0000,993.0000,659.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Church of England",
+          "spans": [
+            {
+              "offset": 635,
+              "length": 17
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,639.0000,681.0000,882.0000,681.0000,882.0000,705.0000,639.0000,705.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Lumberman",
+          "spans": [
+            {
+              "offset": 675,
+              "length": 9
+            }
+          ],
+          "confidence": 0.98,
+          "source": "D(1,638.0000,718.0000,769.0000,719.0000,769.0000,741.0000,638.0000,741.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 718,
+              "length": 7
+            }
+          ],
+          "confidence": 0.839,
+          "source": "D(1,638.0000,756.0000,735.0000,756.0000,735.0000,780.0000,638.0000,780.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mr Kiseheaer A C.C LE T/O N",
+          "spans": [
+            {
+              "offset": 752,
+              "length": 27
+            }
+          ],
+          "confidence": 0.867,
+          "source": "D(1,624.0000,796.0000,1028.0000,796.0000,1028.0000,822.0000,624.0000,822.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Brothern",
+          "spans": [
+            {
+              "offset": 799,
+              "length": 8
+            }
+          ],
+          "confidence": 0.61,
+          "source": "D(1,636.0000,837.0000,754.0000,837.0000,754.0000,858.0000,636.0000,858.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "Gratzesend, hant, angland",
+          "spans": [
+            {
+              "offset": 848,
+              "length": 25
+            }
+          ],
+          "confidence": 0.916,
+          "source": "D(1,637.0000,880.0000,982.0000,880.0000,982.0000,903.0000,637.0000,903.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "samuel\nAccleton",
+          "spans": [
+            {
+              "offset": 1891,
+              "length": 6
+            },
+            {
+              "offset": 1921,
+              "length": 8
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,657.0000,1356.0000,890.0000,1351.0000,890.0000,1392.0000,657.0000,1396.0000);D(1,926.0000,1353.0000,1146.0000,1352.0000,1146.0000,1389.0000,926.0000,1391.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "d.a.Am",
+          "spans": [
+            {
+              "offset": 2762,
+              "length": 6
+            }
+          ],
+          "confidence": 0.18,
+          "source": "D(1,401.0000,1731.0000,763.0000,1727.0000,763.0000,1771.0000,401.0000,1772.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "For O.C. No. 1 District Depot (AF)",
+          "spans": [
+            {
+              "offset": 2775,
+              "length": 34
+            }
+          ],
+          "confidence": 0.465,
+          "source": "D(1,396.0000,1778.0000,885.0000,1778.0000,885.0000,1805.0000,396.0000,1805.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "London, Ont., Centns",
+          "spans": [
+            {
+              "offset": 2714,
+              "length": 20
+            }
+          ],
+          "confidence": 0.664,
+          "source": "D(1,270.0000,1705.0000,566.0000,1705.0000,566.0000,1733.0000,270.0000,1733.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1941-11-27",
+          "spans": [
+            {
+              "offset": 1871,
+              "length": 19
+            }
+          ],
+          "confidence": 0.723,
+          "source": "D(1,311.0000,1364.0000,586.0000,1364.0000,586.0000,1391.0000,311.0000,1391.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "samuel\nAccleton",
+          "spans": [
+            {
+              "offset": 1891,
+              "length": 6
+            },
+            {
+              "offset": 1921,
+              "length": 8
+            }
+          ],
+          "confidence": 0.261,
+          "source": "D(1,657.0000,1356.0000,890.0000,1351.0000,890.0000,1392.0000,657.0000,1396.0000);D(1,926.0000,1353.0000,1146.0000,1352.0000,1146.0000,1389.0000,926.0000,1391.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Samuel Accleton",
+          "spans": [
+            {
+              "offset": 2145,
+              "length": 15
+            }
+          ],
+          "confidence": 0.78,
+          "source": "D(1,539.9002,1500.0927,977.0000,1499.0000,977.0998,1538.9073,540.0000,1540.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "J.E. Vallieres, Sgt",
+          "spans": [
+            {
+              "offset": 1949,
+              "length": 23
+            }
+          ],
+          "confidence": 0.419,
+          "source": "D(1,197.0000,1423.0000,525.0000,1423.0000,525.0000,1449.0000,197.0000,1449.0000)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "DUPLICATE",
+          "spans": [
+            {
+              "offset": 19,
+              "length": 9
+            }
+          ],
+          "confidence": 0.726,
+          "source": "D(1,215.0000,199.0000,325.0000,199.0000,325.0000,218.0000,215.0000,218.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.006
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.1158,
+          "width": 1408,
+          "height": 2076
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

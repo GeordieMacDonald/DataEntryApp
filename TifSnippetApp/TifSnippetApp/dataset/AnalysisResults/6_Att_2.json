@@ -1,0 +1,413 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:20:36Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "ved\nChecked\nCard.\n\u2713\nObservations.\nE\n\nM.F.M. 2\nA.F.B. 271\n450M-5-40 (5237)\nH.Q. 1772-39-1645\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\n\nUhit\n\nNO 2 DISTRICT DEPOT (AF)\n1\nRegimental Number.\nB-95738\n\n\n# CANADIAN ACTIVE SERVICE FORCE ATTESTATION PAPER\n\n1\\. Surname.\nABBEY,\n\n2\\. Christian Names\nFrancis Richard\n\n3\\. Present address.\nR.R. 5 Dunnville, Ontario.\nCanada\n\n4\\. Date of birth\nDecember 2, 1918.\n\n5\\. Place of birth\n(Country)\nCanada\n(County or Province)\nOntario\nWainfleet\n(Town or Township)\n\n6\\. Religion (state denomination)\nChurch of England\n\n7\\. Trade or Calling.\nFarmer\n\n8\\. Married, Widower or Single.\nSingle\n\n9\\. Name of next of kin.\nRobert Audry SOUTER\n\n10\\. Relationship\nFriend\n\n11\\. Address of next of kin.\nR.R. /5. Dunntille Ontario, Canade. Do.57-17h0r 43. 426TC.\n\n12\\. Do you belong to, or have you served in the Active Militia of Canada? 30 days C.A.(R) T.G. #20\nD & H Rifles\nMov 22/40 to Dec 21/40.\n\n(If Yes, Give Unit and Dates of Service)\n\n13\\. Have you served in (a) The Canadian Active Service Force?\nNo.\n(Yes or No)\n(b) Any other Naval, Military, or Air\nForce?\n(It Yes, Give Regimental No, and Unit)\nNO\n\n(Yes or No) (If Yea, speelly Unit and Period of Service)\n\n14\\. Did you serve during the Great War 1914-1918?\n\nNone\n\n(It Yea, specify Regimental No., Unit and Dates of Service)\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nFrancis Richard Abbey\ndo solemnly declare that the above\nparticulars are true, and I hereby engage to serve in the Canadian Active Service Force so long as an emergency,\ni.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the period of demobilization after.\nsaid emergency ceases to exist, and in any event for a period of not less than one year, provided His Majesty\nshould so require my services.\nwitness akcaren aft\n\nDate\nFeb. 27th. 1941.\n\n(Signature of recruit)\nArands abbey\n\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI,\nFrancis Richard Abbey\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\nFrancis abbug\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to cach question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nafloronto, Ontario\nCanada.\nthis 23th\nday of.\nFebruary\n1941.\n\nOltegra\n\nNO. 2. DISTRICT DEPOT (AR)\n\nCAPRATN\n\nSignature of Magistrate, Justice\nor Attesting Officer.\n1\n(Office or Rank and Unit\n1\nor appointment.\n\np\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\nFINGE\n\nFrom D & H Brantford\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\nR.C.QC. (SERVICES WING)\n\nITE\n\nC. A. A.\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "B-95738",
+          "spans": [
+            {
+              "offset": 246,
+              "length": 7
+            }
+          ],
+          "confidence": 0.968,
+          "source": "D(1,979.0000,284.0000,1083.0000,284.0000,1083.0000,307.0000,979.0000,307.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABBEY",
+          "spans": [
+            {
+              "offset": 320,
+              "length": 6
+            }
+          ],
+          "confidence": 0.737,
+          "source": "D(1,576.1731,416.4238,658.0000,417.0000,657.8234,442.0762,575.9965,441.5000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Francis Richard",
+          "spans": [
+            {
+              "offset": 348,
+              "length": 15
+            }
+          ],
+          "confidence": 0.741,
+          "source": "D(1,532.0203,458.9249,748.4527,463.0085,747.9797,488.0751,531.5473,483.9915)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "R.R. 5 Dunnville, Ontario.\nCanada",
+          "spans": [
+            {
+              "offset": 386,
+              "length": 26
+            },
+            {
+              "offset": 413,
+              "length": 6
+            }
+          ],
+          "confidence": 0.78,
+          "source": "D(1,488.0000,501.0000,852.0000,501.0000,852.0000,530.0000,488.0000,530.0000);D(1,868.0000,496.0000,956.0000,498.0000,956.0000,520.0000,868.0000,518.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1918-12-02",
+          "spans": [
+            {
+              "offset": 439,
+              "length": 17
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,475.0000,538.0000,714.0000,538.0000,714.0000,564.0000,475.0000,564.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 487,
+              "length": 6
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,405.0000,578.0000,491.0000,580.0000,491.0000,602.0000,405.0000,600.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ontario",
+          "spans": [
+            {
+              "offset": 515,
+              "length": 7
+            }
+          ],
+          "confidence": 0.937,
+          "source": "D(1,673.0000,582.0000,773.0000,583.0000,773.0000,606.0000,672.0000,605.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Wainfleet",
+          "spans": [
+            {
+              "offset": 523,
+              "length": 9
+            }
+          ],
+          "confidence": 0.96,
+          "source": "D(1,881.0000,585.0000,1011.0000,586.0000,1011.0000,609.0000,881.0000,608.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Church of England",
+          "spans": [
+            {
+              "offset": 587,
+              "length": 17
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,558.0000,619.0000,798.0000,619.0000,798.0000,642.0000,558.0000,642.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Farmer",
+          "spans": [
+            {
+              "offset": 628,
+              "length": 6
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,488.0000,669.0000,575.0000,669.0000,575.0000,691.0000,487.0000,690.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 668,
+              "length": 6
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,489.0000,711.0000,574.0000,711.0000,574.0000,736.0000,489.0000,735.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Robert Audry SOUTER",
+          "spans": [
+            {
+              "offset": 701,
+              "length": 19
+            }
+          ],
+          "confidence": 0.844,
+          "source": "D(1,485.0000,747.0000,758.0000,747.0000,758.0000,773.0000,485.0000,773.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Friend",
+          "spans": [
+            {
+              "offset": 740,
+              "length": 6
+            }
+          ],
+          "confidence": 0.958,
+          "source": "D(1,556.0000,781.0000,645.0000,781.0000,645.0000,806.0000,556.0000,806.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "R.R. /5. Dunntille Ontario, Canade. Do.57-17h0r 43. 426TC.",
+          "spans": [
+            {
+              "offset": 777,
+              "length": 58
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,498.0000,833.0000,1270.0000,833.0000,1270.0000,869.0000,498.0000,869.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "30 days C.A.(R) T.G. #20\nD & H Rifles\nMov 22/40 to Dec 21/40.",
+          "spans": [
+            {
+              "offset": 912,
+              "length": 24
+            },
+            {
+              "offset": 937,
+              "length": 12
+            },
+            {
+              "offset": 950,
+              "length": 23
+            }
+          ],
+          "confidence": 0.781,
+          "source": "D(1,849.0032,881.8136,1177.4512,887.3805,1177.0000,914.0000,848.5520,908.4331);D(1,259.0005,898.9066,435.1326,899.8744,434.9961,924.7143,258.8640,923.7465);D(1,457.0000,909.0000,780.0000,909.0000,780.0000,933.0000,457.0000,933.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "None",
+          "spans": [
+            {
+              "offset": 1294,
+              "length": 4
+            }
+          ],
+          "confidence": 0.975,
+          "source": "D(1,608.0000,1064.0000,669.0000,1065.0000,668.0000,1086.0000,607.0000,1085.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Arands abbey",
+          "spans": [
+            {
+              "offset": 1908,
+              "length": 12
+            }
+          ],
+          "confidence": 0.671,
+          "source": "D(1,700.5122,1281.7040,1114.5194,1286.0054,1114.0000,1336.0000,699.9927,1331.6986)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "Oltegra",
+          "spans": [
+            {
+              "offset": 2730,
+              "length": 7
+            }
+          ],
+          "confidence": 0.709,
+          "source": "D(1,479.0000,1653.0000,719.0000,1652.0000,719.0000,1725.0000,479.0000,1725.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "CAPRATN",
+          "spans": [
+            {
+              "offset": 2767,
+              "length": 7
+            }
+          ],
+          "confidence": 0.654,
+          "source": "D(1,625.0000,1758.0000,732.0000,1758.0000,732.0000,1778.0000,625.0000,1778.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "afloronto, Ontario\nCanada.",
+          "spans": [
+            {
+              "offset": 2669,
+              "length": 18
+            },
+            {
+              "offset": 2688,
+              "length": 7
+            }
+          ],
+          "confidence": 0.466,
+          "source": "D(1,180.0000,1634.0000,424.1014,1635.0801,423.9952,1659.0796,179.8938,1657.9995);D(1,320.2146,1653.8664,416.2130,1655.0025,415.9984,1673.1361,320.0000,1672.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1941-02-01",
+          "spans": [
+            {
+              "offset": 2714,
+              "length": 8
+            },
+            {
+              "offset": 2723,
+              "length": 5
+            }
+          ],
+          "confidence": 0.236,
+          "source": "D(1,793.0000,1634.0000,909.0000,1635.0000,909.0000,1657.0000,793.0000,1656.0000);D(1,1089.0345,1631.5862,1147.7069,1633.0172,1146.9655,1663.4138,1088.2931,1661.9828)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Arands abbey",
+          "spans": [
+            {
+              "offset": 1908,
+              "length": 12
+            }
+          ],
+          "confidence": 0.608,
+          "source": "D(1,700.5122,1281.7040,1114.5194,1286.0054,1114.0000,1336.0000,699.9927,1331.6986)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Francis abbug",
+          "spans": [
+            {
+              "offset": 2105,
+              "length": 13
+            }
+          ],
+          "confidence": 0.828,
+          "source": "D(1,604.0000,1423.0000,936.0000,1423.0000,936.0000,1463.0000,604.0000,1463.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "TRIPLICATE",
+          "spans": [
+            {
+              "offset": 3084,
+              "length": 10
+            }
+          ],
+          "confidence": 0.514,
+          "source": "D(1,187.0000,220.0000,301.0000,221.0000,300.0000,240.0000,186.0000,238.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "valueBoolean": true,
+          "spans": [
+            {
+              "offset": 18,
+              "length": 1
+            }
+          ],
+          "confidence": 0.608,
+          "source": "D(1,780.0000,133.0000,861.0000,129.0000,861.0000,158.0000,780.0000,162.0000)"
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.3917966,
+          "width": 1383,
+          "height": 2042
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

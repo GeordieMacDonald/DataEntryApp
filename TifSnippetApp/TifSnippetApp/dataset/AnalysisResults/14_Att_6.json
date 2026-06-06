@@ -1,0 +1,384 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T00:55:56Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Recelved\n\nWILL FORM M. F. M. - 10 COMPLETD\n0\n\nIcillider mCard .Observations.....\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\nM.D. 2 NOM. ROLL\n2353\n7-10-42\nM.F.M. 2\nA.F.B. 271\n750M-S-42 (4398)\nH.Q. 1772-39-1645\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\nN02 District Denot CA (A)\n\nUnit R.C.E. R WING #5 Coy.\nBegimental Number B. 130987\n\n\n# ACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY\n\n\n## ATTESTATION PAPER SPR\n\n1\\. Surname\nABBOTT\n\n2\\. Christian Names\nJoseph Noel\n\n3\\. Present address.\nRR 1 Thornloe Ontario Canada\n\n4\\. Date of birth.\nDecember 21 1908\n\n5\\. Place of birth SouthIreland\n(Country)\n\nQueens County\nManin Mountrath\n\n6\\. Citizenship\n\n7\\. Religion (state denomination)\n(Of What Country are You Now a Citizen)\nChurch of England\n\n8\\. Trade or Calling.\nMiner\n\n9\\. Married, Widower or Single\nSingie\nMANRIED\n\n10\\. Name of next of kin\nlive Garottno AUBOTT\n\n11\\. Relationship\nKother\nWIFE\nSie dange\n\n12\\. Address of next of kin.\nRR 1 Thomioo Ontepio Canada\n\n13\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army?.\n\n(If Yes, Give Unit and Dates of Service)\nNO\n\n14\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?.\n(Yes or No)\n\n(If Yes, Give Regimental No. and Unit)\nNO\n(b) Any other Naval, Military, or Air\nForce?\n(Yes or No) \"(If Yes, specify Unit and Period of Service)\nNO\n\n15\\. Did you serve during the Great War 1914-1918?\n\n(If Yea, specify Regimental No., Unit and Dates of Service)\nNO\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI, Joseph Noel ABBOTT\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\n\nDate.\nWitness\nAugust 18 1942\n\n(Signature of recruit)\nA n abbat\n\n\n## OATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI,\nJoseph Nool ABBOTT\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\n\nWitness Raphafpige th\ni/60\n(Rank)\nRepheuffigets gm.\n\n(Signature of Recruit)\nA n'abbott\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\nN\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nT\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\nat\nToronto Ontario\nthis.\n18th\nday of.\n1942\n\nCanada\n\nSignature of Magistrate, Justice\n\nN02 District Depot CA (A) for D.R.O.\nor Attesting Officer.\nCNTnis\n\ndso\nOnicerLoE Rank tid Unit\net or appoint ment\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTIHS' IMPRISONMENT\n\nTED\n\n(County or Province)\nCanada\n(Town or Township)\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "B. 130987",
+          "spans": [
+            {
+              "offset": 371,
+              "length": 9
+            }
+          ],
+          "confidence": 0.958,
+          "source": "D(1,981.6967,298.0034,1115.9943,296.4944,1116.2977,323.4910,982.0000,325.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABBOTT",
+          "spans": [
+            {
+              "offset": 474,
+              "length": 6
+            }
+          ],
+          "confidence": 0.971,
+          "source": "D(1,619.0000,479.0000,706.0000,479.0000,706.0000,501.0000,619.0000,501.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Joseph Noel",
+          "spans": [
+            {
+              "offset": 502,
+              "length": 11
+            }
+          ],
+          "confidence": 0.892,
+          "source": "D(1,617.0000,514.0000,775.0000,514.0000,775.0000,539.0000,617.0000,539.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "RR 1 Thornloe Ontario Canada",
+          "spans": [
+            {
+              "offset": 536,
+              "length": 28
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,616.8944,555.7222,1013.0000,554.0000,1013.1093,579.1300,617.0037,580.8522)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1908-12-21",
+          "spans": [
+            {
+              "offset": 585,
+              "length": 16
+            }
+          ],
+          "confidence": 0.801,
+          "source": "D(1,616.0000,593.0000,846.0000,593.0000,846.0000,618.0000,616.0000,618.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "SouthIreland",
+          "spans": [
+            {
+              "offset": 622,
+              "length": 12
+            }
+          ],
+          "confidence": 0.677,
+          "source": "D(1,405.0000,636.0000,581.0000,635.0000,581.0000,660.0000,405.0000,661.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Queens County",
+          "spans": [
+            {
+              "offset": 646,
+              "length": 13
+            }
+          ],
+          "confidence": 0.927,
+          "source": "D(1,617.0000,635.0000,806.0000,635.0000,806.0000,659.0000,617.0000,659.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Manin Mountrath",
+          "spans": [
+            {
+              "offset": 660,
+              "length": 15
+            }
+          ],
+          "confidence": 0.598,
+          "source": "D(1,897.0104,637.5001,1113.1667,639.0012,1112.9896,664.4999,896.8333,662.9988)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Church of England",
+          "spans": [
+            {
+              "offset": 768,
+              "length": 17
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,616.7210,717.0032,859.9904,714.1745,860.2765,738.7759,617.0070,741.6046)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Miner",
+          "spans": [
+            {
+              "offset": 809,
+              "length": 5
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,615.0000,751.0000,692.0000,751.0000,692.0000,775.0000,615.0000,775.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Singie",
+          "spans": [
+            {
+              "offset": 847,
+              "length": 6
+            }
+          ],
+          "confidence": 0.589,
+          "source": "D(1,612.0000,789.0000,707.0000,789.0000,707.0000,815.0000,612.0000,815.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "live Garottno AUBOTT",
+          "spans": [
+            {
+              "offset": 888,
+              "length": 20
+            }
+          ],
+          "confidence": 0.882,
+          "source": "D(1,615.0000,827.0000,887.0000,827.0000,887.0000,851.0000,615.0000,851.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Kother",
+          "spans": [
+            {
+              "offset": 928,
+              "length": 6
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,616.0000,864.0000,713.0000,864.0000,713.0000,887.0000,616.0000,887.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "RR 1 Thomioo Ontepio Canada",
+          "spans": [
+            {
+              "offset": 980,
+              "length": 27
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,617.0000,902.0000,1013.0000,902.0000,1013.0000,926.0000,617.0000,926.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "NO",
+          "spans": [
+            {
+              "offset": 1282,
+              "length": 2
+            }
+          ],
+          "confidence": 0.923,
+          "source": "D(1,630.0000,1061.0000,662.0000,1062.0000,662.0000,1084.0000,630.0000,1083.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "NO",
+          "spans": [
+            {
+              "offset": 1504,
+              "length": 2
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,630.0000,1184.0000,662.0000,1184.0000,662.0000,1204.0000,630.0000,1204.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "A n abbat",
+          "spans": [
+            {
+              "offset": 2054,
+              "length": 9
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,680.4400,1360.0800,991.9795,1350.3444,993.5620,1400.9824,682.0224,1410.7180)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "CNTnis",
+          "spans": [
+            {
+              "offset": 3013,
+              "length": 6
+            }
+          ],
+          "confidence": 0.615,
+          "source": "D(1,505.0000,1815.0000,773.0000,1818.0000,773.0000,1858.0000,504.0000,1857.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Toronto Ontario",
+          "spans": [
+            {
+              "offset": 2871,
+              "length": 15
+            }
+          ],
+          "confidence": 0.704,
+          "source": "D(1,269.0000,1737.0000,486.0000,1737.0000,486.0000,1762.0000,269.0000,1762.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "spans": [
+            {
+              "offset": 2893,
+              "length": 4
+            }
+          ],
+          "confidence": 0.663,
+          "source": "D(1,646.0000,1739.0000,709.0000,1741.0000,709.0000,1765.0000,646.0000,1763.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "A n abbat",
+          "spans": [
+            {
+              "offset": 2054,
+              "length": 9
+            }
+          ],
+          "confidence": 0.78,
+          "source": "D(1,680.4400,1360.0800,991.9795,1350.3444,993.5620,1400.9824,682.0224,1410.7180)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "A n'abbott",
+          "spans": [
+            {
+              "offset": 2326,
+              "length": 10
+            }
+          ],
+          "confidence": 0.724,
+          "source": "D(1,736.7314,1498.2567,1067.0000,1490.0000,1068.2717,1540.8682,738.0031,1549.1249)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "Raphafpige th",
+          "spans": [
+            {
+              "offset": 2258,
+              "length": 13
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,305.5719,1512.8955,502.6036,1510.4926,503.0317,1545.5972,306.0000,1548.0000)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "TRIPLICATE",
+          "spans": [
+            {
+              "offset": 101,
+              "length": 10
+            }
+          ],
+          "confidence": 0.519,
+          "source": "D(1,240.0000,221.0000,372.0000,221.0000,372.0000,240.0000,240.0000,240.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0,
+          "width": 1381,
+          "height": 2045
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

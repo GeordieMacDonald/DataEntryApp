@@ -1,0 +1,53 @@
+@namespace TifSnippetApp.Client.Components
+@using TifSnippetApp.Client.Models
+
+@if (SnippetData != null)
+{
+    <div class="snippet-entry-row mb-4 p-3 border rounded @(IsActive ? "border-primary shadow" : string.Empty) @GetStatusClass()"
+         @ref="RowElement" @onclick="HandleRowClicked">
+        <div class="row align-items-center">
+            <div class="col-md-5">
+                <div class="small fw-bold text-muted mb-1">Field: @SnippetData.FieldName @(IsActive ? "(Focused)" : "")</div>
+                <div class="position-relative mb-2 snippet-img-wrapper">
+                    <img src="@SnippetData.ImageBase64"
+                         class="img-fluid rounded border snippet-img" alt="Snippet" />
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="form-group d-flex align-items-center">
+                    <input type="text" class="form-control flex-grow-1" value="@EntryValue" @oninput="OnInputChanged" @ref="_inputElement"
+                           placeholder="Enter correction..." @onfocus="HandleInputFocused" />
+                    @if (ReviewStatus != SnippetStatus.None)
+                    {
+                        <span class="ms-2 badge @GetBadgeClass()">@GetStatusText()</span>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<style>
+    .snippet-entry-row {
+        transition: background-color 0.15s ease, border-color 0.15s ease;
+        background-color: var(--card-bg);
+        cursor: pointer;
+    }
+    .snippet-entry-row.border-primary {
+        background-color: rgba(13, 110, 253, 0.05);
+    }
+    .status-accepted { border-left: 5px solid #198754 !important; }
+    .status-edited   { border-left: 5px solid #0dcaf0 !important; }
+    .status-rejected { border-left: 5px solid #6c757d !important; }
+
+    /* Main display image — natural size, no forced height */
+    .snippet-img-wrapper { 
+        position: relative; 
+        background-color: var(--card-bg);
+    }
+    .snippet-img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+</style>

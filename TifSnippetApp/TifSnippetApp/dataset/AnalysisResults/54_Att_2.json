@@ -1,0 +1,318 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:13:42Z",
+  "stringEncoding": "codePoint",
+  "warnings": [
+    {
+      "code": "HarmfulContentDetected",
+      "message": "Content of category `Hate` detected with severity `Low`. Please use the field content with caution.",
+      "target": "Result.Contents[0]"
+    }
+  ],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "# ATTESTATION NON-PERMANENT ACTIVE MILITIA OF CANADA\n\nUNIT\n\nREGTL. No\nH403642\n\n1\\. Surname? (Block letters)\nACKERMAN.\n\n2\\. Christian names?\nHAROLD ALBERT.\n\n3\\. Present address?\nPorta\u00e7\u00e3o la Pravia\n\nPhone No\n\n4\\. Date of Birth?*\n17-5-24.20\n\n5\\. British subject?\nNos.\n\n6\\. Occupation?\nSudant\n\n7\\. Religion?\nBAle\n\n8\\. Next of Kin\nWe Violet ackerman\n\n9: Relationship?\nMotto\n\nAddress\nsame address\n\n10\\. Previous Naval, Military or Air Force Service\n(Give particulars, qualifications, etc.)\n\n\n## . CERTIFICATE OF MEDICAL EXAMINATION\n\nHeight\n5-8\nWeight\n129\nChest max.\n34\nmin.\n312\n\nDescriptive marks.\nml\n\nI have examined the above named man in accordance with-instruetions laid down in Instructions for\n\nthe R.C.A.M.C. and C.D.C. 1937 Appendix V and find him.\nNit\nCategory.\n\nA\n\nDate.\nJam 26/4g\n\nSignature.\nRpfmiliong\n\n\n## DECLARATION TO BE MADE ON ATTESTATION Havold a. ackarman\n\nI, the undersignede\ndo sincerely and solemnly declare\nthat to the best of my knowledge and belief, the above answers (made by me) to the foregoing questions\nare true; that I am willing to be attested for the term of three years or until legally discharged, and do\nissued to me and will return same when required, and that I will report any change in address of myself,\nor my next of kin to my Commanding Officer.\n\n\n## OATH TO BE TAKEN\n\nI,\nHasold a. askermam\ndo sincerely promise and swear\n(or solemnly declare) that I will be faithful and bear true allegiance to Hig Majesty.\nHarold a acherman\n\nSignature of Witness\nDated this.\n26 th.\nday of.\nla\nR at\n1lat\n\n\n## CERTIFICATE OF ATTESTING OFFICER\n\nThe recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished by law. The above questions were then read to the recruit in\nmy presence. I have taken care that he understands cach question and that his answer to cach question\nhas been duly entered and replied to, and the said recruit has made and signed the declarationand taken\nthe oath.\n\nSignature of Magistrate, Justice of Peage, of Attesting Officer\n0.6.gille Barr\n\nM.F.B. 235d\n18031-7-40 (5006)\nH.Q. 1772-39-1545\n\n*To be shown day, month, year-Example:-25-8-39.\n19\n\nSignature of Man\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "H403642",
+          "spans": [
+            {
+              "offset": 70,
+              "length": 7
+            }
+          ],
+          "confidence": 0.983,
+          "source": "D(1,807.0000,234.0000,931.0000,231.0000,931.0000,262.0000,807.0000,264.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ACKERMAN.",
+          "spans": [
+            {
+              "offset": 108,
+              "length": 9
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,464.1286,271.5983,748.0153,278.3575,747.1966,312.7428,463.3099,305.9836)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "HAROLD ALBERT.",
+          "spans": [
+            {
+              "offset": 140,
+              "length": 14
+            }
+          ],
+          "confidence": 0.927,
+          "source": "D(1,438.0000,309.0000,812.0000,309.0000,812.0000,340.0000,438.0000,340.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "Porta\u00e7\u00e3o la Pravia",
+          "spans": [
+            {
+              "offset": 177,
+              "length": 18
+            }
+          ],
+          "confidence": 0.516,
+          "source": "D(1,418.0000,340.0000,789.1059,341.2797,789.0000,372.0000,417.8941,370.7203)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "2017-05-24",
+          "spans": [
+            {
+              "offset": 227,
+              "length": 10
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,336.0000,403.0000,553.0000,403.0000,553.0000,431.0000,336.0000,432.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "BAle",
+          "spans": [
+            {
+              "offset": 304,
+              "length": 4
+            }
+          ],
+          "confidence": 0.879,
+          "source": "D(1,725.0000,436.0000,833.0000,433.0000,833.0000,464.0000,725.0000,465.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Sudant",
+          "spans": [
+            {
+              "offset": 282,
+              "length": 6
+            }
+          ],
+          "confidence": 0.871,
+          "source": "D(1,342.0000,433.0000,511.0000,433.0000,510.0000,464.0000,342.0000,464.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "We Violet ackerman",
+          "spans": [
+            {
+              "offset": 326,
+              "length": 18
+            }
+          ],
+          "confidence": 0.758,
+          "source": "D(1,310.0039,463.1698,614.0066,464.6038,613.8650,494.6126,309.8624,493.1786)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Motto",
+          "spans": [
+            {
+              "offset": 363,
+              "length": 5
+            }
+          ],
+          "confidence": 0.883,
+          "source": "D(1,765.0000,467.0000,895.0000,466.0000,895.0000,494.0000,765.0000,494.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "same address",
+          "spans": [
+            {
+              "offset": 378,
+              "length": 12
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,297.0020,501.4664,601.0873,502.6011,600.9976,526.6343,296.9123,525.4997)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Harold a acherman",
+          "spans": [
+            {
+              "offset": 1447,
+              "length": 17
+            }
+          ],
+          "confidence": 0.369,
+          "source": "D(1,603.5779,1039.9515,936.9854,1035.8184,937.4338,1071.9946,604.0264,1076.1278)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "0.6.gille Barr",
+          "spans": [
+            {
+              "offset": 2050,
+              "length": 14
+            }
+          ],
+          "confidence": 0.71,
+          "source": "D(1,427.0000,1225.0000,897.0000,1225.0000,897.0000,1279.0000,427.0000,1279.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "spans": [
+            {
+              "offset": 1499,
+              "length": 6
+            }
+          ],
+          "confidence": 0.373,
+          "source": "D(1,278.0000,1088.0000,384.0000,1088.0000,384.0000,1117.0000,278.0000,1117.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Havold a. ackarman",
+          "spans": [
+            {
+              "offset": 851,
+              "length": 18
+            }
+          ],
+          "confidence": 0.375,
+          "source": "D(1,331.0000,862.0000,647.0000,862.0000,647.0000,890.0000,331.0000,890.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Hasold a. askermam",
+          "spans": [
+            {
+              "offset": 1310,
+              "length": 18
+            }
+          ],
+          "confidence": 0.504,
+          "source": "D(1,227.0000,993.0000,648.0758,993.9978,647.9976,1026.9976,226.9218,1025.9998)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0,
+          "width": 1047,
+          "height": 1473
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:18:45Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "SPECIAL RESERVE\nAIR FORCE NO R221011\n\nNo. 8 Recruiting Centre, RCAF.,\nPOSTED TOWindsor, Ontario.\nTRADE.\n\nStd. Aircrew\n(Deferred)\n\nLWP,\n\n\n# ROYAL CANADIAN AIR FORCE (ATTESTATION PAPER) (Pages one and two, only, are to be completed in Applicant's own Handwriting)\n\n1\\. Surname.\nADAIR\n\nFULL Christian Names.\nCHARLES FRANKLIN\n\nent Address.\n286 Linooln Road, Windsor, Ontario\n\nTelephone\n3-9743\n\n3\\. Permanent Address.\n286 Lincoln Road, Windsor, Ontario\n\n4\\. Place of Birth\nHamilton, Ontario\n\nCitizenship\nCanadian\n\n5\\. Date of Birth\n4 Jan/25\n\nMarried, Single, Widower, Separated, Divorced\nSingle\n\n6\\. Particulars of Children None\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n7\\. Occupation\nHeat Treat\n\n8\\. Religion\n\nPresbyterian\n\nState denomination\n\n9\\. Languages\n\nEnglish\n\nState proficiency\n\n10\\. Next of Kin (Full Name) Dorothy Irene Stockdale\nRelationship\nMother\n\n\"\nAddress.\n286 Lincoln Road, Windsor, Ontario\n\n11\\. Father (Full Name)\nFrank Roy Adair\n\nBirthplace.\nHamilton, Ontario\n\n\"\nAddress.\nc/o C.N.R.,\nSarnia, Ontario\n\nCitizenship\nCanadian\n\n\"\nOccupation\nSwitchman on C.N.R.\n\n12\\. Mother (Full Maiden Name) Dorothy Irene Pinkham\nBirthplace.\n\nLondon, Ontario\n\n\" Address 286 Lincoln Road, Windsor, Ontario\nCitizenship\n\nCanadian\n\n13\\. Details of any Naval, Military or Air Force Service: None\n\n\n<table>\n<tr>\n<th rowspan=\"2\">Unit</th>\n<th rowspan=\"2\">Place</th>\n<th rowspan=\"2\">Rank</th>\n<th colspan=\"2\" rowspan=\"2\">Trade</th>\n<th colspan=\"2\">Date</th>\n<th colspan=\"2\" rowspan=\"2\">Reason for discharge</th>\n</tr>\n<tr>\n<th>From</th>\n<th>To</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>R.C.</td>\n<td></td>\n<td></td>\n<td>100</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>Rec'd.</td>\n<td>FEB</td>\n<td>19</td>\n<td>1943</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>O.K</td>\n<td></td>\n<td>0.1.5</td>\n<td>A...</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>R:O</td>\n<td></td>\n<td>N.4</td>\n<td>Nim</td>\n<td></td>\n</tr>\n</table>\n\n\n14\\. Honours, Awards, Mentions.\n\nS.\n\nP A.\n...NO\n\n15\\. Are you now on any Naval, Military or Air Force Reserve?\n\nNO\n\n16\\. Have you previously made application to join the R.C.A.F.?.\nNO\n\nIf so, where?\nN. A.\n\nWhen?\nN. A.\n\nResult\nN.A.\n\n17\\. Were you ever discharged from any branch of His Majesty's Forces as Medically Unfit?\n\nNO\n\nIf so, state nature of disability\n\nN. A.\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension?.\nNO\n\nIf so, state nature of Disability\nN. A.\n\n19\\. Have you ever been convicted of an indictable offence?\nNO\n\nIf so state nature.\nN. A.\n\n20\\. Are you in debt?\nNO\n\nIf so, state particulars.\nN.A.\n\n<!-- PageFooter: R.C.A.F. Form R. 100 150M-10-41 (993) H.Q. 1062-3-83 -->\n<!-- PageFooter: 604-339 -->\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "R221011",
+          "spans": [
+            {
+              "offset": 29,
+              "length": 7
+            }
+          ],
+          "confidence": 0.82,
+          "source": "D(1,310.0000,165.0000,410.0000,165.0000,410.0000,191.0000,310.0000,192.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ADAIR",
+          "spans": [
+            {
+              "offset": 276,
+              "length": 5
+            }
+          ],
+          "confidence": 0.916,
+          "source": "D(1,385.0000,393.0000,458.0000,393.0000,458.0000,416.0000,385.0000,416.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "CHARLES FRANKLIN",
+          "spans": [
+            {
+              "offset": 305,
+              "length": 16
+            }
+          ],
+          "confidence": 0.954,
+          "source": "D(1,1007.0044,391.0135,1226.1126,392.0005,1226.0000,417.0000,1006.8918,416.0130)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "286 Linooln Road, Windsor, Ontario",
+          "spans": [
+            {
+              "offset": 336,
+              "length": 34
+            }
+          ],
+          "confidence": 0.889,
+          "source": "D(1,385.0000,438.0000,839.0000,438.0000,839.0000,465.0000,385.0000,465.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "2025-01-04",
+          "spans": [
+            {
+              "offset": 527,
+              "length": 8
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,386.1018,563.6394,497.8174,567.0248,496.8982,597.3606,385.1826,593.9752)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ontario",
+          "spans": [
+            {
+              "offset": 478,
+              "length": 7
+            }
+          ],
+          "confidence": 0.973,
+          "source": "D(1,519.0000,526.0000,615.0000,527.0000,614.0000,552.0000,518.0000,551.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Hamilton",
+          "spans": [
+            {
+              "offset": 468,
+              "length": 8
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,385.0000,525.0000,493.0000,526.0000,493.0000,551.0000,385.0000,550.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ontario",
+          "spans": [
+            {
+              "offset": 1236,
+              "length": 7
+            }
+          ],
+          "confidence": 0.958,
+          "source": "D(1,1166.0000,1054.0000,1262.0000,1053.0000,1262.0000,1077.0000,1166.0000,1078.0000)"
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Hamilton",
+          "spans": [
+            {
+              "offset": 1226,
+              "length": 8
+            }
+          ],
+          "confidence": 0.958,
+          "source": "D(1,1033.0000,1052.0000,1142.0000,1053.0000,1142.0000,1078.0000,1033.0000,1076.0000)"
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ontario",
+          "spans": [
+            {
+              "offset": 1415,
+              "length": 7
+            }
+          ],
+          "confidence": 0.939,
+          "source": "D(1,1133.0000,1188.0000,1229.0000,1189.0000,1229.0000,1214.0000,1133.0000,1213.0000)"
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "London",
+          "spans": [
+            {
+              "offset": 1407,
+              "length": 6
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,1028.0000,1187.0000,1109.0000,1187.0000,1109.0000,1213.0000,1028.0000,1212.0000)"
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "Canadian",
+          "spans": [
+            {
+              "offset": 499,
+              "length": 8
+            }
+          ],
+          "confidence": 0.961,
+          "source": "D(1,1087.0000,534.0000,1196.0000,535.0000,1196.0000,560.0000,1087.0000,559.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Presbyterian",
+          "spans": [
+            {
+              "offset": 975,
+              "length": 12
+            }
+          ],
+          "confidence": 0.882,
+          "source": "D(1,1021.0000,875.0000,1184.0000,877.0000,1184.0000,902.0000,1021.0000,901.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Heat Treat",
+          "spans": [
+            {
+              "offset": 949,
+              "length": 10
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,384.0023,873.7478,523.2162,875.0019,522.9887,900.2522,383.7748,898.9980)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 583,
+              "length": 6
+            }
+          ],
+          "confidence": 0.959,
+          "source": "D(1,1168.0000,579.0000,1249.0000,579.0000,1249.0000,603.0000,1168.0000,603.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "spans": [
+            {
+              "offset": 619,
+              "length": 4
+            }
+          ],
+          "confidence": 0.739,
+          "source": "D(1,423.0000,621.0000,483.0000,622.0000,482.0000,648.0000,423.0000,647.0000)"
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Dorothy Irene Stockdale",
+          "spans": [
+            {
+              "offset": 1081,
+              "length": 23
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,434.0019,964.5513,728.1162,965.8082,727.9946,994.2564,433.8803,992.9995)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Mother",
+          "spans": [
+            {
+              "offset": 1118,
+              "length": 6
+            }
+          ],
+          "confidence": 0.961,
+          "source": "D(1,1034.0000,966.0000,1118.0000,965.0000,1118.0000,989.0000,1034.0000,989.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "286 Lincoln Road, Windsor, Ontario",
+          "spans": [
+            {
+              "offset": 1137,
+              "length": 34
+            }
+          ],
+          "confidence": 0.916,
+          "source": "D(1,491.0000,1005.0000,945.0000,1005.0000,945.0000,1032.0000,491.0000,1032.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "None",
+          "spans": [
+            {
+              "offset": 1550,
+              "length": 4
+            }
+          ],
+          "confidence": 0.955,
+          "source": "D(1,720.0000,1278.0000,779.0000,1279.0000,779.0000,1306.0000,720.0000,1305.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.06697525,
+          "width": 1467,
+          "height": 2249
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

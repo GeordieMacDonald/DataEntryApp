@@ -1,0 +1,324 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:04:40Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "B\n\n\n# ATTESTATION\n\n\n## NON-PERMANENT ACTIVE MILITIA OF CANADA\n\nUNIT 2nd. Bn. 48th. Highrs. of Can. (RREGTL. No.B486291\n\n1\\. Surname? (Block letters)\nthLettABLETT\n\n2\\. Christian names?\n\n3\\. Present address?\n45 Dunfiol4 Avor Rovonto\n\nPhone No.\n\n4\\. Date of Birth?* Dec. 22-94\n\n5\\. British subject?\nvns\n\n6\\. Occupation?\nSponts Director\n\n7\\. Religion? goty\n\n8\\. Next of Kin\nAda Ablett.\n\n9\\. Relationship?\nWi.fe\n\nAddress\n45 Dunfield Ave.\n\n10\\. Previous Naval, Military or Air Force Service\n(Give particulars, qualifications, etc.)\n\n\n## CERTIFICATE OF MEDICAL EXAMINATION\n\nHeight 5-102\nWeight\n21.5\nChest max 44g\nmin\n42\n\nDescriptive marks\nVacc. left arm\n\nI have examined the above named man in accordance with instructions laid down in Instructions for\n\nthe R.C.A.M.C. and C.D.C. 1937 Appendix V and find him.\nfit\n\nCategory\n\na\n\nDate.\n27-4-42\n\nSignature.\nuiao\n\n\n## DECLARATION TO BE MADE ON ATTESTATION\n\nI, the undersigned\nHITUUTT\ndo sincerely and solemnly declare\nthat to the best of my knowledge and belief, the above answers (made by me) to the foregoing questions\nare true: that I am willing to be attested for the term of three years or until legally discharged, and do\nunderstand the nature and terms of this engagement, that I will safeguard all clothing, arms and equipment\nissued to me and will return same when required, and that I will report any change in address of myself,\nor my next of kin to my Commanding Officer.\n\n\n## OATH TO BE TAKEN\n\n1,\nAvard Aling Ablett\ndo sincerely promise and swear\n(or solemnly declare) that I will be faithful and bear true allegiance to His Majesty.\n\nSignature of Witness\nJener Bparis\n\nSignature of Man\n18/Ahlett\n\nDated this.\n27\nday of.\napil\n19 P at Doronto\n\n\n## CERTIFICATE OF ATTESTING OFFICER\n\nThe recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished by law. The above questions were then read to the recruit in\nmy presence. I have taken care that he understands each question and that his answer to each question\nhas been duly entered and replied to, and the said recruit has made and signed the declaration and taken\nthe oath.\n\nSignature of Magistrate, Justice of Peace, or Attesting Officer\n4.3. Partet\n\nM.F.B. 235d\n300M-S-40 (6336)\nH.Q. 1772-39-1545\n\n*To be shown day, month, year-Example:-25-8-39.\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "B486291",
+          "spans": [
+            {
+              "offset": 111,
+              "length": 7
+            }
+          ],
+          "confidence": 0.936,
+          "source": "D(1,870.0000,264.0000,985.0000,265.0000,985.0000,294.0000,870.0000,293.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "thLettABLETT",
+          "spans": [
+            {
+              "offset": 149,
+              "length": 12
+            }
+          ],
+          "confidence": 0.2,
+          "source": "D(1,466.0000,315.0000,657.0000,317.0000,657.0000,343.0000,466.0000,341.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "45 Dunfiol4 Avor Rovonto",
+          "spans": [
+            {
+              "offset": 206,
+              "length": 24
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,448.0078,387.0001,832.2031,390.0016,831.9766,418.9998,447.7813,415.9983)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1994-12-22",
+          "spans": [
+            {
+              "offset": 263,
+              "length": 10
+            }
+          ],
+          "confidence": 0.894,
+          "source": "D(1,333.7211,452.5747,495.9957,450.6429,496.2746,474.0682,334.0000,476.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "goty",
+          "spans": [
+            {
+              "offset": 348,
+              "length": 4
+            }
+          ],
+          "confidence": 0.661,
+          "source": "D(1,776.0000,491.0000,870.0000,494.0000,870.0000,517.0000,776.0000,515.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Sponts Director",
+          "spans": [
+            {
+              "offset": 317,
+              "length": 15
+            }
+          ],
+          "confidence": 0.779,
+          "source": "D(1,334.0440,489.2112,574.3631,493.0057,573.9796,517.2892,333.6606,513.4946)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Ada Ablett.",
+          "spans": [
+            {
+              "offset": 370,
+              "length": 11
+            }
+          ],
+          "confidence": 0.89,
+          "source": "D(1,335.0000,517.0000,501.0000,517.0000,501.0000,542.0000,335.0000,542.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Wi.fe",
+          "spans": [
+            {
+              "offset": 401,
+              "length": 5
+            }
+          ],
+          "confidence": 0.764,
+          "source": "D(1,840.0000,522.0000,907.0000,522.0000,907.0000,543.0000,840.0000,543.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "45 Dunfield Ave.",
+          "spans": [
+            {
+              "offset": 416,
+              "length": 16
+            }
+          ],
+          "confidence": 0.912,
+          "source": "D(1,288.0000,553.0000,540.0000,553.0000,540.0000,577.0000,288.0000,577.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "18/Ahlett",
+          "spans": [
+            {
+              "offset": 1639,
+              "length": 9
+            }
+          ],
+          "confidence": 0.67,
+          "source": "D(1,754.4772,1146.3174,1014.9212,1137.6360,1016.5649,1186.9478,756.1210,1195.6293)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "4.3. Partet",
+          "spans": [
+            {
+              "offset": 2218,
+              "length": 11
+            }
+          ],
+          "confidence": 0.828,
+          "source": "D(1,542.0000,1356.0000,820.0000,1356.0000,820.0000,1404.0000,542.0000,1404.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Doronto",
+          "spans": [
+            {
+              "offset": 1686,
+              "length": 7
+            }
+          ],
+          "confidence": 0.615,
+          "source": "D(1,779.0000,1210.0000,891.0000,1211.0000,891.0000,1234.0000,779.0000,1234.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "spans": [
+            {
+              "offset": 1673,
+              "length": 4
+            },
+            {
+              "offset": 1678,
+              "length": 4
+            }
+          ],
+          "confidence": 0.156,
+          "source": "D(1,523.0000,1192.0000,619.0000,1191.0000,619.0000,1233.0000,523.0000,1235.0000);D(1,653.4397,1212.4657,699.9847,1211.3575,700.5592,1235.4867,654.0142,1236.5949)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "HITUUTT",
+          "spans": [
+            {
+              "offset": 915,
+              "length": 7
+            }
+          ],
+          "confidence": 0.622,
+          "source": "D(1,383.0000,952.0000,642.0000,951.0000,642.0000,983.0000,382.0000,983.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Avard Aling Ablett",
+          "spans": [
+            {
+              "offset": 1449,
+              "length": 18
+            }
+          ],
+          "confidence": 0.655,
+          "source": "D(1,221.0000,1091.0000,715.0000,1091.0000,715.0000,1137.0000,221.0000,1137.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "Jener Bparis",
+          "spans": [
+            {
+              "offset": 1608,
+              "length": 12
+            }
+          ],
+          "confidence": 0.73,
+          "source": "D(1,139.9964,1158.8253,459.2142,1152.3371,460.0511,1193.5152,140.8334,1200.0034)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.1347,
+          "width": 1145,
+          "height": 1615
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

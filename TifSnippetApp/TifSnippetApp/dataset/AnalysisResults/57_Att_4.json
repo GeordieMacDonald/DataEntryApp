@@ -1,0 +1,405 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:14:52Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "O.H.IF.C.\n\nATS 1 LOMPLETED\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\nM.F.M.2\nA.F.B. 971\n260M-3-41 (0720)\nH.Q. 1772-59-1645\n\n(To beycompieted in triplicate. Copy designation to be shorwn by striking out terms not applicable.)\n\nUnit\nNo. 6 Distrid Depot\n\nRegimental Number.\nF 88975\n\n\n# ACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY\n\n\n## ATTESTATION PAPER\n\n1\\. Surname.\nACORB\n\n2\\. Christian Names\nCUARLES JOHN\n\n3\\. Present address.\nPERRRS ROAD\nPRINGB-ED-ARD-IGEARD\nGAFADA\n\n4\\. Date of birth\nJUNE 25th., 1922\n\n5\\. Place of birth\n(Country)\nCARADA\n(County or Province)\nPRINCE BEMARD ISLAND\n(Town or Township)\nDEEERS ROAD\n\n6\\. Religion (state denomination)CMURGH. OR SCOTLAND\n\n7\\. Trade or Calling\nPARIAAR\n\n8\\. Married, Widower or Single..SIMGLE\n\n9\\. Name of next of kin\nMRS LILA ACORN\n\n10., Relationship\nMOSIIER\n\n11./ Address of next of kin PRTERS BOAD PRINCE EDWARD TCLAND\nGARADA\n\n12\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army?\nP.S.I, LIGUR BORSB 1941\n(If Yes, Give Unit and Dates of Service)\n\n13\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?\nNO\n(Yes or No)\n\n(If Yeo, Give Regimental No. and Unit)\n(b) Any other Naval, Military, or Air\nForce?\n(Yes or No) (If Yes, specify. Unit and Period of Service)\nNO\n\n14\\. Did you serve during the Great War 1914-1918?\nNO\n\n(If Yea, specify Regimental No., Unit and Dates of Service)\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI\nCHARLES JOHN ACORN\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riet or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\n\nDate.\nRecherele Lla Charlo Jarin Mean\nJept. 2, 1941\n(Signature of recruit)\n\n\n## OATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI,\nCHARLES JOHN ACORN\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\n\nChails Jahogcom\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\n\"The Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\nst\nCHARLOTTETORN\nthis\n2nd.\nday of\nSept.\n1941\nRechander\nLt.-Col.,\nBranch Recrnitine Offteen\nfor Prince Edward Ioland\n\n(Signature of Magistrate, Justice\nor Attesting Officer.\nOffice or Rank and Unit\n1\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\nPhotographed and\nFingerprintes.\n\n\n![WSG COMPLETED](figures/1.1)\n\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "F 88975",
+          "spans": [
+            {
+              "offset": 261,
+              "length": 7
+            }
+          ],
+          "confidence": 0.978,
+          "source": "D(1,1070.0004,311.8513,1293.0015,312.5015,1292.9048,345.6499,1069.9038,344.9997)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ACORB",
+          "spans": [
+            {
+              "offset": 359,
+              "length": 5
+            }
+          ],
+          "confidence": 0.882,
+          "source": "D(1,489.0000,518.0000,570.0000,518.0000,569.0000,543.0000,489.0000,543.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "CUARLES JOHN",
+          "spans": [
+            {
+              "offset": 386,
+              "length": 12
+            }
+          ],
+          "confidence": 0.729,
+          "source": "D(1,489.0285,555.4911,675.5281,559.0100,674.9715,588.5089,488.4719,584.9900)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "PERRRS ROAD\nPRINGB-ED-ARD-IGEARD\nGAFADA",
+          "spans": [
+            {
+              "offset": 421,
+              "length": 11
+            },
+            {
+              "offset": 433,
+              "length": 20
+            },
+            {
+              "offset": 454,
+              "length": 6
+            }
+          ],
+          "confidence": 0.801,
+          "source": "D(1,490.0390,604.2453,659.5553,608.0123,658.9610,634.7547,489.4447,630.9877);D(1,701.0000,609.0000,1008.1431,610.6693,1007.9951,637.9076,700.8520,636.2383);D(1,1095.0000,615.0000,1187.0000,616.0000,1187.0000,639.0000,1095.0000,638.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1922-06-25",
+          "spans": [
+            {
+              "offset": 480,
+              "length": 16
+            }
+          ],
+          "confidence": 0.887,
+          "source": "D(1,492.0487,642.7326,740.1817,652.2762,739.0000,683.0000,490.8671,673.4564)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "CARADA",
+          "spans": [
+            {
+              "offset": 527,
+              "length": 6
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,489.0000,689.0000,581.0000,689.0000,581.0000,713.0000,489.0000,713.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "PRINCE BEMARD ISLAND",
+          "spans": [
+            {
+              "offset": 555,
+              "length": 20
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,671.0034,690.3602,976.1290,692.0007,975.9966,716.6398,670.8710,714.9993)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "DEEERS ROAD",
+          "spans": [
+            {
+              "offset": 595,
+              "length": 11
+            }
+          ],
+          "confidence": 0.878,
+          "source": "D(1,1035.0168,693.2448,1204.4886,697.0109,1203.9832,719.7552,1034.5114,715.9891)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "CMURGH. OR SCOTLAND",
+          "spans": [
+            {
+              "offset": 641,
+              "length": 19
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,547.3031,731.3382,825.3116,734.6218,825.0000,761.0000,546.9915,757.7164)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "PARIAAR",
+          "spans": [
+            {
+              "offset": 683,
+              "length": 7
+            }
+          ],
+          "confidence": 0.939,
+          "source": "D(1,546.0000,774.0000,643.0000,775.0000,643.0000,799.0000,546.0000,797.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "SIMGLE",
+          "spans": [
+            {
+              "offset": 724,
+              "length": 6
+            }
+          ],
+          "confidence": 0.739,
+          "source": "D(1,548.0000,816.0000,644.0000,816.0000,644.0000,842.0000,548.0000,842.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "MRS LILA ACORN",
+          "spans": [
+            {
+              "offset": 756,
+              "length": 14
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,545.0000,858.0000,765.0000,858.0000,765.0000,885.0000,545.0000,885.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "MOSIIER",
+          "spans": [
+            {
+              "offset": 790,
+              "length": 7
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,531.0000,897.0000,626.0000,897.0000,626.0000,926.0000,531.0000,926.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "PRTERS BOAD PRINCE EDWARD TCLAND\nGARADA",
+          "spans": [
+            {
+              "offset": 827,
+              "length": 32
+            },
+            {
+              "offset": 860,
+              "length": 6
+            }
+          ],
+          "confidence": 0.8,
+          "source": "D(1,499.0200,935.2793,1022.4027,941.3651,1022.0000,976.0000,498.6173,969.9142);D(1,1092.0000,952.0000,1186.0000,953.0000,1186.0000,979.0000,1092.0000,977.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "P.S.I, LIGUR BORSB 1941",
+          "spans": [
+            {
+              "offset": 963,
+              "length": 23
+            }
+          ],
+          "confidence": 0.8,
+          "source": "D(1,544.0000,1030.0000,913.0000,1030.0000,913.0000,1060.0000,544.0000,1060.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Recherele Lla Charlo Jarin Mean",
+          "spans": [
+            {
+              "offset": 1883,
+              "length": 31
+            }
+          ],
+          "confidence": 0.496,
+          "source": "D(1,284.0503,1437.4439,1240.3792,1446.0985,1240.0000,1488.0000,283.6711,1479.3454)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "Rechander",
+          "spans": [
+            {
+              "offset": 2750,
+              "length": 9
+            }
+          ],
+          "confidence": 0.82,
+          "source": "D(1,458.0000,1850.0000,762.0000,1854.0000,762.0000,1891.0000,457.0000,1890.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "Lt.-Col.,\nBranch Recrnitine Offteen\nfor Prince Edward Ioland",
+          "spans": [
+            {
+              "offset": 2760,
+              "length": 9
+            },
+            {
+              "offset": 2770,
+              "length": 25
+            },
+            {
+              "offset": 2796,
+              "length": 24
+            }
+          ],
+          "confidence": 0.691,
+          "source": "D(1,793.0000,1874.0000,933.0000,1874.0000,933.0000,1904.0000,793.0000,1904.0000);D(1,550.0020,1912.5398,938.1051,1914.2571,937.9968,1938.7168,549.8938,1936.9995);D(1,568.2615,1931.9376,942.2500,1936.0027,941.9735,1961.4345,567.9851,1957.3694)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "CHARLOTTETORN",
+          "spans": [
+            {
+              "offset": 2708,
+              "length": 13
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,276.0000,1822.0000,480.0000,1822.0000,479.0000,1848.0000,275.0000,1848.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1941-09-02",
+          "spans": [
+            {
+              "offset": 2727,
+              "length": 4
+            },
+            {
+              "offset": 2739,
+              "length": 5
+            },
+            {
+              "offset": 2745,
+              "length": 4
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,656.0034,1811.4235,754.2294,1812.0013,753.9993,1851.1176,655.7733,1850.5398);D(1,946.0000,1808.0000,1078.0000,1808.0000,1078.0000,1855.0000,946.0000,1855.0000);D(1,1220.0000,1823.0000,1289.0000,1823.0000,1289.0000,1856.0000,1220.0000,1856.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Recherele Lla Charlo Jarin Mean",
+          "spans": [
+            {
+              "offset": 1883,
+              "length": 31
+            }
+          ],
+          "confidence": 0.714,
+          "source": "D(1,284.0503,1437.4439,1240.3792,1446.0985,1240.0000,1488.0000,283.6711,1479.3454)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Chails Jahogcom",
+          "spans": [
+            {
+              "offset": 2138,
+              "length": 15
+            }
+          ],
+          "confidence": 0.752,
+          "source": "D(1,592.0062,1596.5406,1070.6215,1603.0084,1069.9938,1649.4594,591.3785,1642.9916)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "ORIGINAL",
+          "spans": [
+            {
+              "offset": 28,
+              "length": 8
+            }
+          ],
+          "confidence": 0.585,
+          "source": "D(1,232.0000,194.0000,335.0000,195.0000,335.0000,215.0000,232.0000,214.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.456
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.2728966,
+          "width": 1477,
+          "height": 2209
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

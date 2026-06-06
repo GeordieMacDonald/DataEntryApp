@@ -1,0 +1,361 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:29:21Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: Rma R FORCE No. R186361 -->\n<!-- PageHeader: pwp -->\n<!-- PageHeader: POSTED TO No. 10 R/C, Hamilton, Ont. TRADE STD Aircrew 61-10 -->\n\nSPE\n\n\n# ROYAL CANADIAN AIR FORCETAL RESER (ATTESTATION PAPER) (Pages one and two, only, are to be completed in Applicant's own Handwriting)\n\n1\\. Surname\nAdams\n\nFULL Christian Names.\nDonald William\n\n2\nDessent Address.\n36 Maple Ave., Hamilton, Ont.\n\nTelephone\n4-4759\n\n3\\. Permanent Address.\n36 Maple Ave., Hamilton, Ont.\n\n4\\. Place of Birth\nLincoln County, Ontario.\n\nCitizenship\nCanadian\n\n5\\. Date of Birth\nJune 4, 1922.\n\nMarried, Single, Widower, Separated, Divorced\nSingle\n\n6\\. Particulars of Children\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td></td>\n<td>n.a.</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n7\\. Occupation\nTelephone Employee\n\n8\\. Religion.\nState denomination\nUnited\n\n9\\. Languages.\n\nEnglish fluently\n\nState proficiency\n\n10\\. Next of Kin (Full Name)\nDorothy Adams\n\nRelationship\nmother\n\n\"\nAddress\n36 Maple Ave., Hamilton, Ont.\n\n11\\. Father (Full Name)\nStanley William Adams\n\nBirthplace\nLincoln County, Ont.\n\n\" Address.\n36 Maple Ave., Hamilton, Ont.\n\nCitizenship\nCanadian\n\n\"\nOccupation\nSalesmanager\n\n12\\. Mother (Full Maiden Name)\nDorothy Kerr\n\nBirthplace.\nWoodstock, Ont.\n\n\"\nAddress\n36 Maple Ave., Hamilton, Ont.\n\nCitizenship\n\nCanadian\n\n13\\. Details of any Naval, Military or Air Force Service:\n\n\n<table>\n<tr>\n<th>Unit</th>\n<th>Place</th>\n<th>Rank</th>\n<th>Trade</th>\n<th>R.C.A.F</th>\n<th>Date<br>. Record</th>\n<th>Office<br>TRogson</th>\n<th>for discharge</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>none</td>\n<td></td>\n<td>Rec'd.</td>\n<td>SEP 16 1942</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>O.K.</td>\n<td>A: G. I.B</td>\n<td>.</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>Kom</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n8.t.\n\n14\\. Honours, Awards, Mentions.\nnone\n\n15\\. Are you now on any Naval, Military or Air Force Reserve?.\nno\n\n16\\. Have you previously made application to join the R.C.A.F.?\nno\nIf so, where?\nn.a.\n\nWhen?\n\nA.a.\n\nResult\nn.a.\n\n17\\. Were you ever discharged from any branch of His Majesty's Forces as Medically Unfit? no\n\nIf so, state nature of disability\nn.a.\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension?.\nno\n\nIf so, state nature of Disability\nA.a.\n\n19\\. Have you ever been convicted of an indictable offence?\nno\n\nIf so state nature\nn.a.\n\n20\\. Are you in debt?\nno\nIf so, state particulars.\nn.a.\n\n<!-- PageFooter: .C.A.F. Form R. 100 150M-10-41 (993) H.Q. 1062-3-83 -->\n\n@y.\n\n513-219\n\n<!-- PageHeader: 21t -->\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "R186361",
+          "spans": [
+            {
+              "offset": 33,
+              "length": 7
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,353.0000,180.0000,469.0000,179.0000,469.0000,209.0000,353.0000,210.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "Adams",
+          "spans": [
+            {
+              "offset": 306,
+              "length": 5
+            }
+          ],
+          "confidence": 0.982,
+          "source": "D(1,434.0000,461.0000,520.0000,463.0000,520.0000,491.0000,434.0000,489.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Donald William",
+          "spans": [
+            {
+              "offset": 335,
+              "length": 14
+            }
+          ],
+          "confidence": 0.916,
+          "source": "D(1,1156.0158,457.6937,1388.3689,460.5045,1387.9782,492.8062,1155.6251,489.9955)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "36 Maple Ave., Hamilton, Ont.",
+          "spans": [
+            {
+              "offset": 370,
+              "length": 29
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,467.0000,505.0000,935.0000,505.0000,935.0000,540.0000,467.0000,540.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1922-06-04",
+          "spans": [
+            {
+              "offset": 558,
+              "length": 13
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,468.0000,663.0000,675.0000,663.0000,675.0000,694.0000,468.0000,694.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 530,
+              "length": 8
+            }
+          ],
+          "confidence": 0.461,
+          "source": "D(1,1268.0000,618.0000,1401.0000,620.0000,1401.0000,648.0000,1268.0000,646.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ontario",
+          "spans": [
+            {
+              "offset": 508,
+              "length": 7
+            }
+          ],
+          "confidence": 0.757,
+          "source": "D(1,723.0000,617.0000,839.0000,619.0000,839.0000,650.0000,723.0000,649.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 1338,
+              "length": 8
+            }
+          ],
+          "confidence": 0.519,
+          "source": "D(1,1220.0000,1305.0000,1354.0000,1308.0000,1354.0000,1335.0000,1220.0000,1333.0000)"
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ontario",
+          "spans": [
+            {
+              "offset": 508,
+              "length": 7
+            }
+          ],
+          "confidence": 0.606,
+          "source": "D(1,723.0000,617.0000,839.0000,619.0000,839.0000,650.0000,723.0000,649.0000)"
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Lincoln County",
+          "spans": [
+            {
+              "offset": 1262,
+              "length": 14
+            }
+          ],
+          "confidence": 0.914,
+          "source": "D(1,1219.0011,1250.8783,1447.2708,1252.8632,1446.9915,1284.9825,1218.7218,1282.9976)"
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 1503,
+              "length": 8
+            }
+          ],
+          "confidence": 0.727,
+          "source": "D(1,1219.0000,1468.0000,1354.0000,1469.0000,1354.0000,1498.0000,1219.0000,1497.0000)"
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ontario",
+          "spans": [
+            {
+              "offset": 508,
+              "length": 7
+            }
+          ],
+          "confidence": 0.738,
+          "source": "D(1,723.0000,617.0000,839.0000,619.0000,839.0000,650.0000,723.0000,649.0000)"
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Woodstock",
+          "spans": [
+            {
+              "offset": 1432,
+              "length": 9
+            }
+          ],
+          "confidence": 0.96,
+          "source": "D(1,1219.0000,1414.0000,1367.0000,1414.0000,1367.0000,1444.0000,1219.0000,1444.0000)"
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "Canadian",
+          "spans": [
+            {
+              "offset": 530,
+              "length": 8
+            }
+          ],
+          "confidence": 0.96,
+          "source": "D(1,1268.0000,618.0000,1401.0000,620.0000,1401.0000,648.0000,1268.0000,646.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "United",
+          "spans": [
+            {
+              "offset": 1037,
+              "length": 6
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,1204.0000,1034.0000,1306.0000,1037.0000,1306.0000,1067.0000,1204.0000,1064.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Telephone Employee",
+          "spans": [
+            {
+              "offset": 984,
+              "length": 18
+            }
+          ],
+          "confidence": 0.918,
+          "source": "D(1,464.2532,1031.8167,759.0000,1034.0000,758.7468,1068.1833,464.0000,1066.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 619,
+              "length": 6
+            }
+          ],
+          "confidence": 0.96,
+          "source": "D(1,1460.0000,664.0000,1560.0000,664.0000,1560.0000,695.0000,1460.0000,696.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Dorothy Adams",
+          "spans": [
+            {
+              "offset": 1127,
+              "length": 13
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,512.0168,1144.5404,726.3103,1147.0036,725.9602,1177.4593,511.6667,1174.9962)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "mother",
+          "spans": [
+            {
+              "offset": 1155,
+              "length": 6
+            }
+          ],
+          "confidence": 0.961,
+          "source": "D(1,1332.0000,1150.0000,1432.0000,1150.0000,1432.0000,1176.0000,1332.0000,1176.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "36 Maple Ave., Hamilton, Ont.",
+          "spans": [
+            {
+              "offset": 1173,
+              "length": 29
+            }
+          ],
+          "confidence": 0.937,
+          "source": "D(1,465.0000,1197.0000,932.0000,1197.0000,932.0000,1228.0000,465.0000,1228.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "valueString": "none",
+          "spans": [
+            {
+              "offset": 2194,
+              "length": 4
+            }
+          ],
+          "confidence": 0.981,
+          "source": "D(1,847.0000,1887.0000,915.0000,1887.0000,915.0000,1908.0000,847.0000,1908.0000)"
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.01244082,
+          "width": 1738,
+          "height": 2706
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

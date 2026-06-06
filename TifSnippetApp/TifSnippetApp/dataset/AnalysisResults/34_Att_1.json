@@ -1,0 +1,377 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:05:37Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Received 13 Checked F\nBE\nE\nCard l sobsertitions\n\n1B Wing\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\nOCCUPATIONAL HISTORY FORM COMPLETE\n\nM.F.M. 2\nA.F.B. 271\n750M-5-42 (4398)\nH.Q. 1772-39-1645\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\n\nUnit 22nd ARMED REGT. (C.G.G.) C.A.C. CA\nCA.A\n\nRegimental Number.\nD-131222\n01\n\n\n# ACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY\n\n\n## ATTESTATION PAPER\n\n1\\. Surname\nABRAHAM\n\n2\\. Christian Names\nMaurice Clyde\n\n3\\. Present address.\n66 Columbia Ave, Westmount, P. Que., Canada\n\n4\\. Date of birth\n20 February 1920\n\nWSG\nCOMPLETER\n\n6\\. Citizenship\n(Of What Country are You Nown Citizen)\n. VUECH OL MMILLana\n\n7\\. Religion (state denomination)\n\n8\\. Trade or Calling\nDraughtsman\n\n9\\. Married, Widower or Single\nSingle\n\n10\\. Name of next of kin\nMr. Porcy ABRAHAM\n\n11\\. Relationship\nFather\n\n12\\. Address of next of kin\n7Gliorth Streety Kingstoy, Jamaica, B.W.I.,\n\n13\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army?\nNO\n.\n\n(If Yes, Give Unit and Dates of Service)\nNO\n\n14\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?\n(Yes or No)\n\n(If Yes, Give Regimental No. and Unit)\n.NO\n\nForce?\n(Yes or No) (If Yes, specify Unit and Period of Service)\n\n15\\. Did you serve during the Great War 1914-1918?.\n\n(If Yes, specify Regimental No., Unit and Dates of Service)\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nMAURICE CLYIE APRAHAM\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\n\nDate.\n7-7-42\n\nX\n\n(Signature of recruit)\nMcdbJaham\n\n\n## OATH TO BE TAKEN BY MAN ON ATTESTATION\n\n1,\nHAURICE CLYDE ADRAHAN\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\n\nWitness.\n(Name)\n(Rank)\n2\n(Signature of Recruit)\nWenRohom\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath-before me,\n\nat MONTREAL SOUTH\nSOUTH\n\nthis 7th\nday ofJULy\n192.\n\nAy therand lat\n\nSignature of Magistrate, Justice\nor Attesting Officer.\n\nNO. 4-DISTRICT DEPOT A.F.\nOfficer or Rank and Unit\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\nM.D. 2 NOM. ROLL\n\n5\\. Place of birth\nB.W.I.\nJamaica\nKingston\n(Country)\nBritish\n(County or Province)\n(Town or Township)\n1942\n\nFINGERPRINTED\n\n(b) Any other Naval, Military, or Air\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "D-131222",
+          "spans": [
+            {
+              "offset": 348,
+              "length": 8
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,1098.0000,324.0000,1207.0000,324.0000,1207.0000,348.0000,1098.0000,348.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABRAHAM",
+          "spans": [
+            {
+              "offset": 449,
+              "length": 7
+            }
+          ],
+          "confidence": 0.967,
+          "source": "D(1,469.0000,520.0000,586.0000,520.0000,586.0000,546.0000,469.0000,545.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Maurice Clyde",
+          "spans": [
+            {
+              "offset": 478,
+              "length": 13
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,515.0000,558.0000,727.0000,558.0000,727.0000,585.0000,515.0000,585.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "66 Columbia Ave, Westmount, P. Que., Canada",
+          "spans": [
+            {
+              "offset": 514,
+              "length": 43
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,471.0000,598.0000,1169.0000,598.0000,1169.0000,631.0000,471.0000,631.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1920-02-20",
+          "spans": [
+            {
+              "offset": 577,
+              "length": 16
+            }
+          ],
+          "confidence": 0.895,
+          "source": "D(1,469.0000,645.0000,725.0000,645.0000,725.0000,675.0000,469.0000,675.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "B.W.I.",
+          "spans": [
+            {
+              "offset": 3101,
+              "length": 6
+            }
+          ],
+          "confidence": 0.741,
+          "source": "D(1,470.0000,691.0000,566.0000,691.0000,566.0000,717.0000,470.0000,717.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Jamaica",
+          "spans": [
+            {
+              "offset": 3108,
+              "length": 7
+            }
+          ],
+          "confidence": 0.827,
+          "source": "D(1,722.0000,689.0000,838.0000,687.0000,838.0000,713.0000,722.0000,715.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Kingston",
+          "spans": [
+            {
+              "offset": 3116,
+              "length": 8
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,1054.0000,686.0000,1184.0000,686.0000,1184.0000,712.0000,1054.0000,713.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Draughtsman",
+          "spans": [
+            {
+              "offset": 742,
+              "length": 11
+            }
+          ],
+          "confidence": 0.975,
+          "source": "D(1,566.0000,824.0000,742.0000,824.0000,742.0000,850.0000,566.0000,851.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 786,
+              "length": 6
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,598.0000,865.0000,697.0000,865.0000,697.0000,892.0000,598.0000,891.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mr. Porcy ABRAHAM",
+          "spans": [
+            {
+              "offset": 819,
+              "length": 17
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,581.6516,912.4311,857.9886,909.0611,858.3441,938.2153,582.0071,941.5853)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Father",
+          "spans": [
+            {
+              "offset": 856,
+              "length": 6
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,536.0000,956.0000,635.0000,956.0000,635.0000,980.0000,536.0000,980.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "7Gliorth Streety Kingstoy, Jamaica, B.W.I.,",
+          "spans": [
+            {
+              "offset": 892,
+              "length": 43
+            }
+          ],
+          "confidence": 0.821,
+          "source": "D(1,521.0000,994.0000,1186.0000,994.0000,1186.0000,1024.0000,521.0000,1024.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "NO",
+          "spans": [
+            {
+              "offset": 1032,
+              "length": 2
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,1262.0000,1038.0000,1297.0000,1039.0000,1297.0000,1062.0000,1262.0000,1061.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "McdbJaham",
+          "spans": [
+            {
+              "offset": 1933,
+              "length": 9
+            }
+          ],
+          "confidence": 0.728,
+          "source": "D(1,891.0000,1517.0000,1255.0000,1514.0000,1255.0000,1573.0000,891.0000,1577.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "Ay therand lat",
+          "spans": [
+            {
+              "offset": 2768,
+              "length": 14
+            }
+          ],
+          "confidence": 0.781,
+          "source": "D(1,418.3698,1980.7219,1011.9598,1974.9024,1012.5900,2039.1805,419.0000,2045.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "NO. 4-DISTRICT DEPOT A.F.",
+          "spans": [
+            {
+              "offset": 2840,
+              "length": 25
+            }
+          ],
+          "confidence": 0.738,
+          "source": "D(1,483.0000,2038.0000,987.0000,2038.0000,987.0000,2089.0000,483.0000,2089.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "MONTREAL SOUTH",
+          "spans": [
+            {
+              "offset": 2720,
+              "length": 14
+            }
+          ],
+          "confidence": 0.84,
+          "source": "D(1,284.8919,1961.9915,505.0000,1961.0000,505.1111,1985.6707,285.0030,1986.6621)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "2019-07-07",
+          "spans": [
+            {
+              "offset": 2747,
+              "length": 3
+            },
+            {
+              "offset": 2751,
+              "length": 10
+            },
+            {
+              "offset": 2762,
+              "length": 4
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,642.0000,1961.0000,691.0000,1961.0000,691.0000,1990.0000,642.0000,1990.0000);D(1,865.0720,1956.2651,1007.6837,1960.0180,1006.9543,1987.7356,864.3426,1983.9827);D(1,1171.4389,1947.2219,1357.0249,1956.5012,1355.0399,1996.2020,1169.4539,1986.9227)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "McdbJaham",
+          "spans": [
+            {
+              "offset": 1933,
+              "length": 9
+            }
+          ],
+          "confidence": 0.524,
+          "source": "D(1,891.0000,1517.0000,1255.0000,1514.0000,1255.0000,1573.0000,891.0000,1577.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "WenRohom",
+          "spans": [
+            {
+              "offset": 2180,
+              "length": 8
+            }
+          ],
+          "confidence": 0.802,
+          "source": "D(1,906.0000,1682.0000,1229.0000,1677.0000,1230.0000,1730.0000,908.0000,1735.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "TRIPLICATE",
+          "spans": [
+            {
+              "offset": 77,
+              "length": 10
+            }
+          ],
+          "confidence": 0.436,
+          "source": "D(1,247.0000,237.0000,396.0000,238.0000,396.0000,259.0000,247.0000,258.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.587
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.1861,
+          "width": 1530,
+          "height": 2289
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

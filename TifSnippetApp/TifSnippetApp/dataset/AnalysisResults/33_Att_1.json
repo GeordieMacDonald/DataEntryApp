@@ -1,0 +1,383 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:05:19Z",
+  "stringEncoding": "codePoint",
+  "warnings": [
+    {
+      "code": "HarmfulContentDetected",
+      "message": "Content of category `Hate` detected with severity `Low`. Please use the field content with caution.",
+      "target": "Result.Contents[0]"
+    }
+  ],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "celved\nChecked K FINSTRI CaNa ED AND PHOTOGRAPHED\nE\nCoservations.\n\nORIGINAL\nLICATE\nTRIPLICATE\n\nM.F.M. 2\nA.P.B. 271\n75M-4-42 (4278)\nIH.Q. 1772-39-1045\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\n\nUniNo.10 District Depot (CA) General Listegimental Number.\nH-195280\n\n\n# ACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY\n\n\n## ATTESTATION PAPER\n\n1\\. Surname.\nABRAHAM,\n\n2\\. Christian Names\nEmile,\n\n3\\. Present address\nGeneral Delivery, Long Lac, Ontario, Canada,\n\n4\\. Date of birth\n29th July 1923.\n\n5\\. Place of birth\n(Country)\nCanada.\n(County or Province)\nOntario.\n(Town or Township)\n\n6\\. Religion (state denomination)\nRoman Catholic,\n\n7\\. Trade or Calling\nLaborer.\n\n8\\. Married, Widower or Single.\nSingle.\n\n9\\. Name of next of kin\nMr. John PETER.\nSee Change\n\n10\\. Relationship\nBrother in Law,\n\n11\\. Address of next of kin\nGeneral Delivery, Long Lae, Ontario, Canada.\n\n12\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army?.\nNa.\n(If Yes, Give Unit and Dates of Service)\n\n13\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?.\n(Yes or No)\n\nNo.\n(b) Any other Naval, Military, or Air\n\n(If Yes, Give Regimental No. and Unit)\n\nForce?\n(Yes or No) (If Yes, specify Unit and Period of Service)\nNo.\n\n14\\. Did you serve during the Great War 1914-1918?\n\nNo.\n(If Yes, specify Regimental No., Unit and Dates of Service)\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI\nEmile, ABRAHAM,\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\nWitness:\nDen iure\n\nDate\n26th August/1942\nA mile / brg han\n(Signature of recruit)\n\n\n## OATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI\nEmile, ABRAHAM,\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\nE mile a lraham (Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nPort aArthur Ontario Canadahis wenty- Sixth day of\nAugust,\n19.\n42\n\nCaptain Signature of Magistrate, Justice\nlaet\nRecruiting Officer,\n1\nor Attesting Officer.\nFert William & Port Arthur. (Officer or Rank and Unit\n1\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\n6rm\n\n<!-- PageFooter: O H F. COMPLETED -->\n\nWSG\n\nCOMPLETED\n\nNakina,\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "H-195280",
+          "spans": [
+            {
+              "offset": 311,
+              "length": 8
+            }
+          ],
+          "confidence": 0.979,
+          "source": "D(1,1072.0000,316.0000,1204.0000,316.0000,1204.0000,340.0000,1072.0000,340.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABRAHAM,",
+          "spans": [
+            {
+              "offset": 410,
+              "length": 8
+            }
+          ],
+          "confidence": 0.781,
+          "source": "D(1,551.0000,522.0000,679.0000,522.0000,679.0000,549.0000,551.0000,549.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Emile,",
+          "spans": [
+            {
+              "offset": 440,
+              "length": 6
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,551.0027,570.7875,648.0000,572.0000,647.6474,600.2081,550.6501,598.9956)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "General Delivery, Long Lac, Ontario, Canada,",
+          "spans": [
+            {
+              "offset": 468,
+              "length": 44
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,550.0042,612.9192,1247.1169,615.6004,1246.9998,646.0500,549.8870,643.3688)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1923-07-29",
+          "spans": [
+            {
+              "offset": 532,
+              "length": 15
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,552.0000,655.0000,789.0000,655.0000,789.0000,683.0000,552.0000,683.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada.",
+          "spans": [
+            {
+              "offset": 578,
+              "length": 7
+            }
+          ],
+          "confidence": 0.942,
+          "source": "D(1,549.0000,703.0000,662.0087,704.1415,661.7360,731.1387,548.7273,729.9972)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ontario.",
+          "spans": [
+            {
+              "offset": 607,
+              "length": 8
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,787.0011,703.8772,915.2193,705.0019,914.9989,730.1228,786.7807,728.9981)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Roman Catholic,",
+          "spans": [
+            {
+              "offset": 670,
+              "length": 15
+            }
+          ],
+          "confidence": 0.91,
+          "source": "D(1,550.0000,748.0000,789.0000,748.0000,789.0000,775.0000,550.0000,775.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Laborer.",
+          "spans": [
+            {
+              "offset": 708,
+              "length": 8
+            }
+          ],
+          "confidence": 0.939,
+          "source": "D(1,549.0011,792.8734,678.0000,794.0000,677.7718,820.1290,548.7729,819.0024)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single.",
+          "spans": [
+            {
+              "offset": 750,
+              "length": 7
+            }
+          ],
+          "confidence": 0.955,
+          "source": "D(1,550.0228,832.1140,662.6697,835.0173,661.9772,861.8860,549.3303,858.9827)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mr. John PETER.",
+          "spans": [
+            {
+              "offset": 783,
+              "length": 15
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,548.0000,880.0000,786.0000,880.0000,786.0000,907.0000,548.0000,907.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Brother in Law,",
+          "spans": [
+            {
+              "offset": 829,
+              "length": 15
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,549.0000,925.0000,786.0000,925.0000,786.0000,953.0000,549.0000,953.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "General Delivery, Long Lae, Ontario, Canada.",
+          "spans": [
+            {
+              "offset": 874,
+              "length": 44
+            }
+          ],
+          "confidence": 0.922,
+          "source": "D(1,550.0000,967.0000,1246.0000,967.0000,1246.0000,996.0000,550.0000,996.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "Na.",
+          "spans": [
+            {
+              "offset": 1016,
+              "length": 3
+            }
+          ],
+          "confidence": 0.832,
+          "source": "D(1,548.0000,1059.0000,599.0000,1059.0000,599.0000,1085.0000,548.0000,1085.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "A mile / brg han",
+          "spans": [
+            {
+              "offset": 1952,
+              "length": 16
+            }
+          ],
+          "confidence": 0.825,
+          "source": "D(1,693.4096,1501.9827,1180.0000,1496.0000,1180.5972,1544.5705,694.0068,1550.5532)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "laet",
+          "spans": [
+            {
+              "offset": 2848,
+              "length": 4
+            }
+          ],
+          "confidence": 0.523,
+          "source": "D(1,501.0000,1914.0000,840.0000,1910.0000,842.0000,1976.0000,502.0000,1988.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "Recruiting Officer,",
+          "spans": [
+            {
+              "offset": 2853,
+              "length": 19
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,639.8987,1960.7232,932.9972,1959.3909,933.0985,1981.6677,640.0000,1983.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Port aArthur Ontario Canada",
+          "spans": [
+            {
+              "offset": 2740,
+              "length": 30
+            }
+          ],
+          "confidence": 0.261,
+          "source": "D(1,148.8622,1893.0051,600.0000,1891.0000,600.1437,1923.3327,149.0059,1925.3378)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1942-08-26",
+          "spans": [
+            {
+              "offset": 1935,
+              "length": 16
+            }
+          ],
+          "confidence": 0.438,
+          "source": "D(1,360.0000,1519.0000,621.0000,1519.0000,621.0000,1546.0000,360.0000,1546.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "A mile / brg han",
+          "spans": [
+            {
+              "offset": 1952,
+              "length": 16
+            }
+          ],
+          "confidence": 0.812,
+          "source": "D(1,693.4096,1501.9827,1180.0000,1496.0000,1180.5972,1544.5705,694.0068,1550.5532)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "E mile a lraham",
+          "spans": [
+            {
+              "offset": 2173,
+              "length": 15
+            }
+          ],
+          "confidence": 0.756,
+          "source": "D(1,646.0000,1663.0000,1116.0000,1663.0000,1116.0000,1709.0000,646.0000,1709.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "Den iure",
+          "spans": [
+            {
+              "offset": 1920,
+              "length": 8
+            }
+          ],
+          "confidence": 0.638,
+          "source": "D(1,370.7524,1497.6870,646.0000,1494.9951,646.2475,1520.3081,371.0000,1523.0000)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "ORIGINAL",
+          "spans": [
+            {
+              "offset": 67,
+              "length": 8
+            }
+          ],
+          "confidence": 0.384,
+          "source": "D(1,214.0000,197.0000,320.0000,197.0000,320.0000,219.0000,214.0000,218.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.284
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.192,
+          "width": 1538,
+          "height": 2287
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

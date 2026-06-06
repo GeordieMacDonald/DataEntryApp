@@ -1,0 +1,329 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:28:25Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "N. R. 5\n15M-2-40 (4149)\nN.S. 815-12-5\n\nP 10134\n\n1\n\n\n# ATTESTATION FORM\n\nFOR MEN OF THE ROYAL CANADIAN NAVAL RESERVE\n\nSURNAME\nABBOTT\n\nOFFICIAL NO.\nA4173\n\nCHRISTIAN NAMES\nALFRED BRUCE\n\nMARRIED, SINGLE OR WIDOWER.\nSingle\n\n\n<table>\n<tr>\n<td>PERMANENT ADDRESS</td>\n<td>RELIGION</td>\n</tr>\n<tr>\n<td>Thornbury, Ontario.</td>\n<td>Baptist</td>\n</tr>\n</table>\n\n\n<table>\n<tr>\n<th>DATE OF BIRTH</th>\n<th>PLACE OF BIRTH</th>\n<th>NAME AND ADDRESS OF NEXT OF KIN</th>\n</tr>\n<tr>\n<td>4th February 1913</td>\n<td>Town Thornbury<br>County Grey Province Ontario.</td>\n<td>(mother) Isabel Abbott,<br>same address</td>\n</tr>\n</table>\n\n\n## PERSONAL DESCRIPTION ON ENROLMENT\n\n\n<table>\n<tr>\n<th>HEIGHT</th>\n<th>CHEST MEASUREMENT</th>\n<th>HAIR</th>\n<th>EYES</th>\n<th>COM- PLEXION</th>\n<th>WOUNDS, SCARS, MARKS</th>\n</tr>\n<tr>\n<td>Feet 5</td>\n<td>Inflated<br>36</td>\n<td rowspan=\"3\">Brown</td>\n<td rowspan=\"3\">Brown</td>\n<td rowspan=\"3\">Fair</td>\n<td rowspan=\"3\">NIL</td>\n</tr>\n<tr>\n<td>Inches. 7</td>\n<td>Deflated<br>32</td>\n</tr>\n<tr>\n<td>wt. 130</td>\n<td>Mean<br>34</td>\n</tr>\n</table>\n\n\nDATE OF ENROLMENT\n\nRATING ENROLLING FOR\n\nTRADE OR CALLING AND IN WHOSE EMPLOY\nWheelsman,\nCanadian Steamship Lines,\nMontreal, Quebec.\n\n24\n\"\n7\n\n(B)\nDECLARATION TO BE MADE BY APPLICANT\n\nI hereby declare as follows:-\n\n(1) That I am a British Subject domiciled in Canada.\n\n(2) That I am desirous of being enrolled as a member of the Royal Canadian Naval Reserve, and that\nI accept and agree to abide by the rules of the said Force.\n\n(3) (a) That it is my intention to follow the sea for a period of at least five years from this date.\n\n(b)xThat it is my intention takfollow the xalling of a Ficemax either at sea or on shorex for a periody\nof xixe xears from this date.\n\n(c) Rhex itxis xwxintentionxto followxthg sen ixaxRuginexrx\uc788x xnexitx for e period of fxe xermer\nfroux this date X\n\nDivision.\n\nNOTE.-Candidates for enrolment as Seaman are to cross out clauses (b) and (c) above.\nCandidates for enrolment as Stoker are to cross out clauses (a) and (c) above.\nCandidates for enrolment as E.E A are to cross out clauses (a), (b) and (c) above.\nENTERED IN\n\nCandidates for enrolment as Engineman are tocrqss out clauses (a) and (b) above.\n\nFAIR\nD.P.5.2.41\n\nROUGH\n\nJ5-2-41\n\n1\\. Noted in Record\n\n2\\. Indox Card.\noggo\n\nS. Non-Sub. Ca y\n\n4\\. Statis.ical Card\nFigio\n\n5\\. Roneo ecrip\n\n6\\. Pension Card.\n\n7\\.\n\n8\\.\n\nDATE\n30/1/41\n\n23rd January 1941\n\nAble Seaman\nTemporary)\nLdo hun\n\nJAN 25 1941\nN.S\n123-a 138\nCANADA\n\n\n![CANADA](figures/1.1)\n\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "A4173",
+          "spans": [
+            {
+              "offset": 146,
+              "length": 5
+            }
+          ],
+          "confidence": 0.781,
+          "source": "D(1,1223.0000,658.0000,1361.0000,656.0000,1359.0000,691.0000,1223.0000,691.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABBOTT",
+          "spans": [
+            {
+              "offset": 125,
+              "length": 6
+            }
+          ],
+          "confidence": 0.938,
+          "source": "D(1,435.0000,664.0000,534.0000,664.0000,534.0000,690.0000,434.0000,690.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "ALFRED BRUCE",
+          "spans": [
+            {
+              "offset": 169,
+              "length": 12
+            }
+          ],
+          "confidence": 0.93,
+          "source": "D(1,466.0000,727.0000,669.0000,727.0000,669.0000,755.0000,466.0000,755.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "Thornbury, Ontario.",
+          "spans": [
+            {
+              "offset": 293,
+              "length": 19
+            }
+          ],
+          "confidence": 0.933,
+          "source": "D(1,233.0000,840.0000,549.0000,840.0000,549.0000,872.0000,233.0000,872.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1913-02-04",
+          "spans": [
+            {
+              "offset": 468,
+              "length": 17
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,149.0040,976.9251,436.1161,978.0004,436.0000,1009.0000,148.8879,1007.9247)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 2457,
+              "length": 6
+            }
+          ],
+          "confidence": 0.031,
+          "source": "D(1,1127.0000,519.0000,1234.0000,527.0000,1233.0000,548.0000,1125.0000,540.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ontario",
+          "spans": [
+            {
+              "offset": 534,
+              "length": 8
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,648.0000,1020.0000,779.1044,1020.5603,778.9976,1045.5598,647.8932,1044.9995)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Thornbury",
+          "spans": [
+            {
+              "offset": 500,
+              "length": 9
+            }
+          ],
+          "confidence": 0.734,
+          "source": "D(1,616.0000,939.0000,766.0000,941.0000,766.0000,969.0000,616.0000,967.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "British Subject domiciled in Canada.",
+          "spans": [
+            {
+              "offset": 1294,
+              "length": 36
+            }
+          ],
+          "confidence": 0.409,
+          "source": "D(1,435.0000,1660.0000,823.0000,1660.0000,823.0000,1690.0000,435.0000,1690.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Baptist",
+          "spans": [
+            {
+              "offset": 322,
+              "length": 7
+            }
+          ],
+          "confidence": 0.9,
+          "source": "D(1,1078.0000,844.0000,1197.0000,844.0000,1197.0000,874.0000,1078.0000,874.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Wheelsman,\nCanadian Steamship Lines,\nMontreal, Quebec.",
+          "spans": [
+            {
+              "offset": 1142,
+              "length": 10
+            },
+            {
+              "offset": 1153,
+              "length": 25
+            },
+            {
+              "offset": 1179,
+              "length": 17
+            }
+          ],
+          "confidence": 0.634,
+          "source": "D(1,830.0000,1426.0000,994.2736,1427.6427,993.9936,1455.6399,829.7200,1453.9972);D(1,830.0000,1455.0000,1242.0000,1455.0000,1242.0000,1484.0000,830.0000,1484.0000);D(1,828.0000,1483.0000,1110.0000,1483.0000,1110.0000,1512.0000,828.0000,1512.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 211,
+              "length": 6
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,1242.0000,732.0000,1346.0000,732.0000,1346.0000,760.0000,1242.0000,760.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Isabel Abbott",
+          "spans": [
+            {
+              "offset": 561,
+              "length": 13
+            }
+          ],
+          "confidence": 0.803,
+          "source": "D(1,999.0106,972.9217,1211.2647,975.0026,1210.9986,1002.1470,998.7444,1000.0661)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "mother",
+          "spans": [
+            {
+              "offset": 553,
+              "length": 6
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,978.0000,942.0000,1078.0000,942.0000,1078.0000,974.0000,978.0000,974.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "same address",
+          "spans": [
+            {
+              "offset": 579,
+              "length": 12
+            }
+          ],
+          "confidence": 0.598,
+          "source": "D(1,1030.0056,1003.6597,1230.0987,1004.5004,1229.9976,1028.5672,1029.9045,1027.7265)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1941-01-23",
+          "spans": [
+            {
+              "offset": 2380,
+              "length": 17
+            }
+          ],
+          "confidence": 0.253,
+          "source": "D(1,147.0000,1480.0000,433.0000,1480.0000,433.0000,1512.0000,147.0000,1512.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0,
+          "width": 1523,
+          "height": 2335
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

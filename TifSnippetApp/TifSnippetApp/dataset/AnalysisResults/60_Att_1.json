@@ -1,0 +1,395 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:16:33Z",
+  "stringEncoding": "codePoint",
+  "warnings": [
+    {
+      "code": "HarmfulContentDetected",
+      "message": "Content of category `Hate` detected with severity `Low`. Please use the field content with caution.",
+      "target": "Result.Contents[0]"
+    }
+  ],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Prepared by:FL\nChecked by: mm\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\nM.F.M. 2\nA.F.B. 271\n750M-5-42 (4398)\nH.Q. 1772-39-1645\n\n(To be completed in triplicate. Copy designation to be shown by striking out terma not applicable.)\n\nUnit West N.S. Regiment\n\nRegimental Number.\nF-40903\n\n\n# ACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY ATTESTATION PAPER\n\n1\\. Surname\nACORN\n\n2\\. Christian Names.\nJoseph Amon\n\n3\\. Present address.\nPeters Road, Prince Edward Island, Canada\n\n4\\. Date of birth\nMay 19, 1916\n\n5\\. Place of birth\n(Country)\nCanada\n(County or Province)\n(Town or Township)\nPrince Edward Island Peters Road\n\n6\\. Citizenship\n(Of What Country are You Now a Citizen)\n\n7\\. Religion (state denomination)Presbyterian\n\n8\\. Trade or Calling\nFisherman\n\n9\\. Married, Widower or Single Single\n\n10\\. Name of next of kin\nMrs. Alexina ACORN\n\n11\\. Relationship\nMother\n\n12\\. Address of next of kin.\nPeters Road, Prince Edward Island, Canada\n\n13\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army?.\n(If Yes, Give Unit and Dates of Service)\nno\n\n14\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?.\n(Yes or No)\n\n(If Yes, Give Regimental No, and Unit)\nno\n(b) Any other Naval, Military, or Air\nForce?\n(Yes or No) (If Yes, specify Unit and Period of Service)\nno\n\n15\\. Did you serve during the Great War 1914-1918?.\n\n(If Yes, specify Regimental No., Unit and Dates of Service)\nno\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nJoseph Amon ACORN\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\n\nDate 13 Jul 40\n\n(Sgd) Joseph Amon Acorn\n(Signature of recruit)\n\n\n## OATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI, Joseph Amon ACORN\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\n\nWitness (Sgd) C. Campbell\n(Name)\n(Rank)\nPte.\n(Signature of Recruit)\n(Sgd) Joseph Amon Acorn\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\nat Charlottetown, PEI this.\n13th\nday of.\nJuly\n1940\n(Sgd) ??? Major\nRecruiting Officer Prince Edward Island)\nOfficer or Rank and Unit\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\nSignature of Magistrate, Justice\n1\nor Attesting Officer.\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "F-40903",
+          "spans": [
+            {
+              "offset": 263,
+              "length": 7
+            }
+          ],
+          "confidence": 0.982,
+          "source": "D(1,1064.0000,317.0000,1173.0000,317.0000,1173.0000,340.0000,1064.0000,340.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ACORN",
+          "spans": [
+            {
+              "offset": 355,
+              "length": 5
+            }
+          ],
+          "confidence": 0.972,
+          "source": "D(1,563.0000,517.0000,641.0000,517.0000,641.0000,540.0000,563.0000,540.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Joseph Amon",
+          "spans": [
+            {
+              "offset": 383,
+              "length": 11
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,561.0000,557.0000,734.0000,557.0000,734.0000,582.0000,561.0000,582.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "Peters Road, Prince Edward Island, Canada",
+          "spans": [
+            {
+              "offset": 417,
+              "length": 41
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,560.0000,598.0000,1188.0000,598.0000,1188.0000,624.0000,560.0000,624.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1916-05-19",
+          "spans": [
+            {
+              "offset": 478,
+              "length": 12
+            }
+          ],
+          "confidence": 0.938,
+          "source": "D(1,559.0000,639.0000,747.0000,639.0000,747.0000,666.0000,559.0000,666.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 521,
+              "length": 6
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,439.0000,679.0000,534.0000,680.0000,534.0000,703.0000,439.0000,703.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Prince Edward Island",
+          "spans": [
+            {
+              "offset": 568,
+              "length": 20
+            }
+          ],
+          "confidence": 0.899,
+          "source": "D(1,712.0000,679.0000,1018.0000,679.0000,1018.0000,705.0000,712.0000,705.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Peters Road",
+          "spans": [
+            {
+              "offset": 589,
+              "length": 11
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,1062.0000,679.0000,1233.0000,679.0000,1233.0000,704.0000,1062.0000,704.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Presbyterian",
+          "spans": [
+            {
+              "offset": 692,
+              "length": 12
+            }
+          ],
+          "confidence": 0.96,
+          "source": "D(1,560.0000,770.0000,747.0000,769.0000,747.0000,793.0000,560.0000,796.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Fisherman",
+          "spans": [
+            {
+              "offset": 727,
+              "length": 9
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,561.0000,809.0000,701.0000,811.0000,701.0000,835.0000,561.0000,833.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 762,
+              "length": 6
+            }
+          ],
+          "confidence": 0.958,
+          "source": "D(1,485.0000,854.0000,544.0000,853.0000,544.0000,880.0000,484.0000,881.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mrs. Alexina ACORN",
+          "spans": [
+            {
+              "offset": 802,
+              "length": 18
+            }
+          ],
+          "confidence": 0.936,
+          "source": "D(1,559.0000,890.0000,855.0000,890.0000,855.0000,916.0000,559.0000,916.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Mother",
+          "spans": [
+            {
+              "offset": 840,
+              "length": 6
+            }
+          ],
+          "confidence": 0.939,
+          "source": "D(1,558.0000,938.0000,655.0000,938.0000,655.0000,961.0000,558.0000,961.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "Peters Road, Prince Edward Island, Canada",
+          "spans": [
+            {
+              "offset": 877,
+              "length": 41
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,558.8537,976.0769,1187.9927,972.6576,1188.1421,1000.1514,559.0031,1003.5706)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "no",
+          "spans": [
+            {
+              "offset": 1057,
+              "length": 2
+            }
+          ],
+          "confidence": 0.977,
+          "source": "D(1,561.0000,1069.0000,594.0000,1069.0000,594.0000,1089.0000,561.0000,1089.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "no",
+          "spans": [
+            {
+              "offset": 1414,
+              "length": 2
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,561.0000,1278.0000,595.0000,1279.0000,595.0000,1300.0000,561.0000,1299.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Joseph Amon Acorn",
+          "spans": [
+            {
+              "offset": 1932,
+              "length": 17
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,820.8354,1489.0010,1083.9963,1487.3964,1084.1609,1514.3954,821.0000,1516.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "Major",
+          "spans": [
+            {
+              "offset": 2838,
+              "length": 5
+            }
+          ],
+          "confidence": 0.519,
+          "source": "D(1,682.0000,1933.0000,767.0000,1935.0000,767.0000,1961.0000,682.0000,1960.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Charlottetown, PEI",
+          "spans": [
+            {
+              "offset": 2780,
+              "length": 18
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,274.0000,1885.0000,551.0000,1885.0000,551.0000,1912.0000,274.0000,1912.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1940-07-13",
+          "spans": [
+            {
+              "offset": 2805,
+              "length": 4
+            },
+            {
+              "offset": 2810,
+              "length": 7
+            },
+            {
+              "offset": 2818,
+              "length": 4
+            },
+            {
+              "offset": 2823,
+              "length": 4
+            }
+          ],
+          "confidence": 0.149,
+          "source": "D(1,639.0000,1887.0000,704.0000,1887.0000,704.0000,1912.0000,639.0000,1911.0000);D(1,827.0000,1890.0000,893.0000,1890.0000,893.0000,1916.0000,827.0000,1916.0000);D(1,960.0000,1887.0000,1025.0000,1887.0000,1025.0000,1913.0000,960.0000,1912.0000);D(1,1236.0000,1886.0000,1301.0000,1886.0000,1301.0000,1910.0000,1236.0000,1910.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Joseph Amon Acorn",
+          "spans": [
+            {
+              "offset": 1932,
+              "length": 17
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,820.8354,1489.0010,1083.9963,1487.3964,1084.1609,1514.3954,821.0000,1516.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Joseph Amon Acorn",
+          "spans": [
+            {
+              "offset": 2232,
+              "length": 17
+            }
+          ],
+          "confidence": 0.827,
+          "source": "D(1,898.0000,1644.0000,1161.0000,1644.0000,1161.0000,1671.0000,898.0000,1671.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "C. Campbell",
+          "spans": [
+            {
+              "offset": 2172,
+              "length": 11
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,409.0000,1644.0000,579.0000,1644.0000,579.0000,1671.0000,409.0000,1671.0000)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0,
+          "width": 1484,
+          "height": 2201
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

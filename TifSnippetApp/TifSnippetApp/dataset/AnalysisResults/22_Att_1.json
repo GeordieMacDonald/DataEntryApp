@@ -1,0 +1,389 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T00:59:12Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "ORIGINAL\nDUPLICATE\nTRIPLICATE\nCiABR\n\nBwing\n\nM.F.M. 2\nA.F.B. 271\n500M-7-41 (1131)\nIL.Q. 1772-30-1615\n\n(To be completed in triplicate. Copy designation PoBC AMOMAL IHSTORY FORM COMPLETED\n\nUnit\nC.D.C. Novsesm.coy. CA.\n\nRegimental Number.\nD-124550\n\n\n# ACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY\n\n\n## ATTESTATION PAPER\n\nND. 35 COMPANY C. D. C.\n\n1\\. Surname\nABELSON\n\n2\\. Christian Names.\nCharles Robert\n\n3\\. Present address.\n5630 Decelles Street, Montreal Que., Canada\n\n4\\. Date of birth\n10 March 1918\n\n5\\. Place of birth\n(Country)\nCanada\n(County or Province)\nQuebec\n(Town or Township)\nMontreal\n\n6\\. Religion (state denomination)Hobrew\n\n7\\. Trade or Calling\noffice clork\n\n8\\. Married, Widower or Single...Single\n\n9\\. Name of next of kin.\nMr Percy ABELSON\n\n10\\. Relationship\nBrother\n\n11\\. Address of next of kin\n286 Willowdale Avenue, Montreal Que., Canada\n\n12\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army? Yes\nNo. D-512164 (MTC 40 Fannham Que. Can p) RF., from 9 October 1940 to\n7 November 1940. ( MTC Av1a, amnhaate(Que (ce)Cam p) RF., from 31 July 1941\nto cate.\n\n13\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?\n(Yes or No)\nNo\n\n(b) Any other Naval, Military, or Air\n\n(If Yes, Give Regimental No. and Unit)\n\nForce?\n(Yes or No) (If Yes, specify Unit and Period of Service)\nNo\n\n14\\. Did you serve during the Great War 1914-1918?.\nNo\n\n(If Yes, specify Regimental No., Unit and Dates of Service)\n\n\n# DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nCharles Robert ABELSON\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\n\nDate\na 6 May 1942.\n4.alulson\n(Signature of recruit)\n\nCharles Robert ABELSON\n\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI,\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\nC. abloon\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nat\nMontreal South\nthis.\n6th day of\nMay 1942.\n19.\nEsperant.lapt\n(Signature of Magistrate, Justice\n1\nor Attesting Officer.\n(Officer or Rank and Unit\n\nNO. 4-DISTRICT DEPOT A.F. ?\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "D-124550",
+          "spans": [
+            {
+              "offset": 235,
+              "length": 8
+            }
+          ],
+          "confidence": 0.982,
+          "source": "D(1,1105.0000,286.0000,1238.0000,286.0000,1238.0000,312.0000,1105.0000,312.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABELSON",
+          "spans": [
+            {
+              "offset": 358,
+              "length": 7
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,589.0000,507.0000,704.0000,507.0000,704.0000,533.0000,589.0000,533.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Charles Robert",
+          "spans": [
+            {
+              "offset": 388,
+              "length": 14
+            }
+          ],
+          "confidence": 0.783,
+          "source": "D(1,589.0122,550.7724,814.2772,553.0027,813.9878,582.2276,588.7228,579.9973)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "5630 Decelles Street, Montreal Que., Canada",
+          "spans": [
+            {
+              "offset": 425,
+              "length": 43
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,589.0000,595.0000,1271.0000,595.0000,1271.0000,626.0000,589.0000,626.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1918-03-10",
+          "spans": [
+            {
+              "offset": 488,
+              "length": 13
+            }
+          ],
+          "confidence": 0.937,
+          "source": "D(1,589.0000,643.0000,798.0000,643.0000,798.0000,672.0000,589.0000,672.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 532,
+              "length": 6
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,478.0000,686.0000,577.0000,686.0000,577.0000,711.0000,478.0000,711.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Quebec",
+          "spans": [
+            {
+              "offset": 560,
+              "length": 6
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,795.0000,686.0000,895.0000,687.0000,895.0000,711.0000,795.0000,710.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Montreal",
+          "spans": [
+            {
+              "offset": 586,
+              "length": 8
+            }
+          ],
+          "confidence": 0.835,
+          "source": "D(1,1160.0000,683.0000,1286.0000,684.0000,1286.0000,710.0000,1160.0000,709.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Hobrew",
+          "spans": [
+            {
+              "offset": 629,
+              "length": 6
+            }
+          ],
+          "confidence": 0.72,
+          "source": "D(1,591.0000,733.0000,689.0000,731.0000,689.0000,758.0000,591.0000,760.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "office clork",
+          "spans": [
+            {
+              "offset": 658,
+              "length": 12
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,589.0054,771.9737,784.1421,773.0007,783.9946,801.0263,588.8579,799.9993)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 696,
+              "length": 6
+            }
+          ],
+          "confidence": 0.972,
+          "source": "D(1,514.0000,822.0000,574.0000,822.0000,574.0000,851.0000,514.0000,851.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mr Percy ABELSON",
+          "spans": [
+            {
+              "offset": 738,
+              "length": 16
+            }
+          ],
+          "confidence": 0.871,
+          "source": "D(1,589.0000,861.0000,849.0000,861.0000,849.0000,888.0000,589.0000,888.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Brother",
+          "spans": [
+            {
+              "offset": 774,
+              "length": 7
+            }
+          ],
+          "confidence": 0.924,
+          "source": "D(1,589.0000,901.0000,705.0000,900.0000,705.0000,925.0000,589.0000,926.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "286 Willowdale Avenue, Montreal Que., Canada",
+          "spans": [
+            {
+              "offset": 811,
+              "length": 44
+            }
+          ],
+          "confidence": 0.914,
+          "source": "D(1,589.0000,943.0000,1290.0000,943.0000,1290.0000,972.0000,589.0000,972.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "D-512164 (MTC 40 Fannham Que. Can p) RF., from 9 October 1940 to 7 November 1940. ( MTC Av1a, amnhaate(Que (ce)Cam p) RF., from 31 July 1941 to cate.",
+          "spans": [
+            {
+              "offset": 960,
+              "length": 64
+            },
+            {
+              "offset": 1025,
+              "length": 75
+            },
+            {
+              "offset": 1101,
+              "length": 8
+            }
+          ],
+          "confidence": 0.443,
+          "source": "D(1,367.0000,1029.0000,1370.0000,1029.0000,1370.0000,1058.0000,367.0000,1058.0000);D(1,302.0000,1054.0000,1400.0000,1054.0000,1400.0000,1084.0000,302.0000,1084.0000);D(1,301.0000,1081.0000,431.0000,1081.0000,431.0000,1099.0000,301.0000,1099.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "4.alulson",
+          "spans": [
+            {
+              "offset": 1984,
+              "length": 9
+            }
+          ],
+          "confidence": 0.638,
+          "source": "D(1,732.0000,1471.0000,945.0000,1468.0000,946.0000,1517.0000,733.0000,1519.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "Esperant.lapt",
+          "spans": [
+            {
+              "offset": 2813,
+              "length": 13
+            }
+          ],
+          "confidence": 0.585,
+          "source": "D(1,421.0000,1894.0000,1015.0000,1894.0000,1015.0000,1947.0000,421.0000,1954.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "NO. 4-DISTRICT DEPOT A.F. ?",
+          "spans": [
+            {
+              "offset": 2912,
+              "length": 27
+            }
+          ],
+          "confidence": 0.658,
+          "source": "D(1,506.0000,1962.0000,1033.0000,1962.0000,1033.0000,2004.0000,506.0000,2004.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Montreal South",
+          "spans": [
+            {
+              "offset": 2767,
+              "length": 14
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,319.0000,1864.0000,546.0000,1864.0000,546.0000,1892.0000,319.0000,1892.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1942-05-06",
+          "spans": [
+            {
+              "offset": 2788,
+              "length": 10
+            },
+            {
+              "offset": 2799,
+              "length": 9
+            }
+          ],
+          "confidence": 0.665,
+          "source": "D(1,825.0000,1865.0000,942.8942,1872.9658,940.8119,1903.7846,822.9177,1895.8188);D(1,998.0000,1863.0000,1145.0000,1863.0000,1145.0000,1892.0000,998.0000,1892.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Charles Robert ABELSON",
+          "spans": [
+            {
+              "offset": 2018,
+              "length": 22
+            }
+          ],
+          "confidence": 0.52,
+          "source": "D(1,349.7202,1567.5845,701.0000,1564.0000,701.2857,1591.9971,350.0059,1595.5816)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "C. abloon",
+          "spans": [
+            {
+              "offset": 2203,
+              "length": 9
+            }
+          ],
+          "confidence": 0.829,
+          "source": "D(1,605.0152,1636.7877,862.4999,1640.0062,861.9474,1684.2118,604.4626,1680.9933)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "TRIPLICATE",
+          "spans": [
+            {
+              "offset": 19,
+              "length": 10
+            }
+          ],
+          "confidence": 0.416,
+          "source": "D(1,254.0000,223.0000,382.0000,222.0000,382.0000,243.0000,254.0000,244.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.2058,
+          "width": 1538,
+          "height": 2278
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

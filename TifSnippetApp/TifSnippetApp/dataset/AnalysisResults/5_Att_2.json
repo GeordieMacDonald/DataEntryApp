@@ -1,0 +1,392 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:16:10Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "ecaty\nObservati\nVorm Completec\nlisteO\n\nA\n\nM.F.M. 2\nA.F.B. 271\n750M\n(4398)\nH.Q. 1772-59-1645\n\n(To be completed in triplicate. Copy designation to be shown by atriking out terms not applicable.)\n\nUnit#13 District Depot(Gen. Reifs) CA(A) Regimental Number 17452\n.\u0662.\u0661.\u0662\n\nicograped. M. D. 13\n17452\n\nM, D. B\n\n\n![WSG COMPLETED](figures/1.1)\n\n\n# ACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY ATTESTATION PAPER\n\nPR\n\n1\\. Surname.\nAASTROM\n\n2\\. Christian Names\nThomas Ferdinand\n\n3\\. Present address\nBox 153, Bassano, Alberta, Canada.\n\n4\\. Date of birth\n26th April, 1913\n\n5\\. Place of birth\n(Country)\nCanada\nSaskatchewan\nBriercrest\n\n6\\. Citizenship\n(Of What Country are You Now a Citizen)\n\n7\\. Religion (state denomination) United Church\n\n8\\. Trade or Calling\nFarmer & Truck Driver\n\n9\\. Married, Widower or Single\nSingle\n\n10\\. Name of next of kin\nMrs. Matilda Peterson\n\n11\\. Relationship\nMother\n\n12\\. Address of next of kin\nGeneral Delivery, Steen, Saskatchewan, Canada.\n\n13\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army?\nNO\n\n(If Yes, Give Unit and Dates of Service)\n\n14\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?\n(Yes or No)\n(b) Any other Naval, Military, or Air\n\n(If Yes, Give Regimental No. and Unit)\n\nForce?\n\n(Yes or No) (If Yes, specify Unit and Period of Service)\nNO\n\n15\\. Did you serve during the Great War 1914-1918?\n\n(If Yes, specify Regimental No., Unit and Dates of Service)\nNO\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI, Thomas Ferdinand Aastrom\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\n\nDate 22nd hane 1943\n\n(Signature of recruit)\n1t Gastrom\n\n\n## OATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI,\nThomas' Ferdinand Aastrom\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\nWitness.\n(Name)\nSAConde\n\n(Rank)\nbbl\n(Signature of Recruit)\n9.7. aastrom\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\nCalgary, Alberta\nthis.\ngona f day of\nvimo\n19.3...\n\nSignature of Magistrate, Justice\nor Attesting Officer.\nOfficer or Rank and Unit\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\namb\n\nregistration ard inspected\n\nUSUAL SIGNATURE\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\nFiagerpr\u00fcnted\n\nOccupational History\nChecked.\n\nNO\n(County or Province)\nCanada\n(Town or Township)\n\nat\nAsst. Recruiting Officer, M.D.#13, Calgury, Alberta\nHorng hient.\n(J. SUUING)LEqitenant\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "17452",
+          "spans": [
+            {
+              "offset": 287,
+              "length": 5
+            }
+          ],
+          "confidence": 0.98,
+          "source": "D(1,1085.0000,325.0000,1157.0000,324.0000,1153.0000,349.0000,1083.0000,351.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "AASTROM",
+          "spans": [
+            {
+              "offset": 423,
+              "length": 7
+            }
+          ],
+          "confidence": 0.739,
+          "source": "D(1,582.0000,508.0000,785.0000,508.0000,785.0000,534.0000,582.0000,533.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Thomas Ferdinand",
+          "spans": [
+            {
+              "offset": 452,
+              "length": 16
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,580.0012,553.6738,826.0938,554.5464,826.0000,581.0000,579.9073,580.1273)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "Box 153, Bassano, Alberta, Canada.",
+          "spans": [
+            {
+              "offset": 490,
+              "length": 34
+            }
+          ],
+          "confidence": 0.893,
+          "source": "D(1,578.0000,593.0000,1100.0000,593.0000,1100.0000,623.0000,578.0000,623.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1913-04-26",
+          "spans": [
+            {
+              "offset": 544,
+              "length": 16
+            }
+          ],
+          "confidence": 0.942,
+          "source": "D(1,579.0000,634.0000,828.0000,634.0000,828.0000,664.0000,579.0000,664.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 591,
+              "length": 6
+            }
+          ],
+          "confidence": 0.967,
+          "source": "D(1,580.0000,678.0000,675.0000,678.0000,675.0000,702.0000,580.0000,701.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Saskatchewan",
+          "spans": [
+            {
+              "offset": 598,
+              "length": 12
+            }
+          ],
+          "confidence": 0.961,
+          "source": "D(1,791.0000,678.0000,979.0000,678.0000,979.0000,703.0000,791.0000,702.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Briercrest",
+          "spans": [
+            {
+              "offset": 611,
+              "length": 10
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,1020.0000,677.0000,1175.0000,677.0000,1175.0000,704.0000,1020.0000,703.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "United Church",
+          "spans": [
+            {
+              "offset": 714,
+              "length": 13
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,580.8594,765.0007,782.9945,763.9479,783.1351,790.9472,581.0000,792.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Farmer & Truck Driver",
+          "spans": [
+            {
+              "offset": 750,
+              "length": 21
+            }
+          ],
+          "confidence": 0.937,
+          "source": "D(1,578.0054,800.1438,903.1676,802.1760,902.9998,829.0312,577.8375,826.9990)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 804,
+              "length": 6
+            }
+          ],
+          "confidence": 0.971,
+          "source": "D(1,578.0000,842.0000,675.0000,844.0000,675.0000,868.0000,578.0000,867.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mrs. Matilda Peterson",
+          "spans": [
+            {
+              "offset": 837,
+              "length": 21
+            }
+          ],
+          "confidence": 0.808,
+          "source": "D(1,580.0000,888.0000,903.0000,888.0000,903.0000,916.0000,580.0000,916.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Mother",
+          "spans": [
+            {
+              "offset": 878,
+              "length": 6
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,580.0000,931.0000,676.0000,930.0000,676.0000,955.0000,580.0000,955.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "General Delivery, Steen, Saskatchewan, Canada.",
+          "spans": [
+            {
+              "offset": 914,
+              "length": 46
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,582.0043,971.9200,1280.1331,974.7125,1279.9978,1008.5440,581.8690,1005.7515)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "NO",
+          "spans": [
+            {
+              "offset": 1057,
+              "length": 2
+            }
+          ],
+          "confidence": 0.829,
+          "source": "D(1,578.0000,1055.0000,614.0000,1053.0000,614.0000,1077.0000,578.0000,1080.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "NO",
+          "spans": [
+            {
+              "offset": 1453,
+              "length": 2
+            }
+          ],
+          "confidence": 0.914,
+          "source": "D(1,579.0000,1268.0000,613.0000,1268.0000,613.0000,1293.0000,579.0000,1293.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "1t Gastrom",
+          "spans": [
+            {
+              "offset": 2000,
+              "length": 10
+            }
+          ],
+          "confidence": 0.698,
+          "source": "D(1,882.5982,1473.0036,1247.9977,1469.7411,1248.3998,1514.7821,883.0004,1518.0446)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "amb",
+          "spans": [
+            {
+              "offset": 3106,
+              "length": 3
+            }
+          ],
+          "confidence": 0.517,
+          "source": "D(1,182.0000,2063.0000,229.0000,2063.0000,229.0000,2085.0000,182.0000,2085.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "Asst. Recruiting Officer, M.D.#13, Calgury, Alberta",
+          "spans": [
+            {
+              "offset": 3287,
+              "length": 51
+            }
+          ],
+          "confidence": 0.814,
+          "source": "D(1,183.3511,1967.6991,930.3433,1977.3067,929.9830,2005.3213,182.9908,1995.7137)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Calgary, Alberta",
+          "spans": [
+            {
+              "offset": 2802,
+              "length": 16
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,251.0000,1874.0000,505.0000,1874.0000,505.0000,1903.0000,251.0000,1903.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "spans": [
+            {
+              "offset": 1961,
+              "length": 14
+            }
+          ],
+          "confidence": 0.731,
+          "source": "D(1,318.0081,1492.5001,535.4192,1496.0068,534.9919,1522.4999,317.5808,1518.9932)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "1t Gastrom",
+          "spans": [
+            {
+              "offset": 2000,
+              "length": 10
+            }
+          ],
+          "confidence": 0.781,
+          "source": "D(1,882.5982,1473.0036,1247.9977,1469.7411,1248.3998,1514.7821,883.0004,1518.0446)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "9.7. aastrom",
+          "spans": [
+            {
+              "offset": 2262,
+              "length": 12
+            }
+          ],
+          "confidence": 0.828,
+          "source": "D(1,892.0000,1618.0000,1270.0000,1618.0000,1270.0000,1661.0000,892.0000,1661.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "SAConde",
+          "spans": [
+            {
+              "offset": 2219,
+              "length": 7
+            }
+          ],
+          "confidence": 0.714,
+          "source": "D(1,347.0000,1620.0000,539.0000,1623.0000,539.0000,1663.0000,347.0000,1664.0000)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "TRIPLICATE",
+          "spans": [
+            {
+              "offset": 3175,
+              "length": 10
+            }
+          ],
+          "confidence": 0.716,
+          "source": "D(1,249.0000,233.0000,391.0000,233.0000,391.0000,254.0000,249.0000,254.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.002
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.01868984,
+          "width": 1483,
+          "height": 2204
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

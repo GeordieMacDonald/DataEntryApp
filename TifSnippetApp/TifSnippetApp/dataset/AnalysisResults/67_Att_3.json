@@ -1,0 +1,361 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:19:26Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "X-Ray slip gineff\n10.9.420.15\n\n<!-- PageHeader: PLCIAL RESERVE AIR FORCE No. R191307 POSTED TO #2 M.D. Brandon -->\n<!-- PageHeader: TRADE Airerew I.T.S. -->\n\n\n# 9 1942 ROYAL CANADIAN AIR FORCE \u3001(ATTESTATION PAPER) (Pages one and two, only, are to be completed in Applicant's own Handwriting)\n\n1\\. Surname\nADAIR\n\nFULL Christian Names\nDAVID KENNETH\n\n2\\. Present Address\n878 BANNiNG ST. wtog. man Tele\n\nTelephone 22617\n\n3\\. Permanent Address.\nV.\n1\n\n4\\. Place of Birth LONDON, ENGLAND\n\nCitizenship\nBritish\n\n5\\. Date of Birth MAy 2ND, 1918 Married, Single, Widower, Separated, Divorced SiNGLE\n\n6\\. Particulars of Children h.a\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>Mone.</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n7\\. Occupation STUDENT,\n\n8\\. Religion ANGLICAN,\n\n9\\. Languages English\nState denomination\n\nState proficiency\n\n10\\. Next of Kin (Full Name) DAviD NiVEN ADAiR Relationship FATHER. \"\n\" Address 878 BANNING ST. impr. Paganitals\n\n11\\. Father (Full Name) DAviD NiVEN ADAiR\n111\n\nBirthplace GRAS SOW, SerThAND.\nman\n\n\" Address\n978 BANNING ST: uty. Citizenship Consoias Brution.\n\n\" Occupation\nCARPENTER.\n\n12\\. Mother (Full Maiden Name) MILDRED C\u00c4TT. Birthplace CANTERBURY, ENG.\n\n\" Address\n898 BANNiNG Sr. ugh.\nman\nCitizenship.\nGeiser British\n\n13\\. Details of any Naval, Military or Air Force Service:\n\n\n<table>\n<tr>\n<th rowspan=\"2\">Unit</th>\n<th rowspan=\"2\">Place</th>\n<th rowspan=\"2\">Rank</th>\n<th rowspan=\"2\">Trade</th>\n<th rowspan=\"2\">R.<br>Re</th>\n<th colspan=\"2\">C.A. Date</th>\n<th rowspan=\"2\">1000<br>Reason for</th>\n<th rowspan=\"2\">discharge</th>\n</tr>\n<tr>\n<th>:EOCT</th>\n<th>T81</th>\n</tr>\n<tr>\n<td>C.O.T.C.</td>\n<td>UNIVERSITY</td>\n<td>CADET</td>\n<td></td>\n<td>O</td>\n<td>K my</td>\n<td>a</td>\n<td>AKP,</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>OF MAN.</td>\n<td></td>\n<td></td>\n<td>R.</td>\n<td>Onar</td>\n<td></td>\n<td>Maom</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>Bil</td>\n<td></td>\n<td></td>\n<td>1</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>P.A</td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n14\\. Honours, Awards, Mentions.\nnone\n\n15\\. Are you now on any Naval, Military or Air Force Reserve?\nNo\n\n16\\. Have you previously made application to join the R.C.A.F.? No.\n\nIf so, where? n/a\n\nWhen?\n\\- 3/9\n\nResult\n719\n\\-\n\n17\\. Were you ever discharged from any branch of His Majesty's Forces as Medically Unfit?.\nNo\n\nIf so, state nature of disability\nn/9\n\\-\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension?\n2mr -\n\nIf so, state nature of Disability\nn/a\n\\-\n\n19\\. Have you ever been convicted of an indictable offence?\nno\n\nIf so state nature.\nn/a\n\n20\\. Are you in debt?\nNo\n\nIf so, state particulars.\nn/9\n\n<!-- PageFooter: R.C.A.U. Form R. 100 400M-6-40 (5739) H.Q. 1062-3-83 -->\n<!-- PageFooter: 523-365 -->\n\nSEP\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "R191307",
+          "spans": [
+            {
+              "offset": 77,
+              "length": 7
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,352.0000,192.0000,453.0000,192.0000,452.0000,218.0000,352.0000,219.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ADAIR",
+          "spans": [
+            {
+              "offset": 305,
+              "length": 5
+            }
+          ],
+          "confidence": 0.847,
+          "source": "D(1,344.0000,416.0000,456.0000,416.0000,456.0000,459.0000,343.0000,459.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "DAVID KENNETH",
+          "spans": [
+            {
+              "offset": 333,
+              "length": 13
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,936.0409,408.8953,1248.6841,413.0090,1247.9789,466.6050,935.3356,462.4913)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "878 BANNiNG ST. wtog. man Tele",
+          "spans": [
+            {
+              "offset": 368,
+              "length": 30
+            }
+          ],
+          "confidence": 0.775,
+          "source": "D(1,415.4310,464.2555,1131.0167,471.3056,1130.5857,515.0501,415.0000,508.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1918-05-02",
+          "spans": [
+            {
+              "offset": 521,
+              "length": 13
+            }
+          ],
+          "confidence": 0.736,
+          "source": "D(1,380.0046,607.2609,660.2360,609.0015,660.0000,647.0000,379.7686,645.2594)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "ENGLAND",
+          "spans": [
+            {
+              "offset": 473,
+              "length": 7
+            }
+          ],
+          "confidence": 0.883,
+          "source": "D(1,541.0000,559.0000,712.0000,559.0000,712.0000,594.0000,541.0000,595.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "LONDON",
+          "spans": [
+            {
+              "offset": 465,
+              "length": 6
+            }
+          ],
+          "confidence": 0.961,
+          "source": "D(1,363.0000,561.0000,486.0000,559.0000,486.0000,595.0000,362.0000,596.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "SerThAND.",
+          "spans": [
+            {
+              "offset": 1228,
+              "length": 9
+            }
+          ],
+          "confidence": 0.3,
+          "source": "D(1,1194.1898,1091.6854,1372.5338,1098.0548,1370.8459,1145.3159,1192.5019,1138.9465)"
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "GRAS SOW",
+          "spans": [
+            {
+              "offset": 1218,
+              "length": 8
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,1010.0044,1096.1649,1167.2234,1097.0012,1166.9982,1139.3351,1009.7793,1138.4988)"
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "ENG.",
+          "spans": [
+            {
+              "offset": 1398,
+              "length": 4
+            }
+          ],
+          "confidence": 0.762,
+          "source": "D(1,1244.0292,1232.4813,1347.7985,1234.4769,1346.9619,1277.9800,1243.1926,1275.9845)"
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "CANTERBURY",
+          "spans": [
+            {
+              "offset": 1386,
+              "length": 10
+            }
+          ],
+          "confidence": 0.899,
+          "source": "D(1,1007.0000,1233.0000,1216.0000,1234.0000,1216.0000,1275.0000,1007.0000,1274.0000)"
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "British",
+          "spans": [
+            {
+              "offset": 494,
+              "length": 7
+            }
+          ],
+          "confidence": 0.804,
+          "source": "D(1,1089.0000,543.0000,1327.0000,532.0000,1328.0000,587.0000,1089.0000,596.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "ANGLICAN",
+          "spans": [
+            {
+              "offset": 974,
+              "length": 8
+            }
+          ],
+          "confidence": 0.875,
+          "source": "D(1,990.0000,918.0000,1167.0000,918.0000,1167.0000,956.0000,990.0000,958.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "STUDENT",
+          "spans": [
+            {
+              "offset": 951,
+              "length": 7
+            }
+          ],
+          "confidence": 0.828,
+          "source": "D(1,342.0000,917.0000,495.0000,916.0000,495.0000,954.0000,342.0000,956.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "SiNGLE",
+          "spans": [
+            {
+              "offset": 581,
+              "length": 6
+            }
+          ],
+          "confidence": 0.609,
+          "source": "D(1,1186.0000,610.0000,1319.0000,610.0000,1319.0000,649.0000,1186.0000,649.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "DAviD NiVEN ADAiR",
+          "spans": [
+            {
+              "offset": 1075,
+              "length": 17
+            }
+          ],
+          "confidence": 0.762,
+          "source": "D(1,481.8261,1007.0051,867.9971,1005.3261,868.1739,1045.9949,482.0029,1047.6739)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "FATHER.",
+          "spans": [
+            {
+              "offset": 1106,
+              "length": 7
+            }
+          ],
+          "confidence": 0.66,
+          "source": "D(1,1070.0019,1005.4392,1236.1385,1006.0005,1235.9997,1047.0743,1069.8631,1046.5131)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "878 BANNING ST. impr. Paganitals",
+          "spans": [
+            {
+              "offset": 1126,
+              "length": 32
+            }
+          ],
+          "confidence": 0.781,
+          "source": "D(1,448.0000,1050.0000,1272.0000,1050.0000,1272.0000,1092.0000,448.0000,1092.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "C.O.T.C., UNIVERSITY, CADET",
+          "spans": [
+            {
+              "offset": 1833,
+              "length": 8
+            },
+            {
+              "offset": 1851,
+              "length": 10
+            },
+            {
+              "offset": 1871,
+              "length": 5
+            }
+          ],
+          "confidence": 0.194,
+          "source": "D(1,180.0106,1459.9127,395.3689,1462.0036,394.9836,1501.6892,179.6253,1499.5983);D(1,466.0000,1462.0000,635.0000,1463.0000,635.0000,1502.0000,465.0000,1502.0000);D(1,662.0000,1475.0000,773.0000,1476.0000,773.0000,1502.0000,662.0000,1502.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "valueString": "none",
+          "spans": [
+            {
+              "offset": 2328,
+              "length": 4
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,556.0000,1632.0000,645.0000,1632.0000,645.0000,1663.0000,556.0000,1663.0000)"
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 1.867587e-05,
+          "width": 1498,
+          "height": 2314
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

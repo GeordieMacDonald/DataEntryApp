@@ -1,0 +1,393 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T00:56:51Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "PREPARED BY: R.G.\nCHECKED BY: 21.L.\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\nA.\n\nM.F.M. 2\nA.F.B. 271\n750M-5-42 (4398)\nH.Q. 1772-39-1645\n\n(To be completed in triplicate. Copy designation to be shown by stribing out terms not applienble\n\nUnit\nTHE WINNIPEG GRENADIERS(M.G.)\nF\nRegimental Number.\nH 6154\n\n\n# ACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY ATTESTATION PAPER\n\n1\\. Surname\nABEL\n\n2\\. Christian Names\nFREDERICK JAMES\n\n3\\. Present address.\n868-1st-R.Ea-Portage-LaPrairie--han--Vana-a\n\n4\\. Date of birth.\n2nd Jan 1902\n\n5\\. Place of birth\n(Country)\nEngland\n(County or Province)\nEssex\n(Town or Township)\nPitsea\n\n6\\. Citizenship\n\n7\\. Religion (state denomination).\n(Of What Country are You Now a Citizen)\nC of E Anglican\n\n8\\. Trade or Calling.\nFarmer\n\n9\\. Married, Widower or Single.\nMarried\n\n10\\. Name of next of kin\nEva May ABEL\n\n11\\. Relationship\nWife\n\n12\\. Address of next of kin.\nSouth of River, Fortage LaPrairie, Man. van.\n060--10t-ctz-t-5a-Portage-haPrairie-Hen-Gans\nD.O. 274 d/18/11/40 Wpg.Gren.O/S\n\n13\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army?.\n\nNO\n\n(If Yes, Give Unit and Dates of Service)\n\n14\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?.\nRifle Brigade\n(Yes or No)\n1920-27\n(If Yes, Give Regimental No. and Unit)\n(b) Any other Naval, Military, or Air\nForce?\nYes\n(Yes or No) (If Yes, specify Unit and Period of Service)\n\n15\\. Did you serve during the Great War 1914-1918?.\n\n(If Yes, specify Regimental No., Unit and Dates of Service)\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI, Frederiek James ABEL\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\n\nDate.\nSept. 7/39\n(Signature of recruit)\nSGD: F.J. Abel\n\n\n## OATH TO BE TAKEN BY MAN ON. ATTESTATION\n\nI, Frederick James ABEL\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\n\nWitness SGD: L.G. Garbuth Lieut.\n(Name)\n(Rank)\n\n(Signature of Recruit)\nSGD: F.J. Abel\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nat\nWinnipeg\nthis 7th\nday of.\nSeptember\n19...39\nSGD: E. Hodkinson Capt.\nSignature of Magistrate, Justice\n1\nor Attesting Officer.\nThe Winnipeg Grenadiers (M.G.)U.A.S.F.)\nOfficer or Rank and Unit\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT.\n\n495 Young St. Winnipeg. Man D.O.42 d/21/10/39\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "H 6154",
+          "spans": [
+            {
+              "offset": 283,
+              "length": 6
+            }
+          ],
+          "confidence": 0.974,
+          "source": "D(1,1012.0080,298.5256,1099.4067,300.0069,1098.9920,324.4744,1011.5933,322.9931)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABEL",
+          "spans": [
+            {
+              "offset": 374,
+              "length": 4
+            }
+          ],
+          "confidence": 0.966,
+          "source": "D(1,577.0000,481.0000,635.0000,480.0000,635.0000,501.0000,577.0000,502.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "FREDERICK JAMES",
+          "spans": [
+            {
+              "offset": 400,
+              "length": 15
+            }
+          ],
+          "confidence": 0.916,
+          "source": "D(1,576.0062,517.4725,790.2716,520.0032,789.9938,543.5275,575.7284,540.9968)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "868-1st-R.Ea-Portage-LaPrairie--han--Vana-a",
+          "spans": [
+            {
+              "offset": 438,
+              "length": 43
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,576.0035,559.5635,1183.1557,564.3822,1182.9980,584.2460,575.8458,579.4273)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1902-01-02",
+          "spans": [
+            {
+              "offset": 502,
+              "length": 12
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,576.0000,596.0000,746.0000,596.0000,746.0000,620.0000,576.0000,620.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "England",
+          "spans": [
+            {
+              "offset": 545,
+              "length": 7
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,573.0000,635.0000,676.0000,635.0000,676.0000,657.0000,573.0000,657.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Essex",
+          "spans": [
+            {
+              "offset": 574,
+              "length": 5
+            }
+          ],
+          "confidence": 0.961,
+          "source": "D(1,798.0000,636.0000,875.0000,638.0000,875.0000,659.0000,798.0000,657.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Pitsea",
+          "spans": [
+            {
+              "offset": 599,
+              "length": 6
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,1036.0000,639.0000,1125.0000,639.0000,1125.0000,661.0000,1036.0000,660.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "C of E Anglican",
+          "spans": [
+            {
+              "offset": 699,
+              "length": 15
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,575.0000,711.0000,802.0000,711.0000,802.0000,732.0000,575.0000,732.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Farmer",
+          "spans": [
+            {
+              "offset": 738,
+              "length": 6
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,574.0000,752.0000,662.0000,752.0000,662.0000,775.0000,574.0000,775.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Married",
+          "spans": [
+            {
+              "offset": 778,
+              "length": 7
+            }
+          ],
+          "confidence": 0.973,
+          "source": "D(1,571.0000,790.0000,676.0000,790.0000,676.0000,814.0000,571.0000,814.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Eva May ABEL",
+          "spans": [
+            {
+              "offset": 812,
+              "length": 12
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,572.0000,831.0000,744.0000,831.0000,744.0000,856.0000,572.0000,856.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Wife",
+          "spans": [
+            {
+              "offset": 844,
+              "length": 4
+            }
+          ],
+          "confidence": 0.973,
+          "source": "D(1,573.0000,870.0000,630.0000,870.0000,630.0000,892.0000,573.0000,892.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "South of River, Fortage LaPrairie, Man. van.\n060--10t-ctz-t-5a-Portage-haPrairie-Hen-Gans\nD.O. 274 d/18/11/40 Wpg.Gren.O/S",
+          "spans": [
+            {
+              "offset": 879,
+              "length": 44
+            },
+            {
+              "offset": 924,
+              "length": 44
+            },
+            {
+              "offset": 969,
+              "length": 32
+            }
+          ],
+          "confidence": 0.74,
+          "source": "D(1,574.0000,894.0000,1192.0000,894.0000,1192.0000,919.0000,574.0000,919.0000);D(1,572.0000,914.0000,1192.0000,914.0000,1192.0000,936.0000,572.0000,936.0000);D(1,813.0000,929.0000,1265.0000,929.0000,1265.0000,956.0000,813.0000,956.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "NO",
+          "spans": [
+            {
+              "offset": 1100,
+              "length": 2
+            }
+          ],
+          "confidence": 0.282,
+          "source": "D(1,1104.0000,987.0000,1135.0000,986.0000,1135.0000,1006.0000,1104.0000,1008.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "SGD: F.J. Abel",
+          "spans": [
+            {
+              "offset": 2054,
+              "length": 14
+            }
+          ],
+          "confidence": 0.764,
+          "source": "D(1,698.0000,1380.0000,894.0000,1380.0000,894.0000,1405.0000,698.0000,1405.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "SGD: E. Hodkinson Capt.",
+          "spans": [
+            {
+              "offset": 2919,
+              "length": 23
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,446.0000,1787.0000,769.0000,1787.0000,769.0000,1810.0000,446.0000,1810.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "The Winnipeg Grenadiers (M.G.)U.A.S.F.)",
+          "spans": [
+            {
+              "offset": 3000,
+              "length": 39
+            }
+          ],
+          "confidence": 0.59,
+          "source": "D(1,388.0000,1835.0000,925.0000,1835.0000,925.0000,1861.0000,388.0000,1861.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Winnipeg",
+          "spans": [
+            {
+              "offset": 2875,
+              "length": 8
+            }
+          ],
+          "confidence": 0.972,
+          "source": "D(1,277.0000,1742.0000,393.0000,1742.0000,392.0000,1766.0000,277.0000,1766.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "2019-09-07",
+          "spans": [
+            {
+              "offset": 2889,
+              "length": 3
+            },
+            {
+              "offset": 2901,
+              "length": 9
+            },
+            {
+              "offset": 2911,
+              "length": 7
+            }
+          ],
+          "confidence": 0.174,
+          "source": "D(1,584.0000,1744.0000,630.0000,1744.0000,630.0000,1766.0000,584.0000,1766.0000);D(1,865.0000,1744.0000,993.0000,1744.0000,993.0000,1768.0000,865.0000,1768.0000);D(1,1155.3629,1744.5159,1216.9744,1742.9756,1217.6496,1769.9838,1156.0381,1771.5240)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "SGD: F.J. Abel",
+          "spans": [
+            {
+              "offset": 2054,
+              "length": 14
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,698.0000,1380.0000,894.0000,1380.0000,894.0000,1405.0000,698.0000,1405.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "SGD: F.J. Abel",
+          "spans": [
+            {
+              "offset": 2329,
+              "length": 14
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,738.0000,1522.0000,937.0000,1522.0000,937.0000,1545.0000,738.0000,1545.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "SGD: L.G. Garbuth Lieut.",
+          "spans": [
+            {
+              "offset": 2266,
+              "length": 24
+            }
+          ],
+          "confidence": 0.244,
+          "source": "D(1,318.0000,1521.0000,656.0000,1521.0000,656.0000,1547.0000,318.0000,1547.0000)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.006200463,
+          "width": 1381,
+          "height": 2047
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

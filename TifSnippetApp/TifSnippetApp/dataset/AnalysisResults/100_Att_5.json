@@ -1,0 +1,380 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T00:54:18Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "1\u00b0\norgnial.\n\n\n# ATTESTATION\n\nNON-PERMANENT ACTIVE MILITIA OF CANADA\n\nUNIT\nFORT GARRY HORSE.\n\nREGT. No.\n1193\n\n1\\. What is your surname? (Block letters)\nADAMS.\n\n2\\. What are your Christian names?\nFREDERICK WILLIAM.\n\n3\\. What is your present address? 62 DONALD.ST.\n\nPhone No.\n\n4\\. Employer's name and address? OnTARiO. FRUIT. Coy Phone No.\nWINNIpeg\n\n5\\. Date of Birth 15-11-1912 (a) Country of Birth CANADO (b) Nationality ENGLISH\n\n7\\. Are you Single?\n$-\nMarried?\nYes.\n\nWidower?\n\\-\n\nS. What is your trade or calling? IRUEBRIVER 9. Religious persuasion ?\nKAITED\nFARMWORK.\n\n10\\. Previous Naval, Military or Air Force Service.\nGive particulars, qualifications, etc.\n1% WeybuRN Regi-WeybiuRN- July-1927- July. 1929\n\n11\\. Name, Relationship and Address of Next of Kin MRS MYRTLE AdAMS.\n(WIFE) 62 DONALD. ST.\n\n\n## CERTIFICATE OF MEDICAL EXAMINATION\n\nHeight\n5' 5''\nWeight\n165\nChest max.\n39\nmin.\n37\n\nDescriptive marks\n\nI have examined the above named man in accordance, with instructions laid down in Regulations\nfor the Canadian Medical Services and find him\npak\n\nCategory\n\nA\n\nDate\n9-3-38\nSignature Mr Gaer5y\n\n\n## DECLARATION TO BE MADE ON ATTESTATION a/ReAme.\n\nI. the undersigned\nTrederica Wm araus\nsincerely and solemnly declare\nthat to the best of my knowledge and belief, the above answers to the foregoing questions made and\nsigned by me are true; that I am willing to be attested for the term of three years or until legally discharged,\nand do understand the nature and terms of this engagement, that I will safeguard all clothing, arms and\nequipment issued to me and will return same when required, and that I will report any change in address\nof myself, my employer or my next of kin to my Commanding Officer.\n\n\n## OATH TO BE TAKEN\n\nI,\nFrederich Coeluan adags\nto sincerely promise and swear (or\nsolemnly declare) that I will be faithful and bear true allegiance to His Majesty.\nFGMS Cartor.\nSignature of Witness\nLi w tedams\nSignature of Man\n\nDated this\n3\"\nday of.\nhoremha 1937 at Lomup\n\n\n## CERTIFICATE OF ATTESTING OFFICER\n\nThe recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished by law. The above questions were then read to the recruit\nin my presence. I have taken care that he understands each question and that his answer to each question\nhas been duly entered and replied to, and the said recruit has made and signed the declaration and taken\nthe oath.\n\nSignature of Magistrate, Justice of Peno, or\nAAarCana Heveuy\n\nAttesting Officer\n\nM.U.B. 2351.\n50M-2-33\nR.Q.1772-39-1513\n\nTRuck\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "1193",
+          "spans": [
+            {
+              "offset": 103,
+              "length": 4
+            }
+          ],
+          "confidence": 0.983,
+          "source": "D(1,805.0000,251.0000,879.0000,251.0000,879.0000,280.0000,805.0000,280.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ADAMS.",
+          "spans": [
+            {
+              "offset": 151,
+              "length": 6
+            }
+          ],
+          "confidence": 0.877,
+          "source": "D(1,579.0000,294.0000,730.0886,294.5474,729.9980,319.5471,578.9094,318.9997)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "FREDERICK WILLIAM.",
+          "spans": [
+            {
+              "offset": 194,
+              "length": 18
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,585.0000,323.0000,931.0000,323.0000,931.0000,349.0000,585.0000,349.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "62 DONALD.ST.",
+          "spans": [
+            {
+              "offset": 248,
+              "length": 13
+            }
+          ],
+          "confidence": 0.88,
+          "source": "D(1,477.6605,355.5172,682.9985,352.8846,683.3380,379.3675,478.0000,382.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1912-11-15",
+          "spans": [
+            {
+              "offset": 365,
+              "length": 10
+            }
+          ],
+          "confidence": 0.972,
+          "source": "D(1,307.0000,417.0000,422.0000,417.0000,422.0000,441.0000,307.0000,441.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "CANADO",
+          "spans": [
+            {
+              "offset": 397,
+              "length": 6
+            }
+          ],
+          "confidence": 0.678,
+          "source": "D(1,633.0000,416.0000,714.0000,416.0000,714.0000,440.0000,633.0000,440.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "ENGLISH",
+          "spans": [
+            {
+              "offset": 420,
+              "length": 7
+            }
+          ],
+          "confidence": 0.954,
+          "source": "D(1,877.0000,415.0000,961.0000,414.0000,961.0000,438.0000,877.0000,439.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "KAITED",
+          "spans": [
+            {
+              "offset": 551,
+              "length": 6
+            }
+          ],
+          "confidence": 0.588,
+          "source": "D(1,850.0000,469.0000,940.0000,470.0000,940.0000,492.0000,850.0000,491.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "IRUEBRIVER",
+          "spans": [
+            {
+              "offset": 514,
+              "length": 10
+            }
+          ],
+          "confidence": 0.63,
+          "source": "D(1,469.0000,474.0000,578.0000,473.0000,578.0000,496.0000,468.0000,497.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "valueString": "OnTARiO. FRUIT. Coy WINNIpeg",
+          "spans": [
+            {
+              "offset": 307,
+              "length": 19
+            },
+            {
+              "offset": 337,
+              "length": 8
+            }
+          ],
+          "confidence": 0.369,
+          "source": "D(1,475.0000,386.0000,726.0000,386.0000,726.0000,411.0000,475.0000,411.0000);D(1,486.0000,408.0000,617.0000,409.0000,617.0000,425.0000,486.0000,425.0000)"
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Married",
+          "spans": [
+            {
+              "offset": 452,
+              "length": 7
+            }
+          ],
+          "confidence": 0.741,
+          "source": "D(1,485.0000,447.0000,563.0000,447.0000,563.0000,468.0000,485.0000,468.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "MRS MYRTLE AdAMS.",
+          "spans": [
+            {
+              "offset": 760,
+              "length": 17
+            }
+          ],
+          "confidence": 0.825,
+          "source": "D(1,643.8532,600.8716,912.9964,599.3596,913.1432,625.4880,644.0000,627.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "WIFE",
+          "spans": [
+            {
+              "offset": 779,
+              "length": 4
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,153.0000,633.0000,228.0000,632.0000,228.0000,657.0000,153.0000,657.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "62 DONALD. ST.",
+          "spans": [
+            {
+              "offset": 785,
+              "length": 14
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,290.0000,631.0000,505.0000,631.0000,505.0000,656.0000,290.0000,656.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "1% WeybuRN Regi-WeybiuRN- July-1927- July. 1929",
+          "spans": [
+            {
+              "offset": 660,
+              "length": 47
+            }
+          ],
+          "confidence": 0.741,
+          "source": "D(1,178.0000,542.0000,839.0000,542.0000,839.0000,569.0000,178.0000,569.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "AAarCana Heveuy",
+          "spans": [
+            {
+              "offset": 2489,
+              "length": 15
+            }
+          ],
+          "confidence": 0.554,
+          "source": "D(1,480.4445,1286.6660,940.4406,1291.9993,939.9883,1331.0057,479.9922,1325.6724)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "Attesting Officer",
+          "spans": [
+            {
+              "offset": 2506,
+              "length": 17
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,756.0000,1342.0000,868.0000,1342.0000,868.0000,1356.0000,756.0000,1356.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Lomup",
+          "spans": [
+            {
+              "offset": 1978,
+              "length": 5
+            }
+          ],
+          "confidence": 0.741,
+          "source": "D(1,820.0000,1140.0000,968.0000,1141.0000,967.0000,1171.0000,819.0000,1170.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "spans": [
+            {
+              "offset": 1962,
+              "length": 12
+            }
+          ],
+          "confidence": 0.172,
+          "source": "D(1,525.0105,1136.9315,787.0049,1139.5000,786.7003,1170.5657,524.7059,1167.9971)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Trederica Wm araus",
+          "spans": [
+            {
+              "offset": 1171,
+              "length": 18
+            }
+          ],
+          "confidence": 0.785,
+          "source": "D(1,357.0015,883.5000,727.1065,884.5822,726.9983,921.5819,356.8933,920.4997)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Frederich Coeluan adags",
+          "spans": [
+            {
+              "offset": 1734,
+              "length": 23
+            }
+          ],
+          "confidence": 0.726,
+          "source": "D(1,224.2821,1020.9954,726.0243,1024.2117,725.7422,1068.2163,224.0000,1065.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "FGMS Cartor.",
+          "spans": [
+            {
+              "offset": 1876,
+              "length": 12
+            }
+          ],
+          "confidence": 0.423,
+          "source": "D(1,141.8670,1093.4007,342.9970,1092.3950,343.1300,1118.9944,142.0000,1120.0000)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "orgnial.",
+          "spans": [
+            {
+              "offset": 3,
+              "length": 8
+            }
+          ],
+          "confidence": 0.588,
+          "source": "D(1,150.0000,148.0000,302.0000,148.0000,302.0000,191.0000,150.0000,191.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.0558,
+          "width": 1083,
+          "height": 1536
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

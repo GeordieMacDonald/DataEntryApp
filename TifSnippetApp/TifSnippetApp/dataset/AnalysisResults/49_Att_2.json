@@ -1,0 +1,337 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:11:36Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "# . ATTESTATION\n\nNON-PERMANENT ACTIVE MILITIA OF CANADA\nUNIT C Lon. K. C. H., ( a.c.)\nREGT. No.\n670\n\n1\\. What is your surname? (Block letters)\nAKER\n\n2\\. What are your Christian names?\nGORDON WILLIAM\n\n3\\. What is your present address?\nWendson.\n\nPhone No\n\n4\\. Employer's name and address?\n\nPhone No\n\n5\\. Date of Birth.\n25/6/20\n(a) Country of Birth\nHanta\n\n) Nationality\n\n7\\. Are you Single?\nuno\nMarried?\nWidower?\n\n8\\. What is your trade or calling? Kabmer 9. Religious persuasion ?\nSapt.\n\n10\\. Previous Naval, Military or Air Force Service.\nGive particulars, qualifications, etc.\nnil.\n\n11\\. Name, Relationship and Address of Next of Kin\nmr. R. aley.\nLatter, W indroi\n\n\n## CERTIFICATE OF MEDICAL EXAMINATION\n\nHeight\n55'\nWeight.\n130\nChest max.\n3>\ninin\n34\nDescriptive marks\nhil\n\nI have examined the above named man in accordance with instructions laid down in Regulations\nfor the Canadian Medical Seryices ghd find him.\nml\n\nCategory.\n\nA\n\nDate\nJune 28 1938\n\nSignature\nCit Monn ms\n\nWUICAMCAY\n\n\n## DECLARATION TO BE MADE ON ATTESTATION\n\nI. the undersigned.\nesidon aber.\ndo sincerely and solemnly declare\nthat to the best of my knowledge and belief, the above answers to the foregoing questions made and\nsigned by me are true; that I am willing to be attested for the term of three years or until legally discharged,\nand do understand the nature and terms of this engagement, that I will safeguard all clothing, arms and\nequipment issued to me and will return same when required, and that I will report any change in address\nof myself, my employer or my next of kin to my Commanding Officer.\n\nOATH TO BE TAKEN\nCraidon William akes.\ndo sincerely promise and swear (or\nsolemnly declare) that I will be faithful and bear true allegiance to His Majesty.\nFane Jainn Caph Stardon Oher.\n\nSignature of Witness\nSignature of Man\n\nDated this\nQ28\nday of.\nJune\n193.\n8 at Wendrur\n\n\n## CERTIFICATE OF ATTESTING OFFICER\n\nThe recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished by law. The above questions were then read to the recruit\nin my presence. I have taken care that he understands each question and that his answer to each question\nhas been duly entered and replied to, and the said recruit has made and signed the declaration and taken\nthe oath.\n\nSignature of Megistrate, Justice,of Peace, or\nAttesting Officer\nBv.zaltos Mai\n\nM.F.B. 235d.\n6031-10-36\nIL.Q. 1772-39-1645\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "670",
+          "spans": [
+            {
+              "offset": 96,
+              "length": 3
+            }
+          ],
+          "confidence": 0.98,
+          "source": "D(1,753.0000,231.0000,855.0000,231.0000,855.0000,268.0000,753.0000,268.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "AKER",
+          "spans": [
+            {
+              "offset": 143,
+              "length": 4
+            }
+          ],
+          "confidence": 0.82,
+          "source": "D(1,550.0000,283.0000,709.0000,283.0000,709.0000,312.0000,550.0000,313.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "GORDON WILLIAM",
+          "spans": [
+            {
+              "offset": 184,
+              "length": 14
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,480.9228,314.1238,872.0000,313.0000,872.0789,340.4509,481.0017,341.5747)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "Wendson.",
+          "spans": [
+            {
+              "offset": 234,
+              "length": 8
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,465.0000,342.0000,671.0654,342.5510,670.9985,367.5508,464.9332,366.9998)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "2025-06-20",
+          "spans": [
+            {
+              "offset": 317,
+              "length": 7
+            }
+          ],
+          "confidence": 0.974,
+          "source": "D(1,297.0000,400.0000,409.0000,400.0000,409.0000,424.0000,298.0000,424.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Hanta",
+          "spans": [
+            {
+              "offset": 346,
+              "length": 5
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,604.0000,393.0000,709.0000,394.0000,709.0000,422.0000,604.0000,423.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Sapt.",
+          "spans": [
+            {
+              "offset": 479,
+              "length": 5
+            }
+          ],
+          "confidence": 0.898,
+          "source": "D(1,796.0000,446.0000,894.0000,446.0000,894.0000,482.0000,796.0000,482.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Kabmer",
+          "spans": [
+            {
+              "offset": 446,
+              "length": 6
+            }
+          ],
+          "confidence": 0.816,
+          "source": "D(1,450.0000,457.0000,557.0000,457.0000,557.0000,481.0000,450.0000,481.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "uno",
+          "spans": [
+            {
+              "offset": 388,
+              "length": 3
+            }
+          ],
+          "confidence": 0.74,
+          "source": "D(1,338.0000,428.0000,402.0000,428.0000,402.0000,450.0000,338.0000,450.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "mr. R. aley.",
+          "spans": [
+            {
+              "offset": 634,
+              "length": 12
+            }
+          ],
+          "confidence": 0.824,
+          "source": "D(1,609.0108,558.4247,852.3007,560.0911,851.9989,604.1644,608.7089,602.4980)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "Latter, W indroi",
+          "spans": [
+            {
+              "offset": 647,
+              "length": 16
+            }
+          ],
+          "confidence": 0.52,
+          "source": "D(1,153.0000,604.0000,549.0000,604.0000,549.0000,636.0000,153.0000,636.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "nil.",
+          "spans": [
+            {
+              "offset": 577,
+              "length": 4
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,532.0754,502.9273,644.7220,505.0134,643.9616,546.0734,531.3150,543.9873)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "Bv.zaltos Mai",
+          "spans": [
+            {
+              "offset": 2380,
+              "length": 13
+            }
+          ],
+          "confidence": 0.738,
+          "source": "D(1,452.7156,1234.0386,890.9915,1230.8395,891.2774,1269.9980,453.0014,1273.1971)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Wendrur",
+          "spans": [
+            {
+              "offset": 1848,
+              "length": 7
+            }
+          ],
+          "confidence": 0.741,
+          "source": "D(1,784.0000,1086.0000,952.0000,1086.0000,952.0000,1117.0000,784.0000,1119.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "2019-06-28",
+          "spans": [
+            {
+              "offset": 1821,
+              "length": 3
+            },
+            {
+              "offset": 1825,
+              "length": 7
+            },
+            {
+              "offset": 1833,
+              "length": 4
+            },
+            {
+              "offset": 1838,
+              "length": 4
+            },
+            {
+              "offset": 1843,
+              "length": 1
+            }
+          ],
+          "confidence": 0.22,
+          "source": "D(1,205.0000,1078.0000,315.0000,1080.0000,315.0000,1121.0000,206.0000,1122.0000);D(1,406.4555,1105.4866,461.9957,1103.8531,462.5583,1122.9836,407.0182,1124.6171);D(1,478.0000,1089.0000,590.0000,1087.0000,590.0000,1119.0000,478.0000,1121.0000);D(1,709.0000,1103.0000,737.0000,1103.0000,737.0000,1119.0000,709.0000,1119.0000);D(1,746.0000,1086.0000,765.0000,1086.0000,765.0000,1119.0000,746.0000,1120.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "Fane Jainn Caph Stardon Oher.",
+          "spans": [
+            {
+              "offset": 1740,
+              "length": 29
+            }
+          ],
+          "confidence": 0.758,
+          "source": "D(1,233.8236,1040.1945,828.0000,1037.0000,828.1861,1071.6119,234.0097,1074.8064)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.2035,
+          "width": 1051,
+          "height": 1479
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:02:33Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: SPECIRL KEOERVE -->\n<!-- PageHeader: AIR FORCE NO. R. 159324 -->\n<!-- PageHeader: POSTED TO # 3 Recruiting Centre Lul 1410) 136-1114 -->\n<!-- PageHeader: AIRCREW (OBSERVER OR TRADE PILOT) STANDARD -->\n\n\n# ROYAL CANADIAN AIR FORCE (ATTESTATION PAPER) (Pages one and two, only, are to be completed in Applicant's own Handwriting)\n\n1\\.\nrname.\nAAlborg\n\nFULL Christian Names.\nKarl Inge\n\n2\\. Present Address\n9458-1001 Ave. Edmonton, Alta.\n\nTelephone 21309\n\n3\\. Permanent Address.\n9458-100 A ave Edmanton alta\n\n4\\. Place of Birth\nLloydminster, Sask\n\nCitizenship.\nCanadian\n\n5\\. Date of Birth\nJuly 9th-1917\n\nMarried, Single, Widower, Separated, Divorced.\nSingle\n\n6\\. Particulars of Children\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>M.10/10</td>\n<td></td>\n</tr>\n<tr>\n<td>none</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n7\\. Occupation Accountant\n\n8\\. Religion\nNorvegian Lutheran\nState denomination\n\n9\\. Languages English-Morwegian=--Both spoken fluently entirely without accent\n\nState profietency\n\n10\\. Next of Kin (Full Name) Mrs. Erik Aalborg\n\nRelationship\nNother\n\n\"\nAddress McLaughlin, Alta.\n\n11\\. Father (Full Name)\nErik Aalborg\n\nBirthplace.\nNorway\n\n\". Address.\nEclaughlin, Alta.\n\nCitizenship\nOut. Canadian\n\n\" OccupationFarmer\n\n12\\. Mother (Full Maiden Name)\nRaghnild Oyen\nBirthplace\nNorwey\n\n\" Address\nMelaughlin, Alta.\n\nCitizenship\nfut Canadian\n\n13\\. Details of any Naval, Military or Air Force Service:\n\n\n<table>\n<tr>\n<th rowspan=\"2\">Unit</th>\n<th rowspan=\"2\">Place</th>\n<th rowspan=\"2\">Rank</th>\n<th rowspan=\"2\">Trade</th>\n<th colspan=\"2\">Date</th>\n<th rowspan=\"2\">Reason for discharge</th>\n</tr>\n<tr>\n<th rowspan=\"2\">From<br>at 1940</th>\n<th rowspan=\"2\">To<br>2000 1940</th>\n</tr>\n<tr>\n<td>edBITC#Al</td>\n<td>Cancore</td>\n<td>lte</td>\n<td></td>\n<td>endof teriod</td>\n</tr>\n<tr>\n<td></td>\n<td>alta</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>Put in 1 month under</td>\n<td>the Netional</td>\n<td>Rescourses</td>\n<td>Mobilization</td>\n<td>act</td>\n<td>Regulations</td>\n<td></td>\n</tr>\n<tr>\n<td>at Camrose</td>\n<td>, Arta.</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n14\\. Honours, Awards, Mentions\nNone\n\n15\\. Are you now on any Naval, Military or Air Force Reserve? 2nd 61st Battery-RCA\n\n16\\. Have you previously made application to join the R.C.A.F.?\nNo\nIf so, where?\nna 1II\nWhen? Mu -----\nResult\nna\n------\n\n17\\. Were you ever discharged from any branch of His Majesty's Forces as Medically\n\nIf so, state nature of disability\nN ne\n\nRC.A.F.Records Office\nRec'd MAY 19 1942\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension?\nNo\n\nO.K.y O.T. 21\n\nIf so, state nature of Disability.\nu\n\\---------\n\nR.C. RLT/YW\n\n19\\. Have you ever been convicted of an indictable offence?.\nNo\nIf so state nature haess\nnar-------\n\n20\\. Are you in debt?\nno\nIf so, state particulars.\n--------------\nna\n\n<!-- PageFooter: R.C.A.F. Form R. 100 400M-6-40 (5730) 3.Q. 1062-3-83- -->\n\n448 - 476\npm\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "R. 159324",
+          "spans": [
+            {
+              "offset": 68,
+              "length": 9
+            }
+          ],
+          "confidence": 0.677,
+          "source": "D(1,192.0000,73.0000,306.0000,73.0000,306.0000,95.0000,192.0000,95.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "AAlborg",
+          "spans": [
+            {
+              "offset": 357,
+              "length": 7
+            }
+          ],
+          "confidence": 0.884,
+          "source": "D(1,189.0000,292.0000,277.0000,293.0000,277.0000,314.0000,189.0000,313.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Karl Inge",
+          "spans": [
+            {
+              "offset": 388,
+              "length": 9
+            }
+          ],
+          "confidence": 0.95,
+          "source": "D(1,726.0000,285.0000,852.0000,285.0000,852.0000,308.0000,726.0000,308.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "9458-1001 Ave. Edmonton, Alta.",
+          "spans": [
+            {
+              "offset": 419,
+              "length": 30
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,270.0000,329.0000,647.0000,329.0000,647.0000,354.0000,270.0000,354.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1917-07-09",
+          "spans": [
+            {
+              "offset": 601,
+              "length": 13
+            }
+          ],
+          "confidence": 0.93,
+          "source": "D(1,248.0000,446.0000,409.0000,446.0000,409.0000,471.0000,248.0000,471.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Sask",
+          "spans": [
+            {
+              "offset": 554,
+              "length": 4
+            }
+          ],
+          "confidence": 0.936,
+          "source": "D(1,452.0000,408.0000,505.0000,408.0000,505.0000,431.0000,452.0000,431.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Lloydminster",
+          "spans": [
+            {
+              "offset": 540,
+              "length": 12
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,285.0000,409.0000,430.0000,408.0000,430.0000,431.0000,285.0000,433.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Norway",
+          "spans": [
+            {
+              "offset": 1346,
+              "length": 6
+            }
+          ],
+          "confidence": 0.961,
+          "source": "D(1,814.0000,884.0000,891.0000,884.0000,891.0000,908.0000,814.0000,907.0000)"
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Norwey",
+          "spans": [
+            {
+              "offset": 1488,
+              "length": 6
+            }
+          ],
+          "confidence": 0.801,
+          "source": "D(1,814.0000,1010.0000,891.0000,1010.0000,891.0000,1032.0000,814.0000,1032.0000)"
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "Canadian",
+          "spans": [
+            {
+              "offset": 573,
+              "length": 8
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,859.0000,408.0000,960.0000,408.0000,960.0000,430.0000,859.0000,430.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Norvegian Lutheran",
+          "spans": [
+            {
+              "offset": 1060,
+              "length": 18
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,802.0000,727.0000,1022.0000,727.0000,1022.0000,750.0000,802.0000,750.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Accountant",
+          "spans": [
+            {
+              "offset": 1035,
+              "length": 10
+            }
+          ],
+          "confidence": 0.783,
+          "source": "D(1,247.0000,728.0000,373.0000,728.0000,373.0000,753.0000,247.0000,754.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 663,
+              "length": 6
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,955.0000,447.0000,1033.0000,448.0000,1033.0000,470.0000,955.0000,469.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "spans": [
+            {
+              "offset": 861,
+              "length": 4
+            }
+          ],
+          "confidence": 0.628,
+          "source": "D(1,109.0000,608.0000,276.0000,608.0000,276.0000,643.0000,109.0000,644.0000)"
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mrs. Erik Aalborg",
+          "spans": [
+            {
+              "offset": 1227,
+              "length": 17
+            }
+          ],
+          "confidence": 0.874,
+          "source": "D(1,326.7111,807.0032,543.9843,804.5891,544.2732,830.5859,327.0000,833.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Nother",
+          "spans": [
+            {
+              "offset": 1259,
+              "length": 6
+            }
+          ],
+          "confidence": 0.689,
+          "source": "D(1,836.0000,803.0000,913.0000,803.0000,913.0000,826.0000,836.0000,826.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "McLaughlin, Alta.",
+          "spans": [
+            {
+              "offset": 1277,
+              "length": 17
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,319.0000,849.0000,528.0000,849.0000,528.0000,875.0000,319.0000,875.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "edBITC#Al",
+          "spans": [
+            {
+              "offset": 1898,
+              "length": 9
+            }
+          ],
+          "confidence": 0.437,
+          "source": "D(1,63.4027,1200.0195,299.9529,1197.1347,300.5689,1247.6516,64.0187,1250.5364)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "valueString": "None",
+          "spans": [
+            {
+              "offset": 2355,
+              "length": 4
+            }
+          ],
+          "confidence": 0.899,
+          "source": "D(1,396.0000,1355.0000,446.0000,1355.0000,446.0000,1376.0000,396.0000,1376.0000)"
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0,
+          "width": 1152,
+          "height": 1882
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

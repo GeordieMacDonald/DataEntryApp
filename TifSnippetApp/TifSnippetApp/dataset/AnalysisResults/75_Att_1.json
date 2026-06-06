@@ -1,0 +1,369 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:22:37Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "DUPLICATE\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\nJGERPRINTED \u2192\n\nMAY 9-1943\nM.F.M. 2\nA.F.B. 271\n500M-7-41 (1131)\nH.Q. 1772-30-1045\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\n\nUnit.\nNo 1 District Depot (AF) RCR\n\nRegimental Number.\nA-4618\n\nACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY\n01\n\n\n# ATTESTATION PAPER\n\n\u25a0\n.\n\n1\\. Surname.\nADAM\n\n2\\. Christian Names\nBernard Alexander\n\n3\\. Present address.\n625 St.Luke Rd., Windsor, Ontario, Canada\n\n4\\. Date of birth\n18th March 1925 1924\n\nauendrd 206 Oer 43\n\n5\\. Place of birth Canada\n(Country)\nOntario\nWindsor\n(County or Province)\n(Towa or Township)\n\n6\\. Religion (state denomination)\nRoman Catholic\n\n7\\. Trade or Calling.\nLabourer\n\n8\\. Married, Widower or Single.\nS\u00e2ngle\n\n9\\. Name of next of kin.\nMrs Clara A D A M\n\n10\\. Relationship\nMother\n\n11\\. Address of next of kin\n625 St. Luke Rd., Windsor, Ontario, Canada\n\n12\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army?.\nNo\n\n(If Yes, Give Unit and Dates of Service)\n\n13\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?\nNo\n\n(Yea or No)\n\n(b) Any other Naval, Military, or Air\n\n(If Yes, Give Regimental No. and Unit)\n\nForce?\n(Yes or No) (If Yes, specify Unit and Period of Service)\n\n14\\. Did you serve during the Great War 1914-1918?.\nNo\n\n(If Yes, specify Regimental No., Unit and Dates of Service)\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nBernard Alexander ADAM\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\n\nDatc.\n19th november 1941\n\nBernard alexander adam\n\nTANESD ocpi0r\n\nJ. B. VALLIRRES SOT\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI, Berhard Alexander ADAM\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\n\nBernard alejander idan\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands cach question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\natLondon Ontario\n.this.\nday of November\n19.1\n\n(Signature of Magistrate, Justice\n7\nor Attesting Officer.\n\nFor O.C. NO. I D'STRICT DEPOT (AF)\n\nOfficer or Rank and Unit\n1\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\n10.9.62\n\nFINGERPRINTED-CAIB\n\nGB\n\nFORM COMPLE\n\nChecked F - Card V\n\nObservations.\nC . A.-A.\n\nAiuh Ball.\n\n(Signature of recruit)\nNo\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "A-4618",
+          "spans": [
+            {
+              "offset": 279,
+              "length": 6
+            }
+          ],
+          "confidence": 0.974,
+          "source": "D(1,1002.1566,292.0709,1088.8744,288.7356,1089.8065,312.9690,1003.0886,316.3043)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ADAM",
+          "spans": [
+            {
+              "offset": 380,
+              "length": 4
+            }
+          ],
+          "confidence": 0.969,
+          "source": "D(1,633.0000,468.0000,738.0000,468.0000,738.0000,491.0000,633.0000,491.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Bernard Alexander",
+          "spans": [
+            {
+              "offset": 406,
+              "length": 17
+            }
+          ],
+          "confidence": 0.895,
+          "source": "D(1,633.0000,504.0000,881.0000,504.0000,881.0000,528.0000,633.0000,528.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "625 St.Luke Rd., Windsor, Ontario, Canada",
+          "spans": [
+            {
+              "offset": 446,
+              "length": 41
+            }
+          ],
+          "confidence": 0.877,
+          "source": "D(1,619.0000,545.0000,1206.0000,545.0000,1206.0000,571.0000,619.0000,571.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1925-03-18",
+          "spans": [
+            {
+              "offset": 507,
+              "length": 20
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,634.0000,584.0000,947.0000,584.0000,947.0000,614.0000,634.0000,614.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 568,
+              "length": 6
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,389.0000,630.0000,480.0000,629.0000,480.0000,652.0000,389.0000,653.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ontario",
+          "spans": [
+            {
+              "offset": 585,
+              "length": 7
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,635.0000,628.0000,737.0000,628.0000,737.0000,651.0000,635.0000,651.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Windsor",
+          "spans": [
+            {
+              "offset": 593,
+              "length": 7
+            }
+          ],
+          "confidence": 0.958,
+          "source": "D(1,961.0000,626.0000,1065.0000,626.0000,1065.0000,650.0000,961.0000,650.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Roman Catholic",
+          "spans": [
+            {
+              "offset": 676,
+              "length": 14
+            }
+          ],
+          "confidence": 0.94,
+          "source": "D(1,634.0167,662.5973,836.1597,664.0011,835.9937,687.9027,633.8507,686.4990)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Labourer",
+          "spans": [
+            {
+              "offset": 714,
+              "length": 8
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,634.0000,704.0000,751.0000,705.0000,751.0000,727.0000,633.0000,726.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "S\u00e2ngle",
+          "spans": [
+            {
+              "offset": 756,
+              "length": 6
+            }
+          ],
+          "confidence": 0.519,
+          "source": "D(1,634.0000,745.0000,724.0000,745.0000,724.0000,768.0000,634.0000,768.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mrs Clara A D A M",
+          "spans": [
+            {
+              "offset": 789,
+              "length": 17
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,634.0000,779.0000,902.0000,779.0000,902.0000,804.0000,634.0000,804.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Mother",
+          "spans": [
+            {
+              "offset": 826,
+              "length": 6
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,634.0000,824.0000,724.0000,824.0000,724.0000,847.0000,634.0000,847.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "625 St. Luke Rd., Windsor, Ontario, Canada",
+          "spans": [
+            {
+              "offset": 862,
+              "length": 42
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,636.0000,859.0000,1237.0000,859.0000,1237.0000,886.0000,636.0000,886.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Bernard alejander idan",
+          "spans": [
+            {
+              "offset": 2171,
+              "length": 22
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,531.6106,1491.1781,1008.0000,1486.0000,1008.4018,1522.9630,532.0124,1528.1412)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "J. B. VALLIRRES SOT",
+          "spans": [
+            {
+              "offset": 1966,
+              "length": 19
+            }
+          ],
+          "confidence": 0.457,
+          "source": "D(1,209.0000,1409.0000,458.0000,1409.0000,458.0000,1433.0000,209.0000,1433.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "1",
+          "spans": [
+            {
+              "offset": 2910,
+              "length": 1
+            }
+          ],
+          "confidence": 0.441,
+          "source": "D(1,907.0000,1794.0000,918.0000,1794.0000,918.0000,1814.0000,907.0000,1814.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "London Ontario",
+          "spans": [
+            {
+              "offset": 2744,
+              "length": 16
+            }
+          ],
+          "confidence": 0.52,
+          "source": "D(1,217.0000,1706.0000,444.0000,1706.0000,444.0000,1730.0000,217.0000,1730.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1941-11-19",
+          "spans": [
+            {
+              "offset": 1907,
+              "length": 18
+            }
+          ],
+          "confidence": 0.517,
+          "source": "D(1,278.7814,1353.2052,539.0000,1351.0000,539.2237,1377.3964,279.0051,1379.6017)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Bernard alexander adam",
+          "spans": [
+            {
+              "offset": 1927,
+              "length": 22
+            }
+          ],
+          "confidence": 0.755,
+          "source": "D(1,640.5094,1343.0034,1202.9817,1336.4325,1203.4723,1378.4291,641.0000,1385.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Bernard alejander idan",
+          "spans": [
+            {
+              "offset": 2171,
+              "length": 22
+            }
+          ],
+          "confidence": 0.784,
+          "source": "D(1,531.6106,1491.1781,1008.0000,1486.0000,1008.4018,1522.9630,532.0124,1528.1412)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "DUPLICATE",
+          "spans": [
+            {
+              "offset": 0,
+              "length": 9
+            }
+          ],
+          "confidence": 0.738,
+          "source": "D(1,128.0000,268.0000,138.0000,95.0000,192.0000,96.0000,180.0000,268.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.183
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.2044,
+          "width": 1398,
+          "height": 2072
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:28:02Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Prepared by: FL\nChecked by : 8.7.\n\n-ORIGINAL-\nDU\nCATE\n-TR _ICATE\n\nM.F.M. 2\nA.F.B. 271\n75M-4-42 (4278)\nH.Q. 1772-39-1045\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\n\nUnit Royal Rifles of Canada C.A.S.F.\n\nRegimental Number.\nE-30135\n\n\n# ACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY\n\n\n## ATTESTATION PAPER\n\n\n![OPISD Archives](figures/1.1)\n\n\n1\\. Surname\nADAMS\n\n2\\. Christian Names\nBryce\n\n3\\. Present address.\nMillstream, Bonaventure County, P.Q.\n\n4\\. Date of birth\n22 June, 1921\n\n5\\. Place of birth\n(Country)\nCanada\n(County or Province)\nBonaventure\n(Town or Township)\nMillstream\n\n6\\. Religion (state denomination)\nRoman Catholic\n\n7\\. Trade or Calling.\nLaborer\n\n8\\. Married, Widower or Single.\nSingle\n\n9\\. Name of next of kin.\nGeorgina Adams\nC . A. .1\n\n10\\. Relationship\nMother\n\n11\\. Address of next of kin.\nMillstream, Bonaventure, P.Q.\n\n12\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army?\n\n(If Yes, Give Unit and Dates of Service)\nNo\n\n13\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?.\n(Yes or No)\n\nNo\n(b) Any other Naval, Military, or Air\n\n(If Yea, Give Regimental No. and Unit)\n\nForce?\n(Yes or No) (If Yes, specify Unit and Period of Service)\nNo\n\n14\\. Did you serve during the Great War 1914-1918?.\n\n(If Yes, specify Regimental No., Unit and Dates of Service)\nNo\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI, Bryce ADAMS\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ccases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\n10th\n\nDate.\nAugust 9th, 1940\n\n(Sgd) Bryce Adams\n\nWITNESS:\n(Sgd) W.P.C. LeBoutillier\n(Signature of recruit)\n\n\n### OATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI, Bryce ADAMS\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\n\n(Sgd) Bryce Adams\n\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\ncntered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nat\nMatapedia\nthis.\n9th 10th\nday of\nAugust\n19 40\n\n(Sgd) W.P.C. LeBoutillier\nLt. R.R.C.\n\n(Signature of Magistrate, Justice\n1\nor Attesting Officer.\nOfficer or Rank and Unit\n1\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "E-30135",
+          "spans": [
+            {
+              "offset": 279,
+              "length": 7
+            }
+          ],
+          "confidence": 0.983,
+          "source": "D(1,970.0000,294.0000,1070.0000,294.0000,1070.0000,317.0000,970.0000,317.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ADAMS",
+          "spans": [
+            {
+              "offset": 410,
+              "length": 5
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,508.0000,481.0000,579.0000,481.0000,579.0000,503.0000,508.0000,502.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Bryce",
+          "spans": [
+            {
+              "offset": 437,
+              "length": 5
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,506.0000,520.0000,578.0000,520.0000,578.0000,541.0000,506.0000,541.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "Millstream, Bonaventure County, P.Q.",
+          "spans": [
+            {
+              "offset": 465,
+              "length": 36
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,505.0000,557.0000,1010.0000,557.0000,1010.0000,581.0000,505.0000,581.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1921-06-22",
+          "spans": [
+            {
+              "offset": 521,
+              "length": 13
+            }
+          ],
+          "confidence": 0.881,
+          "source": "D(1,506.0000,595.0000,690.0000,595.0000,690.0000,619.0000,506.0000,619.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 565,
+              "length": 6
+            }
+          ],
+          "confidence": 0.939,
+          "source": "D(1,435.0000,632.0000,522.0000,632.0000,522.0000,653.0000,435.0000,653.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Bonaventure",
+          "spans": [
+            {
+              "offset": 593,
+              "length": 11
+            }
+          ],
+          "confidence": 0.945,
+          "source": "D(1,660.0000,631.0000,818.0000,631.0000,818.0000,653.0000,660.0000,653.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Millstream",
+          "spans": [
+            {
+              "offset": 624,
+              "length": 10
+            }
+          ],
+          "confidence": 0.96,
+          "source": "D(1,940.0000,630.0000,1086.0000,631.0000,1086.0000,653.0000,940.0000,652.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Roman Catholic",
+          "spans": [
+            {
+              "offset": 670,
+              "length": 14
+            }
+          ],
+          "confidence": 0.883,
+          "source": "D(1,505.0060,675.6305,705.0891,676.5004,704.9919,698.8695,504.9087,697.9996)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Laborer",
+          "spans": [
+            {
+              "offset": 708,
+              "length": 7
+            }
+          ],
+          "confidence": 0.961,
+          "source": "D(1,505.0000,717.0000,607.0000,716.0000,607.0000,738.0000,505.0000,738.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 749,
+              "length": 6
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,504.0000,752.0000,594.0000,754.0000,594.0000,776.0000,504.0000,774.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Georgina Adams",
+          "spans": [
+            {
+              "offset": 782,
+              "length": 14
+            }
+          ],
+          "confidence": 0.939,
+          "source": "D(1,506.0000,791.0000,705.0000,791.0000,705.0000,814.0000,506.0000,814.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Mother",
+          "spans": [
+            {
+              "offset": 826,
+              "length": 6
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,504.0000,831.0000,593.0000,831.0000,593.0000,852.0000,504.0000,852.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "Millstream, Bonaventure, P.Q.",
+          "spans": [
+            {
+              "offset": 863,
+              "length": 29
+            }
+          ],
+          "confidence": 0.922,
+          "source": "D(1,504.0000,868.0000,914.0000,868.0000,914.0000,893.0000,504.0000,893.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "No",
+          "spans": [
+            {
+              "offset": 1273,
+              "length": 2
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,505.0000,1075.0000,537.0000,1075.0000,537.0000,1096.0000,505.0000,1096.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "No",
+          "spans": [
+            {
+              "offset": 1390,
+              "length": 2
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,505.0000,1153.0000,537.0000,1154.0000,537.0000,1175.0000,505.0000,1175.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Bryce Adams",
+          "spans": [
+            {
+              "offset": 1915,
+              "length": 11
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,787.0000,1355.0000,945.0000,1355.0000,945.0000,1379.0000,787.0000,1379.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "W.P.C. LeBoutillier",
+          "spans": [
+            {
+              "offset": 2791,
+              "length": 19
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,493.0000,1724.0000,766.0000,1724.0000,766.0000,1750.0000,493.0000,1750.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "Lt. R.R.C.",
+          "spans": [
+            {
+              "offset": 2811,
+              "length": 10
+            }
+          ],
+          "confidence": 0.887,
+          "source": "D(1,398.0000,1767.0000,553.0000,1767.0000,553.0000,1791.0000,398.0000,1791.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Matapedia",
+          "spans": [
+            {
+              "offset": 2739,
+              "length": 9
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,243.0000,1691.0000,374.0000,1691.0000,374.0000,1714.0000,243.0000,1714.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1940-08-09",
+          "spans": [
+            {
+              "offset": 1891,
+              "length": 16
+            }
+          ],
+          "confidence": 0.471,
+          "source": "D(1,285.0000,1357.0000,511.0000,1357.0000,511.0000,1380.0000,285.0000,1380.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Bryce Adams",
+          "spans": [
+            {
+              "offset": 1915,
+              "length": 11
+            }
+          ],
+          "confidence": 0.914,
+          "source": "D(1,787.0000,1355.0000,945.0000,1355.0000,945.0000,1379.0000,787.0000,1379.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Bryce Adams",
+          "spans": [
+            {
+              "offset": 2172,
+              "length": 11
+            }
+          ],
+          "confidence": 0.933,
+          "source": "D(1,647.0000,1497.0000,807.0000,1497.0000,807.0000,1521.0000,647.0000,1521.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "W.P.C. LeBoutillier",
+          "spans": [
+            {
+              "offset": 1943,
+              "length": 19
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,435.0000,1380.0000,708.0000,1380.0000,708.0000,1403.0000,435.0000,1403.0000)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "ORIGINAL",
+          "spans": [
+            {
+              "offset": 36,
+              "length": 8
+            }
+          ],
+          "confidence": 0.587,
+          "source": "D(1,198.0000,186.0000,291.0000,186.0000,291.0000,205.0000,198.0000,205.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.126,
+          "width": 1386,
+          "height": 2051
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

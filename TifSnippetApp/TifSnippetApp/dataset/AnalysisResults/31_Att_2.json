@@ -1,0 +1,305 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:03:55Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: B -->\n\n\n# ATTESTATION\n\nNON-PERMANENT ACTIVE MILITIA OF CANADA\n\nUNIT 2nd . Bn. 48 thighrs. of Can. (R)\n\nREGTL. No. B486293\n\n1\\. Surname? (Block letters)\nABLETT\n\n2\\. Christian names?\nALFRED\n\n3\\. Present address?\n45 DUN FIELD AVE\n\nPhone No\n\\-\n\n4\\. Date of Birth?*\nNOV9 1924\n\n5\\. British subject?\nYES\n\n6\\. Occupation?\nSTUDENT\n\n7\\. Religion?\nPROT.\n\nt Next of Kin\nA. ABLETT\n\n9\\. Relationship?\nFATHER\n\nAddress\n45 DUNFIELD.\n\n10 Previous Naval, Military or Air Force Service.\nPLOTTE\n(Give particulars, qualifications, etc.)\nEVOCATIONAL CADET CORPS.\n\n\n## CERTIFICATE OF MEDICAL EXAMINATION\n\nHeight\n5' 11\nWeight 143\nChest max\n36\nmin\n33\n\nDescriptive marks\nCell\nVae 8an2\n\nI have examined the above named man in accordance with instructions laid down in Instructions for\nthe R.C.A.M.C. and C.D.C. 1937 Appendix V and find him,\nCategory\nDate\nSignature.\nasu,hnsMel\n\n\n## DECLARATION TO BE MADE ON ATTESTATION Kereme\n\nI, the undersigned\ndo sincerely and solemnly declare\nthat to the best of my knowledge and belief, the above answers (made by me) to the foregoing questions\nare true; that I am willing to be attested for the term of three years or until legally discharged, and do\nunderstand the nature and terms of this engagement, that I will safeguard all clothing, arms and equipment\nissued to me and will return same when required, and that I will report any change in address of myself,\nor my next of kin to my Commanding Officer.\n\n\n## OATH TO BE TAKEN\n\nI,\nalhed ablett\ndo sincerely promise and swear\n(or solemnly declare) that I will be faithful and bear true allegiance to His Majesty.\nls tmercan\nSignature of Witness\n\nalred a. allert.\nSignature of Man\n\nDated this.\n17\nday of.\nCapa\n19 p2 at\n\n\n### CERTIFICATE OF ATTESTING OFFICER\n\nThe recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished by law. The above questions were then read to the recruit in\nmy presence. I have taken care that he understands cach question and that his answer to cach question\nhas been duly entered and replied to, and the said recruit has made and signed the declaration and taken\nthe oath.\n\nSignature of Magistrate, Justice of Peace, or Attesting Officer\n6.1.% Killeran\n\nM.F.B. 235d\n2001-8-40 (6336)\nH.Q. 1772-39-1545\n\n*To be shown day, month, year-Example:-25-8-39.\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "B486293",
+          "spans": [
+            {
+              "offset": 131,
+              "length": 7
+            }
+          ],
+          "confidence": 0.982,
+          "source": "D(1,881.0000,272.0000,1000.0000,272.0000,1000.0000,300.0000,881.0000,299.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABLETT",
+          "spans": [
+            {
+              "offset": 169,
+              "length": 6
+            }
+          ],
+          "confidence": 0.799,
+          "source": "D(1,485.0000,302.0000,744.0000,304.0000,743.0000,339.0000,485.0000,337.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "ALFRED",
+          "spans": [
+            {
+              "offset": 198,
+              "length": 6
+            }
+          ],
+          "confidence": 0.971,
+          "source": "D(1,416.0000,341.0000,675.0000,342.0000,675.0000,373.0000,416.0000,372.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "45 DUN FIELD AVE",
+          "spans": [
+            {
+              "offset": 227,
+              "length": 16
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,374.0000,378.0000,874.0000,378.0000,874.0000,407.0000,374.0000,407.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1924-11-09",
+          "spans": [
+            {
+              "offset": 278,
+              "length": 9
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,342.7565,447.0021,593.9984,444.8174,594.2444,473.1022,343.0025,475.2869)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "PROT.",
+          "spans": [
+            {
+              "offset": 354,
+              "length": 5
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,798.0000,480.0000,950.0000,480.0000,950.0000,511.0000,798.0000,511.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "STUDENT",
+          "spans": [
+            {
+              "offset": 331,
+              "length": 7
+            }
+          ],
+          "confidence": 0.96,
+          "source": "D(1,339.0000,479.0000,548.0000,479.0000,548.0000,511.0000,339.0000,509.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "A. ABLETT",
+          "spans": [
+            {
+              "offset": 375,
+              "length": 9
+            }
+          ],
+          "confidence": 0.936,
+          "source": "D(1,312.0000,515.0000,590.0000,515.0000,590.0000,546.0000,312.0000,546.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "FATHER",
+          "spans": [
+            {
+              "offset": 404,
+              "length": 6
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,829.0000,518.0000,1023.0000,520.0000,1023.0000,552.0000,829.0000,549.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "45 DUNFIELD.",
+          "spans": [
+            {
+              "offset": 420,
+              "length": 12
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,302.0000,554.0000,701.0000,554.0000,701.0000,584.0000,302.0000,584.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "PLOTTE",
+          "spans": [
+            {
+              "offset": 484,
+              "length": 6
+            }
+          ],
+          "confidence": 0.291,
+          "source": "D(1,758.0000,591.0000,930.0000,589.0000,930.0000,622.0000,758.0000,623.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "alred a. allert.",
+          "spans": [
+            {
+              "offset": 1626,
+              "length": 16
+            }
+          ],
+          "confidence": 0.519,
+          "source": "D(1,632.6089,1153.4520,984.9977,1149.7813,985.4062,1188.9958,633.0174,1192.6665)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "6.1.% Killeran",
+          "spans": [
+            {
+              "offset": 2223,
+              "length": 14
+            }
+          ],
+          "confidence": 0.83,
+          "source": "D(1,480.0000,1363.0000,851.0000,1363.0000,851.0000,1410.0000,480.0000,1410.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "alhed ablett",
+          "spans": [
+            {
+              "offset": 1462,
+              "length": 12
+            }
+          ],
+          "confidence": 0.741,
+          "source": "D(1,225.0015,1094.4743,584.1014,1095.5003,583.9942,1133.0257,224.8943,1131.9997)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0,
+          "width": 1149,
+          "height": 1621
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

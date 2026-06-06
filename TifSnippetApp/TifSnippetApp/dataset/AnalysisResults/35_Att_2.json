@@ -1,0 +1,365 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:05:59Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Receive UCT 2.8.1942 ST\nChecked B Card\nObservations\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\nOccupational History Completed\n\nM.F.M. 2\nA.F.B. 271\n500M-7-41 (1131)\nII.Q. 1772-39-1615\n\n(To be completed in triplicate. Copy designation lo be shown by striking out terms not applicable.)\n\nUnit Prince Albert Velunteers C. A. (A) Regimental Number L.86912\n\n\n# ACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY ATTESTATION PAPER\n\nCHECKERRMY\n\nMAY 8 1942\n\nNo.12\nEITYALS\n\n2\\. Christian Names\nAlbert Joseph\n\n3\\. Present address.\nGeneral Delivery, The Pas, Manitoha, Gansda\n\n4\\. Date of birth\n17th of Nov., 1920\n\n5\\. Place of birth.\n(Country)\nCanada\n(County or Province)\nSeak.\n(Town or Township)\n\n6\\. Religion (state denomination)\nRomgn Catholie\n\n7\\. Trade or Calling.\nMotor Mechenio\n\n8\\. Married, Widower or Single.\nSingle\nmargaret\n\n9\\. Name of next of kin\nMrs R4-ta Abram\n\n10\\. Relationship\nEas mother\nD0.28.3 may 43. SSR.\n\n11\\. Address of next of kin.\nGeneral Delivery, The Pas, Manitoba, Canada\n\n12\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army?\nNo\n\n(If Yea, Give Unit and Date's of Service)\n\n13\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?.\nNo\n(Yes or No)\n\n(If Yes, Give Regimental No. and Unit)\nNo\n(b) Any other Naval, Military, or Air\nForce?\n(Yes or No) (If Yes, specify Unit and Period of Service)\n\n14\\. Did you serve during the Great War 1914-1918?\nNo\n\n(If Yes, specify Regimental No., Unit and Dates of Service)\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nAlbert Joseph Abram\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\n\nDate April 2nd, 1942.\nalbert Josuph a tram\n(Signature of recruit)\n\nOATH TO BE TAKEN BY MAN-ON ATTESTATION\n\nI,\nAlbert Joseph Abram\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty,\n\nalbert Jasuph a ham\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\nat Prince Albert, Sask this\n2nd\nday of April,\n192\nPlp de Lot: Lthl\nSignature of Magistrate, Justice\nor Attesting Officer.\nOfficer or Rank and Unit\nor appointment.\n\nP.A.V.S.\nReomnitine Officer.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\nFINGERPRINTED\n\n:-/FTE\ns\n\n1\\. Surname.\nAbram\n\nKinderaley\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "L.86912",
+          "spans": [
+            {
+              "offset": 332,
+              "length": 7
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,979.0000,286.0000,1086.0000,286.0000,1086.0000,314.0000,979.0000,314.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "Abram",
+          "spans": [
+            {
+              "offset": 3176,
+              "length": 5
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,477.0000,472.0000,553.0000,473.0000,552.0000,496.0000,477.0000,495.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Albert Joseph",
+          "spans": [
+            {
+              "offset": 471,
+              "length": 13
+            }
+          ],
+          "confidence": 0.829,
+          "source": "D(1,477.8622,512.4783,666.9967,511.4157,667.1376,536.4992,478.0032,537.5618)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "General Delivery, The Pas, Manitoha, Gansda",
+          "spans": [
+            {
+              "offset": 507,
+              "length": 43
+            }
+          ],
+          "confidence": 0.801,
+          "source": "D(1,448.0000,549.0000,1064.0000,549.0000,1064.0000,575.0000,448.0000,575.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1920-11-17",
+          "spans": [
+            {
+              "offset": 570,
+              "length": 18
+            }
+          ],
+          "confidence": 0.943,
+          "source": "D(1,433.0000,590.0000,693.0000,590.0000,693.0000,617.0000,433.0000,617.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 620,
+              "length": 6
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,477.0000,630.0000,565.0000,630.0000,565.0000,653.0000,477.0000,653.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Seak.",
+          "spans": [
+            {
+              "offset": 648,
+              "length": 5
+            }
+          ],
+          "confidence": 0.916,
+          "source": "D(1,721.0000,630.0000,791.0000,630.0000,791.0000,652.0000,721.0000,652.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Romgn Catholie",
+          "spans": [
+            {
+              "offset": 708,
+              "length": 14
+            }
+          ],
+          "confidence": 0.598,
+          "source": "D(1,617.0000,671.0000,839.0000,671.0000,839.0000,697.0000,617.0000,697.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Motor Mechenio",
+          "spans": [
+            {
+              "offset": 746,
+              "length": 14
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,505.0000,710.0000,710.0000,710.0000,710.0000,735.0000,505.0000,735.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 794,
+              "length": 6
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,592.0000,750.0000,682.0000,752.0000,682.0000,773.0000,592.0000,772.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mrs R4-ta Abram",
+          "spans": [
+            {
+              "offset": 835,
+              "length": 15
+            }
+          ],
+          "confidence": 0.784,
+          "source": "D(1,534.0000,788.0000,768.0000,788.0000,768.0000,813.0000,534.0000,813.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Eas mother",
+          "spans": [
+            {
+              "offset": 870,
+              "length": 10
+            }
+          ],
+          "confidence": 0.52,
+          "source": "D(1,500.0000,817.0000,747.0000,817.0000,747.0000,853.0000,500.0000,853.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "General Delivery, The Pas, Manitoba, Canada",
+          "spans": [
+            {
+              "offset": 932,
+              "length": 43
+            }
+          ],
+          "confidence": 0.918,
+          "source": "D(1,492.0000,867.0000,1112.0000,867.0000,1112.0000,894.0000,492.0000,894.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "albert Josuph a tram",
+          "spans": [
+            {
+              "offset": 1991,
+              "length": 20
+            }
+          ],
+          "confidence": 0.815,
+          "source": "D(1,706.8538,1345.2801,1204.9553,1334.0236,1206.1068,1384.9750,708.0052,1396.2315)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "Plp de Lot: Lthl",
+          "spans": [
+            {
+              "offset": 2838,
+              "length": 16
+            }
+          ],
+          "confidence": 0.774,
+          "source": "D(1,627.7528,1724.0014,914.9853,1722.3877,915.2346,1766.7627,628.0021,1768.3764)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "P.A.V.S.\nReomnitine Officer.",
+          "spans": [
+            {
+              "offset": 2952,
+              "length": 8
+            },
+            {
+              "offset": 2961,
+              "length": 19
+            }
+          ],
+          "confidence": 0.457,
+          "source": "D(1,408.0000,1780.0000,519.0000,1780.0000,519.0000,1804.0000,408.0000,1804.0000);D(1,410.0000,1803.0000,678.0000,1803.0000,678.0000,1821.0000,410.0000,1821.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Prince Albert, Sask",
+          "spans": [
+            {
+              "offset": 2791,
+              "length": 19
+            }
+          ],
+          "confidence": 0.78,
+          "source": "D(1,250.0000,1705.0000,525.0000,1705.0000,525.0000,1731.0000,250.0000,1731.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "2019-04-02",
+          "spans": [
+            {
+              "offset": 2816,
+              "length": 3
+            },
+            {
+              "offset": 2820,
+              "length": 13
+            },
+            {
+              "offset": 2834,
+              "length": 3
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,613.0000,1703.0000,658.0000,1703.0000,658.0000,1724.0000,613.0000,1724.0000);D(1,772.0000,1701.0000,971.0000,1701.0000,971.0000,1728.0000,772.0000,1728.0000);D(1,1157.0000,1698.0000,1218.0000,1700.0000,1218.0000,1722.0000,1157.0000,1721.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "albert Josuph a tram",
+          "spans": [
+            {
+              "offset": 1991,
+              "length": 20
+            }
+          ],
+          "confidence": 0.738,
+          "source": "D(1,706.8538,1345.2801,1204.9553,1334.0236,1206.1068,1384.9750,708.0052,1396.2315)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "albert Jasuph a ham",
+          "spans": [
+            {
+              "offset": 2218,
+              "length": 19
+            }
+          ],
+          "confidence": 0.877,
+          "source": "D(1,546.5101,1490.9054,1007.9975,1485.7778,1008.4888,1529.9946,547.0014,1535.1222)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.756
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.1049,
+          "width": 1400,
+          "height": 2078
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

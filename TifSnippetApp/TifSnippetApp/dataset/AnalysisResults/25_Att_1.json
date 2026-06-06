@@ -1,0 +1,403 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:00:45Z",
+  "stringEncoding": "codePoint",
+  "warnings": [
+    {
+      "code": "HarmfulContentDetected",
+      "message": "Content of category `Hate` detected with severity `Low`. Please use the field content with caution.",
+      "target": "Result.Contents[0]"
+    }
+  ],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "ReceiveNOV 14-1941\nChecked\nE Card\n\nObseqationsp\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\nM.F.M. 2\nA.F.B. 271\n200M-10-40 (7370)\nH.Q. 1772-39-1645\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\n\nUnit.\nBrd. Armoured Regt (G.G.H.G.)\n\nRegimental Number\nB70104\n01\n\n\n# CANADIAN ACTIVE SERVICE FORCE ATTESTATION PAPER\n\n1\\. Surname\nABERCROBIE\n\n2\\. Christian Names\nKarl Lawson\n\n3\\. Present address.\n18 Ashbury Ave.. Toronto, Ontario, Canada\n\n4\\. Date of birth\n24 Jul 08\n\n5\\. Place of birth\n(Country)\nCANADA\n(County or Province)\nontario\nLindsay:\n(Town or Township)\n\n6\\. Religion (state denomination)\nPresbyterian\n\n7\\. Trade or Calling\nTruck Driver\n\n8\\. Married, Widower or Single\nMarxied\n\n9\\. Name of next of kin\nMrs. Lena Abercrombie\n\n10\\. Relationship\nNife\n\nC. A . A\n\n11\\. Address of next of kin\n18 Ashbury Ave., Torouto, Onte\u017cio, Canada\n\n12\\. Do you belong to, or have you served in the Active Militia of Canada? NII.\n\n(It Yes, Give Unit and Dates of Service)\n\n13\\. Have you served in (a) The Canadian Active Service Force?\nNO\n\n(Yes or No)\n(b) Any other Naval, Military, or Air\nForce?\nNO\n\n(Yes or No) (If Yes, specify Unit and Period of Service)\n\n14\\. Did you serve during the Great War 1914-1918?\nNO.\n\n(It Yea, specify Regimental No., Unit and Dates of Service)\n\nDECLARATION TO BE MADE BY MAN ON ATTESTATION\nI,\nKarl Lawson ABERCROMBIE\ndo solemnly declare that the above\nparticulars are true, and I hereby engage to serve in the Canadian Active Service Force so long as an emergency,\ni.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the period of demobilization after\nsaid emergency ceases to exist, and in any event for a period of not less than one year, provided His Majesty\nshould so require my services.\n\nDate\n26 Apr. 41\n\n(Signature of recruit)\nCarl L. alacionbia\n\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI,\nKARL LAWSON ABERCROMBIE\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear/true allegiance to His Majesty.\nSarl L. atercrombin\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nat\nToronto Ontario\nthis\n25rd\nday of\nApril\n1941\n\n3rd. Armoured Regt. (G.G.H.G.)\nML6Lace\n\n(Signature of Magistrate, Justice\n1\nor Attesting Officer.\n(Office or Rank and Unit or\n1\nAppointntent.\n\nN.B. ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS IMPRISONMENT\n\nFINGERMRTEe\n\nP\n\n(It Yes, Give Regimental No. and Unit)\n\n-Ju Banks, P.P.\n\nwit\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "B70104",
+          "spans": [
+            {
+              "offset": 293,
+              "length": 6
+            }
+          ],
+          "confidence": 0.982,
+          "source": "D(1,1096.0000,286.0000,1198.0000,287.0000,1198.0000,314.0000,1096.0000,312.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABERCROBIE",
+          "spans": [
+            {
+              "offset": 368,
+              "length": 10
+            }
+          ],
+          "confidence": 0.82,
+          "source": "D(1,517.0000,441.0000,698.0000,441.0000,697.0000,468.0000,517.0000,467.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Karl Lawson",
+          "spans": [
+            {
+              "offset": 400,
+              "length": 11
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,516.0261,486.7076,694.5391,490.3139,693.9880,517.5957,515.4750,513.9894)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "18 Ashbury Ave.. Toronto, Ontario, Canada",
+          "spans": [
+            {
+              "offset": 434,
+              "length": 41
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,516.0035,527.2232,1170.1288,530.1434,1170.0000,559.0000,515.8746,556.0798)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "2008-07-24",
+          "spans": [
+            {
+              "offset": 495,
+              "length": 9
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,516.0060,574.4556,662.2991,576.0811,661.9991,603.0778,515.7061,601.4523)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "CANADA",
+          "spans": [
+            {
+              "offset": 535,
+              "length": 6
+            }
+          ],
+          "confidence": 0.975,
+          "source": "D(1,423.0000,617.0000,520.0000,618.0000,519.0000,643.0000,423.0000,641.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "ontario",
+          "spans": [
+            {
+              "offset": 563,
+              "length": 7
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,659.0000,619.0000,772.0000,619.0000,772.0000,646.0000,659.0000,646.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Lindsay:",
+          "spans": [
+            {
+              "offset": 571,
+              "length": 8
+            }
+          ],
+          "confidence": 0.739,
+          "source": "D(1,1023.0004,623.9537,1136.2407,625.0022,1135.9987,651.1389,1022.7584,650.0904)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Presbyterian",
+          "spans": [
+            {
+              "offset": 634,
+              "length": 12
+            }
+          ],
+          "confidence": 0.959,
+          "source": "D(1,579.0000,666.0000,774.0000,668.0000,774.0000,693.0000,579.0000,691.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Truck Driver",
+          "spans": [
+            {
+              "offset": 669,
+              "length": 12
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,577.0039,715.3861,772.1670,716.6213,771.9954,743.7341,576.8323,742.4989)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Marxied",
+          "spans": [
+            {
+              "offset": 714,
+              "length": 7
+            }
+          ],
+          "confidence": 0.937,
+          "source": "D(1,577.0000,766.0000,692.0000,766.0000,692.0000,792.0000,577.0000,792.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mrs. Lena Abercrombie",
+          "spans": [
+            {
+              "offset": 747,
+              "length": 21
+            }
+          ],
+          "confidence": 0.827,
+          "source": "D(1,575.0608,803.9858,906.4393,809.0067,905.9658,840.2571,574.5873,835.2362)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Nife",
+          "spans": [
+            {
+              "offset": 788,
+              "length": 4
+            }
+          ],
+          "confidence": 0.973,
+          "source": "D(1,579.0000,858.0000,644.0000,857.0000,644.0000,884.0000,579.0000,884.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "18 Ashbury Ave., Torouto, Onte\u017cio, Canada",
+          "spans": [
+            {
+              "offset": 832,
+              "length": 41
+            }
+          ],
+          "confidence": 0.825,
+          "source": "D(1,577.0060,901.5537,1231.3707,910.3175,1230.9818,939.3569,576.6171,930.5931)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "NII.",
+          "spans": [
+            {
+              "offset": 950,
+              "length": 4
+            }
+          ],
+          "confidence": 0.834,
+          "source": "D(1,968.0000,948.0000,1022.0000,948.0000,1022.0000,975.0000,968.0000,975.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "NO.",
+          "spans": [
+            {
+              "offset": 1235,
+              "length": 3
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,766.1381,1143.9608,801.0660,1145.5485,799.9299,1170.5423,765.0021,1168.9546)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Carl L. alacionbia",
+          "spans": [
+            {
+              "offset": 1818,
+              "length": 18
+            }
+          ],
+          "confidence": 0.653,
+          "source": "D(1,752.1032,1399.0092,1283.9539,1393.5262,1284.8507,1480.5170,753.0000,1486.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "1",
+          "spans": [
+            {
+              "offset": 2716,
+              "length": 1
+            }
+          ],
+          "confidence": 0.435,
+          "source": "D(1,980.0000,1901.0000,987.0000,1901.0000,987.0000,1923.0000,980.0000,1923.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "3rd. Armoured Regt. (G.G.H.G.)\nML6Lace",
+          "spans": [
+            {
+              "offset": 2642,
+              "length": 30
+            },
+            {
+              "offset": 2673,
+              "length": 7
+            }
+          ],
+          "confidence": 0.421,
+          "source": "D(1,409.0000,1951.0000,877.0000,1951.0000,877.0000,1980.0000,409.0000,1980.0000);D(1,457.0000,1834.0000,954.0000,1851.0000,956.0000,1951.0000,456.0000,1949.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Toronto Ontario",
+          "spans": [
+            {
+              "offset": 2597,
+              "length": 15
+            }
+          ],
+          "confidence": 0.816,
+          "source": "D(1,217.1280,1807.9345,459.0000,1809.0000,458.8698,1838.5633,216.9978,1837.4978)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1941-04-25",
+          "spans": [
+            {
+              "offset": 2618,
+              "length": 4
+            },
+            {
+              "offset": 2630,
+              "length": 5
+            },
+            {
+              "offset": 2636,
+              "length": 4
+            }
+          ],
+          "confidence": 0.163,
+          "source": "D(1,661.0000,1814.0000,728.0000,1814.0000,728.0000,1839.0000,661.0000,1839.0000);D(1,899.0000,1817.0000,981.0000,1817.0000,981.0000,1844.0000,899.0000,1844.0000);D(1,1236.0000,1823.0000,1303.0000,1821.0000,1303.0000,1848.0000,1236.0000,1851.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Carl L. alacionbia",
+          "spans": [
+            {
+              "offset": 1818,
+              "length": 18
+            }
+          ],
+          "confidence": 0.376,
+          "source": "D(1,752.1032,1399.0092,1283.9539,1393.5262,1284.8507,1480.5170,753.0000,1486.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Sarl L. atercrombin",
+          "spans": [
+            {
+              "offset": 2023,
+              "length": 19
+            }
+          ],
+          "confidence": 0.828,
+          "source": "D(1,544.5303,1579.4794,1075.5261,1574.9871,1076.0000,1631.0000,545.0042,1635.4924)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "-Ju Banks, P.P.",
+          "spans": [
+            {
+              "offset": 2996,
+              "length": 15
+            }
+          ],
+          "confidence": 0.443,
+          "source": "D(1,142.0000,1442.0000,142.0000,1167.0000,191.0000,1167.0000,191.0000,1442.0000)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0,
+          "width": 1533,
+          "height": 2291
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

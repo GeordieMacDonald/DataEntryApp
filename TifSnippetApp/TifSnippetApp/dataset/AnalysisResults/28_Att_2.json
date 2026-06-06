@@ -1,0 +1,393 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:01:51Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "OCCUPATIONAL HISTORY .\nFORM COMPLETED\nORIGINAL\nDUPLICATE\nTRIPLICATE\nROCH\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\n\nUnit\n#10 D.D. (Infantry Section)\n\nRegimental Number\nH 70-611\n\nACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY\n0\n\nATTESTATION PAPER\n\nA . A%\n\n1\\. Surname\nABIGAIL\n\n2\\. Christian Names\nLeonard\nLenard Delburt Partl1#622/12 mar 43)\n\n3\\. Present address\nBenito, Manitoba, Canada\n\n4\\. Date of birth\nMarch 7th, 1915\n\n5\\. Place of birth\n(Country)\nCANADA\nMANITOBA\nBENITO\n\n6\\. Citizenship\n(Of What Country are You Now a Citizen)\nUnited Church\n\n8\\. Trade or Calling\nFarmer\n\n9\\. Married, Widower or Single\nSing\u0130x Married\n\n10\\. Name of next of kin\nMrs. Gladys Ivy ABIGAIL\nwife\n\n11\\. Relationship\n\n12\\. Address of next of kin.\nBenito, Manitoba, Canada\n\n13\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army?.\nYes\n\n#10 District Depot (26 Nov 42 to 4 Dec 42) Regt'l No. H614285\n\n(If Yes, Give Unit and Dates of Service)\nNo\n\n14\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?\n(Yes or No)\n(b) Any other Naval, Military, or Air\n\nForce?\n(Yes or No) (If Yes, specify Unit and Pertod of Service)\nNo\n\n15\\. Did you serve during the Great War 1914-1918?\n\n(If Yea, specify Regimental No., Unit and Dates of Service)\n\nLeonard\n\nI,\nLenard Delburt ABIGAIL\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\n\nDate\n4th December, 1942\n(Signature of recruit)\nLo abigail\n\nLeonesa\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI,\nse nard\nDelburt ABIGAIL\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty,\nWitness\n(Name)\nH36779GSaraha cpl-\n(Rank)\n\n(Signature of Recruit)\nRD abigail\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\nWINNIPEG,Manit oba\nat\nthis\n4th\nday of\nDecember,\n19\n42\n\nCapt.,\nMlkars.\n\nSignature of Magistrate, Justice\nor Attesting Officer.\n\nfor District Recruiting Officer, M.D. 10 .\n\nOfficer or Rank and Unit\nor appointment.\n\nthk\n-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\nN\n\nChecked\nCard\n\u2713\nObservationt am\n\n\"R\" RECRUIT\n\nringerprinted\nPhotographed\nDabe\nMAR 12 1943\n\nM.F.M. 2\nA.F.B. 271\n750M-S-42 (4398)\nH.Q. 1772-39-1645\n\nDECLARATION TO BE MADE BY MAN ON ATTESTATION\n\n(If Yes, Give Regimental No. and Unit)\n\nNO\n\n(County or Province)\nCANADA\n(Town or Township)\n\n7\\. Religion (state denomination)\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "H 70-611",
+          "spans": [
+            {
+              "offset": 227,
+              "length": 8
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,1116.0000,310.0000,1249.0000,310.0000,1249.0000,338.0000,1116.0000,338.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABIGAIL",
+          "spans": [
+            {
+              "offset": 328,
+              "length": 7
+            }
+          ],
+          "confidence": 0.965,
+          "source": "D(1,646.0000,525.0000,760.0000,525.0000,760.0000,550.0000,646.0000,550.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Leonard",
+          "spans": [
+            {
+              "offset": 357,
+              "length": 7
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,486.0000,563.0000,637.0000,561.0000,637.0000,596.0000,486.0000,598.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "Benito, Manitoba, Canada",
+          "spans": [
+            {
+              "offset": 423,
+              "length": 24
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,645.0000,609.0000,1031.0000,609.0000,1031.0000,640.0000,645.0000,640.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1915-03-07",
+          "spans": [
+            {
+              "offset": 467,
+              "length": 15
+            }
+          ],
+          "confidence": 0.922,
+          "source": "D(1,643.0000,654.0000,888.0000,654.0000,888.0000,683.0000,643.0000,683.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "CANADA",
+          "spans": [
+            {
+              "offset": 513,
+              "length": 6
+            }
+          ],
+          "confidence": 0.958,
+          "source": "D(1,471.0000,699.0000,572.0000,699.0000,572.0000,724.0000,471.0000,725.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "MANITOBA",
+          "spans": [
+            {
+              "offset": 520,
+              "length": 8
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,645.0000,697.0000,778.0000,697.0000,778.0000,722.0000,645.0000,722.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "BENITO",
+          "spans": [
+            {
+              "offset": 529,
+              "length": 6
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,977.0000,695.0000,1076.0000,694.0000,1076.0000,720.0000,977.0000,720.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "United Church",
+          "spans": [
+            {
+              "offset": 593,
+              "length": 13
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,648.0000,792.0000,856.0000,792.0000,856.0000,816.0000,648.0000,816.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Farmer",
+          "spans": [
+            {
+              "offset": 629,
+              "length": 6
+            }
+          ],
+          "confidence": 0.974,
+          "source": "D(1,646.0000,827.0000,749.0000,827.0000,748.0000,852.0000,646.0000,852.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Sing\u0130x Married",
+          "spans": [
+            {
+              "offset": 668,
+              "length": 14
+            }
+          ],
+          "confidence": 0.431,
+          "source": "D(1,645.0009,870.8265,875.1378,872.0007,874.9940,900.1734,644.8571,898.9993)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mrs. Gladys Ivy ABIGAIL",
+          "spans": [
+            {
+              "offset": 709,
+              "length": 23
+            }
+          ],
+          "confidence": 0.876,
+          "source": "D(1,645.6916,919.6229,1015.9956,915.5979,1016.3108,944.5944,646.0067,948.6195)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "wife",
+          "spans": [
+            {
+              "offset": 733,
+              "length": 4
+            }
+          ],
+          "confidence": 0.932,
+          "source": "D(1,646.0000,959.0000,714.0000,960.0000,714.0000,987.0000,646.0000,986.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "Benito, Manitoba, Canada",
+          "spans": [
+            {
+              "offset": 787,
+              "length": 24
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,647.8904,1003.4041,1033.9962,1001.9741,1034.1058,1031.5700,648.0000,1033.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "#10 District Depot (26 Nov 42 to 4 Dec 42) Regt'l No. H614285",
+          "spans": [
+            {
+              "offset": 914,
+              "length": 61
+            }
+          ],
+          "confidence": 0.701,
+          "source": "D(1,283.7458,1090.0022,1254.9981,1081.7712,1255.2536,1111.9216,284.0013,1120.1525)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Lo abigail",
+          "spans": [
+            {
+              "offset": 1835,
+              "length": 10
+            }
+          ],
+          "confidence": 0.674,
+          "source": "D(1,906.8555,1512.2023,1225.9998,1505.9903,1227.1482,1564.9874,908.0039,1571.1994)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "Mlkars.",
+          "spans": [
+            {
+              "offset": 2705,
+              "length": 7
+            }
+          ],
+          "confidence": 0.396,
+          "source": "D(1,683.4304,1974.0054,852.9848,1972.3957,853.5543,2032.3903,684.0000,2034.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "Capt.",
+          "spans": [
+            {
+              "offset": 2698,
+              "length": 5
+            }
+          ],
+          "confidence": 0.616,
+          "source": "D(1,877.0000,1992.0000,958.2194,1992.6061,957.9955,2022.6044,876.7761,2021.9983)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "WINNIPEG,Manit oba",
+          "spans": [
+            {
+              "offset": 2643,
+              "length": 18
+            }
+          ],
+          "confidence": 0.63,
+          "source": "D(1,291.0000,1942.0000,566.0000,1942.0000,566.0000,1970.0000,291.0000,1970.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1942-12-04",
+          "spans": [
+            {
+              "offset": 1793,
+              "length": 18
+            }
+          ],
+          "confidence": 0.826,
+          "source": "D(1,378.0000,1544.0000,673.0000,1544.0000,673.0000,1573.0000,378.0000,1573.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Lo abigail",
+          "spans": [
+            {
+              "offset": 1835,
+              "length": 10
+            }
+          ],
+          "confidence": 0.262,
+          "source": "D(1,906.8555,1512.2023,1225.9998,1505.9903,1227.1482,1564.9874,908.0039,1571.1994)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "RD abigail",
+          "spans": [
+            {
+              "offset": 2105,
+              "length": 10
+            }
+          ],
+          "confidence": 0.733,
+          "source": "D(1,901.0061,1670.0228,1195.0226,1664.9825,1196.0328,1723.9137,902.0164,1728.9540)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "H36779GSaraha cpl-",
+          "spans": [
+            {
+              "offset": 2055,
+              "length": 18
+            }
+          ],
+          "confidence": 0.519,
+          "source": "D(1,349.5486,1695.5046,795.5230,1690.9802,796.0000,1738.0000,350.0256,1742.5244)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "TRIPLICATE",
+          "spans": [
+            {
+              "offset": 57,
+              "length": 10
+            }
+          ],
+          "confidence": 0.457,
+          "source": "D(1,249.0000,244.0000,400.0000,242.0000,400.0000,264.0000,249.0000,264.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "valueBoolean": true,
+          "spans": [
+            {
+              "offset": 3028,
+              "length": 1
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,853.0000,124.0000,922.0000,121.0000,922.0000,154.0000,853.0000,156.0000)"
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.3605,
+          "width": 1536,
+          "height": 2299
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

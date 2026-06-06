@@ -1,0 +1,385 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T00:58:30Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "C\nReceived.\nORIGINAL\nDUPLICAT\nTRINTIOATE\n\nA . ACste\nChecked\nE\nCard\nObservations.\nM.F.M. 2\nA.F.B. 271\n450M-5-40 (5227)\nII.Q. 1772-39-1645\n\n(To be completed in triplicate. Copy designation to be shown by atriking out terms not applicable.)\n\nUnit 43/102nd Fd. Bty., R.G.A.\nRegimental Number\nB.15002\n34\n\nCANADIAN ACTIVE SERVICE FORCE\nATTESTATION PAPER\nBSM\n\n1\\. Surname.\nAbel\n\n2\\. Christian Names.\nPercy Donald\n\n3\\. Present address.\nR.R. #1 West Flamboro Ont.\n\n4\\. Date of birth\n7th November 1915\n\n5\\. Place of birth\n(Country)\nCanada\n(County or Province)\nWentworth\n(Town or Township)\nBeverley\n\n6\\. Religion (state denomination)\nAnglican\n\n7\\. Trade or Calling.\nFarmer\n\n8\\. Married, Widower or Single.\nSingle\n\n9\\. Name of next of kin\nHannah May Elizabeth Abel\n\n10\\. Relationship\nMother\nunfieR Do # 92/19-1-44\n\n11\\. Address of next of kin.\nR.R. #1 West Flamboro Ont.\n\n12\\. Do you belong to, or have you served in the Active Militia of Canada?.\nYes\n102nd (Went) Fla. Bty. R.C.A.\n\n13\\. Have you served in (a) The Canadian Active Service Force?\nNo\n(Yes or No)\n\n(b) Any other Naval; Military, or Air\n\nForce?\n(It Yes, Give Regimental No. and Unit)\nNo.\n\n(Yes or No) (It Yes, speelly Unit and Period of Service)\n\n14\\. Did you serve during the Great War 1914-1918?.\nNo\n\n(If Yes, specity Regimental No., Unit and Dates of Service)\n\n\n# DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nPercy Donald Abel\ndo solemnly declare that the above\nparticulars are true, and I hereby engage to serve in the Canadian Active Service Force so long as an emergency,\ni.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the period of demobilization after\nsaid emergency ceases to exist, and in any event for a period of not less than one year, provided His Majesty\nshould so require my services.\n\nDate.\n19 July 1940\n\nU.F. murphy\n\nwitness\n(Signature of recruit)\nPD Dul\n\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI,\nPercy Donald Abel\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\nTAciml.\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nat\nDundas, Ont.\nthis.\n19th\nday of\nJuly\n1940\n\nJohn E. Builder\nSignature of Magistrate, Justice\n1\nor Attesting Officer.\n\nCapt. 41/102nd Ed. Bty. RGA CASE\n\nOffice or Rank and Unit\n1\nor appointment.\n\n1\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\nFINGERPRINTED\n\nF\n\n(It Yes, Give Unit and Dates of Servine)\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "B.15002",
+          "spans": [
+            {
+              "offset": 288,
+              "length": 7
+            }
+          ],
+          "confidence": 0.971,
+          "source": "D(1,955.0000,305.0000,1043.0000,305.0000,1043.0000,326.0000,955.0000,326.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "Abel",
+          "spans": [
+            {
+              "offset": 366,
+              "length": 4
+            }
+          ],
+          "confidence": 0.979,
+          "source": "D(1,536.0000,417.0000,592.0000,417.0000,592.0000,441.0000,536.0000,440.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Percy Donald",
+          "spans": [
+            {
+              "offset": 393,
+              "length": 12
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,534.0000,459.0000,706.0000,459.0000,706.0000,487.0000,534.0000,487.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "R.R. #1 West Flamboro Ont.",
+          "spans": [
+            {
+              "offset": 428,
+              "length": 26
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,533.0000,495.0000,914.0000,495.0000,914.0000,525.0000,533.0000,525.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1915-11-07",
+          "spans": [
+            {
+              "offset": 474,
+              "length": 17
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,536.0000,538.0000,777.0000,538.0000,777.0000,565.0000,536.0000,565.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 522,
+              "length": 6
+            }
+          ],
+          "confidence": 0.87,
+          "source": "D(1,366.0000,580.0000,453.0000,582.0000,453.0000,606.0000,366.0000,604.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Wentworth",
+          "spans": [
+            {
+              "offset": 550,
+              "length": 9
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,616.0000,581.0000,748.0000,582.0000,748.0000,607.0000,616.0000,606.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Beverley",
+          "spans": [
+            {
+              "offset": 579,
+              "length": 8
+            }
+          ],
+          "confidence": 0.959,
+          "source": "D(1,939.0000,584.0000,1057.0000,586.0000,1056.0000,611.0000,939.0000,608.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Anglican",
+          "spans": [
+            {
+              "offset": 623,
+              "length": 8
+            }
+          ],
+          "confidence": 0.812,
+          "source": "D(1,536.0000,624.0000,652.0000,625.0000,652.0000,650.0000,535.0000,649.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Farmer",
+          "spans": [
+            {
+              "offset": 655,
+              "length": 6
+            }
+          ],
+          "confidence": 0.978,
+          "source": "D(1,533.0000,667.0000,622.0000,667.0000,621.0000,692.0000,532.0000,691.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 695,
+              "length": 6
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,535.0000,707.0000,621.0000,707.0000,621.0000,737.0000,534.0000,737.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Hannah May Elizabeth Abel",
+          "spans": [
+            {
+              "offset": 727,
+              "length": 25
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,534.0099,746.7288,884.2136,749.4435,883.9945,777.7131,533.7907,774.9984)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Mother",
+          "spans": [
+            {
+              "offset": 772,
+              "length": 6
+            }
+          ],
+          "confidence": 0.832,
+          "source": "D(1,533.0000,793.0000,622.0000,793.0000,621.0000,818.0000,533.0000,817.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "R.R. #1 West Flamboro Ont.",
+          "spans": [
+            {
+              "offset": 832,
+              "length": 26
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,532.0000,830.0000,910.0000,830.0000,910.0000,861.0000,532.0000,861.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "102nd (Went) Fla. Bty. R.C.A.",
+          "spans": [
+            {
+              "offset": 940,
+              "length": 29
+            }
+          ],
+          "confidence": 0.412,
+          "source": "D(1,324.0000,905.0000,744.0000,905.0000,744.0000,931.0000,324.0000,931.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "PD Dul",
+          "spans": [
+            {
+              "offset": 1854,
+              "length": 6
+            }
+          ],
+          "confidence": 0.756,
+          "source": "D(1,739.0000,1270.0000,949.0000,1270.0000,949.0000,1333.0000,739.0000,1333.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "John E. Builder",
+          "spans": [
+            {
+              "offset": 2644,
+              "length": 15
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,401.4340,1664.9811,708.9860,1660.9344,709.5707,1705.3741,402.0187,1709.4208)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "Capt. 41/102nd Ed. Bty. RGA CASE",
+          "spans": [
+            {
+              "offset": 2718,
+              "length": 32
+            }
+          ],
+          "confidence": 0.755,
+          "source": "D(1,373.0000,1727.0000,751.0000,1727.0000,751.0000,1753.0000,373.0000,1753.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Dundas, Ont.",
+          "spans": [
+            {
+              "offset": 2602,
+              "length": 12
+            }
+          ],
+          "confidence": 0.961,
+          "source": "D(1,231.0000,1630.0000,377.0000,1630.0000,377.0000,1652.0000,231.0000,1652.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1940-07-19",
+          "spans": [
+            {
+              "offset": 2621,
+              "length": 4
+            },
+            {
+              "offset": 2633,
+              "length": 4
+            },
+            {
+              "offset": 2638,
+              "length": 4
+            }
+          ],
+          "confidence": 0.74,
+          "source": "D(1,594.0000,1631.0000,646.0000,1631.0000,646.0000,1652.0000,594.0000,1652.0000);D(1,850.0000,1630.0000,903.0000,1630.0000,903.0000,1653.0000,850.0000,1653.0000);D(1,1087.0000,1637.0000,1143.0000,1636.0000,1143.0000,1660.0000,1087.0000,1661.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "PD Dul",
+          "spans": [
+            {
+              "offset": 1854,
+              "length": 6
+            }
+          ],
+          "confidence": 0.511,
+          "source": "D(1,739.0000,1270.0000,949.0000,1270.0000,949.0000,1333.0000,739.0000,1333.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "U.F. murphy",
+          "spans": [
+            {
+              "offset": 1810,
+              "length": 11
+            }
+          ],
+          "confidence": 0.673,
+          "source": "D(1,181.0000,1327.0000,371.0000,1327.0000,371.0000,1355.0000,181.0000,1355.0000)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "ORIGINAL",
+          "spans": [
+            {
+              "offset": 12,
+              "length": 8
+            }
+          ],
+          "confidence": 0.628,
+          "source": "D(1,184.0000,186.0000,276.0000,185.0000,276.0000,204.0000,184.0000,205.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.013
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.1404411,
+          "width": 1383,
+          "height": 2042
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:06:42Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: AIR FORCE NO R. 180521 -->\n<!-- PageHeader: POSTED TO #5 Manning Depot, RCAF LACHIKD QNO -->\n<!-- PageHeader: TRADE Airerew (A.d.) (Std) -->\n\n\n# ROYAL CANADIAN AIR FORCE (ATTESTATION PAPER)\n\nA9-2\n\n\n## (Pages one and two, only, are to be completed in Applicant's own Handwriting)\n\nrname\nABRAMS\n\nFULL Christian Names.\nStanley William\n\n2\\. Present Address 824 Pitt St., Cornwall, Ont.\n\nTelephone 184\n\n3\\. Permanent Address.\n824 Pitt St., Cornwall, Ont.\n\n4\\. Place of Birth\nMoulinette, Ont.\n\nCitizenship\nCanadian\n\n5\\. Date of Birth\nApr. 6. 1924 /\nv\nMarried, Single, Widower, Separated, Divorced.\nSingle\n\n6\\. Particulars of Children\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>N.A.</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n7\\. Occupation\nDrover\n\n8\\. Religion\nUnited Church\nState denomination\n\n9\\. Languages\nState proficiency\n\n10\\. Next of Kin (Full Name) Mrs. Nellie Abrams\n\nRelationship\nMother\n\n\"\nAddress 824 Pitt St., Cornwall, Ont.\n\n11\\. Father (Full Name)\nMesley John Abrams\n\nBirthplace.\nMoulinette. Ont.\n\n\" Address 824 Pitt St., Cornwall, Ont.\n\nCitizenship\nCanadian\n\n\"\nOccupation\nDrover\n\n12\\. Mother (Full Maiden Name)\nNellie Plumadore\n\nBirthplace.\nMoulinette, Ont.\n\n\"\nAddress\n824 Pitt St., Cornwall, Ont.\n\nCitizenship\nCanadian\n\n13\\. Details of any Naval, Military or Air Force Service:\n\n\n<table>\n<tr>\n<th rowspan=\"2\">Unit</th>\n<th rowspan=\"2\">Place</th>\n<th rowspan=\"2\">Rank</th>\n<th colspan=\"2\"></th>\n<th colspan=\"2\">Date</th>\n<th rowspan=\"2\">Reason To</th>\n<th rowspan=\"2\">discharge</th>\n</tr>\n<tr>\n<td>Trade</td>\n<td>R.C</td>\n<td colspan=\"2\">AFFom ecTo</td>\n</tr>\n<tr>\n<td>None</td>\n<td></td>\n<td></td>\n<td></td>\n<td>Rec'o</td>\n<td>I JUL</td>\n<td>27</td>\n<td>942<br>SF</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>0.1</td>\n<td>VO</td>\n<td></td>\n<td>Rm</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>N.\u0661\u0660</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>P.A.</td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n14\\. Honours, Awards, Mentions.\nNo\n\n15\\. Are you now on any Naval, Military or Air Force Reserve?.\nNo\n\n16\\. Have you previously made application to join the R.C.A.F.?\nNo\nIf so, where?\nN.A.\n\nWhen?\nN.A.\n\nResult\nN.A.\n\n17\\. Were you ever discharged from any branch of His Majesty's Forces as Medically Unfit?.\nNo\n\nIf so, state nature of disability\nN.A.\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension?\nNo\n\nIf so, state nature of Disability\nN.A.\n\n19\\. Have you ever been convicted of an indictable offence?\nNo\n\nIf so state nature.\nN.A.\n\n20\\. Are you in debt?\nNo\nIf so, state particulars\nN.A.\n\n<!-- PageFooter: R.C.A.F. Form R. 100 150M-10-41 (993) H.Q. 1062-3-83 -->\n<!-- PageNumber: 482-51 -->\n\nun\n\nEnglish (fluently).\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "R. 180521",
+          "spans": [
+            {
+              "offset": 30,
+              "length": 9
+            }
+          ],
+          "confidence": 0.581,
+          "source": "D(1,354.0000,152.0000,467.0000,152.0000,467.0000,178.0000,354.0000,178.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABRAMS",
+          "spans": [
+            {
+              "offset": 303,
+              "length": 6
+            }
+          ],
+          "confidence": 0.806,
+          "source": "D(1,360.0000,397.0000,444.0000,397.0000,444.0000,421.0000,360.0000,420.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Stanley William",
+          "spans": [
+            {
+              "offset": 333,
+              "length": 15
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,948.0076,394.4700,1154.1475,395.5007,1153.9949,426.0300,947.8550,424.9993)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "824 Pitt St., Cornwall, Ont.",
+          "spans": [
+            {
+              "offset": 370,
+              "length": 28
+            }
+          ],
+          "confidence": 0.936,
+          "source": "D(1,371.0000,441.0000,748.0000,441.0000,748.0000,470.0000,371.0000,470.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1924-04-06",
+          "spans": [
+            {
+              "offset": 545,
+              "length": 12
+            }
+          ],
+          "confidence": 0.899,
+          "source": "D(1,386.0000,575.0000,550.0000,575.0000,550.0000,604.0000,386.0000,604.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ont.",
+          "spans": [
+            {
+              "offset": 499,
+              "length": 4
+            }
+          ],
+          "confidence": 0.818,
+          "source": "D(1,587.0000,529.0000,641.0000,529.0000,641.0000,555.0000,587.0000,555.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Moulinette",
+          "spans": [
+            {
+              "offset": 487,
+              "length": 10
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,425.0000,529.0000,562.0000,529.0000,562.0000,555.0000,425.0000,554.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ont.",
+          "spans": [
+            {
+              "offset": 1240,
+              "length": 4
+            }
+          ],
+          "confidence": 0.939,
+          "source": "D(1,1191.0000,1060.0000,1245.0000,1060.0000,1245.0000,1088.0000,1191.0000,1088.0000)"
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Moulinette",
+          "spans": [
+            {
+              "offset": 1228,
+              "length": 10
+            }
+          ],
+          "confidence": 0.965,
+          "source": "D(1,1030.0000,1060.0000,1166.0000,1060.0000,1166.0000,1088.0000,1030.0000,1088.0000)"
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ont.",
+          "spans": [
+            {
+              "offset": 1402,
+              "length": 4
+            }
+          ],
+          "confidence": 0.943,
+          "source": "D(1,1177.0907,1192.0041,1233.2021,1194.5546,1231.8866,1223.4948,1175.7753,1220.9443)"
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Moulinette",
+          "spans": [
+            {
+              "offset": 1390,
+              "length": 10
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,1017.0000,1194.0000,1152.0000,1194.0000,1152.0000,1221.0000,1017.0000,1221.0000)"
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "Canadian",
+          "spans": [
+            {
+              "offset": 517,
+              "length": 8
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,1096.0000,531.0000,1207.0000,532.0000,1207.0000,556.0000,1096.0000,557.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "United Church",
+          "spans": [
+            {
+              "offset": 995,
+              "length": 13
+            }
+          ],
+          "confidence": 0.918,
+          "source": "D(1,1003.0000,883.0000,1183.0000,883.0000,1183.0000,910.0000,1003.0000,910.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Drover",
+          "spans": [
+            {
+              "offset": 974,
+              "length": 6
+            }
+          ],
+          "confidence": 0.974,
+          "source": "D(1,360.0000,884.0000,445.0000,884.0000,445.0000,910.0000,360.0000,909.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 609,
+              "length": 6
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,1202.0000,582.0000,1288.0000,582.0000,1288.0000,610.0000,1202.0000,610.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mrs. Nellie Abrams",
+          "spans": [
+            {
+              "offset": 1091,
+              "length": 18
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,464.0000,972.0000,713.0000,972.0000,713.0000,1001.0000,464.0000,1001.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Mother",
+          "spans": [
+            {
+              "offset": 1124,
+              "length": 6
+            }
+          ],
+          "confidence": 0.927,
+          "source": "D(1,1043.0000,972.0000,1130.0000,973.0000,1130.0000,998.0000,1043.0000,998.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "824 Pitt St., Cornwall, Ont.",
+          "spans": [
+            {
+              "offset": 1142,
+              "length": 28
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,429.0000,1013.0000,804.0000,1013.0000,804.0000,1043.0000,429.0000,1043.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "None",
+          "spans": [
+            {
+              "offset": 1818,
+              "length": 4
+            }
+          ],
+          "confidence": 0.739,
+          "source": "D(1,202.0000,1422.0000,259.0000,1422.0000,258.0000,1449.0000,201.0000,1449.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0,
+          "width": 1487,
+          "height": 2284
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T00:56:36Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: AIR FORCE NO. R-100271 POSTED TO #2 Manning Depot Brandon -->\n<!-- PageHeader: TRADE AC 2 Stan. (Aircrew) -->\n<!-- PageHeader: L.H.P SPECIAL RESERVE AC.32 -->\n\n\n![](figures/1.1)\n\n\nPilot or Observer\n\n\n# ROYAL CANADIAN AIR FORCE (ATTESTATION PAPER) (Pages one and two, only, are to be completed in Applicant's own Handwriting)\n\n1\\. Surname\nABBOTT.\n\nFULL Christian Names.\nWILLIAM GEOFFREY. JR.\n\n2\\. Present Address 218 Morley Unl.win\u00f1ipeg nor\n\nTelephone45-946.\n\n3\\. Permanent Address 218 Morky hue wemnipigma\n\n4\\. Place of Birth\nNeittoad orn. US.A.\n\nCitizenship.\nSutich\n\n5\\. Date of Birth\nJuly 30th 1921\n\nMarried, Single, Widower, Separated, Divorced\ndingle.\n\n6\\. Particulars of Children\nnone\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>me</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n7\\. Occupation.\nDipotitting\n\n8\\. Religion Luglican.\n\n9\\. Languages\nEaghik only.\nState denomination\n\n10\\. Next of Kin (Full Na Millian Jerffung Whrst. R\u00e9lationship Sachea.\n.\n\n\" Address 28 hosley Oul., Selenipea hMeitoba\n\n11\\. Father (Full Name) Aeliefie Gerlfrey Ustott. Mrtodace Rondon England.\n\n\" Address 2.8 morley Gud.capyma Cirtizenship Daitisa.\n\n\" Occupation.\nIrechenical Enginees\n\n12\\. Mother (Full Maiden Name) FmilyAthinsonLlesurefs. Hanchester, Eng.\n\n\"Address 218 nostlyhue rop\u00e1 Citizenship Dictish\n\n13\\. Details of any Naval, Military or Air Force Service:\n\n\n<table>\n<tr>\n<th>Unit</th>\n<th>Place</th>\n<th>Rank</th>\n<th>Trad</th>\n<th>R.C.A</th>\n<th>Date<br>Frrine: Tas</th>\n<th>Office<br>Reason</th>\n<th>for discharge</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>Rec'd</td>\n<td>JUN 17 1941</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>NONE</td>\n<td></td>\n<td>O. K.</td>\n<td>ITa gi\u00f4nlyh</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>R. C</td>\n<td>anite</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>S.t</td>\n<td>P.A.</td>\n<td>H</td>\n<td></td>\n</tr>\n</table>\n\n\n14\\. Honours, Awards, Mentions.\nNONE.\n\n15\\. Are you now on any Naval, Military or Air Force Reserve?.\nNo.\n\n16\\. Have you previously made application to join the R.C.A.F.? No.\n\nIf so, where? ne\nWhen?\nna\n\nResult ac\n\n17\\. Were you ever discharged from any branch of His Majesty's Forces as Medically Unfit?\nNo.\n\nIf so, state nature of disability\nn/a\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension?\nNo.\n\nIf so, state nature of Disability.\n-a\n\n19\\. Have you ever been convieted of an indictable offence? No. If so state nature Lara\n\n20\\. Are you in debt? No. If so, state particulars zk\n\n<!-- PageFooter: R.C.A.F. Form R. 100 100M-2-40 (3924) H.Q. 1062-3-SS -->\n<!-- PageFooter: 169-1 m -->\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "R-100271",
+          "spans": [
+            {
+              "offset": 31,
+              "length": 8
+            }
+          ],
+          "confidence": 0.741,
+          "source": "D(1,226.0000,68.0000,328.0000,68.0000,328.0000,92.0000,226.0000,92.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABBOTT.",
+          "spans": [
+            {
+              "offset": 355,
+              "length": 7
+            }
+          ],
+          "confidence": 0.757,
+          "source": "D(1,184.2448,268.9332,324.2443,270.0019,323.9991,302.1145,183.9997,301.0458)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "WILLIAM GEOFFREY. JR.",
+          "spans": [
+            {
+              "offset": 386,
+              "length": 21
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,713.0000,267.0000,1121.0000,267.0000,1121.0000,308.0000,713.0000,308.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "218 Morley Unl.win\u00f1ipeg nor",
+          "spans": [
+            {
+              "offset": 429,
+              "length": 27
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,234.3889,307.2480,783.3675,312.4863,782.9786,353.2383,234.0000,348.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1921-07-30",
+          "spans": [
+            {
+              "offset": 603,
+              "length": 14
+            }
+          ],
+          "confidence": 0.82,
+          "source": "D(1,220.0000,430.0000,485.0000,430.0000,485.0000,467.0000,220.0000,467.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "US.A.",
+          "spans": [
+            {
+              "offset": 557,
+              "length": 5
+            }
+          ],
+          "confidence": 0.653,
+          "source": "D(1,525.0092,387.3625,638.5651,389.0082,637.9950,428.3478,524.4391,426.7020)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Neittoad orn.",
+          "spans": [
+            {
+              "offset": 543,
+              "length": 13
+            }
+          ],
+          "confidence": 0.753,
+          "source": "D(1,224.0000,387.0000,494.0000,387.0000,494.0000,426.0000,224.0000,426.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "England.",
+          "spans": [
+            {
+              "offset": 1305,
+              "length": 8
+            }
+          ],
+          "confidence": 0.761,
+          "source": "D(1,969.0059,865.3766,1140.4082,867.0039,1139.9974,910.2753,968.5951,908.6481)"
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Rondon",
+          "spans": [
+            {
+              "offset": 1298,
+              "length": 6
+            }
+          ],
+          "confidence": 0.589,
+          "source": "D(1,790.0000,865.0000,953.0000,866.0000,953.0000,907.0000,790.0000,905.0000)"
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Eng.",
+          "spans": [
+            {
+              "offset": 1473,
+              "length": 4
+            }
+          ],
+          "confidence": 0.74,
+          "source": "D(1,1019.0012,984.9079,1102.5262,986.0069,1101.9962,1026.2894,1018.4712,1025.1904)"
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Hanchester",
+          "spans": [
+            {
+              "offset": 1461,
+              "length": 10
+            }
+          ],
+          "confidence": 0.614,
+          "source": "D(1,823.0000,983.0000,1013.0000,985.0000,1013.0000,1025.0000,823.0000,1022.0000)"
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "Sutich",
+          "spans": [
+            {
+              "offset": 577,
+              "length": 6
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,849.0000,389.0000,986.0000,392.0000,984.0000,431.0000,848.0000,430.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Luglican.",
+          "spans": [
+            {
+              "offset": 1061,
+              "length": 9
+            }
+          ],
+          "confidence": 0.608,
+          "source": "D(1,767.8723,703.0003,977.9984,702.4294,978.1262,749.4290,768.0000,750.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Dipotitting",
+          "spans": [
+            {
+              "offset": 1035,
+              "length": 11
+            }
+          ],
+          "confidence": 0.52,
+          "source": "D(1,183.0000,698.0000,412.0000,699.0000,411.0000,741.0000,182.0000,741.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "dingle.",
+          "spans": [
+            {
+              "offset": 665,
+              "length": 7
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,951.0768,434.5172,1096.9962,431.7948,1097.9287,481.7774,952.0093,484.4998)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "spans": [
+            {
+              "offset": 702,
+              "length": 4
+            }
+          ],
+          "confidence": 0.96,
+          "source": "D(1,300.0000,495.0000,394.0000,496.0000,394.0000,517.0000,300.0000,516.0000)"
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Millian Jerffung Whrst.",
+          "spans": [
+            {
+              "offset": 1145,
+              "length": 23
+            }
+          ],
+          "confidence": 0.617,
+          "source": "D(1,265.0000,785.0000,651.0000,785.0000,651.0000,823.0000,265.0000,823.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Sachea.",
+          "spans": [
+            {
+              "offset": 1182,
+              "length": 7
+            }
+          ],
+          "confidence": 0.586,
+          "source": "D(1,809.0019,785.7519,975.2857,787.0021,974.9981,825.2481,808.7143,823.9979)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "28 hosley Oul., Selenipea hMeitoba",
+          "spans": [
+            {
+              "offset": 1203,
+              "length": 34
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,282.0000,826.0000,959.0000,826.0000,959.0000,864.0000,282.0000,864.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "valueString": "NONE.",
+          "spans": [
+            {
+              "offset": 2217,
+              "length": 5
+            }
+          ],
+          "confidence": 0.877,
+          "source": "D(1,395.0000,1333.0000,511.0000,1333.0000,511.0000,1368.0000,395.0000,1368.0000)"
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.1963162,
+          "width": 1160,
+          "height": 1875
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

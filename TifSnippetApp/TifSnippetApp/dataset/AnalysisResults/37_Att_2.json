@@ -1,0 +1,360 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:06:22Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: SPECIAL RESERVE -->\n<!-- PageHeader: AIR FORCE NO. R.265753 -->\n<!-- PageHeader: #3 \"M\" Depot, RCAF., POSTED TO Edmonton, Alberta -->\n<!-- PageHeader: TRADE Std. Aircrew. -->\n\n\n# ROYAL CANADIAN AIR FORCE (ATTESTATION PAPER)\n\n\n## . (Pages one and two, only, are to be completed in Applicant's own Handwriting) \u2713\n\n1\\. Surname\nABRAMS\n\u2713\n\nFULL Christian Names\nROBERT WILLIAM\n\n2\\. Present Address.\nRockhaven, Sask.\n\nTelephone\n10-11\n\n3\\. Permanent Address\nRockhaven, Sask.\n\n4\\. Place of Birth\n4-43-20-3, Sask.\u221a\n\nCitizenship\nCanadian\n\u2713\n\n5\\. Date of Birth\nMay 30, 1924\n\nMarried, Single, Widower, Separated, Divorced\nSingle\n\n6\\. Particulars of Children\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td>N.A.</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>\u2713</td>\n<td></td>\n</tr>\n</table>\n\n\n7\\. Occupation\nFarming\n\u2713\n\n8\\. Religion\nUnited Church\nState denomination\n\n9\\. Languages\nEnglish\n\nState proficiency\n\n10\\. Next of Kin (Full Name)\nHubert James Abrams\n\nRelationship\nFather\n1.\n\n\"\nAddress\nRockhaven, Saskatchewan.\n\n11\\. Father (Full Name)\nHubert James\nAbrams\nv\nBirthplace\nGrey Countey, Ontario.\n\n\" Address\nRockhaven, Saskatchewan\n\nCitizenship\nCanadian\n1\n\u2713\n\n\" Occupation\nFarmer\n\u2713\n\n12\\. Mother (Full Maiden Name)\nElla Mabel Reid\n1\nBirthplace London, England\n\n\"\nAddress\nRockhaven, Sask.\n\nCitizenship\nCanadian\n1\n\n13\\. Details of any Naval, Military or Air Force Service:\n\n\n<table>\n<tr>\n<th rowspan=\"2\">Unit</th>\n<th rowspan=\"2\">Place</th>\n<th rowspan=\"2\">Rank</th>\n<th rowspan=\"2\">Trade</th>\n<th colspan=\"2\">Date</th>\n<th colspan=\"2\" rowspan=\"2\">Reason for discharge</th>\n</tr>\n<tr>\n<th>From</th>\n<th>To</th>\n</tr>\n<tr>\n<td>N/A</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td>\u2713 RC<br>1</td>\n<td>A.E.R</td>\n<td>.corde</td>\n<td>Office</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>SEP</td>\n<td>18</td>\n<td>943</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td>Rec'd</td>\n<td>M.</td>\n<td></td>\n<td>em....</td>\n<td></td>\n</tr>\n</table>\n\n\n14\\. Honours, Awards, Mentions.\nN/A\n\nR oMH\nRim\n\n15\\. Are you now on any Naval, Military or Air Force Reserve?.\nNO\n\nP. A.\n\n16\\. Have you previously made application to join the R.C.A.F.?\nNO\n\nIf so, where?\nN/A\n\nWhen?\nN/A\n\nResult\nN/A\n\n17\\. Were you ever discharged from any branch of His Majesty's Forces as Medically Unfit?\nNO\n\nIf so, state nature of disability\nN/A\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension?\nNO\n\nIf so, state nature of Disability\nN/A\n\n19\\. Have you ever been convicted of an indictable offence?\nNO\n\nIf so state nature.\nN/A\n\n20\\. Are you in debt?\nNO\nIf so, state particulars.\nN/A\n\n4\n\n<!-- PageFooter: K.O.A.F. Form R. 100 ACOM-6-50 (8789) H.Q. 1062-3-83 -->\n\n695-158\n\nJUL 26 1943\n\n1\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "R.265753",
+          "spans": [
+            {
+              "offset": 68,
+              "length": 8
+            }
+          ],
+          "confidence": 0.81,
+          "source": "D(1,342.0000,165.0000,458.0000,165.0000,458.0000,190.0000,342.0000,190.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABRAMS",
+          "spans": [
+            {
+              "offset": 341,
+              "length": 6
+            }
+          ],
+          "confidence": 0.914,
+          "source": "D(1,389.0000,406.0000,473.0000,406.0000,473.0000,430.0000,389.0000,430.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "ROBERT WILLIAM",
+          "spans": [
+            {
+              "offset": 372,
+              "length": 14
+            }
+          ],
+          "confidence": 0.954,
+          "source": "D(1,973.0034,405.4398,1170.1528,406.6274,1169.9959,432.6867,972.8464,431.4991)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "Rockhaven, Sask.",
+          "spans": [
+            {
+              "offset": 409,
+              "length": 16
+            }
+          ],
+          "confidence": 0.961,
+          "source": "D(1,467.0000,452.0000,689.0000,452.0000,689.0000,479.0000,467.0000,479.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1924-05-30",
+          "spans": [
+            {
+              "offset": 564,
+              "length": 12
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,468.0000,582.0000,678.0000,582.0000,678.0000,614.0000,468.0000,614.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Sask.",
+          "spans": [
+            {
+              "offset": 514,
+              "length": 5
+            }
+          ],
+          "confidence": 0.893,
+          "source": "D(1,619.0000,541.0000,686.0000,541.0000,686.0000,567.0000,619.0000,567.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "4-43-20-3",
+          "spans": [
+            {
+              "offset": 503,
+              "length": 9
+            }
+          ],
+          "confidence": 0.729,
+          "source": "D(1,469.0000,541.0000,593.0000,541.0000,593.0000,567.0000,469.0000,567.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Ontario.",
+          "spans": [
+            {
+              "offset": 1271,
+              "length": 8
+            }
+          ],
+          "confidence": 0.444,
+          "source": "D(1,1202.0000,1084.0000,1312.1336,1084.5562,1311.9972,1111.5555,1201.8636,1110.9993)"
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Grey Countey",
+          "spans": [
+            {
+              "offset": 1257,
+              "length": 12
+            }
+          ],
+          "confidence": 0.721,
+          "source": "D(1,1013.0049,1082.4723,1178.2500,1084.0023,1177.9951,1111.5277,1012.7500,1109.9977)"
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "England",
+          "spans": [
+            {
+              "offset": 1433,
+              "length": 7
+            }
+          ],
+          "confidence": 0.738,
+          "source": "D(1,1119.0000,1221.0000,1219.0000,1221.0000,1219.0000,1251.0000,1119.0000,1251.0000)"
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "London",
+          "spans": [
+            {
+              "offset": 1425,
+              "length": 6
+            }
+          ],
+          "confidence": 0.916,
+          "source": "D(1,1011.0000,1221.0000,1095.0000,1221.0000,1095.0000,1251.0000,1011.0000,1251.0000)"
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "Canadian",
+          "spans": [
+            {
+              "offset": 534,
+              "length": 8
+            }
+          ],
+          "confidence": 0.96,
+          "source": "D(1,1096.0000,542.0000,1209.0000,542.0000,1209.0000,566.0000,1096.0000,566.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "United Church",
+          "spans": [
+            {
+              "offset": 1014,
+              "length": 13
+            }
+          ],
+          "confidence": 0.905,
+          "source": "D(1,1042.0063,899.9346,1221.1607,901.0010,1220.9996,928.0655,1041.8452,926.9991)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Farming",
+          "spans": [
+            {
+              "offset": 990,
+              "length": 7
+            }
+          ],
+          "confidence": 0.972,
+          "source": "D(1,384.0000,898.0000,484.0000,898.0000,483.0000,925.0000,383.0000,925.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 624,
+              "length": 6
+            }
+          ],
+          "confidence": 0.959,
+          "source": "D(1,1232.0000,588.0000,1316.0000,588.0000,1316.0000,615.0000,1232.0000,615.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "spans": [
+            {
+              "offset": 764,
+              "length": 4
+            }
+          ],
+          "confidence": 0.74,
+          "source": "D(1,260.0362,728.6955,317.6862,730.2968,316.9699,756.0825,259.3200,754.4811)"
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Hubert James Abrams",
+          "spans": [
+            {
+              "offset": 1119,
+              "length": 19
+            }
+          ],
+          "confidence": 0.914,
+          "source": "D(1,504.0000,981.0000,770.1422,982.5473,769.9910,1008.5465,503.8488,1006.9991)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Father",
+          "spans": [
+            {
+              "offset": 1153,
+              "length": 6
+            }
+          ],
+          "confidence": 0.959,
+          "source": "D(1,1038.0000,980.0000,1125.0000,983.0000,1125.0000,1007.0000,1038.0000,1005.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "Rockhaven, Saskatchewan.",
+          "spans": [
+            {
+              "offset": 1174,
+              "length": 24
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,504.0000,1029.0000,834.1627,1030.9889,833.9987,1058.2229,503.8359,1056.2340)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "valueString": "N/A",
+          "spans": [
+            {
+              "offset": 2253,
+              "length": 3
+            }
+          ],
+          "confidence": 0.942,
+          "source": "D(1,614.0000,1604.0000,659.0000,1604.0000,659.0000,1635.0000,614.0000,1635.0000)"
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1943-07-26",
+          "spans": [
+            {
+              "offset": 2936,
+              "length": 11
+            }
+          ],
+          "confidence": 0.819,
+          "source": "D(1,1371.0000,2187.0000,1385.0235,2004.6941,1416.8353,2007.1412,1402.8118,2189.4471)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0,
+          "width": 1506,
+          "height": 2316
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

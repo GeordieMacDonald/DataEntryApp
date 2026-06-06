@@ -1,0 +1,377 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T00:54:35Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: SPECIAL RESERVE -->\n<!-- PageHeader: AIR FORCE NOR114434 -->\n<!-- PageHeader: #1 Manning Depot. POSTED TO.Terente, Ont. -->\n<!-- PageHeader: General. Duties Std. TRADE. -->\n\nROYAL CANADIAN AIR FORCE\n(ATTESTATION PAPER)\n(Pages one and two, only, are to be completed in Applicant's own Handwriting)\n\n1\\. Surname\nABBOTT\n\nFULL Christian Names.\nDOUGLAS ARTHUR\n\n2\\. Present Address.\n#10 B.2.C., Kitchener, Ont.\n\nTelephone.\nN.A.\n\n3\\. Permanent Address.\n16 Eepbourne Ave., Toronto, Ont.\n\n4\\. Place of Birth\nToronto, Ont.\n\nCitizenship.\nCanadian\n\n5\\. Date of Birth\nDecember 20th, 1919 Married, Single, Widower, Separated,-Divorced Single.\n\n6\\. Particulars of Children\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td>N.A.</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n7\\. Occupation\nPasteurizer\n\n8\\. Religion\nAnglican\nState denomination\n\n9\\. Languages.\n\nEnglish(Fluently)\n\nState proficiency\n\n10\\. Next of Kin (Full Name)\n\nOlive Susan Abbott\n\nRelationship\nNother.\n\n\"\nAddress 16 Hepbourne Ave., Toronto, Ont.\n\n11\\. Father (Full Name)\nJohn Arthur Abbott\n\nBirthplace.\nSudbury. Ont.\n\n\" Address.\n657 Ossington Ave., Toronto\n\nCitizenship\nCanadian\n\n\"\nOccupation\nBanker.\n\n12\\. Mother (Full Maiden Name) Olive Susan turner\n\nBirthplace\n\nSussex England\n\n\"\nAddress.\n16 Hepbourne Ave., Toronto\n\nCitizenship\n\nCanadian\n\n13\\. Details of any Naval, Military or Air Force Service:\n\n\n<table>\n<tr>\n<th rowspan=\"2\">Unit</th>\n<th rowspan=\"2\">Place</th>\n<th rowspan=\"2\">Rank</th>\n<th rowspan=\"2\">Trade</th>\n<th colspan=\"2\">Date</th>\n<th rowspan=\"2\">Reason for discharge</th>\n</tr>\n<tr>\n<th>From</th>\n<th>To</th>\n</tr>\n<tr>\n<td>#10 B.T.C.</td>\n<td>Kitchener,</td>\n<td>Ont. Pte.</td>\n<td>R.C.A.F.Reco:</td>\n<td>May 20</td>\n<td>July</td>\n<td>Join R.C.A.F.</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>1491</td>\n<td>1941</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td>Rec'd. AUG<br>16</td>\n<td></td>\n<td>2</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td>Ro gli</td>\n<td>2</td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n14\\. Honours, Awards, Mentions.\nNONE\n\n15\\. Are you now on any Naval, Military or Air Force Reseive?,\nYES\n\n16\\. Have you previously made application to join the R.C.A.F.?...NO\nIf so, where?\nN.\n\nWhen?\nN.A.\n\nResult\nN.A.\n\n17\\. Were you ever discharged from any branch of His Majesty's Forees as Medically Unfit?.\nNO\n\nIf so, state nature of disability\nN.A.\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension?.\nNO\n\nIf so, state nature of Disability\nH.A.\n\n19\\. Have you ever been convicted of an indictable offence? NO\nIf so state nature.\nN.A.\n\n20\\. Are you in debt?\nNO\nIf so, state particulars.\nNA\n\n<!-- PageFooter: R.C.A.F. Form R. 100 400M -6-40 (5730) H.Q 1042-3-33 -->\n\n133.36\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "NOR114434",
+          "spans": [
+            {
+              "offset": 64,
+              "length": 9
+            }
+          ],
+          "confidence": 0.52,
+          "source": "D(1,154.0000,67.0000,273.0000,65.0000,273.0000,93.0000,154.0000,94.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABBOTT",
+          "spans": [
+            {
+              "offset": 327,
+              "length": 6
+            }
+          ],
+          "confidence": 0.937,
+          "source": "D(1,199.0000,272.0000,275.0000,272.0000,274.0000,295.0000,198.0000,295.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "DOUGLAS ARTHUR",
+          "spans": [
+            {
+              "offset": 357,
+              "length": 14
+            }
+          ],
+          "confidence": 0.973,
+          "source": "D(1,752.0000,282.0000,928.0000,282.0000,928.0000,305.0000,752.0000,305.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "#10 B.2.C., Kitchener, Ont.",
+          "spans": [
+            {
+              "offset": 394,
+              "length": 27
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,317.0000,314.0000,659.0000,314.0000,659.0000,346.0000,317.0000,346.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1919-12-20",
+          "spans": [
+            {
+              "offset": 572,
+              "length": 19
+            }
+          ],
+          "confidence": 0.822,
+          "source": "D(1,247.0029,439.4382,477.1463,440.6245,476.9987,469.2526,246.8553,468.0663)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ont.",
+          "spans": [
+            {
+              "offset": 525,
+              "length": 4
+            }
+          ],
+          "confidence": 0.753,
+          "source": "D(1,392.3002,392.5478,445.2477,397.1520,442.7036,426.4090,389.7561,421.8049)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Toronto",
+          "spans": [
+            {
+              "offset": 516,
+              "length": 7
+            }
+          ],
+          "confidence": 0.961,
+          "source": "D(1,283.0000,395.0000,369.0000,396.0000,369.0000,422.0000,283.0000,421.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ont.",
+          "spans": [
+            {
+              "offset": 1294,
+              "length": 4
+            }
+          ],
+          "confidence": 0.868,
+          "source": "D(1,949.0773,873.4539,1001.2469,876.0623,999.9227,902.5461,947.7531,899.9377)"
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Sudbury",
+          "spans": [
+            {
+              "offset": 1285,
+              "length": 7
+            }
+          ],
+          "confidence": 0.924,
+          "source": "D(1,843.0000,874.0000,928.0000,875.0000,928.0000,899.0000,843.0000,899.0000)"
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "England",
+          "spans": [
+            {
+              "offset": 1454,
+              "length": 7
+            }
+          ],
+          "confidence": 0.738,
+          "source": "D(1,900.0000,996.0000,990.0000,996.0000,990.0000,1022.0000,900.0000,1022.0000)"
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Sussex",
+          "spans": [
+            {
+              "offset": 1447,
+              "length": 6
+            }
+          ],
+          "confidence": 0.828,
+          "source": "D(1,820.0000,996.0000,892.0000,996.0000,892.0000,1022.0000,820.0000,1021.0000)"
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "Canadian",
+          "spans": [
+            {
+              "offset": 544,
+              "length": 8
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,875.0000,399.0000,975.0000,399.0000,975.0000,423.0000,875.0000,423.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Anglican",
+          "spans": [
+            {
+              "offset": 1030,
+              "length": 8
+            }
+          ],
+          "confidence": 0.921,
+          "source": "D(1,842.0000,709.0000,944.0000,710.0000,944.0000,735.0000,842.0000,734.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Pasteurizer",
+          "spans": [
+            {
+              "offset": 1004,
+              "length": 11
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,227.0000,707.0000,365.0000,707.0000,365.0000,732.0000,227.0000,731.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 601,
+              "length": 6
+            }
+          ],
+          "confidence": 0.924,
+          "source": "D(1,595.0000,442.0000,652.0000,442.0000,652.0000,470.0000,595.0000,470.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Olive Susan Abbott",
+          "spans": [
+            {
+              "offset": 1143,
+              "length": 18
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,360.0000,799.0000,582.1982,800.8213,581.9901,826.2130,359.7919,824.3917)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Nother.",
+          "spans": [
+            {
+              "offset": 1176,
+              "length": 7
+            }
+          ],
+          "confidence": 0.52,
+          "source": "D(1,867.0000,802.0000,944.0000,802.0000,944.0000,825.0000,867.0000,825.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "16 Hepbourne Ave., Toronto, Ont.",
+          "spans": [
+            {
+              "offset": 1195,
+              "length": 32
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,288.0000,835.0000,677.1630,837.2892,676.9995,865.0824,287.8365,862.7932)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "#10 B.T.C., Kitchener, Ont. Pte., R.C.A.F.Reco:, May 20, July, Join R.C.A.F.",
+          "spans": [
+            {
+              "offset": 1824,
+              "length": 10
+            },
+            {
+              "offset": 1844,
+              "length": 10
+            },
+            {
+              "offset": 1864,
+              "length": 9
+            },
+            {
+              "offset": 1883,
+              "length": 13
+            },
+            {
+              "offset": 1906,
+              "length": 6
+            },
+            {
+              "offset": 1922,
+              "length": 4
+            },
+            {
+              "offset": 1936,
+              "length": 13
+            }
+          ],
+          "confidence": 0.45,
+          "source": "D(1,59.0000,1195.0000,179.0000,1195.0000,179.0000,1220.0000,59.0000,1220.0000);D(1,336.1361,1196.0062,458.0206,1201.5464,456.8412,1227.4928,334.9567,1221.9526);D(1,470.0000,1201.0000,576.0000,1201.0000,576.0000,1224.0000,470.0000,1224.0000);D(1,619.0000,1203.0000,784.3623,1205.6845,783.9890,1228.6784,618.6267,1225.9939);D(1,786.0311,1186.9421,856.6171,1189.0182,855.9689,1211.0579,785.3829,1208.9818);D(1,864.0000,1198.0000,919.0000,1198.0000,919.0000,1219.0000,864.0000,1218.0000);D(1,949.0000,1193.0000,1104.0000,1193.0000,1104.0000,1220.0000,949.0000,1220.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "valueString": "NONE",
+          "spans": [
+            {
+              "offset": 2279,
+              "length": 4
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,419.0000,1342.0000,474.0000,1343.0000,473.0000,1365.0000,419.0000,1365.0000)"
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.215936,
+          "width": 1160,
+          "height": 1880
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

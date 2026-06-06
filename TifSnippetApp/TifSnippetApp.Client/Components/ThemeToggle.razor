@@ -1,0 +1,55 @@
+@inject IJSRuntime JSRuntime
+
+<div class="theme-toggle" @onclick="ToggleTheme">
+    <button class="btn btn-sm btn-outline-secondary rounded-circle shadow" title="Toggle Theme">
+        @if (_isDarkMode)
+        {
+            <i class="bi bi-sun-fill"></i>
+            <span>☀️</span>
+        }
+        else
+        {
+            <i class="bi bi-moon-fill"></i>
+            <span>🌙</span>
+        }
+    </button>
+</div>
+
+<style>
+    .theme-toggle {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+    }
+    .theme-toggle button {
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        background-color: var(--card-bg);
+        border: 1px solid var(--border-color);
+        color: var(--text-color);
+    }
+</style>
+
+@code {
+    private bool _isDarkMode = true;
+
+    private async Task ToggleTheme()
+    {
+        _isDarkMode = !_isDarkMode;
+        await JSRuntime.InvokeVoidAsync("toggleDarkMode", _isDarkMode);
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            // The default is already set in App.razor, but we might want to check the actual state
+            // and sync the local variable if needed. For now, assume it's dark by default as requested.
+        }
+    }
+}

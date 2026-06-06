@@ -1,0 +1,336 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:29:40Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: AIR FORCE No R-134143 -->\n<!-- PageHeader: 2210 -->\n<!-- PageHeader: POSTED TO Winnipeg Recruiting Centre TRADE. AC2 Aircrew 1077A -->\n\nA.C 108\nh-11-cre\n\n\n# ROYAL CANADIAN AIR FORCE (ATTESTATION PAPER)\n\n(Pages one and two, only, are to be completed in Applicant's own Handwriting)\n\n1\\. Surname.\nADAMS\n\nFULL Christian Names\nDOUGLAS ANDREW.\n\nPresent Address\n96 Banora St, Winnipeg. Meephone 12164\n\n3\\. Permanent Address.\nMeudale, maw\n\n4 Place of Birth\nMeudale, mow\n\nCitizenship.\nCanadian\n\n\u2713\n\n5\\. Date of Birth July 29,1915. Married, Single, Widower, Separated, Divoreed Sngle\n\u2713\n\n6\\. Particulars of Children\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>None.</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n7\\. Occupation\nOffice clerk\n\n8\\. Religion United\nState denomination\n\n9\\. Languages.\nEnglish\n\u2022\n\nState proficiency\n.\n\n10\\. Next of Kin (Ful Nam Willianm Lixdlay adams Relationship Thacher\n\n\"\nAddress Mendale, man\n\n11\\. Father (Full Name William Lindlay adauws Birthplace Rewdale, Man.\n\n\" Address Neowdale, man\nCitizenship\nCanadia\n\n\" Occupation\nGrain heuyer + farmer.\n\n12\\. Mother (Full Maiden Name) Margarkt andret, Birthplace Meodali Duu\n\n\" Address\nMerodale, Man. Citizenship Canadia,\n\n13\\. Details of any Naval, Military or Air Force Service:\ntone.\n\n\n<table>\n<tr>\n<th rowspan=\"2\">Unit</th>\n<th rowspan=\"2\">Place</th>\n<th rowspan=\"2\">Rank</th>\n<th rowspan=\"2\">Trade</th>\n<th colspan=\"2\">Date</th>\n<th rowspan=\"2\">Reason for discharge</th>\n</tr>\n<tr>\n<th>From</th>\n<th>To</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>na</td>\n<td></td>\n<td></td>\n<td></td>\n<td>R.C.A.F.RSCO</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td>Rec d</td>\n<td>. SEP</td>\n<td>24</td>\n<td>/4N</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>0.175<br>te</td>\n<td>tu</td>\n<td>w<br>m</td>\n</tr>\n</table>\n\n\n14\\. Honours, Awards, Mentions.\nhone.\n\nR.C P1\n\n15\\. Are you now on any Naval, Military or Air Force Reserve?\n10\nS.L\n\n16\\. Have you previously made application to join the R.C.A.F.?\nMo.\nIf so, where? In/a\nWhen?\nn/a.\n\nResult ma\n\n17\\. Were you ever discharged from any branch of His Majesty's Forces as Medically Unfit?\n100\nIf so, state nature of disability\nn/a.\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension?\nno\n\nIf so, state nature of Disability\nn/a\n\n19\\. Have you ever been convicted of an indictable offence?\nno\n\nIf so state nature.\n21/0\n\n20\\. Are you in debt?\nho\nIf so, state particulars.\nn/a.\n\non\n\n<!-- PageFooter: S16-59 -->\n\npilot or observer\n\nTuerdaserver\n9.32\n\n\u2713\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "R-134143",
+          "spans": [
+            {
+              "offset": 30,
+              "length": 8
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,353.0000,191.0000,481.0000,191.0000,481.0000,223.0000,353.0000,223.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ADAMS",
+          "spans": [
+            {
+              "offset": 312,
+              "length": 5
+            }
+          ],
+          "confidence": 0.959,
+          "source": "D(1,338.0000,437.0000,565.0000,438.0000,564.0000,488.0000,337.0000,487.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "DOUGLAS ANDREW.",
+          "spans": [
+            {
+              "offset": 340,
+              "length": 15
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,989.4291,445.5876,1512.0062,450.3168,1511.5771,497.7292,989.0000,493.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "96 Banora St, Winnipeg. Meephone 12164",
+          "spans": [
+            {
+              "offset": 373,
+              "length": 38
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,446.7149,488.5988,1459.0148,502.9577,1458.2982,553.4794,445.9983,539.1205)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1915-07-29",
+          "spans": [
+            {
+              "offset": 525,
+              "length": 13
+            }
+          ],
+          "confidence": 0.784,
+          "source": "D(1,371.4223,647.4627,711.4270,651.0044,710.9974,692.2500,370.9926,688.7083)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Meudale, mow",
+          "spans": [
+            {
+              "offset": 467,
+              "length": 12
+            }
+          ],
+          "confidence": 0.739,
+          "source": "D(1,379.3385,596.1603,903.3356,600.5028,902.9873,642.5330,378.9901,638.1905)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Rewdale, Man.",
+          "spans": [
+            {
+              "offset": 1205,
+              "length": 13
+            }
+          ],
+          "confidence": 0.827,
+          "source": "D(1,1091.0050,1187.4280,1500.4104,1191.0036,1499.9979,1238.2445,1090.5924,1234.6689)"
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Meodali Duu",
+          "spans": [
+            {
+              "offset": 1361,
+              "length": 11
+            }
+          ],
+          "confidence": 0.727,
+          "source": "D(1,1098.0000,1339.0000,1490.0815,1339.7749,1489.9985,1381.7747,1097.9170,1380.9998)"
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "Canadian",
+          "spans": [
+            {
+              "offset": 494,
+              "length": 8
+            }
+          ],
+          "confidence": 0.885,
+          "source": "D(1,1171.0000,598.0000,1483.0000,598.0000,1483.0000,649.0000,1171.0000,649.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "United",
+          "spans": [
+            {
+              "offset": 979,
+              "length": 6
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,1091.0000,993.0000,1322.0000,994.0000,1320.0000,1041.0000,1090.0000,1040.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Office clerk",
+          "spans": [
+            {
+              "offset": 952,
+              "length": 12
+            }
+          ],
+          "confidence": 0.78,
+          "source": "D(1,365.1377,981.9006,773.0000,983.0000,772.8623,1034.0994,365.0000,1033.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Sngle",
+          "spans": [
+            {
+              "offset": 585,
+              "length": 5
+            }
+          ],
+          "confidence": 0.588,
+          "source": "D(1,1300.0000,658.0000,1480.0000,660.0000,1480.0000,702.0000,1300.0000,699.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "spans": [
+            {
+              "offset": 777,
+              "length": 5
+            }
+          ],
+          "confidence": 0.472,
+          "source": "D(1,196.1555,807.4288,405.1397,810.5021,403.9842,889.0733,195.0000,886.0000)"
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Willianm Lixdlay adams",
+          "spans": [
+            {
+              "offset": 1079,
+              "length": 22
+            }
+          ],
+          "confidence": 0.496,
+          "source": "D(1,480.0033,1087.9387,964.1337,1089.4237,964.0000,1133.0000,479.8696,1131.5149)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Thacher",
+          "spans": [
+            {
+              "offset": 1115,
+              "length": 7
+            }
+          ],
+          "confidence": 0.738,
+          "source": "D(1,1127.0000,1091.0000,1308.0000,1092.0000,1308.0000,1136.0000,1127.0000,1134.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "Mendale, man",
+          "spans": [
+            {
+              "offset": 1134,
+              "length": 12
+            }
+          ],
+          "confidence": 0.739,
+          "source": "D(1,462.0000,1136.0000,959.0000,1136.0000,959.0000,1180.0000,462.0000,1180.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "tone.",
+          "spans": [
+            {
+              "offset": 1479,
+              "length": 5
+            }
+          ],
+          "confidence": 0.438,
+          "source": "D(1,816.7984,1435.4967,1003.7821,1438.5126,1002.9836,1488.0159,816.0000,1485.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "valueString": "hone.",
+          "spans": [
+            {
+              "offset": 2132,
+              "length": 5
+            }
+          ],
+          "confidence": 0.657,
+          "source": "D(1,539.0000,1772.0000,768.0000,1772.0000,768.0000,1812.0000,539.0000,1812.0000)"
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.14864,
+          "width": 1634,
+          "height": 2529
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

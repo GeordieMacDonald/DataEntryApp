@@ -1,0 +1,336 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:01:08Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: AIR FORCE No R-95398 -->\n<!-- PageHeader: SPECIAL RESERVE POSTED TO#2 Manning Depot Brandon -->\n<!-- PageHeader: Quota ACI Pilot or Obse. TRADE AC2 Stan. (Aircrew) er -->\n\n\n# ROYAL CANADIAN AIR FORCE (ATTESTATION PAPER) (Pages one and two, only, are to be completed in Applicant's own Handwriting)\n\nSurname\naber\n\nFULL Christian Names.\nMitchell Seorge\n\n2\\. Present Address\naberdeen Hotel, mps.\n\nTelephone move\n\n3\\. Permanent Address\nChater, Man\n\n4\\. Place of Birth\n36-10-18 fornwalliaman\n\nCitizenship\nCanadian\nDate of Birth nov. 21, 1915\nMarnied, Single, Widower, Separated, Diverced lingle\n\n6\\. Particulars of Children\nmone\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td>None</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n7\\. Occupation.\nJarm habarer\n\n8\\. Religion.\nPresbyterian\n\n9\\. Languages.\nfinglid\n\nState denomination\n\n10\\. Next of Kin (Full Name)\ne) Mary Catherine abey Relationship Mother\n\n\" Address\nChater, Marl\n\n11\\. Father (Full Name)\nCharlea abey (deccaud)3\nBirthplace.\nOttawa, Cat.\n\n\" Address.\ndeceared.\n\nCitizenship\nCanadian\n\n\" Occupation\nFarmu\n\n12\\. Mother (Full Maiden Name)\nMary Catherine Milehell\n\nirthplace\nLuchec\n\n\" Address\nChated Man\n\nCitizenship\nCan'adian\n\n13\\. Details of any Naval, Military or Air Force Service:\nmone\n\n\n<table>\n<tr>\n<th rowspan=\"2\">Unit</th>\n<th rowspan=\"2\">Place</th>\n<th rowspan=\"2\">Rank</th>\n<th rowspan=\"2\">Trade</th>\n<th colspan=\"2\">Date</th>\n<th rowspan=\"2\">Reason for discharge</th>\n</tr>\n<tr>\n<th>From</th>\n<th>To</th>\n</tr>\n<tr>\n<td>none</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>Office</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td>R<br>:</td>\n<td>C.A.F.<br>MAR</td>\n<td>Records<br>18</td>\n<td>1949)<br>4m</td>\n</tr>\n</table>\n\n\n14\\. Honours, Awards, Mentions\nnone\n\nmue c.52N\n\n15\\. Are you now on any Naval, Military or Air Force Reserve?.\nno\nN.. 6th\n\n16\\. Have you previously made application to join the R.C.A.F.?\nno\n\nIf so, where?\nnA1\n\nWhen?\nma\n\nResult.\nIna\n19\n\n17\\. Were you ever discharged from any branch of His Majesty's Forces as Medically Unfit?\nno\n\nIf so, state nature of disability\nIna\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension?\nno\n\nIf so, state nature of Disability\nma\n\n19\\. Have you ever been convicted of an indictable offence?\nno\nIf so state nature\nBru\n\n20\\. Are you in debt?\n7No\nIf so, state particulars.\n\nM\n\n149-420\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "R-95398",
+          "spans": [
+            {
+              "offset": 30,
+              "length": 7
+            }
+          ],
+          "confidence": 0.939,
+          "source": "D(1,348.7967,181.7061,454.0000,181.0000,454.2042,211.4282,349.0009,212.1342)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "aber",
+          "spans": [
+            {
+              "offset": 324,
+              "length": 4
+            }
+          ],
+          "confidence": 0.719,
+          "source": "D(1,334.0000,402.0000,470.0000,403.0000,469.0000,450.0000,332.0000,448.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Mitchell Seorge",
+          "spans": [
+            {
+              "offset": 352,
+              "length": 15
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,918.0000,408.0000,1324.4707,411.9850,1323.9904,460.9803,917.5197,456.9953)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "aberdeen Hotel, mps.",
+          "spans": [
+            {
+              "offset": 389,
+              "length": 20
+            }
+          ],
+          "confidence": 0.816,
+          "source": "D(1,415.0021,456.7742,1052.3590,462.5789,1051.9927,502.8014,414.6357,496.9967)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1915-11-21",
+          "spans": [
+            {
+              "offset": 540,
+              "length": 13
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,357.0000,593.0000,654.0000,593.0000,654.0000,635.0000,357.0000,635.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "fornwalliaman",
+          "spans": [
+            {
+              "offset": 490,
+              "length": 13
+            }
+          ],
+          "confidence": 0.463,
+          "source": "D(1,598.0000,549.0000,1007.0000,551.0000,1007.0000,589.0000,598.0000,588.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Ottawa, Cat.",
+          "spans": [
+            {
+              "offset": 1214,
+              "length": 12
+            }
+          ],
+          "confidence": 0.519,
+          "source": "D(1,1022.0000,1090.0000,1305.0000,1090.0000,1305.0000,1130.0000,1022.0000,1130.0000)"
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Luchec",
+          "spans": [
+            {
+              "offset": 1358,
+              "length": 6
+            }
+          ],
+          "confidence": 0.66,
+          "source": "D(1,1046.0000,1226.0000,1216.0000,1228.0000,1216.0000,1267.0000,1046.0000,1265.0000)"
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "Canadian",
+          "spans": [
+            {
+              "offset": 517,
+              "length": 8
+            }
+          ],
+          "confidence": 0.921,
+          "source": "D(1,1088.0000,553.0000,1374.0000,558.0000,1373.0000,596.0000,1088.0000,592.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Presbyterian",
+          "spans": [
+            {
+              "offset": 999,
+              "length": 12
+            }
+          ],
+          "confidence": 0.93,
+          "source": "D(1,1002.0000,901.0000,1334.0000,907.0000,1333.0000,951.0000,1001.0000,949.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Jarm habarer",
+          "spans": [
+            {
+              "offset": 971,
+              "length": 12
+            }
+          ],
+          "confidence": 0.664,
+          "source": "D(1,325.0064,899.4440,701.0258,903.7463,700.5389,946.2968,324.5195,941.9945)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "lingle",
+          "spans": [
+            {
+              "offset": 600,
+              "length": 6
+            }
+          ],
+          "confidence": 0.814,
+          "source": "D(1,1204.0000,610.0000,1372.0000,609.0000,1372.0000,646.0000,1204.0000,646.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "spans": [
+            {
+              "offset": 636,
+              "length": 4
+            }
+          ],
+          "confidence": 0.513,
+          "source": "D(1,497.0000,657.0000,616.0000,657.0000,616.0000,690.0000,497.0000,689.0000)"
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mary Catherine abey",
+          "spans": [
+            {
+              "offset": 1089,
+              "length": 19
+            }
+          ],
+          "confidence": 0.801,
+          "source": "D(1,467.6309,992.9943,886.6086,999.4401,885.9778,1040.4458,467.0000,1034.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Mother",
+          "spans": [
+            {
+              "offset": 1122,
+              "length": 6
+            }
+          ],
+          "confidence": 0.831,
+          "source": "D(1,1046.0000,1001.0000,1241.0000,1003.0000,1241.0000,1043.0000,1046.0000,1041.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "Chater, Marl",
+          "spans": [
+            {
+              "offset": 1140,
+              "length": 12
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,525.0001,1039.9642,872.0000,1041.0000,871.8763,1082.4474,524.8764,1081.4116)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "none",
+          "spans": [
+            {
+              "offset": 1715,
+              "length": 4
+            }
+          ],
+          "confidence": 0.168,
+          "source": "D(1,221.0000,1451.0000,365.0000,1452.0000,365.0000,1493.0000,220.0000,1493.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "valueString": "none",
+          "spans": [
+            {
+              "offset": 2125,
+              "length": 4
+            }
+          ],
+          "confidence": 0.959,
+          "source": "D(1,529.0000,1616.0000,661.0000,1618.0000,661.0000,1658.0000,529.0000,1658.0000)"
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.132375,
+          "width": 1506,
+          "height": 2316
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

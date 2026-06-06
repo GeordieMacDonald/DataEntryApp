@@ -1,0 +1,369 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:17:18Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Records\ncelveB, XIAUG\nxfAUG 15 N10\nChReEKed.\nE\nCard\nK\nObservations\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\nTPH\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\nTZ. HR AatREnEFFFC.CA.\n\nUnit\nNo. X1, District Depot (A.F.)\n\nRegimental Number.\nK71541\n\nNOtH\n\nACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY\n\n\n# ATTESTATION PAPER\n\n1\\. Surname\nACRES\n\nC . A . A.\n\n2\\. Christian Names\nROBERT AUSTIN\n\n3\\. Present address.\n1046 Balmoral Rd., Victoria, British Columbia, Canada\n\n4\\. Date of birth.\n1st March 1920\n\n5\\. Place of birth\n(Country)\nCanada\n(County or Province)\nBritish Columbia\n(Town or Township)\n\n6\\. Religion (state denomination)\nChurch of England\n\n7\\. Trade or Calling\nShipper\n\n8\\. Married, Widower or Single\nSingle\n\n9\\. Name of next of kin.\nEdith Acres(SEE CHANGE)\n\n10\\. Relationship\nMother(SEE CHANGE)\n(SEE CHAN GE)\n\n11\\. Address of next of kin\n1046 Balmoral Rd., Victoria, British Corumbra, Canada\n\n12\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army?\nYes,\n\nK.600903 NRMA Recruit. 19/6/41---14-1-42 No.110 Vernon, B.C. Canada\nattached ds MemtaGtD) \"110 c.a (If xes, Give Unit and Pates of Servicd)\n\n14-1-142\n\n13\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?\n(Yes or No)\nNO.\n\nN.A.\n(b) Any other Naval, Military, or Air\n\n(If Yes, Give Regimental No. and Unit)\n\nForce?\n(Yes or No) (If Yes, specify Unit and Period of Service)\nNO.\n\n14\\. Did you serve during the Great War 1914-1918?\n\nNO.\n\nN.A.\n(If Yes, specify Regimental No., Unit and Dates of Service)\n\n\n# DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI\nRobert Austin Acres\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\n\nDate\n15-1-42\n\n(Signature of recruit)\nPohtacrer.\n\naritim wybami\n\n\n# OATH TO BE TAKEN BY MAN ON ATTESTATION\n\nL,\nRobert Austin Acres\ndo sincerely promise and swear (or solemnly\ndeclare) that t will be faithful and bear true allegiance to His Majesty.\n\nRloamr\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was, cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\nat.\nVernon, B.C.\nthis\n15th.\nday of\nDecemberk January 19\n472\nHv\n\n(A.Hami1toh 04Srlt9 Veriouwt.Col. & O.C.\nNo.110 C.A. (B), T.C. Vernon, B.C.\nloR Iluwa\necxyn\nSignature of Magistrate, Justice\nor Attesting Officer.\nOfficer or Rank and Unit\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\nERPRINTED\n\nM.F.M. 2\nA.F.B. 271\n500M-7-41 (1131)\nH.Q. 1772-39-1045\n01\n\nGacupattoral History Forms Compber\n31-5-41\nC.A(O)T.C.\nVictoria.\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "K71541",
+          "spans": [
+            {
+              "offset": 283,
+              "length": 6
+            }
+          ],
+          "confidence": 0.981,
+          "source": "D(1,1043.0000,286.0000,1177.0000,287.0000,1177.0000,313.0000,1043.0000,313.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ACRES",
+          "spans": [
+            {
+              "offset": 381,
+              "length": 5
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,574.0000,485.0000,654.0000,485.0000,654.0000,509.0000,574.0000,510.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "ROBERT AUSTIN",
+          "spans": [
+            {
+              "offset": 420,
+              "length": 13
+            }
+          ],
+          "confidence": 0.937,
+          "source": "D(1,573.0000,522.0000,776.0000,522.0000,776.0000,550.0000,573.0000,550.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "1046 Balmoral Rd., Victoria, British Columbia, Canada",
+          "spans": [
+            {
+              "offset": 456,
+              "length": 53
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,436.7674,568.6923,1245.9863,562.2700,1246.2241,592.2363,437.0052,598.6587)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1920-03-01",
+          "spans": [
+            {
+              "offset": 530,
+              "length": 14
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,573.8333,612.0010,790.9979,610.6605,791.1668,638.0237,574.0022,639.3642)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 575,
+              "length": 6
+            }
+          ],
+          "confidence": 0.969,
+          "source": "D(1,452.0000,652.0000,549.0000,652.0000,549.0000,677.0000,452.0000,677.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "British Columbia",
+          "spans": [
+            {
+              "offset": 603,
+              "length": 16
+            }
+          ],
+          "confidence": 0.896,
+          "source": "D(1,650.0232,648.0474,898.2047,650.0016,897.9846,677.9526,649.8032,675.9985)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Church of England",
+          "spans": [
+            {
+              "offset": 674,
+              "length": 17
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,575.0000,698.0000,836.0000,698.0000,836.0000,723.0000,575.0000,723.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Shipper",
+          "spans": [
+            {
+              "offset": 714,
+              "length": 7
+            }
+          ],
+          "confidence": 0.939,
+          "source": "D(1,574.0000,739.0000,686.0000,741.0000,685.0000,766.0000,574.0000,765.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 754,
+              "length": 6
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,574.0000,782.0000,671.0000,782.0000,671.0000,807.0000,574.0000,807.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Edith Acres(SEE CHANGE)",
+          "spans": [
+            {
+              "offset": 787,
+              "length": 23
+            }
+          ],
+          "confidence": 0.72,
+          "source": "D(1,575.0000,823.0000,919.0000,823.0000,919.0000,851.0000,575.0000,851.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Mother(SEE CHANGE)",
+          "spans": [
+            {
+              "offset": 830,
+              "length": 18
+            }
+          ],
+          "confidence": 0.824,
+          "source": "D(1,574.9315,864.5031,844.8833,873.0279,843.9253,903.3661,573.9734,894.8413)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "1046 Balmoral Rd., Victoria, British Corumbra, Canada",
+          "spans": [
+            {
+              "offset": 892,
+              "length": 53
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,499.7778,903.0018,1308.9967,896.5794,1309.2243,925.2601,500.0054,931.6825)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "K.600903 NRMA Recruit. 19/6/41---14-1-42 No.110 Vernon, B.C. Canada attached ds MemtaGtD) \"110 c.a (If xes, Give Unit and Pates of Servicd)\n\n14-1-142",
+          "spans": [
+            {
+              "offset": 1048,
+              "length": 67
+            },
+            {
+              "offset": 1116,
+              "length": 71
+            },
+            {
+              "offset": 1189,
+              "length": 8
+            }
+          ],
+          "confidence": 0.332,
+          "source": "D(1,196.0000,983.0000,1311.0000,983.0000,1311.0000,1020.0000,196.0000,1020.0000);D(1,192.0000,1016.0000,901.0000,1016.0000,901.0000,1044.0000,192.0000,1044.0000);D(1,918.0000,1019.0000,1051.0000,1021.0000,1051.0000,1046.0000,918.0000,1044.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Pohtacrer.",
+          "spans": [
+            {
+              "offset": 2099,
+              "length": 10
+            }
+          ],
+          "confidence": 0.714,
+          "source": "D(1,928.1311,1413.3362,1166.0000,1409.0000,1166.8689,1456.6638,929.0000,1461.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "A.Hami1toh 04Srlt9 Veriouwt.Col. & O.C.",
+          "spans": [
+            {
+              "offset": 2934,
+              "length": 39
+            }
+          ],
+          "confidence": 0.258,
+          "source": "D(1,414.0000,1870.0000,946.0000,1870.0000,946.0000,1901.0000,414.0000,1901.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "No.110 C.A. (B), T.C. Vernon, B.C.",
+          "spans": [
+            {
+              "offset": 2974,
+              "length": 34
+            }
+          ],
+          "confidence": 0.59,
+          "source": "D(1,411.0000,1899.0000,903.0000,1899.0000,903.0000,1924.0000,411.0000,1924.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Vernon, B.C.",
+          "spans": [
+            {
+              "offset": 2873,
+              "length": 12
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,292.0000,1800.0000,473.0000,1800.0000,473.0000,1829.0000,292.0000,1829.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "2042-01-15",
+          "spans": [
+            {
+              "offset": 2067,
+              "length": 7
+            }
+          ],
+          "confidence": 0.83,
+          "source": "D(1,363.0000,1431.0000,474.0000,1430.0000,474.0000,1457.0000,363.0000,1458.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Pohtacrer.",
+          "spans": [
+            {
+              "offset": 2099,
+              "length": 10
+            }
+          ],
+          "confidence": 0.586,
+          "source": "D(1,928.1311,1413.3362,1166.0000,1409.0000,1166.8689,1456.6638,929.0000,1461.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Rloamr",
+          "spans": [
+            {
+              "offset": 2311,
+              "length": 6
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,784.0000,1575.0000,995.0000,1576.0000,995.0000,1615.0000,784.0000,1617.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.1932,
+          "width": 1479,
+          "height": 2201
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

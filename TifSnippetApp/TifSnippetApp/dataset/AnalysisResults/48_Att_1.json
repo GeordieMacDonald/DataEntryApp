@@ -1,0 +1,361 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:11:00Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: Accetveu -->\n\nDecked.\nE .\u221a\nOuservalions......................\n0\n\nM.F.M. 2\nA.P.B. 271\n500M-7-41 (1131)\nH.Q. 1772-39-1045\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\nNO. 26 ch.\nCamadian Forestryy Gorps Wing 9.D.M.D.30\nUnit.\n\nRegimental Number.\nH-62998\n01\n\n\n# ACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY ATTESTATION PAPER\n\n1\\. Surname.\nACKABER\n\n2\\. Christian Names.\nStanley Michael Jonegit\n\n3\\. Present address\nDryden, Ontario, Canada.\n\n4\\. Date of birth\nJennary 7th, 1985.\n\n5\\. Place of birth\n(Country)\nCanada\n(County or Province)\nQutario\n(Town or Towhinnywic\n\n6\\. Religion (state denomination)\nRoman Catholie.\n\n7\\. Trade or Calling.\nBuchman.\n\n8\\. Married, Widower or Single.\nSingles\n\n9\\. Name of next of kin.\nHrs.Charlotte Ackaber\n\n10\\. Relationship\nNother\n\n11\\. Address of next of kin\nDryden, Ontario, Canada.\n\n12\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army?.\nNo.\n\n(If Yes, Give Unit and Dates of Service)\n\n13\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?.\n(Yes or No)\nlio.\n\n(b) Any other Naval, Military, or Air\n(If Yes, Give Regimental No. and Unit)\n\nForce?\n(Yes or No) (If Yes, specify Uait and Pesiod of Service)\nNo.\n\n14\\. Did you serve during the Great War 1914-1918?.\n\nNO.\n\n(If Yes, specify Regimental No., Unit and . Dates of Service)\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nStanley Michael Joseph Ackabee\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve, in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\nTUNESS.\nCancheen\nDate\nDecember 1st, 1941.\n\nStanley m. J. ackabee\n(Signature of rearuit)\n\n\n## OATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI,\nStanley Nichaol Joseph Acabpe\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\n\nStanley sni J. uckabee\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF. THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\natPort arthur,Ontario\nthis 3st\nday of.\nDecember\n1911...\n\nO.C.Canadion Fore Stry Corps We D.D.N.D.10\ndeansd\n\nSignature of Magistrate, Justice\nor Attesting Officer.\nOfficer or Rank and Unit\n1\nor appointment,\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWET\nANY OF THE\n\n124\n\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISO\n\n\n![P](figures/1.1)\n\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\nOCCUPATIONAL HISTORY FORM COMPLETED\n30815-7-43\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "H-62998",
+          "spans": [
+            {
+              "offset": 316,
+              "length": 7
+            }
+          ],
+          "confidence": 0.98,
+          "source": "D(1,987.0000,284.0000,1078.0000,284.0000,1078.0000,306.0000,987.0000,306.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ACKABER",
+          "spans": [
+            {
+              "offset": 412,
+              "length": 7
+            }
+          ],
+          "confidence": 0.966,
+          "source": "D(1,544.0000,477.0000,632.0000,478.0000,632.0000,499.0000,544.0000,498.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Stanley Michael Jonegit",
+          "spans": [
+            {
+              "offset": 442,
+              "length": 23
+            }
+          ],
+          "confidence": 0.916,
+          "source": "D(1,543.0062,516.9138,809.1526,518.4434,809.0000,545.0000,542.8536,543.4704)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "Dryden, Ontario, Canada.",
+          "spans": [
+            {
+              "offset": 487,
+              "length": 24
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,542.0000,553.0000,807.0000,553.0000,807.0000,584.0000,542.0000,584.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1998-01-07",
+          "spans": [
+            {
+              "offset": 531,
+              "length": 18
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,542.4474,595.3508,746.4551,598.9091,745.9955,625.2557,541.9878,621.6975)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 580,
+              "length": 6
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,421.0000,636.0000,498.0000,636.0000,498.0000,656.0000,421.0000,656.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Qutario",
+          "spans": [
+            {
+              "offset": 608,
+              "length": 7
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,720.0000,639.0000,806.0000,643.0000,806.0000,663.0000,720.0000,659.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Roman Catholie.",
+          "spans": [
+            {
+              "offset": 672,
+              "length": 15
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,537.0148,682.0102,720.3486,684.7602,719.9888,708.7448,536.6551,705.9948)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Buchman.",
+          "spans": [
+            {
+              "offset": 711,
+              "length": 8
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,540.7054,718.4283,637.6732,721.4585,636.9678,744.0302,540.0000,741.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Singles",
+          "spans": [
+            {
+              "offset": 753,
+              "length": 7
+            }
+          ],
+          "confidence": 0.755,
+          "source": "D(1,541.0000,760.0000,626.0000,763.0000,626.0000,785.0000,541.0000,782.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Hrs.Charlotte Ackaber",
+          "spans": [
+            {
+              "offset": 787,
+              "length": 21
+            }
+          ],
+          "confidence": 0.662,
+          "source": "D(1,536.5721,795.2572,795.5109,801.0114,794.9388,826.7542,536.0000,821.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Nother",
+          "spans": [
+            {
+              "offset": 828,
+              "length": 6
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,537.0000,831.0000,616.0000,831.0000,616.0000,854.0000,537.0000,854.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "Dryden, Ontario, Canada.",
+          "spans": [
+            {
+              "offset": 864,
+              "length": 24
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,538.0002,870.9588,805.1557,872.5303,804.9966,899.5823,537.8411,898.0108)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Stanley m. J. ackabee",
+          "spans": [
+            {
+              "offset": 1946,
+              "length": 21
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,661.0000,1348.0000,1132.0000,1348.0000,1132.0000,1392.0000,661.0000,1392.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "deansd",
+          "spans": [
+            {
+              "offset": 2862,
+              "length": 6
+            }
+          ],
+          "confidence": 0.467,
+          "source": "D(1,547.0000,1730.0000,836.0000,1735.0000,836.0000,1803.0000,547.0000,1806.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "O.C.Canadion Fore Stry Corps We D.D.N.D.10",
+          "spans": [
+            {
+              "offset": 2819,
+              "length": 42
+            }
+          ],
+          "confidence": 0.584,
+          "source": "D(1,377.0000,1799.0000,894.0000,1799.0000,894.0000,1821.0000,377.0000,1821.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Port arthur,Ontario",
+          "spans": [
+            {
+              "offset": 2762,
+              "length": 21
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,222.8165,1713.9938,474.0157,1722.5379,473.1793,1747.1285,221.9801,1738.5844)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1941-12-01",
+          "spans": [
+            {
+              "offset": 1925,
+              "length": 19
+            }
+          ],
+          "confidence": 0.423,
+          "source": "D(1,316.0000,1368.0000,533.0000,1368.0000,533.0000,1391.0000,316.0000,1391.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Stanley m. J. ackabee",
+          "spans": [
+            {
+              "offset": 1946,
+              "length": 21
+            }
+          ],
+          "confidence": 0.883,
+          "source": "D(1,661.0000,1348.0000,1132.0000,1348.0000,1132.0000,1392.0000,661.0000,1392.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Stanley sni J. uckabee",
+          "spans": [
+            {
+              "offset": 2188,
+              "length": 22
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,533.7333,1499.0020,995.9969,1495.5778,996.2854,1534.5312,534.0219,1537.9554)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "TRIPLICATE",
+          "spans": [
+            {
+              "offset": 3163,
+              "length": 10
+            }
+          ],
+          "confidence": 0.585,
+          "source": "D(1,224.0000,211.0000,339.0000,211.0000,339.0000,230.0000,224.0000,230.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0,
+          "width": 1406,
+          "height": 2074
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

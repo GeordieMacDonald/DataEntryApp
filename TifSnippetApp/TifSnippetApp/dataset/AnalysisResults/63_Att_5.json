@@ -1,0 +1,393 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:17:41Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Received\nChecked\n\nCard\nObservations\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\n405-A-3888\nS05 18842\n\nM.F.M. 2\nA.F.B. 271\nU.Q. 1772-45-18\nDavis-Liason\nHamilton, Ontario\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\n\nUnit\n\nR.H.L.L.(W.R.)\n\nRegimental Number\nB-27158\n\n\n# CANADIAN ACTIVE SERVICE FORCE ATTESTATION PAPER\n\n1\\. Surname\nACTON\n\n2\\. Christian Names\nRARI\ngr.\n\n3\\. Present address\n19 Davenport St., Hamilton, Ontario\n\n4\\. Date of birth\nJuly 10,1920\n\n5\\. Place of birth\n(Country)\ncanada\n(County or Province)\nOntario\n(Town or Township)\nHamilton\n\n6\\. Religion (state denomination)\nPreshyterian\n\n7\\. Trade or Calling\nCandy maker\n\n8\\. Married, Widower or Single\nSingle\n\n9\\. Name of next of kin\nFlorence Acton\n\n10\\. Relationship\nMother\n\n11\\. Address of next of kin\n19 Davenport St., Hamilton, Ontario\n\n12\\. Have you served in any Naval, Military or Air Force?\nNo.\n\n13\\. If previous war service, state arm, force and regimental particulars\nNone\n\n14\\. Do you now belong to or have you served in the Active Militia of Canada? ..No.\n\n(Give unit and date of attestation)\n\nDECLARATION TO BE MADE BY MAN ON ATTESTATION\n19Nher at home or abro\nI,\nEARL ACTON\ndo solemnly declare that the above\nparticulars are true and I hereby engage to serve in the Canadian Active Service Force so long as an\nemergency, i.e. war, invasion, riot or insurrection real or apprehended, exists, and for the period of\ndemobilization after said emergency ceases to exist and in any event for a period of not less than one year\nprovided His Majesty should so require my services.\n\nDate\nSept. 24,1939\n\nE arl astonfr.\n(Signature of recruit)\n\n(Witness) UU\nDhamns Darginon goffemon\n\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI,\nEARL ACTON\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\nEs arl Octon As\n(Signature of Reeruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF PEACE OR ATTESTING OFFICER.\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been\nduly entered as replied to, and the said recruit has made and signed the declaration and taken the oath\nbefore me, at.\nHamilton, Ont. this\n24th\nday of September\n19\n59\n\n10g Shambook\n+\nLant. R.H.L.I\n\n1\n\nSignature of Magistrate, Justive\nor Attesting Officer.\nOffice or Rank and Unit\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "B-27158",
+          "spans": [
+            {
+              "offset": 299,
+              "length": 7
+            }
+          ],
+          "confidence": 0.982,
+          "source": "D(1,1050.8398,298.6846,1159.0000,298.0000,1159.1602,323.3154,1051.0000,324.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ACTON",
+          "spans": [
+            {
+              "offset": 372,
+              "length": 5
+            }
+          ],
+          "confidence": 0.979,
+          "source": "D(1,479.0000,442.0000,557.0000,442.0000,557.0000,466.0000,479.0000,466.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "RARI",
+          "spans": [
+            {
+              "offset": 399,
+              "length": 4
+            }
+          ],
+          "confidence": 0.781,
+          "source": "D(1,478.0000,488.0000,541.0000,488.0000,541.0000,511.0000,478.0000,512.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "19 Davenport St., Hamilton, Ontario",
+          "spans": [
+            {
+              "offset": 429,
+              "length": 35
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,479.0000,531.0000,1014.0000,531.0000,1014.0000,559.0000,479.0000,559.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1920-07-10",
+          "spans": [
+            {
+              "offset": 484,
+              "length": 12
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,480.0197,574.5240,666.1984,576.0016,665.9843,602.9761,479.8056,601.4985)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "canada",
+          "spans": [
+            {
+              "offset": 527,
+              "length": 6
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,419.0000,626.0000,514.0000,625.0000,514.0000,651.0000,419.0000,651.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ontario",
+          "spans": [
+            {
+              "offset": 555,
+              "length": 7
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,706.0000,626.0000,817.0000,625.0000,817.0000,650.0000,706.0000,652.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Hamilton",
+          "spans": [
+            {
+              "offset": 582,
+              "length": 8
+            }
+          ],
+          "confidence": 0.939,
+          "source": "D(1,1071.0000,623.0000,1196.0000,623.0000,1196.0000,649.0000,1071.0000,648.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Preshyterian",
+          "spans": [
+            {
+              "offset": 626,
+              "length": 12
+            }
+          ],
+          "confidence": 0.817,
+          "source": "D(1,630.0000,672.0000,818.0000,672.0000,818.0000,698.0000,630.0000,698.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Candy maker",
+          "spans": [
+            {
+              "offset": 661,
+              "length": 11
+            }
+          ],
+          "confidence": 0.939,
+          "source": "D(1,480.8522,716.4708,651.9966,715.4398,652.1476,740.4991,481.0032,741.5301)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 705,
+              "length": 6
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,571.0000,763.0000,667.0000,762.0000,667.0000,787.0000,571.0000,787.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Florence Acton",
+          "spans": [
+            {
+              "offset": 737,
+              "length": 14
+            }
+          ],
+          "confidence": 0.923,
+          "source": "D(1,558.0000,810.0000,773.0000,810.0000,773.0000,836.0000,558.0000,836.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Mother",
+          "spans": [
+            {
+              "offset": 771,
+              "length": 6
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,555.0000,855.0000,654.0000,855.0000,654.0000,879.0000,555.0000,879.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "19 Davenport St., Hamilton, Ontario",
+          "spans": [
+            {
+              "offset": 807,
+              "length": 35
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,557.6973,896.7461,1094.0000,891.0000,1094.3027,919.2539,558.0000,925.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "No.",
+          "spans": [
+            {
+              "offset": 902,
+              "length": 3
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,847.0088,950.4376,883.3749,951.0059,882.9807,976.2341,846.6146,975.6659)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "None",
+          "spans": [
+            {
+              "offset": 981,
+              "length": 4
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,542.0000,1032.0000,608.0000,1032.0000,608.0000,1057.0000,542.0000,1057.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "E arl astonfr.",
+          "spans": [
+            {
+              "offset": 1611,
+              "length": 14
+            }
+          ],
+          "confidence": 0.605,
+          "source": "D(1,857.0237,1322.2985,1279.5438,1326.0048,1278.9974,1388.2982,856.4773,1384.5919)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "10g Shambook",
+          "spans": [
+            {
+              "offset": 2477,
+              "length": 12
+            }
+          ],
+          "confidence": 0.618,
+          "source": "D(1,550.0000,1806.0000,884.0000,1806.0000,884.0000,1848.0000,550.0000,1848.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "Lant. R.H.L.I",
+          "spans": [
+            {
+              "offset": 2492,
+              "length": 13
+            }
+          ],
+          "confidence": 0.664,
+          "source": "D(1,556.0000,1850.0000,874.0000,1850.0000,874.0000,1899.0000,556.0000,1899.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Hamilton, Ont.",
+          "spans": [
+            {
+              "offset": 2428,
+              "length": 14
+            }
+          ],
+          "confidence": 0.818,
+          "source": "D(1,373.0794,1773.3496,587.5432,1778.0118,586.9424,1805.6509,372.4785,1800.9887)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1939-09-24",
+          "spans": [
+            {
+              "offset": 1596,
+              "length": 13
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,305.7837,1357.6083,505.9915,1355.9673,506.2131,1382.9983,306.0052,1384.6393)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "E arl astonfr.",
+          "spans": [
+            {
+              "offset": 1611,
+              "length": 14
+            }
+          ],
+          "confidence": 0.675,
+          "source": "D(1,857.0237,1322.2985,1279.5438,1326.0048,1278.9974,1388.2982,856.4773,1384.5919)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Es arl Octon As",
+          "spans": [
+            {
+              "offset": 1861,
+              "length": 15
+            }
+          ],
+          "confidence": 0.805,
+          "source": "D(1,617.7000,1547.3971,1030.0000,1545.0000,1030.3118,1598.6377,618.0118,1601.0348)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "UU",
+          "spans": [
+            {
+              "offset": 1660,
+              "length": 2
+            }
+          ],
+          "confidence": 0.515,
+          "source": "D(1,539.0000,1431.0000,592.0000,1428.0000,592.0000,1454.0000,539.0000,1455.0000)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "TRIPLICATE",
+          "spans": [
+            {
+              "offset": 56,
+              "length": 10
+            }
+          ],
+          "confidence": 0.52,
+          "source": "D(1,210.0000,241.0000,330.0000,240.0000,330.0000,259.0000,210.0000,259.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.0999,
+          "width": 1438,
+          "height": 2187
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

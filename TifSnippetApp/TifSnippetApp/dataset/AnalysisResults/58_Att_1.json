@@ -1,0 +1,349 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:15:13Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "# ATTESTATION\n\nNON-PERMANENT ACTIVE MILITIA OF CANADA\n\nUNIT\nDa.6 DistructSignala RCCS\nREGT. No. 1000\n\n1\\. What is your surname? (Block letters)\nACORN\n\n2\\. What are your Christian names?\nCEORGE. WARBURTON\n\n3\\. What is your present address?\n171 Hread hong St.\n\nPhone No\n170\n\n4\\. Employer's name and address?\nSchool f\n\nPhone No\n\n5\\. Date of Birth\n7/8/256 (a) Country of Birth La\nCanda\n(b) Nationality\nBrutiad\n\n7\\. Are you Single?\n1y\u00e9s\nMarried?\nWidower?\n\n8\\. What is your trade or calling ?\nNltet\n\n9\\. Religious persuasion ?\nR.C.\n\n10\\. Previous Naval, Military or Air Force Service.\nGive particulars, qualifications, etc.\nmil -\n\n11\\. Name, Relationship and Address of Next of Kin\nEdward acam\n\n\n## CERTIFICATE OF MEDICAL EXAMINATION\n\nHeight.\n5'5''\n\nWeight.\nChest max\n35\u652f\nmin.\n335\nDescriptive marks\nNou\n\nI have examined the above named man in accordance with instructions laid down in Regulations\nfor the Canadian Medical Services and find him\nLeategory A\nfix\n\nDate\nJuly 17/39.\nSignature 1\nL.l Franrler\n\n\n## DECLARATION TO BE MADE ON ATTESTATION\n\nI. the undersigned\nGeorgo Charburta Scar\ndo sincerely and solemnly declare\nthat to the best of my knowledge and belief, the above answers to the foregoing questions made and\nsigned by me are true; that I am willing to be attested for the term of three years or until legally discharged,\nand do understand the nature and terms of this engagement, that I will safeguard all clothing, arms and\nequipment issued to me and will return same when required, and that I will report any change in address\nof myself, my employer or my next of kin to my Commanding Offteer.\n\nOATH TO BE TAKEN\nlecorn\n\"tio sincerely promise and swear (or\nsolemnly declare) that I will be faithful and bear true allegiance to His Majesty.\nR7 Mardovaed Cafl..\nEM.Acorn.\n\nSignature of Man\n\nDated this\n4Gkggtt10\nday of.\nJuly\n1939 at Ch Tren\n\n\n## CERTIFICATE OF ATTESTING OFFICER\n\nThe recruit above-named was cautioned by me that if he made any false answers to any of the ahove\nquestions he would be liable to be punished by law. The above questions were then read to the recruit\nin my presence. I have taken care that he understands each question and that his answer to each question\nhas been duly entered and replied to, and the said recruit has made and signed the declaration and taken\nthe oath.\n\nSignature of Magistrate, Justice of Peace, or\nAttesting Officer\nDnBell Cistar\n\nM.F.B. 2354.\n50M-10--28'\nH.Q. 1772-39-1645\n\nSignature of Witness\nGeorge Warturton\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "1000",
+          "spans": [
+            {
+              "offset": 96,
+              "length": 4
+            }
+          ],
+          "confidence": 0.982,
+          "source": "D(1,837.0000,267.0000,928.0000,266.0000,928.0000,292.0000,837.0000,293.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ACORN",
+          "spans": [
+            {
+              "offset": 144,
+              "length": 5
+            }
+          ],
+          "confidence": 0.95,
+          "source": "D(1,603.0000,309.0000,803.0000,308.0000,803.0000,344.0000,603.0000,343.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "CEORGE. WARBURTON",
+          "spans": [
+            {
+              "offset": 186,
+              "length": 17
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,528.0000,342.0000,1024.0000,342.0000,1024.0000,376.0000,528.0000,376.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "171 Hread hong St.",
+          "spans": [
+            {
+              "offset": 239,
+              "length": 18
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,504.0000,373.0000,791.0000,373.0000,791.0000,404.0000,504.0000,404.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "2025-07-08",
+          "spans": [
+            {
+              "offset": 344,
+              "length": 7
+            }
+          ],
+          "confidence": 0.974,
+          "source": "D(1,338.0000,438.0000,451.0000,442.0000,451.0000,468.0000,336.0000,465.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canda",
+          "spans": [
+            {
+              "offset": 376,
+              "length": 5
+            }
+          ],
+          "confidence": 0.826,
+          "source": "D(1,672.0000,440.0000,771.0000,440.0000,771.0000,468.0000,672.0000,467.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "Brutiad",
+          "spans": [
+            {
+              "offset": 398,
+              "length": 7
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,940.0000,434.0000,1059.0000,433.0000,1059.0000,469.0000,940.0000,470.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "R.C.",
+          "spans": [
+            {
+              "offset": 521,
+              "length": 4
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,900.7028,493.2363,1003.0000,495.0000,1002.2883,536.2808,899.9911,534.5171)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Nltet",
+          "spans": [
+            {
+              "offset": 487,
+              "length": 5
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,504.0000,498.0000,613.0000,498.0000,613.0000,528.0000,504.0000,529.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "valueString": "School f",
+          "spans": [
+            {
+              "offset": 306,
+              "length": 8
+            }
+          ],
+          "confidence": 0.885,
+          "source": "D(1,524.2030,403.7416,718.0000,405.0000,717.7970,436.2584,524.0000,435.0000)"
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "1y\u00e9s",
+          "spans": [
+            {
+              "offset": 427,
+              "length": 4
+            }
+          ],
+          "confidence": 0.656,
+          "source": "D(1,359.0000,466.0000,450.0000,468.0000,450.0000,497.0000,359.0000,497.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Edward acam",
+          "spans": [
+            {
+              "offset": 676,
+              "length": 11
+            }
+          ],
+          "confidence": 0.821,
+          "source": "D(1,694.0000,632.0000,1013.0002,632.9410,1012.8763,674.9406,693.8761,673.9996)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "mil -",
+          "spans": [
+            {
+              "offset": 618,
+              "length": 5
+            }
+          ],
+          "confidence": 0.825,
+          "source": "D(1,531.0000,566.0000,779.0000,566.0000,779.0000,615.0000,531.0000,615.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "DnBell Cistar",
+          "spans": [
+            {
+              "offset": 2371,
+              "length": 13
+            }
+          ],
+          "confidence": 0.672,
+          "source": "D(1,607.0000,1388.0000,1029.0309,1396.4594,1028.0892,1443.4405,606.0583,1434.9811)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Ch Tren",
+          "spans": [
+            {
+              "offset": 1839,
+              "length": 7
+            }
+          ],
+          "confidence": 0.821,
+          "source": "D(1,864.0165,1229.0912,1024.6725,1232.0122,1023.9835,1269.9088,863.3275,1266.9878)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1939-07-01",
+          "spans": [
+            {
+              "offset": 1826,
+              "length": 4
+            },
+            {
+              "offset": 1831,
+              "length": 4
+            }
+          ],
+          "confidence": 0.289,
+          "source": "D(1,531.0000,1209.0000,649.0000,1211.0000,649.0000,1265.0000,531.0000,1266.0000);D(1,790.0000,1230.0000,847.0000,1230.0000,847.0000,1267.0000,790.0000,1267.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Georgo Charburta Scar",
+          "spans": [
+            {
+              "offset": 1060,
+              "length": 21
+            }
+          ],
+          "confidence": 0.395,
+          "source": "D(1,362.1986,949.3120,742.2000,951.0009,741.9981,996.4355,361.9967,994.7467)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "lecorn",
+          "spans": [
+            {
+              "offset": 1621,
+              "length": 6
+            }
+          ],
+          "confidence": 0.248,
+          "source": "D(1,774.0000,1097.0000,964.0000,1100.0000,964.0000,1136.0000,774.0000,1135.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "George Warturton",
+          "spans": [
+            {
+              "offset": 2451,
+              "length": 16
+            }
+          ],
+          "confidence": 0.681,
+          "source": "D(1,198.6726,1098.9818,739.6119,1106.4046,738.9393,1155.4228,198.0000,1148.0000)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.2672752,
+          "width": 1172,
+          "height": 1665
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

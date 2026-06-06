@@ -1,0 +1,341 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:21:26Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: PCDECIAL RESERVE R.C.A.F. Recruiting Centre RHP -->\n<!-- PageHeader: AIR FORCE NO R.133591 -->\n<!-- PageHeader: POSTED TO Toronto, Ontario. TRADE W.A.G. Aircrew -->\n\n\n# ROYAL CANADIAN AIR FORCE (ATTESTATION PAPER) (Pages one and two, only, are to be completed in Applicant's own Handwriting)\n\n1\\. Surname\nADAiR\n\nFULL Christian Names\nLESLiE JAMES\n\n2\\. Present Address\n561 HURON. ST. TORONTO, Tel\nTelephone Ki. 9838\n\n3\\. Permanent Address\nWiNGHAM . ONT.\n\n4\\. Place of Birth\nOTTAWA ONT.\n\nCitizenship\nCANADiAN\n\n\u2713\n5. Date of Birth OCT. 29 1922 Married, Single, Widower, Separated, Divorced SiNGLE\n\n6\\. Particulars of Children\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>Mone</td>\n<td>.</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n7\\. Occupation BREAD SALESMAN 8. Religion Presbyterian\nnglish, Nigh Schooll SFrend\nState denomination\n\n10\\. Next of Kin (Full Name) 1/2ar dedair\nJames\nState profictency\nRelationship\nFathus\n\n\" Address.\nh ingham Onh J asychine sh.\n\n11\\. Father (Full Name\ngan R oud celais\nBirthplace.\nForclwich Onh.\n\n\" Address\nH linghano Grab\n\nCitizenship\nCanadian\n\n\" Occupation\nO perates and swps a fransport Co.\n\n12\\. Mother (Full Maiden Name)\nSirtrude Deand Birthplace Sr ingham Gnh-\n\n\" Address\nth inglamo O nb.\n\nCitizenship\nCanadian\n\n13\\. Details of any Naval, Military or Air Force Service:\n\n\n<table>\n<tr>\n<th rowspan=\"2\">Unit</th>\n<th rowspan=\"2\">Place</th>\n<th rowspan=\"2\">Rank</th>\n<th rowspan=\"2\">Trade</th>\n<th colspan=\"2\">Date</th>\n<th rowspan=\"2\">Reason for discharge</th>\n</tr>\n<tr>\n<th>From</th>\n<th>To</th>\n</tr>\n<tr>\n<td rowspan=\"4\">Amo<br>dami in the<br>bathy a<br>batteg ah</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>99 th</td>\n<td></td>\n<td></td>\n<td>luly</td>\n<td>prant</td>\n<td>D1 Join</td>\n</tr>\n<tr>\n<td>ryperve</td>\n<td>Dunner</td>\n<td>Signalter</td>\n<td>d190401</td>\n<td></td>\n<td>R.C.az.</td>\n</tr>\n<tr>\n<td>th mighana</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n14\\. Honours, Awards, Mentions.\n\"\n2, r\u3002\nR.C.A.F. Records Office\n\n15\\. Are you now on any Naval, Military or Air Force Reserve? he E thw&\n\n16\\. Have you previously made application to join the R.C.A.F.?\nMa iR If so, whond DN.d.\n\nWhen?\nna\nResult n.a\n\n17\\. Were you ever discharged from any branch of His Majesty's Forces as Medically Unfit?\nspa\nIf so, state nature of disability\nn.a.\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension?\n1/0\n\nIf so, state nature of Disability\nm.u.\n\n19\\. Have you ever been convicted of an indictable offence?\nno\nIf so state nature\nn.a\n\n20\\. Are you in debt? no\n\nIf so, state particulars.\non.a.\n\n<!-- PageFooter: R.C.A.F. Form R. 100 400M-8-40 (5739) B.Q. 1062-3-83 -->\n<!-- PageFooter: 206-59 -->\n<!-- PageFooter: em -->\n\nonl.\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "R.133591",
+          "spans": [
+            {
+              "offset": 99,
+              "length": 8
+            }
+          ],
+          "confidence": 0.867,
+          "source": "D(1,352.0000,175.0000,463.0000,175.0000,463.0000,201.0000,352.0000,201.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ADAiR",
+          "spans": [
+            {
+              "offset": 322,
+              "length": 5
+            }
+          ],
+          "confidence": 0.738,
+          "source": "D(1,325.0000,395.0000,558.0000,394.0000,558.0000,440.0000,325.0000,440.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "LESLiE JAMES",
+          "spans": [
+            {
+              "offset": 350,
+              "length": 12
+            }
+          ],
+          "confidence": 0.894,
+          "source": "D(1,911.0009,407.9097,1282.3242,411.5031,1281.9943,445.5903,910.6710,441.9968)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "561 HURON. ST. TORONTO, Tel",
+          "spans": [
+            {
+              "offset": 384,
+              "length": 27
+            }
+          ],
+          "confidence": 0.831,
+          "source": "D(1,413.0000,451.0000,1096.0000,451.0000,1096.0000,487.0000,413.0000,487.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1922-10-29",
+          "spans": [
+            {
+              "offset": 543,
+              "length": 12
+            }
+          ],
+          "confidence": 0.89,
+          "source": "D(1,362.3855,583.6897,657.3820,587.0043,656.9948,621.4606,361.9984,618.1460)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "ONT.",
+          "spans": [
+            {
+              "offset": 496,
+              "length": 4
+            }
+          ],
+          "confidence": 0.78,
+          "source": "D(1,651.0284,536.9218,768.8678,540.0228,767.9979,573.0789,650.1585,569.9779)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "OTTAWA",
+          "spans": [
+            {
+              "offset": 489,
+              "length": 6
+            }
+          ],
+          "confidence": 0.961,
+          "source": "D(1,379.0000,539.0000,584.0000,538.0000,584.0000,570.0000,379.0000,571.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Forclwich Onh.",
+          "spans": [
+            {
+              "offset": 1235,
+              "length": 14
+            }
+          ],
+          "confidence": 0.194,
+          "source": "D(1,1005.3573,1062.0098,1331.9542,1057.0109,1332.6884,1104.9742,1006.0914,1109.9731)"
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Sr ingham Gnh-",
+          "spans": [
+            {
+              "offset": 1406,
+              "length": 14
+            }
+          ],
+          "confidence": 0.444,
+          "source": "D(1,992.0000,1196.0000,1367.0000,1196.0000,1367.0000,1238.0000,992.0000,1238.0000)"
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "CANADiAN",
+          "spans": [
+            {
+              "offset": 514,
+              "length": 8
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,1063.0000,543.0000,1294.0000,544.0000,1294.0000,576.0000,1063.0000,575.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Presbyterian",
+          "spans": [
+            {
+              "offset": 995,
+              "length": 12
+            }
+          ],
+          "confidence": 0.82,
+          "source": "D(1,979.0000,886.0000,1279.0000,886.0000,1279.0000,927.0000,979.0000,926.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "BREAD SALESMAN",
+          "spans": [
+            {
+              "offset": 968,
+              "length": 14
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,338.0000,886.0000,794.0000,886.0000,794.0000,926.0000,338.0000,926.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "SiNGLE",
+          "spans": [
+            {
+              "offset": 602,
+              "length": 6
+            }
+          ],
+          "confidence": 0.63,
+          "source": "D(1,1167.0000,591.0000,1339.0000,593.0000,1339.0000,625.0000,1167.0000,624.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "James",
+          "spans": [
+            {
+              "offset": 1098,
+              "length": 5
+            }
+          ],
+          "confidence": 0.406,
+          "source": "D(1,427.0000,966.0000,532.0000,967.0000,532.0000,991.0000,427.0000,986.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Fathus",
+          "spans": [
+            {
+              "offset": 1135,
+              "length": 6
+            }
+          ],
+          "confidence": 0.662,
+          "source": "D(1,1031.0000,971.0000,1185.0000,972.0000,1185.0000,1013.0000,1031.0000,1013.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "h ingham Onh J asychine sh.",
+          "spans": [
+            {
+              "offset": 1154,
+              "length": 27
+            }
+          ],
+          "confidence": 0.707,
+          "source": "D(1,456.0000,1015.0000,1223.0000,1015.0000,1223.0000,1061.0000,456.0000,1061.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "Amo\ndami in the\nbathy a\nbatteg ah",
+          "spans": [
+            {
+              "offset": 1783,
+              "length": 3
+            },
+            {
+              "offset": 1790,
+              "length": 11
+            },
+            {
+              "offset": 1805,
+              "length": 7
+            },
+            {
+              "offset": 1816,
+              "length": 9
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,165.0000,1415.0000,398.0000,1418.0000,397.0000,1461.0000,164.0000,1461.0000);D(1,152.0000,1455.0000,433.0000,1455.0000,433.0000,1498.0000,152.0000,1498.0000);D(1,144.4683,1495.6603,341.0000,1498.0000,340.5237,1538.0062,143.9921,1535.6666);D(1,117.3431,1528.1710,335.0000,1530.0000,334.6554,1571.0055,116.9985,1569.1765)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.1268518,
+          "width": 1467,
+          "height": 2272
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:10:41Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: AIR FORCE NO. R. 61000 -->\n<!-- PageHeader: SPECIAL RESERVE -->\n<!-- PageHeader: STANDARD POSTED TO #2 Manning Depot, BRANDON TRADE AERO ENGINE MECHANIC -->\n\n\n# ROYAL CANADIAN AIR FORCE (ATTESTATION PAPER)\n\n(Pages one and two, only, are to be completed in Applicant's own Handwriting)\n\nA\n\n1\\. Surname\nJACHTYMICHUK FULL Christian Names ALEX\n\n2\\. Present Address.\nANDREW, ALBERTA\n\nTelephone.\nNONE\n\n3\\. Permanent Address\nANDREW , ALBERTA\n\n4\\. Place of Birth\nANDREW, ALBERTA\n\nCitizenship.\nCANADIAN\n\n5\\. Date of Birth NOVEMBER 23,1919 Married, Single, Widower, Separated, Divorced SINGLE\n\n6\\. Particulars of Children\nMO\n\n\n<table>\n<tr>\n<th>Name</th>\n<th>Date of birth</th>\n<th>Name</th>\n<th>Date of birth</th>\n</tr>\n<tr>\n<td>NONE</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n7\\. Occupation\nLABOURER\n\n8\\. Religion\nState denomination\nGREEK ORTHEDOX\n\n9\\. Languages\nENGLISH, UKRAINIANT\n\nState proficiency\n:\n\n10\\. Next of Kin (Full Name) ANDREW, ACHTYMICHUR\n\nRelationship\nFATHER\n\n\" Address ANDREW, ALBERTA\n\n11\\. Father (Full Name) ANDREW ACHTYMICHUK\nBirthplace AUSTRIA *\n\n\" Address.\nANDREW , ALBERTA\n\nCitizenship\nCANADIAN\n\n\" Occupation\nFARMER\n\n12\\. Mother (Full Maiden Name)\nMARY ZUKIWSKI\n\nBirthplace.\nAUSTRIA #\n\n\" Address\nANDREW, ALBERTA\n\nCitizenship\nCANADIAN\n\n13\\. Details of any Naval, Military or Air Force Service:\n\n\n<table>\n<tr>\n<th rowspan=\"2\">Unit</th>\n<th rowspan=\"2\">Place</th>\n<th rowspan=\"2\">Rank</th>\n<th rowspan=\"2\">Trade</th>\n<th colspan=\"2\">Date</th>\n<th rowspan=\"2\">Reason for discharge</th>\n</tr>\n<tr>\n<th>From</th>\n<th>To</th>\n</tr>\n<tr>\n<td>NONE</td>\n<td></td>\n<td>COPIFO Anchivos</td>\n<td>\u0661</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>COPIE</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</table>\n\n\n14\\. Honours, Awards, Mentions.\nNONE\n\n15\\. Are you now on any Naval, Military or Air Force Reserve?.\nNO\n\n16\\. Have you previously made application to join the R.C.A.F.?\nYES\nIf so, where? VANCOUVER B.C.\nWhen?\nJUNE 21, 1940\nResult MISTOOK ME FOR AN AMERICAN\n\n17\\. Were you ever discharged from any branch of His Majesty's Forces as Medically Unfit? NO\n\nIf so, state nature of disability\n\n18\\. Have you ever been or are you now in receipt of a Disability Pension?.\nNO\nTIOANF Records Offica!\n\nIf so, state nature of Disability\n\nRoo'd\nRMGv\u00e11900\nKx-176\n\n19\\. Have you ever been convicted of an indictable offence?\nNO\n\nIf so state\n\nnature\nnature Runzone MH\n\n20\\. Are you in debt? NO\n\nIf so, state particulars.\n\nR.C.nANT\n\nGLP. A\n\n<!-- PageFooter: R.C.A.F. Form R. 100 100M-2-40 (3924) H.Q. 1062-3-S3 -->\n<!-- PageFooter: 22-156 -->\n<!-- PageFooter: AB -->\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "R. 61000",
+          "spans": [
+            {
+              "offset": 31,
+              "length": 8
+            }
+          ],
+          "confidence": 0.781,
+          "source": "D(1,319.3319,175.4863,421.9872,173.3770,422.6675,206.4863,320.0122,208.5956)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "JACHTYMICHUK",
+          "spans": [
+            {
+              "offset": 318,
+              "length": 12
+            }
+          ],
+          "confidence": 0.831,
+          "source": "D(1,265.0000,400.0000,607.0000,412.0000,607.0000,448.0000,264.0000,441.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "ALEX",
+          "spans": [
+            {
+              "offset": 352,
+              "length": 4
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,916.0000,416.0000,1046.0000,416.0000,1046.0000,453.0000,916.0000,452.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "ANDREW, ALBERTA",
+          "spans": [
+            {
+              "offset": 379,
+              "length": 15
+            }
+          ],
+          "confidence": 0.935,
+          "source": "D(1,397.1736,457.7052,854.1765,460.1622,854.0000,493.0000,396.9971,490.5430)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1919-11-23",
+          "spans": [
+            {
+              "offset": 530,
+              "length": 16
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,332.2603,596.4142,646.2637,599.0022,645.9993,631.0879,331.9959,628.5000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "ALBERTA",
+          "spans": [
+            {
+              "offset": 480,
+              "length": 7
+            }
+          ],
+          "confidence": 0.955,
+          "source": "D(1,645.0000,547.0000,844.0000,550.0000,844.0000,583.0000,645.0000,582.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "ANDREW",
+          "spans": [
+            {
+              "offset": 472,
+              "length": 6
+            }
+          ],
+          "confidence": 0.958,
+          "source": "D(1,417.0000,547.0000,591.0000,547.0000,590.0000,581.0000,416.0000,582.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "AUSTRIA",
+          "spans": [
+            {
+              "offset": 1227,
+              "length": 7
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,1024.0000,1090.0000,1199.0000,1089.0000,1199.0000,1123.0000,1024.0000,1124.0000)"
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "AUSTRIA",
+          "spans": [
+            {
+              "offset": 1368,
+              "length": 7
+            }
+          ],
+          "confidence": 0.933,
+          "source": "D(1,1035.0000,1219.0000,1215.0000,1218.0000,1215.0000,1256.0000,1035.0000,1254.0000)"
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "valueString": "CANADIAN",
+          "spans": [
+            {
+              "offset": 502,
+              "length": 8
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,1074.0000,553.0000,1295.0000,551.0000,1295.0000,583.0000,1074.0000,584.0000)"
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "GREEK ORTHEDOX",
+          "spans": [
+            {
+              "offset": 1003,
+              "length": 14
+            }
+          ],
+          "confidence": 0.93,
+          "source": "D(1,986.9171,911.3187,1315.9983,910.3994,1316.0824,940.4998,987.0012,941.4190)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "LABOURER",
+          "spans": [
+            {
+              "offset": 961,
+              "length": 8
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,349.0000,902.0000,544.0000,904.0000,544.0000,937.0000,348.0000,934.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "SINGLE",
+          "spans": [
+            {
+              "offset": 593,
+              "length": 6
+            }
+          ],
+          "confidence": 0.959,
+          "source": "D(1,1175.0000,603.0000,1311.0000,604.0000,1311.0000,635.0000,1175.0000,634.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "valueInteger": 0,
+          "spans": [
+            {
+              "offset": 736,
+              "length": 4
+            }
+          ],
+          "confidence": 0.519,
+          "source": "D(1,255.0000,743.0000,372.0000,743.0000,371.0000,774.0000,254.0000,774.0000)"
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "ANDREW, ACHTYMICHUR",
+          "spans": [
+            {
+              "offset": 1104,
+              "length": 19
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,452.0000,999.0000,876.0000,999.0000,876.0000,1029.0000,452.0000,1029.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "FATHER",
+          "spans": [
+            {
+              "offset": 1138,
+              "length": 6
+            }
+          ],
+          "confidence": 0.96,
+          "source": "D(1,1050.0000,1000.0000,1211.0000,1001.0000,1211.0000,1030.0000,1050.0000,1030.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "ANDREW, ALBERTA",
+          "spans": [
+            {
+              "offset": 1156,
+              "length": 15
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,454.0000,1039.0000,862.0000,1039.0000,862.0000,1074.0000,454.0000,1074.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "NONE",
+          "spans": [
+            {
+              "offset": 1727,
+              "length": 4
+            }
+          ],
+          "confidence": 0.785,
+          "source": "D(1,227.0000,1456.0000,338.0000,1455.0000,338.0000,1485.0000,227.0000,1486.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "valueString": "NONE",
+          "spans": [
+            {
+              "offset": 2110,
+              "length": 4
+            }
+          ],
+          "confidence": 0.969,
+          "source": "D(1,529.0000,1617.0000,635.0000,1617.0000,635.0000,1644.0000,529.0000,1644.0000)"
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationDate": {
+          "type": "date",
+          "confidence": 0.904
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0,
+          "width": 1498,
+          "height": 2314
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

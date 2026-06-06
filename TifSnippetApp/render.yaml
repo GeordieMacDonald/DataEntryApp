@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: tif-snippet-app
+    runtime: docker
+    plan: starter # Starter plan is required to attach a persistent disk
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+      - key: DatasetPath
+        value: /data
+    disk:
+      name: snippet-data
+      mountPath: /data
+      sizeGB: 10

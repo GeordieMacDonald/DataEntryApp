@@ -1,0 +1,320 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:08:58Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "# ATTESTATION NON-PERMANENT ACTIVE MILITIA OF CANADA\n\nUNIT\n\nREGTL. No.\n\n1\\. Surname? (Block letters)\nACE\n\n2\\. Christian names?\nWallace\n\nJAMES\n\n3\\. Present address?\nFroguris. R.R.I- arl:\n\nPhone No\n\n4\\. Date of Birth?*\n16/5/18\n\n5\\. British subject?\n4Es -\n\n6\\. Occupation?\ntarmer.\n\n7\\. Religion?\nC.ME.\n\n8\\. Next of Kin\nTokn acc\n\n9\\. Relationship?\nfatter\n\nAddress\nR.R.1. troguois cnt.\n\n10\\. Previous Naval, Military or Air Force Service.\n(Give particulars, qualifications, etc.)\n\nE8S. anmual comp. 1928\n-4'b Hunan.\n\n\n## CERTIFICATE OF MEDICAL EXAMINATION\n\nHeight\n\nWeight.\n\nChest max.\nmin\n\nDescriptive marks.\nP\n\nI have examined the above named man in accordance with instructions laid down in Instructions for\nthe R.C.A.M.C. and C.A.D.C. 1937 Appendix V and find him.\nCategory\n\nDate.\nSignature\n\n\n## DECLARATION TO BE MADE ON ATTESTATION\n\nI, the undersigned\nWallere ee\ndo sincerely and solemnly declare\nthat to the best of my knowledge and belief, the above answers (made by me) to the foregoing questions\nare truc; that I am willing to be attested for the term of three years or until legally discharged, and do\nunderstand the nature and terms of this engagement, that I will safeguard all clothing, arms and equipment\nissued to me and will return same when required, and that I will report any change in address of myself,\nor my next of kin to my Commanding Officer.\n\n\n## OATH TO BE TAKEN\n\nI,\nWallare bee.\ndo sincerely promise and swear\n(or solemnly declare) that I will be faithful and bear true allegiance to His Majesty.\nLiongefower\nWilluer@ia\n\nSpunture of Witness\n\nSignature of Man\n\nDated this.\n16\nday of.\nJrine 1940 at Morrisburg\n\n\n## CERTIFICATE OF ATTESTING OFFICER\n\nThe recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished by law. The above questions were then read to the recruit in\nmy presence. I have taken care that he understands each question and that his answer to each question\n. has been duly entered and replied to, and the said recruit has made and signed the declaration and taken\nthe oath.\n\nSignature of Magistrate, Justice of Peace, or Attesting Officer\nGay R. Pheas. Gst.\n\nM.F.B. 235d\n. 20M-1-40 (3608)\nH.Q. 1772-39-1545\n\n*To be shown day, month, year-Example:-25-8-39.\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ACE",
+          "spans": [
+            {
+              "offset": 101,
+              "length": 3
+            }
+          ],
+          "confidence": 0.96,
+          "source": "D(1,438.0000,269.0000,541.0000,271.0000,540.0000,299.0000,437.0000,298.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Wallace\n\nJAMES",
+          "spans": [
+            {
+              "offset": 127,
+              "length": 7
+            },
+            {
+              "offset": 136,
+              "length": 5
+            }
+          ],
+          "confidence": 0.262,
+          "source": "D(1,349.0000,305.0000,520.0000,305.0000,520.0000,334.0000,349.0000,333.0000);D(1,573.0000,303.0000,714.0000,304.0000,714.0000,333.0000,572.0000,332.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "Froguris. R.R.I- arl:",
+          "spans": [
+            {
+              "offset": 164,
+              "length": 21
+            }
+          ],
+          "confidence": 0.877,
+          "source": "D(1,328.8456,336.0442,829.9982,333.6232,830.1526,365.5983,329.0001,368.0193)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "2016-05-18",
+          "spans": [
+            {
+              "offset": 217,
+              "length": 7
+            }
+          ],
+          "confidence": 0.972,
+          "source": "D(1,317.0000,397.0000,455.0000,396.0000,455.0000,427.0000,317.0000,427.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "C.ME.",
+          "spans": [
+            {
+              "offset": 293,
+              "length": 5
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,723.0000,432.0000,826.0000,432.0000,826.0000,459.0000,723.0000,459.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "tarmer.",
+          "spans": [
+            {
+              "offset": 270,
+              "length": 7
+            }
+          ],
+          "confidence": 0.822,
+          "source": "D(1,315.0000,432.0000,500.0000,432.0000,500.0000,457.0000,315.0000,457.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Tokn acc",
+          "spans": [
+            {
+              "offset": 316,
+              "length": 8
+            }
+          ],
+          "confidence": 0.78,
+          "source": "D(1,284.0124,458.8588,481.2934,461.0032,480.9767,490.1411,283.6957,487.9967)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "fatter",
+          "spans": [
+            {
+              "offset": 344,
+              "length": 6
+            }
+          ],
+          "confidence": 0.633,
+          "source": "D(1,761.0000,460.0000,889.0000,461.0000,889.0000,488.0000,761.0000,488.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "R.R.1. troguois cnt.",
+          "spans": [
+            {
+              "offset": 360,
+              "length": 20
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,266.0000,491.0000,722.0000,491.0000,722.0000,523.0000,266.0000,523.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "E8S. anmual comp. 1928\n-4'b Hunan.",
+          "spans": [
+            {
+              "offset": 476,
+              "length": 22
+            },
+            {
+              "offset": 499,
+              "length": 11
+            }
+          ],
+          "confidence": 0.878,
+          "source": "D(1,214.3614,580.5211,858.3547,586.2710,857.9889,627.2410,213.9956,621.4910);D(1,167.0000,623.0000,486.0000,623.0000,486.0000,653.0000,167.0000,653.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "Gay R. Pheas. Gst.",
+          "spans": [
+            {
+              "offset": 2157,
+              "length": 18
+            }
+          ],
+          "confidence": 0.781,
+          "source": "D(1,495.0000,1227.0000,922.0000,1227.0000,922.0000,1271.0000,495.0000,1271.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Morrisburg",
+          "spans": [
+            {
+              "offset": 1620,
+              "length": 10
+            }
+          ],
+          "confidence": 0.738,
+          "source": "D(1,661.0000,1086.0000,866.0000,1089.0000,864.0000,1123.0000,661.0000,1122.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "spans": [
+            {
+              "offset": 1598,
+              "length": 7
+            },
+            {
+              "offset": 1606,
+              "length": 10
+            }
+          ],
+          "confidence": 0.173,
+          "source": "D(1,410.0000,1102.0000,462.0000,1102.0000,462.0000,1121.0000,410.0000,1121.0000);D(1,465.0795,1082.7052,643.0000,1086.0000,642.2911,1124.2832,464.3706,1120.9883)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathSignature": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "Liongefower\nWilluer@ia",
+          "spans": [
+            {
+              "offset": 1520,
+              "length": 11
+            },
+            {
+              "offset": 1532,
+              "length": 10
+            }
+          ],
+          "confidence": 0.262,
+          "source": "D(1,131.0000,1047.0000,456.0000,1046.0000,457.0000,1076.0000,131.0000,1079.0000);D(1,589.9011,1043.9247,871.0000,1043.0000,871.0989,1073.0753,590.0000,1074.0000)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.1014,
+          "width": 1047,
+          "height": 1483
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

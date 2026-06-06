@@ -1,0 +1,385 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:29:02Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "<!-- PageHeader: ORIGMER DUPLICATE TRIRLICATE -->\n\nM.F.M. 2\nA.F.B. 271\n480 3M-8-30 (1026)\nLL.Q. 1772-45-18\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\n\nUnit\nP.E.I. HIGHLANDERS\n\nRegimental Number.\nF60039\n\n\n# CANADIAN ACTIVE SERVICE FORCE ATTESTATION PAPER\n\n1\\. Surname.\nfldams.\n\n2\\. Christian Names.\nClaude\n\n3\\. Present address.\nPortage - PEt.\n\n4\\. Date of birth\n24th October 1914\n\n5\\. Place of birth\n(Country)\nCanada P.E.I.\n(County Brovince)\n(Towa or Towaship)\nportage\n\n6\\. Religion (state denomination)\nC.of.G.\n\n7\\. Trade or Calling.\nLaborer\n\n8\\. Married, Widower or Single.\nSingle\n\n9\\. Name of next of kin\nMRS ELIZABETH AUGMS\n\n\u0661\n\n10\\. Relationship\nMOTHER\n\n11\\. Address of next of kin.\nPORTAGE PE%\n\n12\\. Have you served in any Naval, Military or Air Force?.\nNo\n\n13\\. If previous war service, state arm, force and regimental particulars.\nNo\n\n14\\. Do you now belong to or have you served in the Active Militia of Canada?.\nNo\n\n(Give unit and date of attestation)\n23-2-40\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nCLAUDE ADAMS\ndo solemnly declare that the above\nparticulars are true, and I hereby engage to serve in the Canadian Active Service Force so long as an emergency,\ni.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the period of demobilization after\nsaid emergency ceases to exist, and in any event for a period of not less than one year, provided His Majesty\nshould so require my services.\n\nDate\n2 3 RD F ebruary 1940\n(Signature of recruit)\nClaude adamo Ramel\nem\u0628t\u062a\n\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI,\nCLAUDE ADAMS\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\nClaude adom\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF. THE PEAGE OR ATTES\u021aING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any fals\u0119 answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nat\nSUMMERSID E PEI\nthis 23 RD\nday of\nFebruary\n1940\n\nV. I Tramuas.\nmem\nOz@ Hughhs\n\nSignature of Magistrate, Justice\nor Attesting Officer.\n1\nOffice or Rank and Unit\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "F60039",
+          "spans": [
+            {
+              "offset": 253,
+              "length": 6
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,984.0000,269.0000,1074.0000,270.0000,1074.0000,297.0000,984.0000,296.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "fldams.",
+          "spans": [
+            {
+              "offset": 326,
+              "length": 7
+            }
+          ],
+          "confidence": 0.717,
+          "source": "D(1,353.0671,386.5852,549.2490,392.0347,547.9044,440.4418,351.7224,434.9923)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Claude",
+          "spans": [
+            {
+              "offset": 356,
+              "length": 6
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,435.0000,441.0000,614.0000,441.0000,614.0000,477.0000,435.0000,477.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "Portage - PEt.",
+          "spans": [
+            {
+              "offset": 385,
+              "length": 14
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,442.9847,479.3575,727.9898,472.5717,729.0606,517.5462,444.0555,524.3320)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1914-10-24",
+          "spans": [
+            {
+              "offset": 419,
+              "length": 17
+            }
+          ],
+          "confidence": 0.924,
+          "source": "D(1,436.0000,525.0000,823.0000,525.0000,823.0000,559.0000,436.0000,559.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada P.E.I.",
+          "spans": [
+            {
+              "offset": 467,
+              "length": 13
+            }
+          ],
+          "confidence": 0.658,
+          "source": "D(1,394.0000,563.0000,733.0000,563.0000,733.0000,603.0000,394.0000,603.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "portage",
+          "spans": [
+            {
+              "offset": 518,
+              "length": 7
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,919.0000,569.0000,1064.0000,569.0000,1064.0000,603.0000,919.0000,603.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "C.of.G.",
+          "spans": [
+            {
+              "offset": 561,
+              "length": 7
+            }
+          ],
+          "confidence": 0.936,
+          "source": "D(1,533.0000,604.0000,706.0000,604.0000,706.0000,643.0000,533.0000,643.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Laborer",
+          "spans": [
+            {
+              "offset": 592,
+              "length": 7
+            }
+          ],
+          "confidence": 0.947,
+          "source": "D(1,464.0000,653.0000,639.0000,655.0000,638.0000,688.0000,463.0000,686.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 633,
+              "length": 6
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,506.0000,693.0000,621.0000,694.0000,620.0000,730.0000,506.0000,730.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "MRS ELIZABETH AUGMS",
+          "spans": [
+            {
+              "offset": 665,
+              "length": 19
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,438.0000,734.0000,893.0000,734.0000,893.0000,771.0000,438.0000,771.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "MOTHER",
+          "spans": [
+            {
+              "offset": 707,
+              "length": 6
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,512.0000,784.0000,666.0000,785.0000,666.0000,812.0000,512.0000,811.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "PORTAGE PE%",
+          "spans": [
+            {
+              "offset": 744,
+              "length": 11
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,488.4754,818.6450,776.9943,814.5928,777.5336,852.9925,489.0147,857.0447)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "No",
+          "spans": [
+            {
+              "offset": 816,
+              "length": 2
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,779.0000,871.0000,830.0000,869.0000,830.0000,895.0000,779.0000,898.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "No",
+          "spans": [
+            {
+              "offset": 895,
+              "length": 2
+            }
+          ],
+          "confidence": 0.883,
+          "source": "D(1,841.0000,913.0000,894.0000,913.0000,894.0000,939.0000,841.0000,939.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Claude adamo Ramel",
+          "spans": [
+            {
+              "offset": 1548,
+              "length": 18
+            }
+          ],
+          "confidence": 0.728,
+          "source": "D(1,656.8078,1247.0036,1164.9894,1245.4775,1165.1816,1309.4739,657.0000,1311.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "V. I Tramuas.",
+          "spans": [
+            {
+              "offset": 2364,
+              "length": 13
+            }
+          ],
+          "confidence": 0.336,
+          "source": "D(1,378.4689,1637.4753,736.4474,1640.7977,735.9706,1692.1645,377.9922,1688.8422)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "Oz@ Hughhs",
+          "spans": [
+            {
+              "offset": 2382,
+              "length": 10
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,471.5181,1715.9942,845.5000,1720.5000,844.9819,1763.5058,471.0000,1759.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "SUMMERSID E PEI",
+          "spans": [
+            {
+              "offset": 2315,
+              "length": 15
+            }
+          ],
+          "confidence": 0.83,
+          "source": "D(1,250.0000,1616.0000,464.0000,1616.0000,464.0000,1639.0000,250.0000,1639.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1940-02-23",
+          "spans": [
+            {
+              "offset": 2336,
+              "length": 5
+            },
+            {
+              "offset": 2349,
+              "length": 8
+            },
+            {
+              "offset": 2358,
+              "length": 4
+            }
+          ],
+          "confidence": 0.405,
+          "source": "D(1,545.0000,1618.0000,619.0000,1618.0000,619.0000,1641.0000,545.0000,1641.0000);D(1,827.0000,1619.0000,941.0000,1619.0000,941.0000,1641.0000,827.0000,1641.0000);D(1,1103.0000,1618.0000,1165.0000,1618.0000,1165.0000,1642.0000,1103.0000,1642.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Claude adamo Ramel",
+          "spans": [
+            {
+              "offset": 1548,
+              "length": 18
+            }
+          ],
+          "confidence": 0.673,
+          "source": "D(1,656.8078,1247.0036,1164.9894,1245.4775,1165.1816,1309.4739,657.0000,1311.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Claude adom",
+          "spans": [
+            {
+              "offset": 1748,
+              "length": 11
+            }
+          ],
+          "confidence": 0.827,
+          "source": "D(1,611.0006,1405.9000,962.2119,1407.8512,961.9947,1446.9500,610.7833,1444.9988)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "TRIRLICATE",
+          "spans": [
+            {
+              "offset": 35,
+              "length": 10
+            }
+          ],
+          "confidence": 0.519,
+          "source": "D(1,192.0000,219.0000,303.0000,220.0000,303.0000,236.0000,192.0000,235.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.09101368,
+          "width": 1383,
+          "height": 2043
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

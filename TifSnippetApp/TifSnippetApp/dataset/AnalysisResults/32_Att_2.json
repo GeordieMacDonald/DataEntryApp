@@ -1,0 +1,397 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:04:58Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Vip cenk 17/2/42\n4\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\nDUPLICATE\n\nDate\n9 thr. July 1941\n0\nM.F.M. 2\nA.F.B. 271\n200M-3-41 (6720)\nH.Q. 1772-30-1045\n\n(To be completed in triplicate. Copy dcsignation to be shown by striking out terma not applicable.)\n\nUnit\n4th Bn. R.C.E. C.A. (A)\n\n\n# ACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY\n\n\n## ATTESTATION PAPER\n\nHIIADA\n\n1\\. Surname\nABLRTT\n\n2\\. Christian Names\nANGUS\n1\n\n3\\. Present address\nSEASIDE PARK, B.C.CAMADA\n\n4\\. Date of birth\n26th March 1897\n\n5\\. Place of birth\n(Country)\nBNGLAND\n(County or Province)\nYORKSHIRE\nCLAYTON\n\n6\\. Religion (state denomination)\nCHURCH OF ENGLAND\n\n7\\. Trade or Calling.\nWOOD WORKING MACHINIST\n\n8\\. Married, Widower or Single\nMARRIED (15th May 1913)\n\n9\\. Name of next of kin\nETHEL MAY ABLETT\n\n10\\. Relationship\nWIFG\n\n11\\. Address of next of kin\nSEASIDE PARK, B.C.CAADA\n\n12\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army?\nNO.\n(If Yes, Give Unit and Dates of Service)\n\n13\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?\n(Yes or No)\n\n(If Yes, Give Regimental No. and Unit)\nNO\n(b) Any other Naval, Military, or Air\nForce?\n(Yes or No) (If Yes, specify Unit and Period of Service)\nNO\n\n14\\. Did you serve during the Great War 1914-1918?\n\n5th Bn. 1915 to 1919\nNo. 426430\n\n(If Yes, specify Regimental No., Unit and Dates of Service)\n\nDECLARATION TO BE MADE BY MAN ON ATTESTATION\nat home or abroad\nI,\nANGUS ABLETT\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any. event for a period of not less than\none year, provided His Majesty should so require my services. at homme or abibae\n\nDate\n5 194 wmdcatt\n\nAngus Ablett\n\nJUL\nWITNESS\nShe\n(Signature of recruit)\n\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI,\nANGUS ABLETT\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\n\nAngus Ablett\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to cach question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\nat.\nVancouver, B. C., Canathig.\nday of.\nJUL\n5 10/1\n19\n\nMouras C. Rishe\n\nThos Seleglie\nLt.Col.\nSignature of Magistrate, Justice\nor Attesting Officer.\nOffice or Rank and Unit\n1\nor appointment\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\nMcC\n\n04\n\n11 DaD\n\n1947 UCT 14 1941 32 Bn. R.C.3. \u221a NO O\nOCCUPATIONAL HISTORY FORMPEUMM'LETED\n\nA\n\nRegimental Number.\nK7582001\n\nThos gpe+Mindvaver No: Xi A District Depot A. F.\n\n(Town or Township)\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "K7582001",
+          "spans": [
+            {
+              "offset": 3158,
+              "length": 8
+            }
+          ],
+          "confidence": 0.98,
+          "source": "D(1,1153.0000,304.0000,1367.0000,299.0000,1367.0000,340.0000,1155.0000,341.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABLRTT",
+          "spans": [
+            {
+              "offset": 369,
+              "length": 6
+            }
+          ],
+          "confidence": 0.736,
+          "source": "D(1,617.0000,534.0000,715.0000,535.0000,715.0000,559.0000,617.0000,558.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "ANGUS",
+          "spans": [
+            {
+              "offset": 397,
+              "length": 5
+            }
+          ],
+          "confidence": 0.976,
+          "source": "D(1,616.0000,579.0000,699.0000,579.0000,699.0000,603.0000,616.0000,603.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "SEASIDE PARK, B.C.CAMADA",
+          "spans": [
+            {
+              "offset": 426,
+              "length": 24
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,615.0129,621.2688,981.2015,624.0015,980.9828,653.3058,614.7942,650.5731)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "2018-03-26",
+          "spans": [
+            {
+              "offset": 470,
+              "length": 15
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,611.6761,665.7896,854.9749,662.8932,855.3095,690.9963,612.0106,693.8927)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "BNGLAND",
+          "spans": [
+            {
+              "offset": 516,
+              "length": 7
+            }
+          ],
+          "confidence": 0.939,
+          "source": "D(1,611.0000,710.0000,728.0000,710.0000,728.0000,734.0000,611.0000,734.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "YORKSHIRE",
+          "spans": [
+            {
+              "offset": 545,
+              "length": 9
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,820.0000,707.0000,967.0000,707.0000,967.0000,733.0000,820.0000,733.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "CLAYTON",
+          "spans": [
+            {
+              "offset": 555,
+              "length": 7
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,1042.0000,709.0000,1157.0000,709.0000,1157.0000,734.0000,1042.0000,734.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "CHURCH OF ENGLAND",
+          "spans": [
+            {
+              "offset": 598,
+              "length": 17
+            }
+          ],
+          "confidence": 0.914,
+          "source": "D(1,612.0170,753.0260,887.2121,755.3984,886.9796,782.3705,611.7845,779.9981)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "WOOD WORKING MACHINIST",
+          "spans": [
+            {
+              "offset": 639,
+              "length": 22
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,613.9139,795.1803,968.0000,794.0000,968.0867,819.9997,614.0006,821.1800)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "MARRIED (15th May 1913)",
+          "spans": [
+            {
+              "offset": 694,
+              "length": 23
+            }
+          ],
+          "confidence": 0.892,
+          "source": "D(1,611.0000,837.0000,1010.0000,837.0000,1010.0000,866.0000,611.0000,866.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "ETHEL MAY ABLETT",
+          "spans": [
+            {
+              "offset": 743,
+              "length": 16
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,612.0000,884.0000,873.0000,884.0000,873.0000,911.0000,612.0000,911.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "WIFG",
+          "spans": [
+            {
+              "offset": 779,
+              "length": 4
+            }
+          ],
+          "confidence": 0.971,
+          "source": "D(1,615.0000,932.0000,680.0000,932.0000,680.0000,955.0000,615.0000,954.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "SEASIDE PARK, B.C.CAADA",
+          "spans": [
+            {
+              "offset": 813,
+              "length": 23
+            }
+          ],
+          "confidence": 0.916,
+          "source": "D(1,614.0000,973.0000,967.0000,973.0000,967.0000,1002.0000,614.0000,1002.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "NO.",
+          "spans": [
+            {
+              "offset": 933,
+              "length": 3
+            }
+          ],
+          "confidence": 0.455,
+          "source": "D(1,613.0000,1064.0000,652.0000,1064.0000,652.0000,1087.0000,613.0000,1087.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "5th Bn. 1915 to 1919\nNo. 426430",
+          "spans": [
+            {
+              "offset": 1270,
+              "length": 20
+            },
+            {
+              "offset": 1291,
+              "length": 10
+            }
+          ],
+          "confidence": 0.516,
+          "source": "D(1,616.0000,1280.0000,953.0000,1280.0000,953.0000,1308.0000,616.0000,1308.0000);D(1,995.0000,1277.0000,1156.0000,1277.0000,1156.0000,1304.0000,995.0000,1304.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Angus Ablett",
+          "spans": [
+            {
+              "offset": 1904,
+              "length": 12
+            }
+          ],
+          "confidence": 0.707,
+          "source": "D(1,893.0000,1491.0000,1228.0000,1491.0000,1228.0000,1533.0000,893.0000,1533.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "Thos Seleglie",
+          "spans": [
+            {
+              "offset": 2768,
+              "length": 13
+            }
+          ],
+          "confidence": 0.442,
+          "source": "D(1,464.0000,1975.0000,674.0000,1975.0000,674.0000,2001.0000,464.0000,2001.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "Lt.Col.",
+          "spans": [
+            {
+              "offset": 2782,
+              "length": 7
+            }
+          ],
+          "confidence": 0.739,
+          "source": "D(1,829.0000,1974.0000,940.0000,1974.0000,940.0000,1997.0000,829.0000,1997.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Vancouver, B. C., Canathig.",
+          "spans": [
+            {
+              "offset": 2700,
+              "length": 27
+            }
+          ],
+          "confidence": 0.718,
+          "source": "D(1,264.0000,1886.0000,633.0000,1886.0000,633.0000,1916.0000,264.0000,1916.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "2010-07-05",
+          "spans": [
+            {
+              "offset": 1918,
+              "length": 3
+            },
+            {
+              "offset": 2740,
+              "length": 6
+            },
+            {
+              "offset": 2747,
+              "length": 2
+            }
+          ],
+          "confidence": 0.178,
+          "source": "D(1,291.0000,1530.0000,359.0000,1529.0000,359.0000,1568.0000,292.0000,1569.0000);D(1,1125.0119,1881.5253,1224.9244,1884.0231,1223.9881,1921.4747,1124.0756,1918.9769);D(1,1281.0000,1891.0000,1308.0000,1891.0000,1308.0000,1912.0000,1281.0000,1912.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Angus Ablett",
+          "spans": [
+            {
+              "offset": 1904,
+              "length": 12
+            }
+          ],
+          "confidence": 0.607,
+          "source": "D(1,893.0000,1491.0000,1228.0000,1491.0000,1228.0000,1533.0000,893.0000,1533.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Angus Ablett",
+          "spans": [
+            {
+              "offset": 2133,
+              "length": 12
+            }
+          ],
+          "confidence": 0.833,
+          "source": "D(1,802.6125,1659.9939,1104.0000,1657.0000,1104.3875,1696.0061,803.0000,1699.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "DUPLICATE",
+          "spans": [
+            {
+              "offset": 29,
+              "length": 9
+            }
+          ],
+          "confidence": 0.896,
+          "source": "D(1,239.0000,220.0000,360.0000,221.0000,360.0000,241.0000,239.0000,240.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.0476,
+          "width": 1548,
+          "height": 2289
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

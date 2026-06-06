@@ -1,0 +1,408 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:16:55Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "2/000\nRecefved..................... c.....e.. Checkede5... ..ly.6..... Card..d........Observations\n\nORIGINAL\nDUPLICATE\nTRIRETOATE\n\u2713\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\nNo. 124 Diet. Depot, CA(A), Saskatoom\nUnit Kor General Retatorcenents\n(R.C.A)\n\n\n# ACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY ATTESTATION PAPER\n\n\\-\n\nPTE\n\n1\\. Surname.\nAcorn\n\n2\\. Christian Names\nfrod Lo\n\nCanada\n\n3\\. Present address\nDES\nG\n1 Delivery, Devie, Bask.,\n\n4\\. Date of birth\n6th of Feb.y 1918\n\n5\\. Place of birth\n(Country)\nCanada\n(County or Province)\nSaskatchewan\nPrince Albert\n\n6\\. Religion (state denomination)\nUnited Church\n\n7\\. Trade or Calling\nFarming\n\n8\\. Married, Widower or Single\nSingle\n\n9\\. Name of next of kin\nMr. William Edger Acorn\n\n10\\. Relationship\nFather\n\n11\\. Address of next of kin.\nGeneral Delivery, D,vis, Sask., Canada\n\n12\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army?\n\n(If Yes, Give Unit and Dates of Service)\nNo\n\n13\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?\n(Yes or No)\nNo\n(b) Any other Naval, Military, or Air\n\n(If Yes, Give Regimental No. and Unit)\n\nForce?\n(Yes or No) (If Yes, specify Unit and Period of Service)\nNo\n\n14\\. Did you serve during the Great War 1914-1918?\nNo\n\n(If Yes, specify Regimental No., Unit and Dates of Service)\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI, Wilfred Lorne Acorn\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\n\nDate\nMa\u017cxx28x 1942\nNar. 39\nWilfred L acorn\n(Signature of recruit)\n\n\n## OATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI\nWilfred Lorne Acorn\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\n\nWilfred I acorn\n(Signature of Recruit)\n\n\n## CERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nat Prince Albert, Saek, this 30th\nday of\nMesch\n1942\n018 mrhmugos Gaplain\nSignature of Magistrate, Justice\n1\nor Attesting Officer,\n{Officer or Rank and Unit\nP.A.V.s\nHeemitine Officer.\n1\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\n\n![WSG- COMPLETED](figures/1.1)\n\n\n.\nGecupational Hiatory Form completed.\n\u2713\n/\n\nM.F.M. 2\nA.F.B. 271\n500M-7-41 (1181)\nH.Q. 1772-30-1645\n\nRegimental Number.\nL. 74821\n\n01\n(Town or Towmhip)\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "L. 74821",
+          "spans": [
+            {
+              "offset": 3210,
+              "length": 8
+            }
+          ],
+          "confidence": 0.738,
+          "source": "D(1,1053.8247,282.7078,1160.0000,282.0000,1160.1760,308.3988,1054.0007,309.1067)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "Acorn",
+          "spans": [
+            {
+              "offset": 404,
+              "length": 5
+            }
+          ],
+          "confidence": 0.972,
+          "source": "D(1,559.0000,494.0000,641.0000,493.0000,640.0000,518.0000,558.0000,518.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "frod Lo",
+          "spans": [
+            {
+              "offset": 431,
+              "length": 7
+            }
+          ],
+          "confidence": 0.623,
+          "source": "D(1,572.7726,531.8924,687.0000,531.0000,687.2274,560.1076,573.0000,561.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "1 Delivery, Devie, Bask.,",
+          "spans": [
+            {
+              "offset": 474,
+              "length": 25
+            }
+          ],
+          "confidence": 0.234,
+          "source": "D(1,906.0000,573.0000,1294.0000,573.0000,1294.0000,602.0000,906.0000,602.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1918-02-06",
+          "spans": [
+            {
+              "offset": 519,
+              "length": 17
+            }
+          ],
+          "confidence": 0.887,
+          "source": "D(1,695.0000,609.0000,973.4633,613.3510,972.9627,645.3900,694.4994,641.0391)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 567,
+              "length": 6
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,467.0000,658.0000,562.0000,658.0000,562.0000,681.0000,467.0000,682.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Saskatchewan",
+          "spans": [
+            {
+              "offset": 595,
+              "length": 12
+            }
+          ],
+          "confidence": 0.958,
+          "source": "D(1,740.0000,658.0000,926.0000,658.0000,926.0000,682.0000,740.0000,681.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Prince Albert",
+          "spans": [
+            {
+              "offset": 608,
+              "length": 13
+            }
+          ],
+          "confidence": 0.939,
+          "source": "D(1,1011.0224,653.8544,1217.2708,656.0028,1216.9881,683.1457,1010.7396,680.9973)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "United Church",
+          "spans": [
+            {
+              "offset": 657,
+              "length": 13
+            }
+          ],
+          "confidence": 0.8,
+          "source": "D(1,648.0000,698.0000,852.0000,698.0000,852.0000,727.0000,648.0000,727.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Farming",
+          "spans": [
+            {
+              "offset": 693,
+              "length": 7
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,558.0000,746.0000,671.0000,747.0000,670.0000,774.0000,557.0000,773.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 733,
+              "length": 6
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,604.0000,784.0000,698.0000,787.0000,698.0000,815.0000,604.0000,813.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mr. William Edger Acorn",
+          "spans": [
+            {
+              "offset": 765,
+              "length": 23
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,585.7437,822.6765,942.9769,819.4436,943.2534,849.9977,586.0202,853.2306)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Father",
+          "spans": [
+            {
+              "offset": 808,
+              "length": 6
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,618.0000,866.0000,714.0000,866.0000,714.0000,890.0000,618.0000,891.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "General Delivery, D,vis, Sask., Canada",
+          "spans": [
+            {
+              "offset": 845,
+              "length": 38
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,571.0000,906.0000,1139.0000,906.0000,1139.0000,938.0000,571.0000,938.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "No",
+          "spans": [
+            {
+              "offset": 1262,
+              "length": 2
+            }
+          ],
+          "confidence": 0.961,
+          "source": "D(1,497.0000,1130.0000,529.0000,1130.0000,529.0000,1153.0000,497.0000,1154.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "No",
+          "spans": [
+            {
+              "offset": 1317,
+              "length": 2
+            }
+          ],
+          "confidence": 0.961,
+          "source": "D(1,373.0000,1208.0000,407.0000,1209.0000,407.0000,1233.0000,373.0000,1232.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Wilfred L acorn",
+          "spans": [
+            {
+              "offset": 1903,
+              "length": 15
+            }
+          ],
+          "confidence": 0.814,
+          "source": "D(1,732.9683,1409.4798,1208.9492,1399.5636,1209.9809,1449.0837,734.0000,1459.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "018 mrhmugos Gaplain",
+          "spans": [
+            {
+              "offset": 2751,
+              "length": 20
+            }
+          ],
+          "confidence": 0.379,
+          "source": "D(1,486.8640,1817.2240,937.9963,1815.8230,938.1351,1860.4996,487.0028,1861.9006)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "P.A.V.s\nHeemitine Officer.",
+          "spans": [
+            {
+              "offset": 2855,
+              "length": 7
+            },
+            {
+              "offset": 2863,
+              "length": 18
+            }
+          ],
+          "confidence": 0.261,
+          "source": "D(1,431.0000,1874.0000,547.0000,1874.0000,547.0000,1898.0000,431.0000,1898.0000);D(1,467.0000,1903.0000,754.0000,1903.0000,754.0000,1924.0000,467.0000,1924.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Prince Albert, Saek",
+          "spans": [
+            {
+              "offset": 2702,
+              "length": 19
+            }
+          ],
+          "confidence": 0.672,
+          "source": "D(1,269.0000,1794.0000,560.0000,1794.0000,560.0000,1824.0000,269.0000,1824.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "spans": [
+            {
+              "offset": 2728,
+              "length": 4
+            },
+            {
+              "offset": 2733,
+              "length": 6
+            },
+            {
+              "offset": 2740,
+              "length": 5
+            },
+            {
+              "offset": 2746,
+              "length": 4
+            }
+          ],
+          "confidence": 0.171,
+          "source": "D(1,653.0000,1793.0000,727.0000,1791.0000,727.0000,1819.0000,653.0000,1820.0000);D(1,830.0000,1797.0000,901.0000,1797.0000,901.0000,1821.0000,830.0000,1821.0000);D(1,966.0000,1792.0000,1047.0000,1792.0000,1047.0000,1816.0000,966.0000,1816.0000);D(1,1244.0000,1792.0000,1309.0000,1792.0000,1309.0000,1816.0000,1244.0000,1816.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Wilfred L acorn",
+          "spans": [
+            {
+              "offset": 1903,
+              "length": 15
+            }
+          ],
+          "confidence": 0.753,
+          "source": "D(1,732.9683,1409.4798,1208.9492,1399.5636,1209.9809,1449.0837,734.0000,1459.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Wilfred I acorn",
+          "spans": [
+            {
+              "offset": 2128,
+              "length": 15
+            }
+          ],
+          "confidence": 0.869,
+          "source": "D(1,600.6899,1569.6592,1082.9967,1566.5000,1083.3068,1613.8408,601.0000,1617.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "TRIRETOATE",
+          "spans": [
+            {
+              "offset": 119,
+              "length": 10
+            }
+          ],
+          "confidence": 0.585,
+          "source": "D(1,235.0000,215.0000,359.0000,214.0000,359.0000,234.0000,235.0000,235.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "valueBoolean": true,
+          "spans": [
+            {
+              "offset": 130,
+              "length": 1
+            }
+          ],
+          "confidence": 0.777,
+          "source": "D(1,1061.0000,243.0000,1116.0000,244.0000,1116.0000,276.0000,1061.0000,277.0000)"
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.2851,
+          "width": 1477,
+          "height": 2199
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

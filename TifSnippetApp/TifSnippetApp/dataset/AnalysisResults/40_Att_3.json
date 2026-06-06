@@ -1,0 +1,385 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:07:51Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Recelved JOV 3 IHE\nChecked.\nE\nCard.\nObservations.\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\u00a3 A.A.\n\nM.F.M. 2\nA.B.B. 271\n480 M-8-39 (1GDG)\nH.Q. 1772-45-18\n\n(To be complrted in triulicate. Copy designation to be shown by striking out terms not applicable.)\n1\n\nUnit 52# FLD. BTV. R.C.A. C.A.S.F.\n\nRegimental Number.\nF6067\n\nCANADIAN ACTIVE SERVICE FORCE\nATTESTATION PAPER\n\n1\\. Surname.\nABRAMSON\n\n2\\. Christian Names\nRODRICK WILLIAM\n\n3\\. Present address.\nDigby\nNova Scotia\n\n4\\. Date of birth\n24th June 1918\n\n5\\. Place of birth\n(Country)\nCanada\n(County or Province)\nDigby Co.,N.S.\n(Town or Township)\nDigby\n\n6\\. Religion (state denomination)\nUnited Church\n\n7\\. Trade or Calling.\nStore Clerk\n\n8\\. Married, Widower or Single.\nSingle\n\n9\\. Name of next of kin\nNORA CHIPMAN ABRAMSON\n\n10\\. Relationship.\nMother\n\n11\\. Address of next of kin.\nDigby\n1\nN.S.\n\n12\\. Have you served in any Naval, Military or Air Force?.\n1\n\n13\\. If previous war service, state arm, force and regimental particulars.\n\n14\\. Do you now belong to or have you served in the Active Militia of Canada?\nYes\n52nd. Fld. Bty. R.C.A.\n(Give unit and date of attentation)\nAttested 18th July, 1939\n\nDECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nRODERICK WILLIAMS ABRAMSON\ndo solemnly declare that the above\nparticulars are true, and I hereby engage to serve in the Canadian Active Service Force so long as an emergency,\ni.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the period of demobilization after\nsaid emergency ceases to exist, and in any event for a period of not less than one year, provided His Majesty\nshould so require my services.\n\nDate\n8-1-40\n\n(Signature of recruit)\nRaderick. Willioms. abromoon.\n\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI, RODERICK WILLIAMS ABRAMSON\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\n\nMaderick Williams. abromsos:\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nat\nYarmouth, N.S.\nthis Eighth\nday of.\nJanuary\n19.40\nKismith\n\nSignature of Magistrate, Justice\n1\nor Attesting Officer\nmajn 52nd Field Battey R.C.A.\n\nJOffice or Rank and Uni\nor appointinen\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS IMPRISONMENT\nFINULTTT DPISONMENT\n\n\n![](figures/1.1)\n\n\n6\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "F6067",
+          "spans": [
+            {
+              "offset": 302,
+              "length": 5
+            }
+          ],
+          "confidence": 0.972,
+          "source": "D(1,1028.0000,282.0000,1099.0000,282.0000,1099.0000,305.0000,1028.0000,304.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ABRAMSON",
+          "spans": [
+            {
+              "offset": 371,
+              "length": 8
+            }
+          ],
+          "confidence": 0.932,
+          "source": "D(1,401.0000,410.0000,519.0000,411.0000,519.0000,434.0000,401.0000,433.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "RODRICK WILLIAM",
+          "spans": [
+            {
+              "offset": 401,
+              "length": 15
+            }
+          ],
+          "confidence": 0.916,
+          "source": "D(1,442.0029,456.3915,677.1108,457.5005,676.9976,481.5000,441.8897,480.3910)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "Digby\nNova Scotia",
+          "spans": [
+            {
+              "offset": 439,
+              "length": 5
+            },
+            {
+              "offset": 445,
+              "length": 11
+            }
+          ],
+          "confidence": 0.74,
+          "source": "D(1,458.0000,498.0000,533.0000,498.0000,533.0000,522.0000,458.0000,521.0000);D(1,629.0000,497.0000,787.0000,497.0000,787.0000,520.0000,629.0000,520.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1918-06-24",
+          "spans": [
+            {
+              "offset": 476,
+              "length": 14
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,428.0000,538.0000,632.0000,538.0000,632.0000,561.0000,428.0000,561.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 521,
+              "length": 6
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,386.0000,583.0000,474.0000,583.0000,474.0000,604.0000,386.0000,604.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Digby Co.,N.S.",
+          "spans": [
+            {
+              "offset": 549,
+              "length": 14
+            }
+          ],
+          "confidence": 0.892,
+          "source": "D(1,658.0000,582.0000,858.0000,582.0000,858.0000,607.0000,658.0000,607.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Digby",
+          "spans": [
+            {
+              "offset": 583,
+              "length": 5
+            }
+          ],
+          "confidence": 0.971,
+          "source": "D(1,972.0000,584.0000,1048.0000,584.0000,1048.0000,608.0000,972.0000,608.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "United Church",
+          "spans": [
+            {
+              "offset": 624,
+              "length": 13
+            }
+          ],
+          "confidence": 0.936,
+          "source": "D(1,584.0000,628.0000,775.0000,628.0000,775.0000,652.0000,584.0000,652.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Store Clerk",
+          "spans": [
+            {
+              "offset": 661,
+              "length": 11
+            }
+          ],
+          "confidence": 0.97,
+          "source": "D(1,457.0076,665.8905,619.1575,667.0011,618.9924,691.1095,456.8425,689.9989)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 706,
+              "length": 6
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,615.0000,711.0000,704.0000,712.0000,704.0000,735.0000,615.0000,735.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "NORA CHIPMAN ABRAMSON",
+          "spans": [
+            {
+              "offset": 738,
+              "length": 21
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,485.0000,755.0000,804.0000,755.0000,804.0000,779.0000,485.0000,779.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Mother",
+          "spans": [
+            {
+              "offset": 780,
+              "length": 6
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,426.0000,797.0000,518.0000,797.0000,518.0000,820.0000,426.0000,819.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "Digby\n1\nN.S.",
+          "spans": [
+            {
+              "offset": 817,
+              "length": 5
+            },
+            {
+              "offset": 823,
+              "length": 1
+            },
+            {
+              "offset": 825,
+              "length": 4
+            }
+          ],
+          "confidence": 0.238,
+          "source": "D(1,515.0000,840.0000,590.0000,840.0000,590.0000,863.0000,515.0000,863.0000);D(1,618.0000,832.0000,624.0000,832.0000,624.0000,846.0000,618.0000,846.0000);D(1,686.0000,840.0000,744.0000,840.0000,744.0000,863.0000,686.0000,863.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Raderick. Willioms. abromoon.",
+          "spans": [
+            {
+              "offset": 1653,
+              "length": 29
+            }
+          ],
+          "confidence": 0.827,
+          "source": "D(1,654.0000,1291.0000,1201.0000,1291.0000,1201.0000,1334.0000,654.0000,1334.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "Kismith",
+          "spans": [
+            {
+              "offset": 2505,
+              "length": 7
+            }
+          ],
+          "confidence": 0.738,
+          "source": "D(1,523.0000,1668.0000,725.0000,1664.0000,725.0000,1712.0000,523.0000,1716.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "majn 52nd Field Battey R.C.A.",
+          "spans": [
+            {
+              "offset": 2570,
+              "length": 29
+            }
+          ],
+          "confidence": 0.632,
+          "source": "D(1,425.0000,1723.0000,877.0000,1723.0000,877.0000,1774.0000,425.0000,1774.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Yarmouth, N.S.",
+          "spans": [
+            {
+              "offset": 2456,
+              "length": 14
+            }
+          ],
+          "confidence": 0.832,
+          "source": "D(1,236.0000,1639.0000,437.0000,1639.0000,437.0000,1663.0000,236.0000,1663.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "2040-01-19",
+          "spans": [
+            {
+              "offset": 2476,
+              "length": 6
+            },
+            {
+              "offset": 2483,
+              "length": 7
+            },
+            {
+              "offset": 2491,
+              "length": 7
+            },
+            {
+              "offset": 2499,
+              "length": 5
+            }
+          ],
+          "confidence": 0.292,
+          "source": "D(1,579.0000,1641.0000,667.0000,1640.0000,667.0000,1664.0000,579.0000,1665.0000);D(1,764.0000,1644.0000,823.0000,1644.0000,823.0000,1666.0000,764.0000,1666.0000);D(1,895.0000,1642.0000,996.0000,1642.0000,996.0000,1666.0000,895.0000,1666.0000);D(1,1140.0000,1643.0000,1201.0000,1642.0000,1201.0000,1664.0000,1140.0000,1665.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Raderick. Willioms. abromoon.",
+          "spans": [
+            {
+              "offset": 1653,
+              "length": 29
+            }
+          ],
+          "confidence": 0.738,
+          "source": "D(1,654.0000,1291.0000,1201.0000,1291.0000,1201.0000,1334.0000,654.0000,1334.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Maderick Williams. abromsos:",
+          "spans": [
+            {
+              "offset": 1873,
+              "length": 28
+            }
+          ],
+          "confidence": 0.781,
+          "source": "D(1,509.6880,1432.0025,982.9937,1428.2161,983.3057,1467.2136,510.0000,1471.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0,
+          "width": 1406,
+          "height": 2076
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

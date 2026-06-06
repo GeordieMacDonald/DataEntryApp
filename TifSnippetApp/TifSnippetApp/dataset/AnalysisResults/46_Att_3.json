@@ -1,0 +1,388 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:10:18Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "ORIGINAL\nRDUPLIOATE\nTRIPLIOATE\nChecked\n\n/\nCard\n\u2713\nObservations...M.F.M. 2\nA.F.B. 271\n450 NT-8-30 (1026)\nIL.Q. 1772-45-18\n\n(To be completed in triplicate. Copy designation to bechown by striking oud terms not applicable\n\nUnit BSSRX SCORTISH SEGIMENG-C.\nCANADIAN\n\nACTIVE SERVICE FORCE\nATTESTATION PAPER\n\nSET\n\n1\\. Surname\nACHRSON\n\n2\\. Christian Names\nSTUARE FRANOTO HOMG\nC\nF\nA.\n1\nn\n\n3\\. Present address.\n2628 Viotorte Avenue, Windsor, Untar\u00e3o.\n\n4\\. Date of birth\nMev.6, 1909.\n\n5\\. Place of birth\nCaaypa\n(County or Province) ask.\n(Town or Terrtebe)\n\n6\\. Religion (state denomination)\nPresbytertan\n\n7\\. Trade or Calling\nChork, pareer\n\nMarried, Widower or Single..Bangze\n9. Name of next of king\nIrving Roheson\n\n10\\. Relationship\nBrother\n\n11\\. Address of next of kin.\n2658 Vactorts avenue, Windsor, Untarzo.\n\n12\\. Have you served in any Naval, Military or Air Force?\nRo.\n\n13\\. If previous war service, state arm, force and regimental particulars.\n\n14\\. Do you now belong to or have you served in the Active Militia of Canada?.\nno.\n\n(Give unit and date of attestation)\n\n\n# DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nMEMNIKHk Stuert Pranc\u00e3a Thomee Acheson\ndo solemnly declare that the above\nparticulars are true, and I hereby engage to serve in the Canadian Active Service Force so long as an emergency,\ni.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the period of demobilization after\nsaid-emergency ceases to exist, and in any event for a period of not less than one year, provided His Majesty\nshould so require my services.\n\nateMay 22\n1\nCAchesons\n(Signaturo of rocruit)\n\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI,\nStuars Branets Shpmes acheaon\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\nClacheron\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands cach question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\natWindsor, Ontario\nthis.\ntwentv,second\nday of.\nMay\n\n19\\.\n40\n\nCapa\n\nEssex Scottish Regiment C.A.S.F.\n6 a Clacke\n\nSignature of Magistrate, Justice\n1\nor Attesting Officer.\n(Office or Rank and Unit\n1\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\nRICENTED\n\n<!-- PageHeader: OCCUPATIONAL HISTORY FORM COMPLETED -->\n\n\u2612\n\u20ac\n\nRegimental Number.\n422230\n09\n\nwetrun\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "422230",
+          "spans": [
+            {
+              "offset": 2814,
+              "length": 6
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,940.0000,269.0000,1092.0000,268.0000,1092.0000,297.0000,940.0000,301.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ACHRSON",
+          "spans": [
+            {
+              "offset": 318,
+              "length": 7
+            }
+          ],
+          "confidence": 0.864,
+          "source": "D(1,319.0000,421.0000,406.0000,423.0000,406.0000,444.0000,319.0000,442.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "STUARE FRANOTO HOMG",
+          "spans": [
+            {
+              "offset": 347,
+              "length": 19
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,377.0000,456.0000,629.0000,456.0000,629.0000,498.0000,377.0000,498.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "2628 Viotorte Avenue, Windsor, Untar\u00e3o.",
+          "spans": [
+            {
+              "offset": 400,
+              "length": 39
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,375.4188,512.1531,841.4044,520.0068,840.9799,545.1907,374.9943,537.3370)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1909-06-01",
+          "spans": [
+            {
+              "offset": 459,
+              "length": 12
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,375.0000,551.0000,518.0000,551.0000,518.0000,576.0000,375.0000,576.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Caaypa",
+          "spans": [
+            {
+              "offset": 492,
+              "length": 6
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,371.0000,598.0000,451.0000,599.0000,451.0000,627.0000,371.0000,626.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "ask.",
+          "spans": [
+            {
+              "offset": 520,
+              "length": 4
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,720.0000,606.0000,769.0000,606.0000,769.0000,626.0000,720.0000,626.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Presbytertan",
+          "spans": [
+            {
+              "offset": 579,
+              "length": 12
+            }
+          ],
+          "confidence": 0.879,
+          "source": "D(1,494.0000,636.0000,643.0000,639.0000,643.0000,662.0000,494.0000,661.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Chork, pareer",
+          "spans": [
+            {
+              "offset": 614,
+              "length": 13
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,374.1938,682.9938,534.1920,684.2340,533.9981,709.2403,374.0000,708.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Bangze",
+          "spans": [
+            {
+              "offset": 657,
+              "length": 6
+            }
+          ],
+          "confidence": 0.817,
+          "source": "D(1,456.0000,723.0000,534.0000,727.0000,533.0000,753.0000,456.0000,750.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Irving Roheson",
+          "spans": [
+            {
+              "offset": 688,
+              "length": 14
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,423.0000,768.0000,594.2803,769.9137,593.9898,795.9105,422.7095,793.9968)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Brother",
+          "spans": [
+            {
+              "offset": 722,
+              "length": 7
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,421.0000,806.0000,508.0000,807.0000,508.0000,829.0000,421.0000,828.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "2658 Vactorts avenue, Windsor, Untarzo.",
+          "spans": [
+            {
+              "offset": 760,
+              "length": 39
+            }
+          ],
+          "confidence": 0.884,
+          "source": "D(1,421.0183,853.1024,885.4575,862.5808,884.9496,887.4684,420.5104,877.9900)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "Ro.",
+          "spans": [
+            {
+              "offset": 859,
+              "length": 3
+            }
+          ],
+          "confidence": 0.938,
+          "source": "D(1,707.6240,897.5680,746.5200,904.6400,742.2000,928.4000,703.3040,921.3280)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "CAchesons",
+          "spans": [
+            {
+              "offset": 1569,
+              "length": 9
+            }
+          ],
+          "confidence": 0.52,
+          "source": "D(1,702.0000,1275.0000,994.0000,1275.0000,994.0000,1330.0000,702.0000,1333.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "6 a Clacke",
+          "spans": [
+            {
+              "offset": 2454,
+              "length": 10
+            }
+          ],
+          "confidence": 0.456,
+          "source": "D(1,398.1431,1668.0131,742.9653,1662.7352,743.8263,1718.9874,399.0041,1724.2652)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "Essex Scottish Regiment C.A.S.F.",
+          "spans": [
+            {
+              "offset": 2421,
+              "length": 32
+            }
+          ],
+          "confidence": 0.695,
+          "source": "D(1,351.0000,1744.0000,733.0000,1744.0000,733.0000,1769.0000,351.0000,1769.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Windsor, Ontario",
+          "spans": [
+            {
+              "offset": 2354,
+              "length": 18
+            }
+          ],
+          "confidence": 0.877,
+          "source": "D(1,167.0000,1653.0000,382.0000,1653.0000,382.0000,1677.0000,167.0000,1677.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "spans": [
+            {
+              "offset": 2379,
+              "length": 13
+            },
+            {
+              "offset": 2393,
+              "length": 7
+            },
+            {
+              "offset": 2401,
+              "length": 3
+            },
+            {
+              "offset": 2406,
+              "length": 4
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,535.0000,1657.0000,692.0000,1657.0000,692.0000,1677.0000,535.0000,1677.0000);D(1,719.6592,1644.5052,778.9940,1643.6062,779.3434,1666.6615,720.0085,1667.5605);D(1,793.0000,1661.0000,832.0000,1661.0000,832.0000,1683.0000,793.0000,1683.0000);D(1,1094.0000,1642.0000,1116.0000,1642.0000,1116.0000,1660.0000,1094.0000,1660.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "CAchesons",
+          "spans": [
+            {
+              "offset": 1569,
+              "length": 9
+            }
+          ],
+          "confidence": 0.523,
+          "source": "D(1,702.0000,1275.0000,994.0000,1275.0000,994.0000,1330.0000,702.0000,1333.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Clacheron",
+          "spans": [
+            {
+              "offset": 1794,
+              "length": 9
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,558.0000,1428.0000,884.0000,1426.0000,884.0000,1469.0000,558.0000,1470.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "ORIGINAL",
+          "spans": [
+            {
+              "offset": 0,
+              "length": 8
+            }
+          ],
+          "confidence": 0.881,
+          "source": "D(1,155.0000,186.0000,250.0000,185.0000,250.0000,204.0000,155.0000,204.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "valueBoolean": true,
+          "spans": [
+            {
+              "offset": 2790,
+              "length": 1
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,1199.0000,149.0000,1236.0000,149.0000,1236.0000,191.0000,1199.0000,191.0000)"
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.2119,
+          "width": 1394,
+          "height": 2074
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

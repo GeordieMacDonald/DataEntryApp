@@ -1,0 +1,344 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:28:44Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "\u2713\nn\u00ba ranb\n\nReceived\nLAR 19 1941\nChecked\nD'E\nCard\n\nObservations\nM:F:M:2\u00b7\u00b7\u00b7*\n\nORIGINAL\nDUPLICATE\nTRIPLICATE-\nDecessed\n\nA.F.B. 271\n459 M-S-20 (1626)\nR.Q. 1772-45-18\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\n\nUnit.\n\nRegimental Number.\n42245401\n\n\n# CANADIAN ACTIVE SERVICE FORCE ATTESTATION PAPER\n\n1\\. Surname.\ntdans\n\n2\\. Christian Names.\n\n3\\. Present address.\neng chudutch ot, zijosskung, On,\n\n4\\. Date of birth.\nOotobcy 8th, 1007\n\n5\\. Place of birth\n(Coustry)\nGomodo\n(County or Province)\n(Town of Towship)\n\n6\\. Religion (state denomination)\nChemcth of Ran3and\n\n7\\. Trade or Calling.\nMantele Rasszoa\n\n8\\. Married, Widower or Single.\nXXXXXX\nMarried\n\n9\\. Name of next of kin.\nXXXXXXXXXX Patricia Helene(Prine) Adams.\n\n10\\. Relationship\nRXXMX.\nWife\nBox, 347,\n\n11\\. Address of next of kinNisXXXXXXXXXXXXXXXX...XXXXXXXXXXXXX\nAmhersthurg, Ont.\n\n12\\. Have you served in any Naval, Military or Air Force?\n\n13\\. If previous war service, state arm, force and regimental particulars.\n\n14\\. Do you now belong to or have you served in the Active Militia of Canada?.\n\n(Give wait and date of attestation)\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\n1,\nChoeJen Botne des\n6 P.a.\neither athose or abroad\ndo solemnly declare that the above\nparticulars are true, and I hereby engage to serve in the Canadian Active Service Force so long as an emergency,\ni.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the period of demobilization after\nsaid emergency ceases to exist, and in any event for a period of not less than one year, provided His Majesty\nshould so require my services.\n\nDate\n8222, ane 3000\n1ore D mill (amerni\n(Signature of recruit)\nC harles. Peter adanos\n\nOATH TO BE TAKEN BY MAN ON ATTESTATION\nI,\n6 P.a.\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\n16 Marles. Peter adanis\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nat\ngndaan\nthis.\n2ath.\nday of.\n1940\n\nyouf Awaders\n\nSignature of Magistrate, Justice\nor Attesting Officer.\nOffice or Rank and Unit\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\nP\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "42245401",
+          "spans": [
+            {
+              "offset": 290,
+              "length": 8
+            }
+          ],
+          "confidence": 0.978,
+          "source": "D(1,975.0000,272.0000,1202.0000,267.0000,1202.0000,303.0000,975.0000,306.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "tdans",
+          "spans": [
+            {
+              "offset": 365,
+              "length": 5
+            }
+          ],
+          "confidence": 0.969,
+          "source": "D(1,418.0000,426.0000,476.0000,426.0000,476.0000,446.0000,418.0000,445.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "eng chudutch ot, zijosskung, On,",
+          "spans": [
+            {
+              "offset": 415,
+              "length": 32
+            }
+          ],
+          "confidence": 0.894,
+          "source": "D(1,451.0000,504.0000,850.0000,504.0000,850.0000,530.0000,451.0000,530.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "2007-10-08",
+          "spans": [
+            {
+              "offset": 468,
+              "length": 17
+            }
+          ],
+          "confidence": 0.921,
+          "source": "D(1,437.0000,549.0000,654.0000,549.0000,654.0000,572.0000,437.0000,572.0000)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Gomodo",
+          "spans": [
+            {
+              "offset": 516,
+              "length": 6
+            }
+          ],
+          "confidence": 0.944,
+          "source": "D(1,415.0000,595.0000,489.0000,594.0000,489.0000,613.0000,415.0000,612.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Chemcth of Ran3and",
+          "spans": [
+            {
+              "offset": 597,
+              "length": 18
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,627.8935,632.6750,829.9971,631.5000,830.1036,649.8250,628.0000,651.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Mantele Rasszoa",
+          "spans": [
+            {
+              "offset": 639,
+              "length": 15
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,627.0465,674.2090,773.4672,678.0121,772.9535,697.7910,626.5328,693.9879)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Married",
+          "spans": [
+            {
+              "offset": 695,
+              "length": 7
+            }
+          ],
+          "confidence": 0.695,
+          "source": "D(1,743.0000,714.0000,844.0000,715.0000,844.0000,736.0000,743.0000,736.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Patricia Helene(Prine) Adams.",
+          "spans": [
+            {
+              "offset": 740,
+              "length": 29
+            }
+          ],
+          "confidence": 0.6,
+          "source": "D(1,771.0000,752.0000,1178.0000,752.0000,1178.0000,778.0000,771.0000,778.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Wife",
+          "spans": [
+            {
+              "offset": 796,
+              "length": 4
+            }
+          ],
+          "confidence": 0.957,
+          "source": "D(1,729.0000,795.0000,789.0000,795.0000,789.0000,816.0000,729.0000,816.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "Amhersthurg, Ont.",
+          "spans": [
+            {
+              "offset": 875,
+              "length": 17
+            }
+          ],
+          "confidence": 0.236,
+          "source": "D(1,914.0000,842.0000,1150.0000,842.0000,1150.0000,865.0000,914.0000,865.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "C harles. Peter adanos",
+          "spans": [
+            {
+              "offset": 1716,
+              "length": 22
+            }
+          ],
+          "confidence": 0.488,
+          "source": "D(1,645.8467,1274.0005,1114.9915,1272.4367,1115.1448,1318.4362,646.0000,1320.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "youf Awaders",
+          "spans": [
+            {
+              "offset": 2518,
+              "length": 12
+            }
+          ],
+          "confidence": 0.466,
+          "source": "D(1,552.3687,1655.2647,848.9796,1651.4225,849.6109,1700.1579,553.0000,1704.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "gndaan",
+          "spans": [
+            {
+              "offset": 2485,
+              "length": 6
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,329.0000,1630.0000,413.0000,1633.0000,413.0000,1648.0000,329.0000,1646.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "spans": [
+            {
+              "offset": 2498,
+              "length": 5
+            }
+          ],
+          "confidence": 0.741,
+          "source": "D(1,576.0000,1616.0000,675.0000,1616.0000,675.0000,1647.0000,576.0000,1647.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "C harles. Peter adanos",
+          "spans": [
+            {
+              "offset": 1716,
+              "length": 22
+            }
+          ],
+          "confidence": 0.493,
+          "source": "D(1,645.8467,1274.0005,1114.9915,1272.4367,1115.1448,1318.4362,646.0000,1320.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "16 Marles. Peter adanis",
+          "spans": [
+            {
+              "offset": 1907,
+              "length": 23
+            }
+          ],
+          "confidence": 0.199,
+          "source": "D(1,577.8137,1417.2113,967.0000,1415.0000,967.1919,1448.7773,578.0056,1450.9886)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "TRIPLICATE-",
+          "spans": [
+            {
+              "offset": 95,
+              "length": 11
+            }
+          ],
+          "confidence": 0.52,
+          "source": "D(1,195.0026,225.4332,318.0876,226.0004,317.9997,245.0691,194.9147,244.5019)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "valueBoolean": true,
+          "spans": [
+            {
+              "offset": 0,
+              "length": 1
+            }
+          ],
+          "confidence": 0.629,
+          "source": "D(1,833.0000,107.0000,897.0000,99.0000,897.0000,174.0000,833.0000,172.0000)"
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.027,
+          "width": 1391,
+          "height": 2053
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

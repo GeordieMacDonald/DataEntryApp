@@ -1,0 +1,393 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:12:58Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Received\nChecked\n\u2713\nCard\nFerin\u00e3o\n\nObservations.\n\nORIGINAL\nDUPLICATE\nTRIPLICATE\n\nM.F.M.2\nA.F.B. 271\n200M-3-41 (9720)\nH.Q. 1772-39-1645\n\n(To be completed in triplicate. Copy designation to be shown by striking out torms not applicable.)\n\nUnit.\nB.W. (RIR) of Canada CA\n\nRegimental Number.\nD-83041\n\n\n# ACTIVE FORMATIONS AND UNITS OF THE CANADIAN ARMY ATTESTATION PAPER\n\n\u0420\u0413\u0415\n\n1\\. Surname\nACKERLKY\n\n2\\. Christian Names\nHERBERT\n\n3\\. Present address.\n5874 Somerlsd Ave.,N.D.G.Hontreal, Que.,Canada\n\n4\\. Date of birth\n9 November 1922\nCAMADA\nQUEBEC\nBONTREAL\n\n5\\. Place of birth\n(Country)\n(County or Province)\nUNITED CHURCH OF CANADA\n\n(Town or Townahip)\n\n6\\. Religion (state denomination)\n\n7\\. Trade or Calling\nApprentice-Aircraft-Engines\n\n8\\. Married, Widower or Single\nSingle\n\n9\\. Name of next of kin.\nMr. Perey Ackerley\nFather\n\n10\\. Relationship\n5874 Somerled Ave.,N.D.G.MONTREAL., Que.,Canada\n\n11\\. Address of next of kin.\n\n12\\. Do you belong to, or have you served in a Reserve Formation or Unit of The Canadian Army?\nYES\n\nD-518575-5fd Bn.-B.W. (RF)-From 25 February 1941 To Date\n\n(If Yes, Give Unit and Dates of Service)\nNO\n\n13\\. Have you served in (a) an Active Formation or Unit of The Canadian Army?\n(Yes or No)\n\n(b) Any other Naval, Military, or Air\nForce?\n.\n\n(Yes or No) (If Yes, specify Unit and Period of Service)\nNO\n\n14\\. Did you serve during the Great War 1914-1918?\n\n(If Yes, specify Regimental No., Unit and Dates of Service)\n\n\n## DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nHerbert ACKERLEY\ndo solemnly declare that the\nabove particulars are true, and I hereby engage to serve in any Active Formation or Unit of The Canadian\nArmy so long as an emergency, i.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the\nperiod of demobilization after said emergency ceases to exist, and in any event for a period of not less than\none year, provided His Majesty should so require my services.\n\nDate 5th Sop. 1941\n\nHerb Gekerley\n\n7\nNitnisn Lronel Deuelles @t\n(Signature of recruit) )\n\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\nI, Herbert ACKIRIEX\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\nHerb ackerley\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\n\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nat\nMtl South, Que.\nthis\n5th\nday of.\nSep\n19 42\n\nLurin Lacioran Cast\nINO. 4 DISTRICT DEPOT. AF.\n\nSignature of Magistrato, Justice\nor Attesting Officer.\nOffice or Rank and Unit\nor appointment.\n\nN.B.-ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANT OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\nFINGER MARTED\n\nFtm\n\n(If Yes, Give Regimental No. and Unit)\nNO\n\nCaC A2\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "D-83041",
+          "spans": [
+            {
+              "offset": 285,
+              "length": 7
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,1038.0000,290.0000,1141.0000,290.0000,1141.0000,319.0000,1038.0000,319.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ACKERLKY",
+          "spans": [
+            {
+              "offset": 382,
+              "length": 8
+            }
+          ],
+          "confidence": 0.879,
+          "source": "D(1,497.0000,478.0000,616.0000,478.0000,616.0000,502.0000,497.0000,502.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "HERBERT",
+          "spans": [
+            {
+              "offset": 412,
+              "length": 7
+            }
+          ],
+          "confidence": 0.975,
+          "source": "D(1,497.0000,517.0000,603.0000,517.0000,603.0000,539.0000,497.0000,539.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "5874 Somerlsd Ave.,N.D.G.Hontreal, Que.,Canada",
+          "spans": [
+            {
+              "offset": 442,
+              "length": 46
+            }
+          ],
+          "confidence": 0.881,
+          "source": "D(1,498.0000,552.0000,1142.0000,552.0000,1142.0000,582.0000,498.0000,582.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1922-11-09",
+          "spans": [
+            {
+              "offset": 508,
+              "length": 15
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,498.6040,593.2399,715.9770,589.6171,716.3832,613.9936,499.0103,617.6165)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "CAMADA",
+          "spans": [
+            {
+              "offset": 524,
+              "length": 6
+            }
+          ],
+          "confidence": 0.736,
+          "source": "D(1,499.0000,631.0000,589.0000,629.0000,589.0000,651.0000,499.0000,653.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "QUEBEC",
+          "spans": [
+            {
+              "offset": 531,
+              "length": 6
+            }
+          ],
+          "confidence": 0.961,
+          "source": "D(1,741.0000,629.0000,831.0000,628.0000,831.0000,651.0000,741.0000,652.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "BONTREAL",
+          "spans": [
+            {
+              "offset": 538,
+              "length": 8
+            }
+          ],
+          "confidence": 0.87,
+          "source": "D(1,941.0000,627.0000,1059.0000,625.0000,1059.0000,647.0000,941.0000,649.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "UNITED CHURCH OF CANADA",
+          "spans": [
+            {
+              "offset": 598,
+              "length": 23
+            }
+          ],
+          "confidence": 0.902,
+          "source": "D(1,570.8630,679.8871,903.0000,678.0000,903.1402,702.6753,571.0032,704.5625)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Apprentice-Aircraft-Engines",
+          "spans": [
+            {
+              "offset": 699,
+              "length": 27
+            }
+          ],
+          "confidence": 0.877,
+          "source": "D(1,571.0000,718.0000,960.0000,718.0000,960.0000,747.0000,571.0000,747.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 759,
+              "length": 6
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,571.0000,762.0000,662.0000,762.0000,662.0000,786.0000,571.0000,786.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mr. Perey Ackerley",
+          "spans": [
+            {
+              "offset": 792,
+              "length": 18
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,571.0000,796.0000,834.0000,796.0000,834.0000,826.0000,571.0000,826.0000)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Father",
+          "spans": [
+            {
+              "offset": 811,
+              "length": 6
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,572.0000,838.0000,662.0000,837.0000,662.0000,860.0000,572.0000,860.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "5874 Somerled Ave.,N.D.G.MONTREAL., Que.,Canada",
+          "spans": [
+            {
+              "offset": 837,
+              "length": 47
+            }
+          ],
+          "confidence": 0.866,
+          "source": "D(1,572.7759,870.5612,1229.0000,865.0000,1229.2241,891.4388,573.0000,897.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "D-518575-5fd Bn.-B.W. (RF)-From 25 February 1941 To Date",
+          "spans": [
+            {
+              "offset": 1016,
+              "length": 56
+            }
+          ],
+          "confidence": 0.587,
+          "source": "D(1,229.0000,945.0000,1033.0000,945.0000,1033.0000,974.0000,229.0000,974.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Herb Gekerley",
+          "spans": [
+            {
+              "offset": 1943,
+              "length": 13
+            }
+          ],
+          "confidence": 0.622,
+          "source": "D(1,810.6799,1353.9534,1049.0000,1352.0000,1049.3201,1391.0466,811.0000,1393.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "Lurin Lacioran Cast",
+          "spans": [
+            {
+              "offset": 2803,
+              "length": 19
+            }
+          ],
+          "confidence": 0.652,
+          "source": "D(1,392.9014,1741.0228,896.8874,1730.5715,897.9860,1783.5487,394.0000,1794.0000)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "INO. 4 DISTRICT DEPOT. AF.",
+          "spans": [
+            {
+              "offset": 2823,
+              "length": 26
+            }
+          ],
+          "confidence": 0.676,
+          "source": "D(1,498.6491,1792.0318,873.9995,1786.9595,874.3644,1813.9680,499.0141,1819.0404)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Mtl South, Que.",
+          "spans": [
+            {
+              "offset": 2759,
+              "length": 15
+            }
+          ],
+          "confidence": 0.901,
+          "source": "D(1,273.0000,1702.0000,477.0000,1702.0000,477.0000,1727.0000,273.0000,1727.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1942-09-05",
+          "spans": [
+            {
+              "offset": 1928,
+              "length": 3
+            },
+            {
+              "offset": 2792,
+              "length": 3
+            },
+            {
+              "offset": 2796,
+              "length": 5
+            }
+          ],
+          "confidence": 0.609,
+          "source": "D(1,310.0000,1367.0000,358.0000,1365.0000,358.0000,1393.0000,311.0000,1395.0000);D(1,897.0000,1696.0000,947.0000,1696.0000,947.0000,1718.0000,897.0000,1718.0000);D(1,1163.1342,1690.8296,1229.0000,1689.0000,1229.8658,1720.1704,1164.0000,1722.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Herb Gekerley",
+          "spans": [
+            {
+              "offset": 1943,
+              "length": 13
+            }
+          ],
+          "confidence": 0.623,
+          "source": "D(1,810.6799,1353.9534,1049.0000,1352.0000,1049.3201,1391.0466,811.0000,1393.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Herb ackerley",
+          "spans": [
+            {
+              "offset": 2191,
+              "length": 13
+            }
+          ],
+          "confidence": 0.74,
+          "source": "D(1,712.7824,1499.4039,952.9993,1497.8931,953.2169,1532.4892,713.0000,1534.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "valueString": "Nitnisn Lronel Deuelles @t",
+          "spans": [
+            {
+              "offset": 1960,
+              "length": 26
+            }
+          ],
+          "confidence": 0.584,
+          "source": "D(1,260.5575,1394.0073,690.9828,1386.9511,691.4624,1416.2055,261.0371,1423.2617)"
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "valueBoolean": true,
+          "spans": [
+            {
+              "offset": 17,
+              "length": 1
+            }
+          ],
+          "confidence": 0.741,
+          "source": "D(1,785.0000,106.0000,808.0000,106.0000,808.0000,141.0000,785.0000,141.0000)"
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": -0.5214,
+          "width": 1402,
+          "height": 2080
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

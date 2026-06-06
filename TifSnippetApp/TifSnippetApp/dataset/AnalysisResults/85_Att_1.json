@@ -1,0 +1,392 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:26:45Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "Received.\nSEP-1 2 1940\nChecked.\nhecked.......contoco..c....Card........l.........Observations.....\n0\n\nORIGINAL\nDUPLICATE\nTRIPHOATE\nO. Histony Form completedi\n\nM.F.M. 2\nA.F.B. 271\n4S0 M-8-30 (1600)\nH.Q. 1772-45-18\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\n\nUnit\n.\u0634\u0631Srd Fleld Battery, R,C\n\nRegimental Number.\n05\n\u2713\n1\n\n1\\. Surname\nAdams, XEA\u0e0aH\n\n2\\. Christian Names\nAnShue\n\n3\\. Present address 019 - 2\u00e1d Stsees Baet. Ocigarys albrtas\n\n4\\. Date of birth.\nOctober 80, 1918\n\n5\\. Place of birth\n(Country)\nCanada\n(County or Province)\nOntanie\n(Town or Township)\n\n6\\. Religion (state denomination)\nProtestant\n\n7\\. Trade or Calling.\nLaborer\n\n8\\. Married, Widower or Single\nSingla\n\n9\\. Name of next of kin\n1\nNorinan Adams\n\nC. A. A\n\n10\\. Relationship\nBathep\nI0 s human ax\nSEE CHANGE\n\n11\\. Address of next of kin\n\u0b95\u0b9f\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bae\u0b9a\u0bb3\u0baa\u0baa\u0bcd\u0b95\u0bb8\u0bcd\u0bb8\u0bcd\u0baa\u0bb0\u0b95\u0bcd, \u0baa\u0b9a\u0bb0\u0bcd\u0b95\u0bcd\u0e15pi\u0bcdo.\n\n12\\. Have you served in any Naval, Military or Air Force?\n0\n\n13\\. If previous war service, state arm, force and regimental particulars.\nNe\n\n14\\. Do you now belong to or have you served in the Active Militia of Canada?\nNo\n\n(Give unit and date of attestation)\n\n\n# DECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nrthur Adame\ndo solemnly declare that the above\nparticulars are true, and I hereby engage to serve in the Canadian Active Service Force so long as an emergency,\ni.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the period of demobilization after\nsaid emergency ceases to exist, and in any event for a period of not less than one year, provided His Majesty\nshould so require my services.\n\nDate.\nSeptember 13. 1939\nwihen: (Barchecotn)\n\n(Signature of recruit)\narthur Ullares\n\nOATH TO BE TAKEN BY MAN ON ATTESTATION\nI,\nrthur Adame\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\narthur Adams\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nat\nCeleany\nthis.\n18th\nday of.\nSentumez\n19.2\n\nHsnaham\nVE. Grahem)\n\n1\nSignature of Magistrate, Justice\nor Attesting Officer.\nOffice or Rank and Unit\n1\nor appointment.\n\nN.B.-ATTENTION'IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THIE\nSEP 12 194ABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\nFINGERPRINTE\nRo?\nM1133\n\n\n# CANADIAN ACTIVE SERVICE FORCE ATTESTATION PAPER\n\nF. M: 2\nRECEIVED\n\n1\nCuptain R.d..S.C.\nnajutont. Distriot Depot\nNabullen, oat. SEE CHANGE\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "05",
+          "spans": [
+            {
+              "offset": 366,
+              "length": 2
+            }
+          ],
+          "confidence": 0.593,
+          "source": "D(1,1047.0000,302.0000,1078.0000,302.0000,1080.0000,345.0000,1048.0000,346.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "Adams, XEA\u0e0aH",
+          "spans": [
+            {
+              "offset": 386,
+              "length": 12
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,395.0000,408.0000,578.0000,408.0000,578.0000,431.0000,395.0000,431.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "AnShue",
+          "spans": [
+            {
+              "offset": 420,
+              "length": 6
+            }
+          ],
+          "confidence": 0.916,
+          "source": "D(1,576.0000,451.0000,661.0000,453.0000,661.0000,475.0000,576.0000,474.0000)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "019 - 2\u00e1d Stsees Baet. Ocigarys albrtas",
+          "spans": [
+            {
+              "offset": 448,
+              "length": 39
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,384.0247,493.6022,950.4314,503.6271,949.9781,529.2386,383.5714,519.2137)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1980-10-01",
+          "spans": [
+            {
+              "offset": 508,
+              "length": 16
+            }
+          ],
+          "confidence": 0.785,
+          "source": "D(1,390.0239,532.5165,619.3675,536.2156,618.9888,559.6934,389.6453,555.9943)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 555,
+              "length": 6
+            }
+          ],
+          "confidence": 0.886,
+          "source": "D(1,377.0000,575.0000,463.0000,577.0000,463.0000,600.0000,377.0000,599.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ontanie",
+          "spans": [
+            {
+              "offset": 583,
+              "length": 7
+            }
+          ],
+          "confidence": 0.823,
+          "source": "D(1,655.0000,580.0000,754.0000,582.0000,754.0000,602.0000,655.0000,600.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "Protestant",
+          "spans": [
+            {
+              "offset": 645,
+              "length": 10
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,572.0000,620.0000,715.0000,621.0000,715.0000,643.0000,571.0000,642.0000)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Laborer",
+          "spans": [
+            {
+              "offset": 679,
+              "length": 7
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,514.0000,660.0000,618.0000,660.0000,618.0000,682.0000,514.0000,682.0000)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Singla",
+          "spans": [
+            {
+              "offset": 719,
+              "length": 6
+            }
+          ],
+          "confidence": 0.825,
+          "source": "D(1,558.0000,704.0000,646.0000,704.0000,646.0000,728.0000,558.0000,728.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Norinan Adams",
+          "spans": [
+            {
+              "offset": 753,
+              "length": 13
+            }
+          ],
+          "confidence": 0.738,
+          "source": "D(1,541.0367,741.2131,715.5178,744.7983,714.9676,771.5747,540.4865,767.9894)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Bathep",
+          "spans": [
+            {
+              "offset": 795,
+              "length": 6
+            }
+          ],
+          "confidence": 0.739,
+          "source": "D(1,545.0000,789.0000,630.0000,791.0000,630.0000,812.0000,545.0000,809.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "\u0b95\u0b9f\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bae\u0b9a\u0bb3\u0baa\u0baa\u0bcd\u0b95\u0bb8\u0bcd\u0bb8\u0bcd\u0baa\u0bb0\u0b95\u0bcd, \u0baa\u0b9a\u0bb0\u0bcd\u0b95\u0bcd\u0e15pi\u0bcdo.",
+          "spans": [
+            {
+              "offset": 856,
+              "length": 36
+            }
+          ],
+          "confidence": 0.52,
+          "source": "D(1,500.0000,834.0000,838.2930,838.3820,837.9951,861.3782,499.7021,856.9961)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "valueString": "0",
+          "spans": [
+            {
+              "offset": 952,
+              "length": 1
+            }
+          ],
+          "confidence": 0.681,
+          "source": "D(1,878.0000,880.0000,893.0000,880.0000,893.0000,896.0000,878.0000,896.0000)"
+        },
+        "FormerWarService": {
+          "type": "string",
+          "valueString": "Ne",
+          "spans": [
+            {
+              "offset": 1030,
+              "length": 2
+            }
+          ],
+          "confidence": 0.952,
+          "source": "D(1,892.0000,922.0000,922.0000,922.0000,922.0000,942.0000,892.0000,942.0000)"
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "arthur Ullares",
+          "spans": [
+            {
+              "offset": 1691,
+              "length": 14
+            }
+          ],
+          "confidence": 0.781,
+          "source": "D(1,696.7230,1262.8545,1017.9932,1260.8835,1018.2701,1306.0290,697.0000,1308.0000)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "Hsnaham\nVE. Grahem)",
+          "spans": [
+            {
+              "offset": 2486,
+              "length": 7
+            },
+            {
+              "offset": 2494,
+              "length": 11
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,444.0000,1614.0000,689.0000,1623.0000,689.0000,1685.0000,443.0000,1686.0000);D(1,442.1423,1673.8701,599.9072,1681.0412,598.9031,1703.1320,441.1381,1695.9608)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "1",
+          "spans": [
+            {
+              "offset": 2588,
+              "length": 1
+            }
+          ],
+          "confidence": 0.519,
+          "source": "D(1,882.0000,1731.0000,891.0000,1731.0000,891.0000,1754.0000,882.0000,1754.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Celeany",
+          "spans": [
+            {
+              "offset": 2444,
+              "length": 7
+            }
+          ],
+          "confidence": 0.832,
+          "source": "D(1,281.0000,1615.0000,379.0000,1615.0000,379.0000,1635.0000,281.0000,1635.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "spans": [
+            {
+              "offset": 2458,
+              "length": 4
+            },
+            {
+              "offset": 2463,
+              "length": 7
+            },
+            {
+              "offset": 2471,
+              "length": 8
+            },
+            {
+              "offset": 2480,
+              "length": 4
+            }
+          ],
+          "confidence": 0.261,
+          "source": "D(1,572.0000,1606.0000,631.0000,1606.0000,631.0000,1628.0000,572.0000,1628.0000);D(1,738.0000,1618.0000,796.0000,1618.0000,796.0000,1640.0000,738.0000,1640.0000);D(1,852.0000,1613.0000,980.0000,1614.0000,980.0000,1635.0000,852.0000,1634.0000);D(1,1107.0000,1619.0000,1147.0000,1619.0000,1147.0000,1639.0000,1107.0000,1639.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "arthur Ullares",
+          "spans": [
+            {
+              "offset": 1691,
+              "length": 14
+            }
+          ],
+          "confidence": 0.828,
+          "source": "D(1,696.7230,1262.8545,1017.9932,1260.8835,1018.2701,1306.0290,697.0000,1308.0000)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "arthur Adams",
+          "spans": [
+            {
+              "offset": 1879,
+              "length": 12
+            }
+          ],
+          "confidence": 0.83,
+          "source": "D(1,564.5840,1404.0046,884.9945,1400.4964,885.4105,1438.4919,565.0000,1442.0000)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "ORIGINAL",
+          "spans": [
+            {
+              "offset": 102,
+              "length": 8
+            }
+          ],
+          "confidence": 0.183,
+          "source": "D(1,194.0000,178.0000,286.0000,177.0000,286.0000,194.0000,194.0000,195.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0,
+          "width": 1381,
+          "height": 2047
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}

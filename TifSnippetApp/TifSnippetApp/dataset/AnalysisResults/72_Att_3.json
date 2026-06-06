@@ -1,0 +1,369 @@
+{
+  "analyzerId": "CWDDataExtractionAnalyzer",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-03-29T01:21:48Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+    {
+      "path": "input1",
+      "markdown": "ORIGINAL\nDUPLICATE\nTRIPEICATE\nC.A.A\n\n(To be completed in triplicate. Copy designation to be shown by striking out terms not applicable.)\n\nM.F.M. 2\nA.F.B.271\n200M-10-40 (7370)\nH.Q. 1772-30-1645\n\nUnit No 10 Diat. Dopot 37th Field Battery R.C.A. (Relmental Number H-60239\n\n\n# CANADIAN ACTIVE SERVICE FORCE ATTESTATION PAPER\n\n1\\. Surname\nADAIR\n\n2\\. Christian Names\nRedvexs Albert\n\n3\\. Present address\nDryden, Ontario, Camada\n\n4\\. Date of birth\nFebruary 5th, 1980\n\n5\\. Place of birth\n(Country)\nCanada\nOntario\nDryden\n\n6\\. Religion (state denomination)\nUnited Church\n\n7\\. Trade or Calling.\nTruck Driver\n\n8\\. Married, Widower or Single\nSingle\n\n9\\. Name of next of kin\nMrs. Rose Adeir\n\n10\\. Relationship\nMother\n\n11\\. Address of next of kin\nDryden, Ontario, Ganada\n\n12\\. Do you belong to, or have you served in the Active Militia of Canada?\nNo\n\n13\\. Have you served in (a) The Canadian Active Service Force?.\n(If Yea, Give Unit and Dates of Service)\nNo\n\n(Yes or No)\n\n(It Yes, Give Regimental No. and Uait)\n(b) Any other Naval, Military, or Air\nNO\nForce?\n(Yes or No) (If Yes, specify Unit and Period of Service)\n\n14\\. Did you serve during the Great War 1914-1918?\nRO\n\n(If Yes, specify Regimental No., Unit and Dates of Service)\n\nDECLARATION TO BE MADE BY MAN ON ATTESTATION\n\nI,\nRedvere Albert Adelz\ndo solemnly declare that the above\nparticulars are true, and I hereby engage to serve in the Canadian Active Service Force so long as an emergency,\ni.e., war, invasion, riot or insurrection, real or apprehended, exists, and for the period of demobilization after\nsaid emergency ceases to exist, and in any event for a period of not less than one year, provided His Majesty\nshould so require my services.\n\nPIChBeS: H388291//Trose\n\nDate\nApr11 29th, 1941\n\n(Signature of recruit)\nKelvers Adair\n\nI,\nRedveze Albeet Haese\nOATH TO BE TAKEN BY MAN ON ATTESTATION\n\ndo sincerely promise and swear (or solemnly\ndeclare) that I will be faithful and bear true allegiance to His Majesty.\nRelvers Adans\n(Signature of Recruit)\n\nCERTIFICATE OF MAGISTRATE, JUSTICE OF THE PEACE OR ATTESTING OFFICER\n\nThe Recruit above-named was cautioned by me that if he made any false answers to any of the above\nquestions he would be liable to be punished as provided by law.\nThe above questions and answers were then read to the recruit in my presence.\n\nI have taken care that he understands each question, and that his answer to each question has been duly\nentered as replied to, and the said recruit has made and signed the declaration and taken the oath before me,\n\nat\nDiyden, Ontario\nthis\n29th\n..day of\nApr11\n19\n42\n\nMainsA Lanton\nCapt\n\nDietrict Reeruiting Officer M.D. 10\n\nSignature of Magistrate, Justice\nor Attesting Officer.\nOffice or Rank and Unit or\nAppointment.\n\nN.B. ATTENTION IS DRAWN TO THE FACT THAT ANY PERSON MAKING A FALSE ANSWER TO ANY OF THE\nABOVE QUESTIONS IS LIABLE TO A PENALTY OF SIX MONTHS' IMPRISONMENT\n\n\n![WSG COMPLETED](figures/1.1)\n\n\n(County or Province)\n(Town or Township)\n",
+      "fields": {
+        "RegimentalNumber": {
+          "type": "string",
+          "valueString": "H-60239",
+          "spans": [
+            {
+              "offset": 261,
+              "length": 7
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,1044.0000,287.0000,1157.0000,287.0000,1157.0000,316.0000,1044.0000,316.0000)"
+        },
+        "Surname": {
+          "type": "string",
+          "valueString": "ADAIR",
+          "spans": [
+            {
+              "offset": 334,
+              "length": 5
+            }
+          ],
+          "confidence": 0.822,
+          "source": "D(1,592.0000,422.0000,712.0000,422.0000,712.0000,446.0000,592.0000,446.0000)"
+        },
+        "ChristianNames": {
+          "type": "string",
+          "valueString": "Redvexs Albert",
+          "spans": [
+            {
+              "offset": 361,
+              "length": 14
+            }
+          ],
+          "confidence": 0.814,
+          "source": "D(1,590.0264,462.7860,776.3095,465.0037,775.9736,493.2140,589.6905,490.9963)"
+        },
+        "PresentAddress": {
+          "type": "string",
+          "valueString": "Dryden, Ontario, Camada",
+          "spans": [
+            {
+              "offset": 397,
+              "length": 23
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,592.0000,504.0000,889.0000,504.0000,889.0000,530.0000,592.0000,530.0000)"
+        },
+        "DateOfBirth": {
+          "type": "date",
+          "valueDate": "1980-02-05",
+          "spans": [
+            {
+              "offset": 440,
+              "length": 18
+            }
+          ],
+          "confidence": 0.873,
+          "source": "D(1,590.0025,544.4580,826.1235,545.5613,825.9972,572.6028,589.8762,571.4994)"
+        },
+        "PlaceOfBirthCountry": {
+          "type": "string",
+          "valueString": "Canada",
+          "spans": [
+            {
+              "offset": 489,
+              "length": 6
+            }
+          ],
+          "confidence": 0.964,
+          "source": "D(1,416.0000,586.0000,496.0000,586.0000,496.0000,611.0000,416.0000,610.0000)"
+        },
+        "PlaceOfBirthProvince": {
+          "type": "string",
+          "valueString": "Ontario",
+          "spans": [
+            {
+              "offset": 496,
+              "length": 7
+            }
+          ],
+          "confidence": 0.956,
+          "source": "D(1,591.0000,586.0000,685.0000,586.0000,685.0000,610.0000,591.0000,610.0000)"
+        },
+        "PlaceOfBirthTown": {
+          "type": "string",
+          "valueString": "Dryden",
+          "spans": [
+            {
+              "offset": 504,
+              "length": 6
+            }
+          ],
+          "confidence": 0.962,
+          "source": "D(1,932.0000,588.0000,1015.0000,588.0000,1015.0000,614.0000,932.0000,614.0000)"
+        },
+        "PlaceOfBirthOtherCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "PlaceOfBirthOtherTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FatherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthProvince": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MotherPlaceOfBirthTown": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Nationality": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "Religion": {
+          "type": "string",
+          "valueString": "United Church",
+          "spans": [
+            {
+              "offset": 546,
+              "length": 13
+            }
+          ],
+          "confidence": 0.891,
+          "source": "D(1,591.0237,627.7536,762.4366,631.0083,761.9574,656.2460,590.5445,652.9914)"
+        },
+        "TradeOrCalling": {
+          "type": "string",
+          "valueString": "Truck Driver",
+          "spans": [
+            {
+              "offset": 583,
+              "length": 12
+            }
+          ],
+          "confidence": 0.903,
+          "source": "D(1,590.0160,677.8236,750.1838,679.0014,749.9877,705.6764,589.8199,704.4987)"
+        },
+        "LastEmployerNameAndAddress": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "HowLongEmployed": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "MaritalStatus": {
+          "type": "string",
+          "valueString": "Single",
+          "spans": [
+            {
+              "offset": 628,
+              "length": 6
+            }
+          ],
+          "confidence": 0.915,
+          "source": "D(1,590.0000,723.0000,671.0000,723.0000,671.0000,748.0000,590.0000,748.0000)"
+        },
+        "ChildrenCount": {
+          "type": "integer",
+          "confidence": 0.904
+        },
+        "NextOfKinName": {
+          "type": "string",
+          "valueString": "Mrs. Rose Adeir",
+          "spans": [
+            {
+              "offset": 660,
+              "length": 15
+            }
+          ],
+          "confidence": 0.827,
+          "source": "D(1,589.0063,766.0986,788.1866,767.5013,787.9960,794.5704,588.8157,793.1677)"
+        },
+        "NextOfKinRelationship": {
+          "type": "string",
+          "valueString": "Mother",
+          "spans": [
+            {
+              "offset": 695,
+              "length": 6
+            }
+          ],
+          "confidence": 0.963,
+          "source": "D(1,589.0000,810.0000,672.0000,810.0000,672.0000,836.0000,589.0000,836.0000)"
+        },
+        "NextOfKinAddress": {
+          "type": "string",
+          "valueString": "Dryden, Ontario, Ganada",
+          "spans": [
+            {
+              "offset": 731,
+              "length": 23
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,590.0000,854.0000,885.0000,854.0000,885.0000,882.0000,590.0000,882.0000)"
+        },
+        "PreviousService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarService": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "ArmedForcesCountry": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "FormerWarServiceDates": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "DecorationsAndMedals": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "RecruitSignature": {
+          "type": "string",
+          "valueString": "Kelvers Adair",
+          "spans": [
+            {
+              "offset": 1764,
+              "length": 13
+            }
+          ],
+          "confidence": 0.74,
+          "source": "D(1,755.0067,1347.2967,1142.5550,1351.0053,1141.9646,1412.7030,754.4163,1408.9944)"
+        },
+        "MagistrateSignature": {
+          "type": "string",
+          "valueString": "MainsA Lanton",
+          "spans": [
+            {
+              "offset": 2576,
+              "length": 13
+            }
+          ],
+          "confidence": 0.738,
+          "source": "D(1,546.0077,1772.0001,794.3699,1773.9105,793.9928,1822.9307,545.6306,1821.0202)"
+        },
+        "MagistrateOfficeOrRank": {
+          "type": "string",
+          "valueString": "Capt",
+          "spans": [
+            {
+              "offset": 2590,
+              "length": 4
+            }
+          ],
+          "confidence": 0.819,
+          "source": "D(1,863.0000,1788.0000,921.0000,1789.0000,921.0000,1814.0000,863.0000,1814.0000)"
+        },
+        "AttestationPlace": {
+          "type": "string",
+          "valueString": "Diyden, Ontario",
+          "spans": [
+            {
+              "offset": 2528,
+              "length": 15
+            }
+          ],
+          "confidence": 0.872,
+          "source": "D(1,242.0000,1740.0000,439.0000,1740.0000,439.0000,1766.0000,242.0000,1766.0000)"
+        },
+        "AttestationDate": {
+          "type": "date",
+          "valueDate": "1942-11-29",
+          "spans": [
+            {
+              "offset": 1723,
+              "length": 16
+            }
+          ],
+          "confidence": 0.333,
+          "source": "D(1,271.0000,1372.0000,479.0000,1372.0000,479.0000,1400.0000,271.0000,1400.0000)"
+        },
+        "DeclarationSignature": {
+          "type": "string",
+          "valueString": "Kelvers Adair",
+          "spans": [
+            {
+              "offset": 1764,
+              "length": 13
+            }
+          ],
+          "confidence": 0.453,
+          "source": "D(1,755.0067,1347.2967,1142.5550,1351.0053,1141.9646,1412.7030,754.4163,1408.9944)"
+        },
+        "OathSignature": {
+          "type": "string",
+          "valueString": "Relvers Adans",
+          "spans": [
+            {
+              "offset": 1961,
+              "length": 13
+            }
+          ],
+          "confidence": 0.731,
+          "source": "D(1,722.9686,1513.3709,1005.0000,1510.0000,1005.5736,1557.9931,723.5422,1561.3640)"
+        },
+        "OathWitnessName": {
+          "type": "string",
+          "confidence": 0.782
+        },
+        "CopyDesignation": {
+          "type": "string",
+          "valueString": "ORIGINAL",
+          "spans": [
+            {
+              "offset": 0,
+              "length": 8
+            }
+          ],
+          "confidence": 0.329,
+          "source": "D(1,203.0000,180.0000,305.0000,181.0000,305.0000,201.0000,203.0000,200.0000)"
+        },
+        "IsPhotographedAndFingerPrinted": {
+          "type": "boolean",
+          "confidence": 0.255
+        }
+      },
+      "kind": "document",
+      "startPageNumber": 1,
+      "endPageNumber": 1,
+      "unit": "pixel",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "angle": 0.2628429,
+          "width": 1479,
+          "height": 2201
+        }
+      ],
+      "analyzerId": "CWDDataExtractionAnalyzer",
+      "mimeType": "image/png"
+    }
+  ]
+}
