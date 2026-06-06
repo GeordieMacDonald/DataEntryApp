@@ -6,7 +6,7 @@ services:
     envVars:
       - key: ASPNETCORE_ENVIRONMENT
         value: Production
-      - key: DatasetPath
+      - key: ResultsPath
         value: /data
     disk:
       name: snippet-data

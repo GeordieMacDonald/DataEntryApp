@@ -26,9 +26,14 @@ namespace TifSnippetApp.Services
 
         public SnippetService(IConfiguration configuration, Microsoft.AspNetCore.Hosting.IWebHostEnvironment env)
         {
-            _datasetPath = configuration["DatasetPath"] ?? Path.Combine(env.ContentRootPath, "dataset");
+            // Always read images and AnalysisResults.csv from the bundled dataset baked into the image.
+            _datasetPath = Path.Combine(env.ContentRootPath, "dataset");
             _csvPath = Path.Combine(_datasetPath, "AnalysisResults.csv");
-            _resultCsvPath = Path.Combine(_datasetPath, "CaptureResults.csv");
+
+            // Write CaptureResults.csv to the persistent disk (ResultsPath) if configured,
+            // otherwise fall back to the bundled dataset folder (useful for local dev).
+            var resultsPath = configuration["ResultsPath"] ?? _datasetPath;
+            _resultCsvPath = Path.Combine(resultsPath, "CaptureResults.csv");
         }
 
         /// <summary>
